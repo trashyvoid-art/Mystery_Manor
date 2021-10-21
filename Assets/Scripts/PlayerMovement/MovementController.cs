@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 namespace PlayerController
 {
     [RequireComponent(typeof(CharacterController))]
+    [RequireComponent(typeof(HeadMovement))]
     [DisallowMultipleComponent]
     public class MovementController : MonoBehaviour
     {
@@ -34,6 +35,9 @@ namespace PlayerController
         [Tooltip("Reset the player's downward velocity to this number when landing from a fall or jump (float).")]
         [SerializeField]
         float groundCheckVelocityReset = -2.0f;
+        [Tooltip("If to check for gravity")]
+        [SerializeField]
+        bool useGravity = true;
 
         CharacterController characterController;
         Vector2 moveValue;
@@ -82,7 +86,8 @@ namespace PlayerController
 
         void FixedUpdate()
         {
-            HandleGravity();
+            if(useGravity)
+                HandleGravity();
             HandleMovement();
         }
 
