@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Sound;
+using Notes;
 
 namespace Utility
 {
@@ -20,10 +21,15 @@ namespace Utility
         public TimeController TimeController { get; set; }
 
         public SoundRepository SoundPool {  get; private set; }
+        /// <summary>
+        /// The player's journal
+        /// </summary>
+        public Journal Journal { get; private set; }
 
         private Toolbox()
         {
             SoundPool = new SoundRepository();
+            Journal = new Journal();
         }
     }
 }
