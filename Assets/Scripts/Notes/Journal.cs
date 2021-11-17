@@ -63,6 +63,38 @@ namespace Notes
             return Entries[index];
         }
 
+        /// <summary>
+        /// Removes entry at index provided.
+        /// </summary>
+        /// <param name="index"></param>
+        /// <returns>False if failed, true if passed</returns>
+        public bool RemoveEntryAtIndex(int index) 
+        {
+            if (index < 0 || index >= Entries.Count)
+                return false;
+            Entry entry = Entries[index];
+            if (!entry.CanEdit)
+                return false;
+            Entries.RemoveAt(index);
+            return true;
+        }
+
+        /// <summary>
+        /// Removes entry with the id provided
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>False if failed, true if passed</returns>
+        public bool RemoveEntry(int id) 
+        {
+            Entry e = GetEntry(id);
+            if(e == null)
+                return false;
+            if (!e.CanEdit)
+                return false;
+            Entries.Remove(e);
+            return true;
+        }
+
         private int getSmallestOpenId() 
         {
             int smallest = 0;
