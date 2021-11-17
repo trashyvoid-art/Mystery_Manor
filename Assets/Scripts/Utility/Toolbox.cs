@@ -21,6 +21,9 @@ namespace Utility
         public TimeController TimeController { get; set; }
 
         public SoundRepository SoundPool {  get; private set; }
+        /// <summary>
+        /// The player's journal
+        /// </summary>
         public Journal Journal { get; private set; }
 
         private Toolbox()
