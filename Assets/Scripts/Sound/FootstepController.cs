@@ -13,8 +13,6 @@ namespace Sound
         [Tooltip("Adjust so that 'IsGrounded' is false durring a jump")]
         [SerializeField]
         private float GroundCheckDistance = 1.5f;
-        [SerializeField]
-        private bool isPlayer = false;
 
         private Vector3 lastPosition;
         [Header("View Only")]
@@ -71,7 +69,7 @@ namespace Sound
                     myMaterial = m.Material;
             }
 
-            string newAudioMap = SoundRepository.EnviromentSoundBank(myMaterial, !isPlayer);
+            string newAudioMap = SoundRepository.EnviromentSoundBank(myMaterial);
             player.Sound.LoadAudio(newAudioMap);
         }
     }

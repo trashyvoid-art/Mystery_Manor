@@ -72,12 +72,9 @@ namespace Sound
                 case Environment.Material.Grass:
                     return $"{profile}/Footsteps/Grass";
                 case Environment.Material.Tile:
-                    if (isAnimal) return $"{profile}/Footsteps/Wood_Tile";
                     return $"{profile}/Footsteps/Tile";
                 case Environment.Material.Wood:
-                    if (isAnimal) return $"{profile}/Footsteps/Wood_Tile";
                     return $"{profile}/Footsteps/Wood";
-
             }
         }
 

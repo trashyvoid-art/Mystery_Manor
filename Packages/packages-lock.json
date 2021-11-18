@@ -7,6 +7,13 @@
       "dependencies": {},
       "hash": "b0a8941e062ac29cfc69717123b3070c3d61ef55"
     },
+    "com.unity.cinemachine": {
+      "version": "2.6.11",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.collab-proxy": {
       "version": "1.13.5",
       "depth": 0,
