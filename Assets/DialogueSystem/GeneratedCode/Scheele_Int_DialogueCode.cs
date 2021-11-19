@@ -8,17 +8,8 @@ using System.Reflection;
 
 namespace DialogueSystem.Code
 {
-    public class Scheele_Int_DialogueCode : IDialogueCode
+    public class Scheele_Int_DialogueCode : DialogueCode, IDialogueCode
     {
-        private Dictionary<string, IDialogueCode.EventDelegate> eventFunctions = new Dictionary<string, IDialogueCode.EventDelegate>();
-        private Dictionary<string, IDialogueCode.ConditionDelegate> conditionChecks = new Dictionary<string, IDialogueCode.ConditionDelegate>();
-        private Dictionary<string, IDialogueCode.ConditionDelegate> dialogueChecks = new Dictionary<string, IDialogueCode.ConditionDelegate>();
-        public Dictionary<string, IDialogueCode.EventDelegate> EventFunctions => eventFunctions;
-        public Dictionary<string, IDialogueCode.ConditionDelegate> ConditionChecks => conditionChecks;
-        public Dictionary<string, IDialogueCode.ConditionDelegate> DialogueChecks => dialogueChecks;
-        public string GetVariable(string variableName) {
-            return this.GetType().GetField(variableName, BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic).GetValue(this).ToString(); 
-        }
         public Scheele_Int_DialogueCode() 
         {
             Start();
@@ -65,9 +56,7 @@ string name = "Ms. Scheele";
             return (true);
         }
         // From Node: 34288957-1da1-41e8-a66b-7d4eaaa893e3 //
-        // Choice: Do you have any other information about the case?
-
- - c21d2f08-331f-4798-a62f-d20ac02f95a3 //
+        // Choice: Do you have any other information about the case?\n\n - c21d2f08-331f-4798-a62f-d20ac02f95a3 //
         public bool Scheele_Int_342889571da141e8a66b7d4eaaa893e3_c21d2f08331f4798a62fd20ac02f95a3()
         {
             return (true);
@@ -79,9 +68,7 @@ string name = "Ms. Scheele";
             return (true);
         }
         // From Node: 30a13bdb-827a-471e-a352-926752f5d2d0 //
-        // Choice: Do you have any other information about the case?
-
- - f5be638d-bca3-4e0d-af45-685c2c94013e //
+        // Choice: Do you have any other information about the case?\n\n - f5be638d-bca3-4e0d-af45-685c2c94013e //
         public bool Scheele_Int_30a13bdb827a471ea352926752f5d2d0_f5be638dbca34e0daf45685c2c94013e()
         {
             return (true);
@@ -105,9 +92,7 @@ string name = "Ms. Scheele";
             return (true);
         }
         // From Node: 21beaac1-bb78-46fd-b4e5-4238c5c33dab //
-        // Choice: Do you have any other information about the case?
-
- - 46e6d9e4-ff16-484d-b7a1-610c70fc995a //
+        // Choice: Do you have any other information about the case?\n\n - 46e6d9e4-ff16-484d-b7a1-610c70fc995a //
         public bool Scheele_Int_21beaac1bb7846fdb4e54238c5c33dab_46e6d9e4ff16484db7a1610c70fc995a()
         {
             return (true);
@@ -119,9 +104,7 @@ string name = "Ms. Scheele";
             return (true);
         }
         // From Node: 3650dfad-9036-4222-aa60-05a105a0e9d8 //
-        // Choice: Do you have any other information about the case?
-
- - 2033e180-f49a-4dec-90f4-a4cbf1ebd559 //
+        // Choice: Do you have any other information about the case?\n\n - 2033e180-f49a-4dec-90f4-a4cbf1ebd559 //
         public bool Scheele_Int_3650dfad90364222aa6005a105a0e9d8_2033e180f49a4dec90f4a4cbf1ebd559()
         {
             return (true);
@@ -139,9 +122,7 @@ string name = "Ms. Scheele";
             return (true);
         }
         // From Node: b2aa3426-4a77-42ab-b490-76bdcc9b5999 //
-        // Choice: Do you have any other information about the case?
-
- - a51cd635-c29b-481b-96ca-9f1c7bdded9d //
+        // Choice: Do you have any other information about the case?\n\n - a51cd635-c29b-481b-96ca-9f1c7bdded9d //
         public bool Scheele_Int_b2aa34264a7742abb49076bdcc9b5999_a51cd635c29b481b96ca9f1c7bdded9d()
         {
             return (true);

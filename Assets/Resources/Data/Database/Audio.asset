@@ -12,5 +12,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82d6925b7036e3d4f951d3c53b8c308f, type: 3}
   m_Name: Audio
   m_EditorClassIdentifier: 
-  keys: []
-  values: []
+  keys:
+  - Player\Footsteps\Tile
+  - Player\Footsteps\Wood
+  values:
+  - FolderName: Player\Footsteps\Tile
+    Files:
+    - ParentFolder: Player\Footsteps\Tile
+      FileLocation: Player\Footsteps\Tile\SFX_PL_FS_Tile1.mp3
+    - ParentFolder: Player\Footsteps\Tile
+      FileLocation: Player\Footsteps\Tile\SFX_PL_FS_Tile10.mp3
+    - ParentFolder: Player\Footsteps\Tile
+      FileLocation: Player\Footsteps\Tile\SFX_PL_FS_Tile2.mp3
+    - ParentFolder: Player\Footsteps\Tile
+      FileLocation: Player\Footsteps\Tile\SFX_PL_FS_Tile3.mp3
+    - ParentFolder: Player\Footsteps\Tile
+      FileLocation: Player\Footsteps\Tile\SFX_PL_FS_Tile4.mp3
+    - ParentFolder: Player\Footsteps\Tile
+      FileLocation: Player\Footsteps\Tile\SFX_PL_FS_Tile5.mp3
+    - ParentFolder: Player\Footsteps\Tile
+      FileLocation: Player\Footsteps\Tile\SFX_PL_FS_Tile6.mp3
+    - ParentFolder: Player\Footsteps\Tile
+      FileLocation: Player\Footsteps\Tile\SFX_PL_FS_Tile7.mp3
+    - ParentFolder: Player\Footsteps\Tile
+      FileLocation: Player\Footsteps\Tile\SFX_PL_FS_Tile8.mp3
+    - ParentFolder: Player\Footsteps\Tile
+      FileLocation: Player\Footsteps\Tile\SFX_PL_FS_Tile9.mp3
+  - FolderName: Player\Footsteps\Wood
+    Files:
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\SFX_PL_FS_Wood1.mp3
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\SFX_PL_FS_Wood10.mp3
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\SFX_PL_FS_Wood2.mp3
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\SFX_PL_FS_Wood3.mp3
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\SFX_PL_FS_Wood4.mp3
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\SFX_PL_FS_Wood5.mp3
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\SFX_PL_FS_Wood6.mp3
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\SFX_PL_FS_Wood7.mp3
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\SFX_PL_FS_Wood8.mp3
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\SFX_PL_FS_Wood9.mp3

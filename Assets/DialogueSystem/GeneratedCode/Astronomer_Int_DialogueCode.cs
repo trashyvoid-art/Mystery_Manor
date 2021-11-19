@@ -8,17 +8,8 @@ using System.Reflection;
 
 namespace DialogueSystem.Code
 {
-    public class Astronomer_Int_DialogueCode : IDialogueCode
+    public class Astronomer_Int_DialogueCode : DialogueCode, IDialogueCode
     {
-        private Dictionary<string, IDialogueCode.EventDelegate> eventFunctions = new Dictionary<string, IDialogueCode.EventDelegate>();
-        private Dictionary<string, IDialogueCode.ConditionDelegate> conditionChecks = new Dictionary<string, IDialogueCode.ConditionDelegate>();
-        private Dictionary<string, IDialogueCode.ConditionDelegate> dialogueChecks = new Dictionary<string, IDialogueCode.ConditionDelegate>();
-        public Dictionary<string, IDialogueCode.EventDelegate> EventFunctions => eventFunctions;
-        public Dictionary<string, IDialogueCode.ConditionDelegate> ConditionChecks => conditionChecks;
-        public Dictionary<string, IDialogueCode.ConditionDelegate> DialogueChecks => dialogueChecks;
-        public string GetVariable(string variableName) {
-            return this.GetType().GetField(variableName, BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic).GetValue(this).ToString(); 
-        }
         public Astronomer_Int_DialogueCode() 
         {
             Start();
@@ -65,9 +56,7 @@ string name = "The Astronomer";
             return (true);
         }
         // From Node: 23e0ca1f-d5ed-485a-8a06-20257e18854e //
-        // Choice: Do you have any other information about the case?
-
- - 571adf63-a14c-4068-98fd-d5b55270f405 //
+        // Choice: Do you have any other information about the case?\n\n - 571adf63-a14c-4068-98fd-d5b55270f405 //
         public bool Astronomer_Int_23e0ca1fd5ed485a8a0620257e18854e_571adf63a14c406898fdd5b55270f405()
         {
             return (true);
@@ -79,17 +68,13 @@ string name = "The Astronomer";
             return (true);
         }
         // From Node: d315e8a9-d9e1-42e9-901c-0722899985b1 //
-        // Choice: Do you have any other information about the case?
-
- - 1f7c9900-98a0-4198-85c0-84257b9abd37 //
+        // Choice: Do you have any other information about the case?\n\n - 1f7c9900-98a0-4198-85c0-84257b9abd37 //
         public bool Astronomer_Int_d315e8a9d9e142e9901c0722899985b1_1f7c990098a0419885c084257b9abd37()
         {
             return (true);
         }
         // From Node: 245fb1ef-be32-47a5-b6e4-93b0bc50d57c //
-        // Choice: Do you have any other information about the case?
-
- - 3e09c6d3-0418-45be-8ea8-6ce8f4a1542d //
+        // Choice: Do you have any other information about the case?\n\n - 3e09c6d3-0418-45be-8ea8-6ce8f4a1542d //
         public bool Astronomer_Int_245fb1efbe3247a5b6e493b0bc50d57c_3e09c6d3041845be8ea86ce8f4a1542d()
         {
             return (true);
@@ -113,9 +98,7 @@ string name = "The Astronomer";
             return (true);
         }
         // From Node: 06dd7460-0954-46c8-9485-fb594e0878dc //
-        // Choice: Do you have any other information about the case?
-
- - 3a3e9a8a-27d6-4330-9f6c-64d32e4e619d //
+        // Choice: Do you have any other information about the case?\n\n - 3a3e9a8a-27d6-4330-9f6c-64d32e4e619d //
         public bool Astronomer_Int_06dd7460095446c89485fb594e0878dc_3a3e9a8a27d643309f6c64d32e4e619d()
         {
             return (true);
@@ -145,9 +128,7 @@ string name = "The Astronomer";
             return (true);
         }
         // From Node: 173dfcd7-b7d0-4e2d-8971-a05afb3d9cdd //
-        // Choice: Do you have any other information about the case?
-
- - daf755e1-92df-4ac2-97fc-bbb7991681be //
+        // Choice: Do you have any other information about the case?\n\n - daf755e1-92df-4ac2-97fc-bbb7991681be //
         public bool Astronomer_Int_173dfcd7b7d04e2d8971a05afb3d9cdd_daf755e192df4ac297fcbbb7991681be()
         {
             return (true);
