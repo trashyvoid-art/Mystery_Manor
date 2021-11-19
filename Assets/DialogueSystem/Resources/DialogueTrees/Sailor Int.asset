@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: Sailor Int
+  m_EditorClassIdentifier: 
+  DialogueName: Sailor Int
+  EntryPointGUID: a9a76df3-5213-4388-b395-589f6197184e
+  NodeLinks:
+  - BaseNodeGuid: a9a76df3-5213-4388-b395-589f6197184e
+    PortName: Next
+    PortGUID: 44b5fdf9-6ec6-4f29-84a8-ec336a3d3e1c
+    Condition: 
+    TargetNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
+  - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
+    PortName: Where were you at the time of the murder?
+    PortGUID: 57059fe8-7b99-468c-8f9b-3dc22aca7f0b
+    Condition: 
+    TargetNodeGuid: 5b3d4a4b-e47c-4ee2-8433-01caddf24e8c
+  - BaseNodeGuid: 5b3d4a4b-e47c-4ee2-8433-01caddf24e8c
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: e0ac6070-b01b-4257-aec6-38ce45fd5b32
+    Condition: 
+    TargetNodeGuid: 7f15a5bb-91e1-4f68-9f20-ec5bd165208a
+  - BaseNodeGuid: 5b3d4a4b-e47c-4ee2-8433-01caddf24e8c
+    PortName: Do you have any other information about the case?
+    PortGUID: 2aceea68-6660-43ae-863d-2a4f85a79236
+    Condition: 
+    TargetNodeGuid: c42606c9-2822-4d3f-81dc-95e64c51df83
+  - BaseNodeGuid: c42606c9-2822-4d3f-81dc-95e64c51df83
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: bbd35785-715d-435c-885c-fc38f9b0e621
+    Condition: 
+    TargetNodeGuid: c19b41e6-f910-4ca8-bf09-79678e80230a
+  - BaseNodeGuid: 7f15a5bb-91e1-4f68-9f20-ec5bd165208a
+    PortName: Do you have any other information about the case?
+    PortGUID: f6d08e29-b0a6-4bd2-9e13-39f35cc078e6
+    Condition: 
+    TargetNodeGuid: d8768969-7ed4-46c0-9f45-cf96caac5d91
+  - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 3965af18-3957-4a8f-92ce-52f0d9e94ce0
+    Condition: 
+    TargetNodeGuid: 7f9a441f-d3be-4ed1-a2e0-ed6722d90f15
+  - BaseNodeGuid: 7f9a441f-d3be-4ed1-a2e0-ed6722d90f15
+    PortName: Where were you at the time of the murder?
+    PortGUID: 6309bf4e-dfd1-4419-9908-46211b80ec38
+    Condition: 
+    TargetNodeGuid: fd27352c-fbb2-4c77-ae94-944e4e0c230f
+  - BaseNodeGuid: 7f9a441f-d3be-4ed1-a2e0-ed6722d90f15
+    PortName: Do you have any other information about the case?
+    PortGUID: 73aa9ac7-cce9-4522-a9ad-c98e06f60fa1
+    Condition: 
+    TargetNodeGuid: 678bbf2f-cbc5-4df7-aee2-8844283ff0c7
+  - BaseNodeGuid: 678bbf2f-cbc5-4df7-aee2-8844283ff0c7
+    PortName: Where were you at the time of the murder?
+    PortGUID: 09f010da-402b-4c1a-b289-489f8c0c161f
+    Condition: 
+    TargetNodeGuid: d04f1ef3-ce20-412a-919d-632da29df5ca
+  - BaseNodeGuid: fd27352c-fbb2-4c77-ae94-944e4e0c230f
+    PortName: Do you have any other information about the case?
+    PortGUID: 50e2bbf9-f332-4296-8403-5e44e74c2e19
+    Condition: 
+    TargetNodeGuid: 8587b41d-82a1-4664-bc93-7ba301b7e8e1
+  - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
+    PortName: Do you have any other information about the case?
+    PortGUID: 85f8aec8-8713-42de-94f2-b01aab097575
+    Condition: 
+    TargetNodeGuid: 2b152aca-0405-458f-a743-558ef9807907
+  - BaseNodeGuid: 2b152aca-0405-458f-a743-558ef9807907
+    PortName: Where were you at the time of the murder?
+    PortGUID: f5db412e-40eb-4416-9a30-d867480231b8
+    Condition: 
+    TargetNodeGuid: 98718d3e-3580-4429-9304-317d740c836f
+  - BaseNodeGuid: 2b152aca-0405-458f-a743-558ef9807907
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 5dfaf0ce-ba05-42f1-bd3f-e4796bf138cc
+    Condition: 
+    TargetNodeGuid: 5afeabc0-952e-4207-961e-319629698b01
+  - BaseNodeGuid: 5afeabc0-952e-4207-961e-319629698b01
+    PortName: Where were you at the time of the murder?
+    PortGUID: 48ddfab5-a69b-41a7-a39b-72b8a104c925
+    Condition: 
+    TargetNodeGuid: 0a579650-f67f-442c-9a8f-61aa7e8c5fbd
+  - BaseNodeGuid: 98718d3e-3580-4429-9304-317d740c836f
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: bf8b108b-5976-456c-a3b7-30f6cefaa834
+    Condition: 
+    TargetNodeGuid: 4dfba897-fa9d-4864-b397-a969ee0c4198
+  Nodes:
+  - Guid: 0f54fb55-3b6d-464f-804b-3ccde1a544b9
+    Position: {x: 13.6, y: -137.6}
+    Type: 16
+    _textKeys:
+    - Code
+    _textValues:
+    - string name ="The Sailor";
+  - Guid: 2496025e-e0b3-42f0-b92a-94cac6149a20
+    Position: {x: 230.4, y: 0}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Dialogue Node
+    - ${name}
+  - Guid: 5b3d4a4b-e47c-4ee2-8433-01caddf24e8c
+    Position: {x: 914.4, y: -240.8}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - When the lights went out I was in the in the observatory. I wanted to see the
+      stars, being out at sea constantly they are the one thing that remains the
+      same...
+    - ${name}
+  - Guid: c42606c9-2822-4d3f-81dc-95e64c51df83
+    Position: {x: 2011.2, y: -108.8}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No...
+    - ${name}
+  - Guid: c19b41e6-f910-4ca8-bf09-79678e80230a
+    Position: {x: 2769.6, y: -77.6}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, I mean I don't think so. I can't think of a reason someone would intentionally
+      want to hurt her.
+    - ${name}
+  - Guid: d8768969-7ed4-46c0-9f45-cf96caac5d91
+    Position: {x: 2839.2, y: -393.59998}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No...
+    - ${name}
+  - Guid: 7f15a5bb-91e1-4f68-9f20-ec5bd165208a
+    Position: {x: 2020, y: -424}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, I mean I don't think so. I can't think of a reason someone would intentionally
+      want to hurt her.
+    - ${name}
+  - Guid: fd27352c-fbb2-4c77-ae94-944e4e0c230f
+    Position: {x: 1783.2, y: 327.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - When the lights went out I was in the in the observatory. I wanted to see the
+      stars, being out at sea constantly they are the one thing that remains the
+      same...
+    - ${name}
+  - Guid: 678bbf2f-cbc5-4df7-aee2-8844283ff0c7
+    Position: {x: 1783.2, y: 675.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No...
+    - ${name}
+  - Guid: d04f1ef3-ce20-412a-919d-632da29df5ca
+    Position: {x: 2481.6, y: 707.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - When the lights went out I was in the in the observatory. I wanted to see the
+      stars, being out at sea constantly they are the one thing that remains the
+      same...
+    - ${name}
+  - Guid: 8587b41d-82a1-4664-bc93-7ba301b7e8e1
+    Position: {x: 3114.4, y: 358.40002}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No...
+    - ${name}
+  - Guid: 7f9a441f-d3be-4ed1-a2e0-ed6722d90f15
+    Position: {x: 967.2, y: 327.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, I mean I don't think so. I can't think of a reason someone would intentionally
+      want to hurt her.
+    - ${name}
+  - Guid: 2b152aca-0405-458f-a743-558ef9807907
+    Position: {x: 1061.6, y: 976}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No...
+    - ${name}
+  - Guid: 98718d3e-3580-4429-9304-317d740c836f
+    Position: {x: 1885.6, y: 1017.60004}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - When the lights went out I was in the in the observatory. I wanted to see the
+      stars, being out at sea constantly they are the one thing that remains the
+      same...
+    - ${name}
+  - Guid: 5afeabc0-952e-4207-961e-319629698b01
+    Position: {x: 1904.8, y: 1369.6}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, I mean I don't think so. I can't think of a reason someone would intentionally
+      want to hurt her.
+    - ${name}
+  - Guid: 4dfba897-fa9d-4864-b397-a969ee0c4198
+    Position: {x: 3014.4, y: 1063.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, I mean I don't think so. I can't think of a reason someone would intentionally
+      want to hurt her.
+    - ${name}
+  - Guid: 0a579650-f67f-442c-9a8f-61aa7e8c5fbd
+    Position: {x: 3014.4, y: 1488.7999}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - When the lights went out I was in the in the observatory. I wanted to see the
+      stars, being out at sea constantly they are the one thing that remains the
+      same...
+    - ${name}
