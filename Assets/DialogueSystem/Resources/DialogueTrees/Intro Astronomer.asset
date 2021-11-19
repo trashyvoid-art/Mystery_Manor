@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: Intro Astronomer
+  m_EditorClassIdentifier: 
+  DialogueName: Intro Astronomer
+  EntryPointGUID: 506eb779-a666-4a81-9ad9-9924b070b9dd
+  NodeLinks:
+  - BaseNodeGuid: 506eb779-a666-4a81-9ad9-9924b070b9dd
+    PortName: Next
+    PortGUID: 1e978b88-31ce-49d6-991d-4afaf77880e3
+    Condition: 
+    TargetNodeGuid: 83ecb3b6-9e10-4139-a522-22106e6f251e
+  - BaseNodeGuid: 83ecb3b6-9e10-4139-a522-22106e6f251e
+    PortName: Next
+    PortGUID: aae5b764-6eef-4738-8aed-f0b152b43cb5
+    Condition: 
+    TargetNodeGuid: fccc76af-f6d4-4c4c-83c2-6b51f7f2f3ab
+  - BaseNodeGuid: fccc76af-f6d4-4c4c-83c2-6b51f7f2f3ab
+    PortName: Next
+    PortGUID: 3a366062-d11f-4b3f-8aae-3bc46a35bb17
+    Condition: 
+    TargetNodeGuid: 389ed54f-1a99-478a-9132-50df4717f349
+  Nodes:
+  - Guid: ff09bfbf-f32a-4fa3-b2a3-22bd25406348
+    Position: {x: -48.8, y: -198.40001}
+    Type: 16
+    _textKeys:
+    - Code
+    _textValues:
+    - string name = "The Astronomer";
+  - Guid: 83ecb3b6-9e10-4139-a522-22106e6f251e
+    Position: {x: 356.8, y: 1.6000004}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - It is a pleasure to make your acquaintance.
+    - ${name}
+  - Guid: fccc76af-f6d4-4c4c-83c2-6b51f7f2f3ab
+    Position: {x: 817.6, y: 5.6000004}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - This manor is bang up the elephant is it not?
+    - ${name}
+  - Guid: 389ed54f-1a99-478a-9132-50df4717f349
+    Position: {x: 1232, y: 5.6000004}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I could spend an entire day browsing through the numerous artifacts and painting!
+    - ${name}

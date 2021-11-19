@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: Scheele Int
+  m_EditorClassIdentifier: 
+  DialogueName: Scheele Int
+  EntryPointGUID: 15ae7147-2753-48a5-8bb4-692d44ee06c3
+  NodeLinks:
+  - BaseNodeGuid: 15ae7147-2753-48a5-8bb4-692d44ee06c3
+    PortName: Next
+    PortGUID: bed86661-d52a-4f89-9248-8b7018e0f6cf
+    Condition: 
+    TargetNodeGuid: 34288957-1da1-41e8-a66b-7d4eaaa893e3
+  - BaseNodeGuid: 34288957-1da1-41e8-a66b-7d4eaaa893e3
+    PortName: Where were you at the time of the murder?
+    PortGUID: e7599b30-07e9-4e0f-8bd7-2e183ef9a056
+    Condition: 
+    TargetNodeGuid: 30a13bdb-827a-471e-a352-926752f5d2d0
+  - BaseNodeGuid: 34288957-1da1-41e8-a66b-7d4eaaa893e3
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 015ad8f1-3cb4-402e-bab1-81af68b6850f
+    Condition: 
+    TargetNodeGuid: b2aa3426-4a77-42ab-b490-76bdcc9b5999
+  - BaseNodeGuid: 34288957-1da1-41e8-a66b-7d4eaaa893e3
+    PortName: 'Do you have any other information about the case?
+
+
+'
+    PortGUID: c21d2f08-331f-4798-a62f-d20ac02f95a3
+    Condition: 
+    TargetNodeGuid: 1571643c-a143-4870-ba29-411e69a59787
+  - BaseNodeGuid: 30a13bdb-827a-471e-a352-926752f5d2d0
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: f77e09b1-8ad0-4e3d-b79b-8a1f670d2c3b
+    Condition: 
+    TargetNodeGuid: 3650dfad-9036-4222-aa60-05a105a0e9d8
+  - BaseNodeGuid: 30a13bdb-827a-471e-a352-926752f5d2d0
+    PortName: 'Do you have any other information about the case?
+
+
+'
+    PortGUID: f5be638d-bca3-4e0d-af45-685c2c94013e
+    Condition: 
+    TargetNodeGuid: bdab5b37-c2d3-4f34-931d-fd78f771028d
+  - BaseNodeGuid: 3650dfad-9036-4222-aa60-05a105a0e9d8
+    PortName: 'Do you have any other information about the case?
+
+
+'
+    PortGUID: 2033e180-f49a-4dec-90f4-a4cbf1ebd559
+    Condition: 
+    TargetNodeGuid: 20cea60e-14c1-4265-b2cd-b28edd9d7484
+  - BaseNodeGuid: bdab5b37-c2d3-4f34-931d-fd78f771028d
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 30be01d2-178c-4400-926f-919e2126e9aa
+    Condition: 
+    TargetNodeGuid: 48bd2457-ba9d-4eca-8df0-26cc0445b66c
+  - BaseNodeGuid: b2aa3426-4a77-42ab-b490-76bdcc9b5999
+    PortName: Where were you at the time of the murder?
+    PortGUID: dd4bdb5f-b664-4665-aba6-7344cb5b5b53
+    Condition: 
+    TargetNodeGuid: 21beaac1-bb78-46fd-b4e5-4238c5c33dab
+  - BaseNodeGuid: b2aa3426-4a77-42ab-b490-76bdcc9b5999
+    PortName: 'Do you have any other information about the case?
+
+
+'
+    PortGUID: a51cd635-c29b-481b-96ca-9f1c7bdded9d
+    Condition: 
+    TargetNodeGuid: 83744695-a709-4cf2-85da-fe026efc9ad0
+  - BaseNodeGuid: 21beaac1-bb78-46fd-b4e5-4238c5c33dab
+    PortName: 'Do you have any other information about the case?
+
+
+'
+    PortGUID: 46e6d9e4-ff16-484d-b7a1-610c70fc995a
+    Condition: 
+    TargetNodeGuid: a56ec84d-7809-4708-b321-6ca782a303da
+  - BaseNodeGuid: 83744695-a709-4cf2-85da-fe026efc9ad0
+    PortName: Where were you at the time of the murder?
+    PortGUID: dec9e914-bb44-4bb4-89c5-66b0839d4e6f
+    Condition: 
+    TargetNodeGuid: ec693877-b27f-4ad6-b513-c45664b68a1d
+  - BaseNodeGuid: 1571643c-a143-4870-ba29-411e69a59787
+    PortName: Where were you at the time of the murder?
+    PortGUID: e3a0c644-51c2-482c-bd3e-eda5104e8049
+    Condition: 
+    TargetNodeGuid: 12107247-7c70-42b2-950e-e7f334fa37e8
+  - BaseNodeGuid: 1571643c-a143-4870-ba29-411e69a59787
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: d6d936e5-34d0-47d0-ba0c-53ff71498cc2
+    Condition: 
+    TargetNodeGuid: ff14ac24-27a7-4359-8a3d-a2d2768a969e
+  - BaseNodeGuid: 12107247-7c70-42b2-950e-e7f334fa37e8
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 1f0d7cc4-f8e9-46c5-ad6d-b9e2581dafb2
+    Condition: 
+    TargetNodeGuid: f59f27bb-e121-4857-8535-760780aa5115
+  - BaseNodeGuid: ff14ac24-27a7-4359-8a3d-a2d2768a969e
+    PortName: Where were you at the time of the murder?
+    PortGUID: 1ff0e6d2-e906-4203-85d0-f06078745f0d
+    Condition: 
+    TargetNodeGuid: 679966d8-9d00-4a30-be05-6e973b2542f6
+  Nodes:
+  - Guid: d15738d8-30da-41f7-ba23-8b062f0b713f
+    Position: {x: 6.4, y: -165.6}
+    Type: 16
+    _textKeys:
+    - Code
+    _textValues:
+    - string name = "Ms. Scheele";
+  - Guid: 34288957-1da1-41e8-a66b-7d4eaaa893e3
+    Position: {x: 273.6, y: 16.8}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Dialogue Node
+    - ${name}
+  - Guid: 30a13bdb-827a-471e-a352-926752f5d2d0
+    Position: {x: 938.4, y: -874.39996}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was with you dear in the entrance hall don't you remember?
+    - ${name}
+  - Guid: 1571643c-a143-4870-ba29-411e69a59787
+    Position: {x: 1000.8, y: 969.60004}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - The Doctor and the Psychologist seemed to be involved in quite the collie shangles
+      at one point.
+    - ${name}
+  - Guid: bdab5b37-c2d3-4f34-931d-fd78f771028d
+    Position: {x: 2144, y: -677.6}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - The Doctor and the Psychologist seemed to be involved in quite the collie shangles
+      at one point.
+    - ${name}
+  - Guid: 20cea60e-14c1-4265-b2cd-b28edd9d7484
+    Position: {x: 3289.6, y: -1104.8}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - The Doctor and the Psychologist seemed to be involved in quite the collie shangles
+      at one point.
+    - ${name}
+  - Guid: 48bd2457-ba9d-4eca-8df0-26cc0445b66c
+    Position: {x: 3380, y: -644}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Certainly not! She could be too much sometimes, but she really was a lovely
+      person.
+    - ${name}
+  - Guid: 21beaac1-bb78-46fd-b4e5-4238c5c33dab
+    Position: {x: 2143.2, y: -78.399994}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was with you dear in the entrance hall don't you remember?
+    - ${name}
+  - Guid: ec693877-b27f-4ad6-b513-c45664b68a1d
+    Position: {x: 3477.6, y: 366.40002}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was with you dear in the entrance hall don't you remember?
+    - ${name}
+  - Guid: 12107247-7c70-42b2-950e-e7f334fa37e8
+    Position: {x: 2145.6, y: 851.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was with you dear in the entrance hall don't you remember?
+    - ${name}
+  - Guid: 3650dfad-9036-4222-aa60-05a105a0e9d8
+    Position: {x: 2143.2, y: -1111.2001}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Certainly not! She could be too much sometimes, but she really was a lovely
+      person.
+    - ${name}
+  - Guid: a56ec84d-7809-4708-b321-6ca782a303da
+    Position: {x: 3442.4, y: -71.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - The Doctor and the Psychologist seemed to be involved in quite the collie shangles
+      at one point.
+    - ${name}
+  - Guid: ff14ac24-27a7-4359-8a3d-a2d2768a969e
+    Position: {x: 2143.2, y: 1262.3999}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Certainly not! She could be too much sometimes, but she really was a lovely
+      person.
+    - ${name}
+  - Guid: f59f27bb-e121-4857-8535-760780aa5115
+    Position: {x: 3529.6, y: 863.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Certainly not! She could be too much sometimes, but she really was a lovely
+      person.
+    - ${name}
+  - Guid: 679966d8-9d00-4a30-be05-6e973b2542f6
+    Position: {x: 3566.4, y: 1294.3999}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was with you dear in the entrance hall don't you remember?
+    - ${name}
+  - Guid: b2aa3426-4a77-42ab-b490-76bdcc9b5999
+    Position: {x: 1000.8, y: 87.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Certainly not! She could be too much sometimes, but she really was a lovely
+      person.
+    - ${name}
+  - Guid: 83744695-a709-4cf2-85da-fe026efc9ad0
+    Position: {x: 2144.8, y: 320}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - The Doctor and the Psychologist seemed to be involved in quite the collie shangles
+      at one point.
+    - ${name}
