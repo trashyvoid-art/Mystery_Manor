@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace PlayerController
+namespace Player.Movement
 {
     [RequireComponent(typeof(PlayerInput))]
     [RequireComponent(typeof(CharacterController))]
@@ -25,7 +25,7 @@ namespace PlayerController
         float gravityForce = 1.0f;
         [Tooltip("The tranform of the bottom of the collision box.")]
         [SerializeField]
-        Transform feet;
+        public Transform feet;
         [Tooltip("The distance the player controller will check for ground.")]
         [SerializeField]
         float groundCheckDistance;

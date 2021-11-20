@@ -8,11 +8,14 @@ namespace Sound
     [RequireComponent(typeof(AudioPlayer))]
     public class FootstepController : MonoBehaviour
     {
+        [Tooltip("The speed at which steps are played")]
         [SerializeField]
         public float StepsRate = 1;
-        [Tooltip("Adjust so that 'IsGrounded' is false durring a jump")]
+        [Tooltip("Adjust so that 'IsGrounded' is false during a jump")]
         [SerializeField]
         private float GroundCheckDistance = 1.5f;
+        
+        private bool isPlayer = true;
 
         private Vector3 lastPosition;
         [Header("View Only")]
@@ -69,7 +72,7 @@ namespace Sound
                     myMaterial = m.Material;
             }
 
-            string newAudioMap = SoundRepository.EnviromentSoundBank(myMaterial);
+            string newAudioMap = SoundRepository.EnviromentSoundBank(myMaterial, !isPlayer);
             player.Sound.LoadAudio(newAudioMap);
         }
     }

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace PlayerController 
+namespace Player.Movement
 {
     [RequireComponent(typeof(PlayerInput))]
     [DisallowMultipleComponent]
@@ -22,7 +22,7 @@ namespace PlayerController
         public float MouseSensitivity = 50;
         [Tooltip("The thing that will turn virtically (The game camera)")]
         [SerializeField] 
-        private new GameObject camera;
+        public new GameObject camera;
 
         private PlayerInput playerInput;
         private InputAction look;

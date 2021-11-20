@@ -5,7 +5,8 @@ using UnityEngine;
 namespace Sound
 {
     [RequireComponent(typeof(AudioSource))]
-    public class AudioPlayer : MonoBehaviour, IAudioPlayer
+    [RequireComponent(typeof(ExternalSound))]
+    public class ExternalAudioPlayer : MonoBehaviour, IAudioPlayer
     {
         public bool IsPlaying => source.isPlaying;
         public bool IsDelayed { get; protected set; }
@@ -14,7 +15,7 @@ namespace Sound
         private float _delay;
 
         [SerializeField]
-        public BasicSound Sound;
+        public ExternalSound Sound;
 
         public bool DelayAfter = false;
 
@@ -30,30 +31,30 @@ namespace Sound
             _delay = Sound.Delay.Read();
             AudioClip clip = Sound.Clip;
             if (_delay <= 0)
-                if(clip != null)
+                if (clip != null)
                     source.PlayOneShot(clip, Sound.Volume.Read());
-            else if(!IsDelayed)
-                StartCoroutine("PlayDelay");
+                else if (!IsDelayed)
+                    StartCoroutine("PlayDelay");
         }
 
-        public void PlayFrom(string repository) 
+        public void PlayFrom(string repository)
         {
             Sound.LoadAudio(repository);
             Play();
         }
 
-        private IEnumerator PlayDelay() 
+        private IEnumerator PlayDelay()
         {
             IsDelayed = true;
-            if(!DelayAfter)
+            if (!DelayAfter)
                 yield return new WaitForSeconds(_delay);
 
             AudioClip clip = Sound.Clip;
-            if(IsDelayed)
-                if(clip != null)
+            if (IsDelayed)
+                if (clip != null)
                     source.PlayOneShot(clip, Sound.Volume.Read());
 
-            if(DelayAfter)
+            if (DelayAfter)
                 yield return new WaitForSeconds(_delay);
 
             IsDelayed = false;
@@ -71,14 +72,11 @@ namespace Sound
             source.UnPause();
         }
 
-        private void Awake()
-        {
-            Sound.LoadAudio();
-        }
-
         private void Start()
         {
             source = GetComponent<AudioSource>();
+            Sound = GetComponent<ExternalSound>();
+            Sound.LoadAudio();
         }
 
         private void FixedUpdate()

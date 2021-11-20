@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Sound;
 using Notes;
+using Player;
 
 namespace Utility
 {
@@ -25,11 +26,14 @@ namespace Utility
         /// The player's journal
         /// </summary>
         public Journal Journal { get; private set; }
+        public ToolTip ToolTip { get; set; }
+        public PlayerController Player { get; set; }
 
         private Toolbox()
         {
             SoundPool = new SoundRepository();
             Journal = new Journal();
+            
         }
     }
 }
