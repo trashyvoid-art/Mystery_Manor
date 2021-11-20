@@ -93,22 +93,19 @@ namespace Sound
             }
         }
 
-        public static string EnviromentSoundBank(Environment.Material enumm, bool isAnimal = false) 
+        public static string EnviromentSoundBank(Environment.Material enumm) 
         {
-            string profile = isAnimal ? "Animal" : "Player";
             switch (enumm) 
             {
                 default:
                 case Environment.Material.None:
                     return string.Empty;
                 case Environment.Material.Grass:
-                    return $"{profile}/Footsteps/Grass";
+                    return $"Player/Footsteps/Grass";
                 case Environment.Material.Tile:
-                    if (isAnimal) return $"{profile}/Footsteps/Wood_Tile";
-                    return $"{profile}/Footsteps/Tile";
+                    return $"Player/Footsteps/Tile";
                 case Environment.Material.Wood:
-                    if (isAnimal) return $"{profile}/Footsteps/Wood_Tile";
-                    return $"{profile}/Footsteps/Wood";
+                    return $"Player/Footsteps/Wood";
 
             }
         }
