@@ -1,23 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
 using System.IO;
-using System;
 
 namespace DevTools
 {
-    public class SetVersion : IPreprocessBuildWithReport
+    // Will run the script whenever the editor loads
+    [InitializeOnLoad]
+    public class SetVersion: IPreprocessBuildWithReport
     {
-        public int callbackOrder => 0;
+        public int callbackOrder => -5000;
 
         public void OnPreprocessBuild(BuildReport report)
         {
             Version();
         }
 
+        static SetVersion() 
+        {
+            Version();
+        }
+
+        /// <summary>
+        /// Version is selected from last tag following the "v0" format. 
+        /// Itll take the number of commits and tag it on the end so that "v1.5" with 26 commits will become "v1.5.26"
+        /// </summary>
         [MenuItem("PreBuild/Set Version From Git #b")]
         public static void Version()
         {
@@ -29,13 +37,19 @@ namespace DevTools
                 // Get Git Version Number
                 string newVersion = GitTagVersion(gitRepository);
 
+                if (Application.version == newVersion)
+                {
+                    Debug.Log($"Version: {Application.version}");
+                    return;
+                }
+
                 // Get Project Version File
                 string filePath = GetProjectFileName();
 
                 // Replace project version without messing up the rest of the file
                 ReplaceVersionInEditor(filePath, newVersion);
 
-                Debug.Log($"New Build Version: v{newVersion}");
+                Debug.Log($"New Version: v{newVersion}");
             }
             catch (System.Exception e)
             {
