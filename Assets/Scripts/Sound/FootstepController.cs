@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Environment;
+using UnityEngine.Events;
 
 namespace Sound
 {
@@ -21,6 +22,12 @@ namespace Sound
         private float speed;
         [SerializeField]
         bool isGrounded;
+
+        [SerializeField]
+        public UnityEvent OnStep;
+        [SerializeField]
+        float timeOffset = 0.01f;
+
         private AudioPlayer player;
 
         // Start is called before the first frame update
@@ -30,6 +37,10 @@ namespace Sound
             player = GetComponent<AudioPlayer>();
             player.enabled = true;
             player.DelayAfter = true;
+            player.OnPlay.AddListener(() => 
+            {
+                Invoke("RunOnStep", timeOffset);
+            });
         }
 
         // Update is called once per frame
@@ -43,9 +54,14 @@ namespace Sound
             if (isGrounded && speed > 0.001f)
             {
                 CheckFloorType();
-                player.Sound.Delay.Value = StepsRate;
+                player.Sound.Delay = StepsRate;
                 player.Play();
             }
+        }
+
+        void RunOnStep() 
+        {
+            OnStep.Invoke();
         }
 
         private bool GoundCheck() 
