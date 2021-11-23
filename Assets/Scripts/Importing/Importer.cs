@@ -8,9 +8,9 @@ using System.Linq;
 using UnityEditor;
 #endif
 
-namespace Importing 
+namespace Importing
 {
-    public static class Importer 
+    public static class Importer
     {
         /// <summary>
         /// Grabs and records all files from a parent directory.
@@ -24,7 +24,7 @@ namespace Importing
         /// <param name="db"></param>
         /// <param name="topLevelLocation"></param>
         /// <returns></returns>
-        public static Database Import(string parentFolder, Database db = null, string topLevelLocation = null, params string[] fileExtensions) 
+        public static Database Import(string parentFolder, Database db = null, string topLevelLocation = null, params string[] fileExtensions)
         {
             if (db == null)
                 db = ScriptableObject.CreateInstance<Database>();
@@ -46,7 +46,7 @@ namespace Importing
             string[] refrences = Directory.GetFiles(path, "*.ref");
             foreach (string reff in refrences)
             {
-                
+
                 string newFile = ResolveRef(reff);
                 if (string.IsNullOrWhiteSpace(newFile))
                     continue;
@@ -59,12 +59,12 @@ namespace Importing
             string parent = SanitizePath(parentFolder);
             if (files.Count > 0)
                 if (!db.Folders.ContainsKey(parent))
-                    db.Folders.Add(parent, new Folder() 
+                    db.Folders.Add(parent, new Folder()
                     {
                         FolderName = parent
                     });
 
-            foreach (string file in files) 
+            foreach (string file in files)
             {
                 db.Folders[parent].Files.Add(new File()
                 {
@@ -74,7 +74,7 @@ namespace Importing
             }
 
             string[] directories = Directory.GetDirectories(path);
-            foreach (string dir in directories) 
+            foreach (string dir in directories)
             {
                 string newPath = SanitizePath(Path.Combine(parent, Path.GetFileName(dir)));
                 Import(newPath, db, topLevelLocation, fileExtensions);
@@ -90,24 +90,24 @@ namespace Importing
         /// <param name="location"></param>
         /// <param name="database"></param>
         /// <param name="name"
-        public static void SaveDatabase(Database database, string location, string name) 
+        public static void SaveDatabase(Database database, string location, string name)
         {
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
 
             database.Serialize();
 
             if (AssetDatabase.IsValidFolder(location))
             {
-                AssetDatabase.CreateAsset(database, $"{SanitizePath(Path.Combine(location, name))}.asset");
+                AssetDatabase.CreateAsset(database, $"{ForwardSlashPath(Path.Combine(location, name))}.asset");
                 AssetDatabase.SaveAssets();
                 Debug.Log($"Database \"{name}.asset\" has been saved at \"{location}\".");
             }
-            else 
+            else
             {
                 Debug.LogError($"Could not save Database {name} because \"{location}\" does not exist.");
             }
 
-        #endif
+#endif
         }
 
         /// <summary>
@@ -116,12 +116,12 @@ namespace Importing
         /// <param name="resourcePath"></param>
         /// <param name="fileName"></param>
         /// <returns></returns>
-        public static Database LoadDatabase(string resourcePath, string fileName) 
+        public static Database LoadDatabase(string resourcePath, string fileName)
         {
             Database db = Resources.Load<Database>(SanitizePath(Path.Combine(resourcePath, fileName)));
-            if (db == null) 
+            if (db == null)
             {
-                Debug.LogError($"Could not find the Database \"{fileName}\" at \"{resourcePath}\". Is every");
+                Debug.LogError($"Could not find the Database \"{fileName}\" at \"{resourcePath}\". Is everything spelled correctly?");
                 return null;
             }
             db.DeSerialize();
@@ -142,6 +142,11 @@ namespace Importing
         private static string SanitizePath(string s)
         {
             return s.Replace('/', '\\');
+        }
+
+        private static string ForwardSlashPath(string s)
+        {
+            return s.Replace('\\', '/');
         }
     }
 }
