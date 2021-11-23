@@ -403,11 +403,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412855827}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1369476979}
+  m_Father: {fileID: 449042423}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &412855829
@@ -426,21 +426,24 @@ MonoBehaviour:
     _pitch:
       Value: 1
       Range:
-        Min: 0
-        Max: 0
+        Min: -0.7
+        Max: 0.25
     _volume:
-      Value: 1
+      Value: 0.25
       Range:
         Min: 0
-        Max: 0
+        Max: 0.25
     _deley:
       Value: 0
       Range:
         Min: 5
-        Max: 10
+        Max: 20
     _loop: 1
     _audioPool: Environment/Creaks
   DelayAfter: 0
+  OnPlay:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!82 &412855830
 AudioSource:
   m_ObjectHideFlags: 0
@@ -568,6 +571,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &449042422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 449042423}
+  - component: {fileID: 449042424}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &449042423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449042422}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 412855828}
+  m_Father: {fileID: 1369476979}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &449042424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449042422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e040b16ee5a826c47aaba3f25f7e946e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pause: 0
+  OnPause:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUnPause:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &463763882
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,7 +1254,7 @@ Transform:
   m_LocalPosition: {x: 8.73, y: 1.4648, z: -3.0101933}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 412855828}
+  - {fileID: 449042423}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
