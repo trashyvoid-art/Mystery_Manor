@@ -10,26 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
-  m_Name: Intro Scheel
+  m_Name: Intro Scheele
   m_EditorClassIdentifier: 
-  DialogueName: Intro Scheel
+  DialogueName: Intro Scheele
   EntryPointGUID: 63c3c042-bdcd-48e6-9368-17fc5e8d4575
   NodeLinks:
   - BaseNodeGuid: 63c3c042-bdcd-48e6-9368-17fc5e8d4575
     PortName: Next
-    PortGUID: 4bf98a3d-df88-487b-b85c-a70b02ec6604
+    PortGUID: 95407fdc-bfff-476a-8e72-0bb104f2e52c
     Condition: 
     TargetNodeGuid: dda16e7c-fd93-4765-8348-f07e6dc2cecb
-  - BaseNodeGuid: dda16e7c-fd93-4765-8348-f07e6dc2cecb
-    PortName: Next
-    PortGUID: 9f4a7eab-5d0b-4dc8-b8cf-2dacf143eabb
-    Condition: 
-    TargetNodeGuid: 397131e9-445e-4ec9-b060-9d846d715faa
   - BaseNodeGuid: 397131e9-445e-4ec9-b060-9d846d715faa
     PortName: Next
-    PortGUID: 77e2c166-6341-4027-bb26-7a7a6e74e423
+    PortGUID: 4eeca612-8ce4-4866-8d10-49b12899116c
     Condition: 
     TargetNodeGuid: c130e0e5-7b6a-4ba8-b14d-a7073c70b392
+  - BaseNodeGuid: dda16e7c-fd93-4765-8348-f07e6dc2cecb
+    PortName: Next
+    PortGUID: 0b8470d7-7604-4985-9444-d3b446f8ec4c
+    Condition: 
+    TargetNodeGuid: 397131e9-445e-4ec9-b060-9d846d715faa
   Nodes:
   - Guid: aa94aa22-f562-41b2-a749-b6554f617cab
     Position: {x: 39.2, y: -137.6}

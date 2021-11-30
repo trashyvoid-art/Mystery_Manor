@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: Ms Scheele Int
+  m_EditorClassIdentifier: 
+  DialogueName: Ms Scheele Int
+  EntryPointGUID: 1c7f12ca-0c2f-4c98-ba36-bf9e1a22694a
+  NodeLinks:
+  - BaseNodeGuid: 1c7f12ca-0c2f-4c98-ba36-bf9e1a22694a
+    PortName: Next
+    PortGUID: 1e82da1a-c100-4d99-89b5-52192e5b11df
+    Condition: 
+    TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+  - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+    PortName: Where were you at the time of the murder
+    PortGUID: 108d8c03-2852-4b3a-bb72-6b64844e6603
+    Condition: 
+    TargetNodeGuid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
+  - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 04a49ac7-9ceb-4573-b98b-81deb9a5ea1f
+    Condition: 
+    TargetNodeGuid: 77afb165-466d-4bfd-b6bd-0187f71ce3d6
+  - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+    PortName: Do you have any other information?
+    PortGUID: 66ffc2b8-f5bb-494d-8710-6b6c23b02974
+    Condition: 
+    TargetNodeGuid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
+  - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+    PortName: Do you have any other information?
+    PortGUID: 66ffc2b8-f5bb-494d-8710-6b6c23b02974
+    Condition: 
+    TargetNodeGuid: 52ed8819-14ba-4d7e-a499-688945fa8bff
+  - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+    PortName: Where were you at the time of the murder
+    PortGUID: 108d8c03-2852-4b3a-bb72-6b64844e6603
+    Condition: 
+    TargetNodeGuid: 86cb3617-6c29-4d0c-bb09-d833c6db40f2
+  - BaseNodeGuid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
+    PortName: Next
+    PortGUID: df30fc26-ab8a-4930-9161-5aa580b71332
+    Condition: 
+    TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+  - BaseNodeGuid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
+    PortName: Next
+    PortGUID: 6b4ced52-92a6-4088-bc57-6d6e18f11330
+    Condition: 
+    TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+  - BaseNodeGuid: 77afb165-466d-4bfd-b6bd-0187f71ce3d6
+    PortName: Next
+    PortGUID: 5a38d8ed-c1f1-4db0-b277-1c85e42b5a1e
+    Condition: 
+    TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+  Nodes:
+  - Guid: de22f680-f6f2-4185-b948-014f88d222ee
+    Position: {x: 236, y: -63.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - 
+    - ${name}
+  - Guid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
+    Position: {x: 1003.2, y: -551.2}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was with you dear in the Entrance Hall don't you remember?
+    - ${name}
+  - Guid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
+    Position: {x: 1003.2, y: 470.40002}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Sanchez and Scarlett seemed to be involved in quite the collie shangles at
+      one point.
+    - ${name}
+  - Guid: bc34f003-a4f8-48bd-897a-d7f0e226a48d
+    Position: {x: 48, y: -301.59998}
+    Type: 16
+    _textKeys:
+    - Code
+    _textValues:
+    - 'string name = "Ms. Scheele";
+
+      Notes.Journal j = Utility.Toolbox.Instance.Journal;'
+  - Guid: 77afb165-466d-4bfd-b6bd-0187f71ce3d6
+    Position: {x: 1202.4, y: -122.399994}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Certainly not! Scarlett could be too much sometimes, but she really was a lovely
+      person.
+    - ${name}
+  - Guid: 86cb3617-6c29-4d0c-bb09-d833c6db40f2
+    Position: {x: 1003.2, y: -313.59998}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Ms. Scheele was in the entrance hall.");
+  - Guid: 52ed8819-14ba-4d7e-a499-688945fa8bff
+    Position: {x: 993.6, y: 718.4}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("The Doctor and the Psychologist confrontation, Possible motive
+      for the Doctor.");

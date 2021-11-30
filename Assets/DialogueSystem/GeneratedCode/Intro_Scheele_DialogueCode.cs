@@ -8,17 +8,17 @@ using System.Reflection;
 
 namespace DialogueSystem.Code
 {
-    public class Intro_Astronomer_DialogueCode : DialogueCode, IDialogueCode
+    public class Intro_Scheele_DialogueCode : DialogueCode, IDialogueCode
     {
-        public Intro_Astronomer_DialogueCode() 
+        public Intro_Scheele_DialogueCode() 
         {
             Start();
         }
 
 
         // Variables //
-        // Variable(s) From Node: ff09bfbf-f32a-4fa3-b2a3-22bd25406348 //
-string name = "The Astronomer";
+        // Variable(s) From Node: aa94aa22-f562-41b2-a749-b6554f617cab //
+string name = "Ms. Scheele";
 
 
         public void Start()
