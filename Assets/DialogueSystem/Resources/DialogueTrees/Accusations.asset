@@ -12,19 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
   m_Name: Accusations
   m_EditorClassIdentifier: 
-  DialogueName: Accusations
+  DialogueName: Sailor-Pysch/Accusations
   EntryPointGUID: 1a900f89-6e20-44a1-b0b6-a8db81c91400
   NodeLinks:
+  - BaseNodeGuid: 1a900f89-6e20-44a1-b0b6-a8db81c91400
+    PortName: Next
+    PortGUID: 45da1a7e-614d-4133-b738-e30ebc6b7fb7
+    Condition: 
+    TargetNodeGuid: 0e1dd970-9a82-4f4f-b353-6041cfbfb357
+  - BaseNodeGuid: 0e1dd970-9a82-4f4f-b353-6041cfbfb357
+    PortName: Next
+    PortGUID: 350885e2-680c-459d-b1f6-1c49e22756ed
+    Condition: 
+    TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
   - BaseNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
     PortName: The Adventurer
     PortGUID: fb20b131-50ce-4047-8f78-0955195ca66e
     Condition: 
     TargetNodeGuid: 19540e13-fc69-4df1-885c-468313b102ba
-  - BaseNodeGuid: 19540e13-fc69-4df1-885c-468313b102ba
-    PortName: Next
-    PortGUID: 88bb56f0-cbff-4877-ba4d-e55cdea87c0d
-    Condition: 
-    TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
   - BaseNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
     PortName: The Doctor
     PortGUID: a64cc014-c531-437c-92f4-ed92b41fdb85
@@ -47,29 +52,24 @@ MonoBehaviour:
     TargetNodeGuid: 7fbcfaae-14b8-44b8-bcb9-eb84890e2f3e
   - BaseNodeGuid: 28f401ce-4763-4142-97ed-f6f779bc8c3c
     PortName: Next
-    PortGUID: 17c3c544-d76d-43cc-a8a4-589c325eb7f1
+    PortGUID: fe7238c8-98fb-4ad9-8387-5bc31c31b7ae
     Condition: 
     TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
   - BaseNodeGuid: f9818342-a7d3-4cfc-ba8f-64bd7818086b
     PortName: Next
-    PortGUID: 6dcf6dfa-0d92-4d05-bd0f-a6d1a298c04e
+    PortGUID: 697c103e-99d7-4017-8f2a-dceb11c6ceac
     Condition: 
     TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
   - BaseNodeGuid: 255a3504-5ead-4135-b03f-4da3577e028d
     PortName: Next
-    PortGUID: 086daf37-f719-47b3-95bb-06b3207a0722
+    PortGUID: c6312a41-8dc2-4ec9-8efc-27c012c88cf4
     Condition: 
     TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
-  - BaseNodeGuid: 0e1dd970-9a82-4f4f-b353-6041cfbfb357
+  - BaseNodeGuid: 19540e13-fc69-4df1-885c-468313b102ba
     PortName: Next
-    PortGUID: 7d53ff03-0dd2-41ef-b603-a646d4ae32f9
+    PortGUID: 091bad46-79de-4ddf-b089-a4d3c442940d
     Condition: 
     TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
-  - BaseNodeGuid: 1a900f89-6e20-44a1-b0b6-a8db81c91400
-    PortName: Next
-    PortGUID: 53e10b97-f5d7-4e7e-948d-9371c364ae3a
-    Condition: 
-    TargetNodeGuid: 0e1dd970-9a82-4f4f-b353-6041cfbfb357
   Nodes:
   - Guid: 44ea825c-02aa-4942-a11c-5767b6404ae6
     Position: {x: 14.4, y: -409.59998}
@@ -77,19 +77,19 @@ MonoBehaviour:
     _textKeys:
     - Code
     _textValues:
-    - 'string name = ''The Paleontologist'''';
+    - 'string name = "The Paleontologist";
 
-      string name2 = ''The Adventurer'';
-
-      string
-      name3 = ''The Doctor'';
-
-      string name4 = ''The Astronomer'';
+      string name2 = "The Adventurer";
 
       string
-      name5 = ''Ms. Scheele'';
+      name3 = "The Doctor";
 
-      string name6 = ''The Sailor'';'
+      string name4 = "The Astronomer";
+
+      string
+      name5 = "Ms. Scheele";
+
+      string name6 = "The Sailor";'
   - Guid: 0e1dd970-9a82-4f4f-b353-6041cfbfb357
     Position: {x: 256, y: 0}
     Type: 8

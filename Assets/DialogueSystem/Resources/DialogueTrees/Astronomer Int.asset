@@ -17,7 +17,7 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: a2786608-d197-40bb-8455-fadfa044f567
     PortName: Next
-    PortGUID: 59e6048e-f812-4d47-88ba-f8d578536945
+    PortGUID: 0641cdd9-9aa2-4b74-8579-558d92849688
     Condition: 
     TargetNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
   - BaseNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
@@ -38,6 +38,19 @@ MonoBehaviour:
     PortGUID: 571adf63-a14c-4068-98fd-d5b55270f405
     Condition: 
     TargetNodeGuid: ceea2aee-0855-4bcb-a05a-b5466a8286ef
+  - BaseNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
+    PortName: Where were you at the time of the murder?
+    PortGUID: c0ae49f8-99c8-414b-8c81-943b1c45082b
+    Condition: 
+    TargetNodeGuid: c1b5c562-0429-4dc6-a8dd-6234469dee05
+  - BaseNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
+    PortName: 'Do you have any other information about the case?
+
+
+'
+    PortGUID: 571adf63-a14c-4068-98fd-d5b55270f405
+    Condition: 
+    TargetNodeGuid: d2a00e74-797e-4ff6-a354-779009fbda74
   - BaseNodeGuid: d315e8a9-d9e1-42e9-901c-0722899985b1
     PortName: Where were you at the time of the murder?
     PortGUID: ff64903a-e9c6-45e9-b158-657315bcd344
@@ -51,6 +64,19 @@ MonoBehaviour:
     PortGUID: 1f7c9900-98a0-4198-85c0-84257b9abd37
     Condition: 
     TargetNodeGuid: b1c793f8-e2cb-46ed-bf2f-4ad9c50c0b94
+  - BaseNodeGuid: d315e8a9-d9e1-42e9-901c-0722899985b1
+    PortName: Where were you at the time of the murder?
+    PortGUID: ff64903a-e9c6-45e9-b158-657315bcd344
+    Condition: 
+    TargetNodeGuid: 9dfd4267-f67a-4bab-b90a-6f0e4fbbd8de
+  - BaseNodeGuid: d315e8a9-d9e1-42e9-901c-0722899985b1
+    PortName: 'Do you have any other information about the case?
+
+
+'
+    PortGUID: 1f7c9900-98a0-4198-85c0-84257b9abd37
+    Condition: 
+    TargetNodeGuid: 79c3b494-7bef-4b66-8aea-60a52b0f6fd9
   - BaseNodeGuid: 245fb1ef-be32-47a5-b6e4-93b0bc50d57c
     PortName: 'Do you have any other information about the case?
 
@@ -59,6 +85,14 @@ MonoBehaviour:
     PortGUID: 3e09c6d3-0418-45be-8ea8-6ce8f4a1542d
     Condition: 
     TargetNodeGuid: 2e1dc3f0-3c08-4926-82e3-0e922117ea8c
+  - BaseNodeGuid: 245fb1ef-be32-47a5-b6e4-93b0bc50d57c
+    PortName: 'Do you have any other information about the case?
+
+
+'
+    PortGUID: 3e09c6d3-0418-45be-8ea8-6ce8f4a1542d
+    Condition: 
+    TargetNodeGuid: d2c62180-5fce-4124-b838-e37365bd6db6
   - BaseNodeGuid: 9a783efb-ad39-4481-8b85-05a620a1b3ed
     PortName: Do you know why someone would have wanted to hurt the victim?
     PortGUID: 7e081b1f-af5f-4ccb-886d-7cd89be637b6
@@ -74,6 +108,11 @@ MonoBehaviour:
     PortGUID: c793fca2-bc50-4935-b04a-0133a00836b2
     Condition: 
     TargetNodeGuid: 0611dee7-8668-445c-b32d-d273d9354c40
+  - BaseNodeGuid: ceea2aee-0855-4bcb-a05a-b5466a8286ef
+    PortName: Where were you at the time of the murder?
+    PortGUID: 318fe419-eede-48b8-b015-fac356bca549
+    Condition: 
+    TargetNodeGuid: 191c50da-f9f8-46f0-a364-572b6c51deac
   - BaseNodeGuid: 06dd7460-0954-46c8-9485-fb594e0878dc
     PortName: 'Do you have any other information about the case?
 
@@ -82,16 +121,34 @@ MonoBehaviour:
     PortGUID: 3a3e9a8a-27d6-4330-9f6c-64d32e4e619d
     Condition: 
     TargetNodeGuid: 150dee9e-3448-4f1a-bf9d-2a68194b96e7
+  - BaseNodeGuid: 06dd7460-0954-46c8-9485-fb594e0878dc
+    PortName: 'Do you have any other information about the case?
+
+
+'
+    PortGUID: 3a3e9a8a-27d6-4330-9f6c-64d32e4e619d
+    Condition: 
+    TargetNodeGuid: 088487b8-5489-409a-aa81-c6bbd40fbcf3
   - BaseNodeGuid: b1c793f8-e2cb-46ed-bf2f-4ad9c50c0b94
     PortName: Where were you at the time of the murder?
     PortGUID: a6519480-def8-4530-8d4f-aeed05219492
     Condition: 
     TargetNodeGuid: 76413fd5-4d26-495e-9acf-62d2f0584364
+  - BaseNodeGuid: b1c793f8-e2cb-46ed-bf2f-4ad9c50c0b94
+    PortName: Where were you at the time of the murder?
+    PortGUID: a6519480-def8-4530-8d4f-aeed05219492
+    Condition: 
+    TargetNodeGuid: dda81325-3eb8-4c52-b8eb-29a55449c8a0
   - BaseNodeGuid: 0611dee7-8668-445c-b32d-d273d9354c40
     PortName: Where were you at the time of the murder?
     PortGUID: db52a282-7eb9-4440-bd37-f2db5df6c8ae
     Condition: 
     TargetNodeGuid: 59e38498-8aa2-413d-94bd-40be021bba0e
+  - BaseNodeGuid: 0611dee7-8668-445c-b32d-d273d9354c40
+    PortName: Where were you at the time of the murder?
+    PortGUID: db52a282-7eb9-4440-bd37-f2db5df6c8ae
+    Condition: 
+    TargetNodeGuid: 2eea8c57-b35a-4c70-bf76-973ace839357
   - BaseNodeGuid: 922c28f3-6d50-40b9-95bb-50f6b98a7fa9
     PortName: Do you know why someone would have wanted to hurt the victim?
     PortGUID: 2c9ffe4d-4b4f-4623-9a70-a0534d03dcc0
@@ -110,39 +167,6 @@ MonoBehaviour:
     PortGUID: daf755e1-92df-4ac2-97fc-bbb7991681be
     Condition: 
     TargetNodeGuid: 9a783efb-ad39-4481-8b85-05a620a1b3ed
-  - BaseNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
-    PortName: Where were you at the time of the murder?
-    PortGUID: c0ae49f8-99c8-414b-8c81-943b1c45082b
-    Condition: 
-    TargetNodeGuid: c1b5c562-0429-4dc6-a8dd-6234469dee05
-  - BaseNodeGuid: d315e8a9-d9e1-42e9-901c-0722899985b1
-    PortName: Where were you at the time of the murder?
-    PortGUID: ff64903a-e9c6-45e9-b158-657315bcd344
-    Condition: 
-    TargetNodeGuid: 9dfd4267-f67a-4bab-b90a-6f0e4fbbd8de
-  - BaseNodeGuid: b1c793f8-e2cb-46ed-bf2f-4ad9c50c0b94
-    PortName: Where were you at the time of the murder?
-    PortGUID: a6519480-def8-4530-8d4f-aeed05219492
-    Condition: 
-    TargetNodeGuid: dda81325-3eb8-4c52-b8eb-29a55449c8a0
-  - BaseNodeGuid: ceea2aee-0855-4bcb-a05a-b5466a8286ef
-    PortName: Where were you at the time of the murder?
-    PortGUID: 318fe419-eede-48b8-b015-fac356bca549
-    Condition: 
-    TargetNodeGuid: 191c50da-f9f8-46f0-a364-572b6c51deac
-  - BaseNodeGuid: 0611dee7-8668-445c-b32d-d273d9354c40
-    PortName: Where were you at the time of the murder?
-    PortGUID: db52a282-7eb9-4440-bd37-f2db5df6c8ae
-    Condition: 
-    TargetNodeGuid: 2eea8c57-b35a-4c70-bf76-973ace839357
-  - BaseNodeGuid: d315e8a9-d9e1-42e9-901c-0722899985b1
-    PortName: 'Do you have any other information about the case?
-
-
-'
-    PortGUID: 1f7c9900-98a0-4198-85c0-84257b9abd37
-    Condition: 
-    TargetNodeGuid: 79c3b494-7bef-4b66-8aea-60a52b0f6fd9
   - BaseNodeGuid: 173dfcd7-b7d0-4e2d-8971-a05afb3d9cdd
     PortName: 'Do you have any other information about the case?
 
@@ -151,30 +175,6 @@ MonoBehaviour:
     PortGUID: daf755e1-92df-4ac2-97fc-bbb7991681be
     Condition: 
     TargetNodeGuid: d45d2dd0-4f4b-416e-baac-ba5832255dd0
-  - BaseNodeGuid: 06dd7460-0954-46c8-9485-fb594e0878dc
-    PortName: 'Do you have any other information about the case?
-
-
-'
-    PortGUID: 3a3e9a8a-27d6-4330-9f6c-64d32e4e619d
-    Condition: 
-    TargetNodeGuid: 088487b8-5489-409a-aa81-c6bbd40fbcf3
-  - BaseNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
-    PortName: 'Do you have any other information about the case?
-
-
-'
-    PortGUID: 571adf63-a14c-4068-98fd-d5b55270f405
-    Condition: 
-    TargetNodeGuid: d2a00e74-797e-4ff6-a354-779009fbda74
-  - BaseNodeGuid: 245fb1ef-be32-47a5-b6e4-93b0bc50d57c
-    PortName: 'Do you have any other information about the case?
-
-
-'
-    PortGUID: 3e09c6d3-0418-45be-8ea8-6ce8f4a1542d
-    Condition: 
-    TargetNodeGuid: d2c62180-5fce-4124-b838-e37365bd6db6
   Nodes:
   - Guid: 116917f5-2d17-47f4-8030-76c6415234cb
     Position: {x: 2.4, y: -127.2}
@@ -184,9 +184,9 @@ MonoBehaviour:
     _textValues:
     - 'string name = "The Astronomer";
 
-      Notes.Journal j = Utility.Toolbox.Instance.Journal;'
+      Notes.Journal journal = Utility.Toolbox.Instance.Journal;'
   - Guid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
-    Position: {x: 304.8, y: -26.4}
+    Position: {x: 304.8, y: -26.400002}
     Type: 4
     _textKeys:
     - DialogueText
@@ -233,7 +233,7 @@ MonoBehaviour:
       I asked what happened he acted somewhat skilamalink.
     - ${name}
   - Guid: fa5f0095-9d3e-4f4c-845d-25eefcbcf9f2
-    Position: {x: 4303.2, y: -421.59998}
+    Position: {x: 4303.2, y: -421.6}
     Type: 4
     _textKeys:
     - DialogueText
@@ -252,7 +252,7 @@ MonoBehaviour:
       I asked what happened he acted somewhat skilamalink.
     - ${name}
   - Guid: 06dd7460-0954-46c8-9485-fb594e0878dc
-    Position: {x: 2924.8, y: -26.4}
+    Position: {x: 2924.8, y: -26.400002}
     Type: 4
     _textKeys:
     - DialogueText
@@ -263,7 +263,7 @@ MonoBehaviour:
       about it describes this whole manor.
     - ${name}
   - Guid: b1c793f8-e2cb-46ed-bf2f-4ad9c50c0b94
-    Position: {x: 2925.6, y: 340.80002}
+    Position: {x: 2925.6, y: 340.8}
     Type: 4
     _textKeys:
     - DialogueText
@@ -273,7 +273,7 @@ MonoBehaviour:
       I asked what happened he acted somewhat skilamalink.
     - ${name}
   - Guid: 0611dee7-8668-445c-b32d-d273d9354c40
-    Position: {x: 2924.8, y: 1133.6}
+    Position: {x: 2924.8, y: 1133.6001}
     Type: 4
     _textKeys:
     - DialogueText
@@ -302,7 +302,7 @@ MonoBehaviour:
       about it describes this whole manor.
     - ${name}
   - Guid: 922c28f3-6d50-40b9-95bb-50f6b98a7fa9
-    Position: {x: 2924.8, y: 761.60004}
+    Position: {x: 2924.8, y: 761.6}
     Type: 4
     _textKeys:
     - DialogueText
@@ -313,14 +313,14 @@ MonoBehaviour:
       about it describes this whole manor.
     - ${name}
   - Guid: c1b5c562-0429-4dc6-a8dd-6234469dee05
-    Position: {x: 1381.6, y: -268.8}
+    Position: {x: 1381.6, y: -268.80002}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - journal.AddEntry("The Astronomer was in the infirmary.");
   - Guid: 76413fd5-4d26-495e-9acf-62d2f0584364
-    Position: {x: 4258.4, y: 260.80002}
+    Position: {x: 4258.4, y: 260.8}
     Type: 4
     _textKeys:
     - DialogueText
@@ -331,7 +331,7 @@ MonoBehaviour:
       about it describes this whole manor.
     - ${name}
   - Guid: dda81325-3eb8-4c52-b8eb-29a55449c8a0
-    Position: {x: 4326.4, y: 577.60004}
+    Position: {x: 4326.4, y: 577.6}
     Type: 64
     _textKeys:
     - Code
@@ -345,7 +345,7 @@ MonoBehaviour:
     _textValues:
     - journal.AddEntry("The Astronomer was in the infirmary.");
   - Guid: 2eea8c57-b35a-4c70-bf76-973ace839357
-    Position: {x: 4368.8, y: 1483.2}
+    Position: {x: 4368.8, y: 1483.2001}
     Type: 64
     _textKeys:
     - Code
@@ -359,7 +359,7 @@ MonoBehaviour:
     _textValues:
     - journal.AddEntry("The Astronomer was in the infirmary.");
   - Guid: 79c3b494-7bef-4b66-8aea-60a52b0f6fd9
-    Position: {x: 1996, y: 370.40002}
+    Position: {x: 1996, y: 370.4}
     Type: 64
     _textKeys:
     - Code

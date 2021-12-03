@@ -19,7 +19,7 @@ namespace DialogueSystem.Code
         // Variables //
         // Variable(s) From Node: 116917f5-2d17-47f4-8030-76c6415234cb //
 string name = "The Astronomer";
-Notes.Journal j = Utility.Toolbox.Instance.Journal;
+Notes.Journal journal = Utility.Toolbox.Instance.Journal;
 
 
         public void Start()
