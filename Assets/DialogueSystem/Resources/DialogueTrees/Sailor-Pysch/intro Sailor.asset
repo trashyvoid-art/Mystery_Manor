@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: intro Sailor
+  m_EditorClassIdentifier: 
+  DialogueName: intro Sailor
+  EntryPointGUID: e9fe1547-cf1f-49f6-bf73-8e2c522586e7
+  NodeLinks:
+  - BaseNodeGuid: e9fe1547-cf1f-49f6-bf73-8e2c522586e7
+    PortName: Next
+    PortGUID: af385c9f-af57-4706-af41-b381d21a79eb
+    Condition: 
+    TargetNodeGuid: 8b93e182-6651-4138-beaa-08c2408fb3b3
+  - BaseNodeGuid: 8b93e182-6651-4138-beaa-08c2408fb3b3
+    PortName: Next
+    PortGUID: bc78b0c7-6e54-46cc-b0df-4fa36414699b
+    Condition: 
+    TargetNodeGuid: 79e9b2e8-4050-426f-a8af-53d16a2f174c
+  - BaseNodeGuid: 79e9b2e8-4050-426f-a8af-53d16a2f174c
+    PortName: Next
+    PortGUID: 47d997c8-e6bc-4312-8688-6edd41effd71
+    Condition: 
+    TargetNodeGuid: d580e0b4-67ef-4f31-9d41-8b26c820f83a
+  - BaseNodeGuid: d580e0b4-67ef-4f31-9d41-8b26c820f83a
+    PortName: Next
+    PortGUID: 6305d69f-ccc5-4c33-8dea-e60e8f12c677
+    Condition: 
+    TargetNodeGuid: 58112b1e-7e68-4408-b0e9-c9d0487a5d21
+  Nodes:
+  - Guid: 1a252abf-f61f-4743-b78d-a4fcfd1eb621
+    Position: {x: -12.8, y: -164.8}
+    Type: 16
+    _textKeys:
+    - Code
+    _textValues:
+    - string name = "The Sailor";
+  - Guid: 8b93e182-6651-4138-beaa-08c2408fb3b3
+    Position: {x: 346.4, y: 17.600002}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - What a wondrous creature!
+    - ${name}
+  - Guid: 79e9b2e8-4050-426f-a8af-53d16a2f174c
+    Position: {x: 747.2, y: 36.8}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - You know I once saw something similar while sailing off the coast of the Solomon
+      Islands.
+    - ${name}
+  - Guid: d580e0b4-67ef-4f31-9d41-8b26c820f83a
+    Position: {x: 1476, y: 36.8}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - See I had taken a job from a mysterious fellow claiming to be searching for
+      the sunken ship of a distant relative.
+    - ${name}
+  - Guid: 58112b1e-7e68-4408-b0e9-c9d0487a5d21
+    Position: {x: 2290.4, y: 36.8}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - "Dreadful weather that night, almost like a warming from Mother Nature\u2026"
+    - ${name}

@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: Accusations
+  m_EditorClassIdentifier: 
+  DialogueName: Accusations
+  EntryPointGUID: 1a900f89-6e20-44a1-b0b6-a8db81c91400
+  NodeLinks:
+  - BaseNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
+    PortName: The Adventurer
+    PortGUID: fb20b131-50ce-4047-8f78-0955195ca66e
+    Condition: 
+    TargetNodeGuid: 19540e13-fc69-4df1-885c-468313b102ba
+  - BaseNodeGuid: 19540e13-fc69-4df1-885c-468313b102ba
+    PortName: Next
+    PortGUID: 88bb56f0-cbff-4877-ba4d-e55cdea87c0d
+    Condition: 
+    TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
+  - BaseNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
+    PortName: The Doctor
+    PortGUID: a64cc014-c531-437c-92f4-ed92b41fdb85
+    Condition: 
+    TargetNodeGuid: 28f401ce-4763-4142-97ed-f6f779bc8c3c
+  - BaseNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
+    PortName: The Astronomer
+    PortGUID: 3e204603-1e42-4859-b102-2d9aab786a37
+    Condition: 
+    TargetNodeGuid: f9818342-a7d3-4cfc-ba8f-64bd7818086b
+  - BaseNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
+    PortName: Ms. Scheele
+    PortGUID: 2c942523-7ff2-403f-b618-5bf3337bc3b3
+    Condition: 
+    TargetNodeGuid: 255a3504-5ead-4135-b03f-4da3577e028d
+  - BaseNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
+    PortName: The Sailor
+    PortGUID: dc5225ae-659e-4077-a939-dd0ce33cee94
+    Condition: 
+    TargetNodeGuid: 7fbcfaae-14b8-44b8-bcb9-eb84890e2f3e
+  - BaseNodeGuid: 28f401ce-4763-4142-97ed-f6f779bc8c3c
+    PortName: Next
+    PortGUID: 17c3c544-d76d-43cc-a8a4-589c325eb7f1
+    Condition: 
+    TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
+  - BaseNodeGuid: f9818342-a7d3-4cfc-ba8f-64bd7818086b
+    PortName: Next
+    PortGUID: 6dcf6dfa-0d92-4d05-bd0f-a6d1a298c04e
+    Condition: 
+    TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
+  - BaseNodeGuid: 255a3504-5ead-4135-b03f-4da3577e028d
+    PortName: Next
+    PortGUID: 086daf37-f719-47b3-95bb-06b3207a0722
+    Condition: 
+    TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
+  - BaseNodeGuid: 0e1dd970-9a82-4f4f-b353-6041cfbfb357
+    PortName: Next
+    PortGUID: 7d53ff03-0dd2-41ef-b603-a646d4ae32f9
+    Condition: 
+    TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
+  - BaseNodeGuid: 1a900f89-6e20-44a1-b0b6-a8db81c91400
+    PortName: Next
+    PortGUID: 53e10b97-f5d7-4e7e-948d-9371c364ae3a
+    Condition: 
+    TargetNodeGuid: 0e1dd970-9a82-4f4f-b353-6041cfbfb357
+  Nodes:
+  - Guid: 44ea825c-02aa-4942-a11c-5767b6404ae6
+    Position: {x: 14.4, y: -409.59998}
+    Type: 16
+    _textKeys:
+    - Code
+    _textValues:
+    - 'string name = ''The Paleontologist'''';
+
+      string name2 = ''The Adventurer'';
+
+      string
+      name3 = ''The Doctor'';
+
+      string name4 = ''The Astronomer'';
+
+      string
+      name5 = ''Ms. Scheele'';
+
+      string name6 = ''The Sailor'';'
+  - Guid: 0e1dd970-9a82-4f4f-b353-6041cfbfb357
+    Position: {x: 256, y: 0}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - 'After questioning all of you and gathering evidence, I have deternimed who
+      killed The Psychologist. '
+    - ${name}
+  - Guid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
+    Position: {x: 964, y: 0}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - The murderer is...
+    - ${name}
+  - Guid: 28f401ce-4763-4142-97ed-f6f779bc8c3c
+    Position: {x: 1905.6, y: -145.6}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - If you truly believe I did this perhaps you should reexamine your notes.
+    - ${name3}
+  - Guid: f9818342-a7d3-4cfc-ba8f-64bd7818086b
+    Position: {x: 1905.6, y: 163.2}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Honestly I am a little offended that you think I would hurt anyone.
+    - ${name4}
+  - Guid: 255a3504-5ead-4135-b03f-4da3577e028d
+    Position: {x: 1905.6, y: 557.60004}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Unfortunately, I am afraid you have missed the mark with this one.
+    - ${name5}
+  - Guid: 7fbcfaae-14b8-44b8-bcb9-eb84890e2f3e
+    Position: {x: 1905.6, y: 875.2}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - "I\u2019m sorry, I thought she... I was just so angry and I lost control. I
+      I'm so sorry."
+    - ${name6}
+  - Guid: 19540e13-fc69-4df1-885c-468313b102ba
+    Position: {x: 1905.6, y: -499.19998}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - "Me? Kill the Psychiatrist? HA! I would never do such a thing, in fact I am
+      the least likely to do so! I\u2019ll have you know that murder goes against
+      everything I believe in! I always say only the poorest of adventurers resort
+      to violence."
+    - ${name2}

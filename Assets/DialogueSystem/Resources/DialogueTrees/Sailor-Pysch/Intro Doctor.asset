@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: Intro Doctor
+  m_EditorClassIdentifier: 
+  DialogueName: Intro Doctor
+  EntryPointGUID: 87174ee0-bcc5-4934-93a6-c2141c3005ba
+  NodeLinks:
+  - BaseNodeGuid: 87174ee0-bcc5-4934-93a6-c2141c3005ba
+    PortName: Next
+    PortGUID: a6e3290b-c610-4fa2-b5bc-c9e3d0a4b833
+    Condition: 
+    TargetNodeGuid: fecb760c-e075-4cdd-a0e1-3d3e775092a3
+  - BaseNodeGuid: fecb760c-e075-4cdd-a0e1-3d3e775092a3
+    PortName: Next
+    PortGUID: b84371bd-2cc0-446c-b8e1-75694c8e5943
+    Condition: 
+    TargetNodeGuid: d89c30dd-720f-4f6e-b349-557850ddd5b3
+  - BaseNodeGuid: d89c30dd-720f-4f6e-b349-557850ddd5b3
+    PortName: Next
+    PortGUID: ab30ee24-a96a-4442-aace-80eef8d3f9c8
+    Condition: 
+    TargetNodeGuid: 319c308c-5f84-4ba4-91e0-c02d546d257c
+  Nodes:
+  - Guid: 2e0e9d65-1dc6-4d19-8eba-14d20e96b505
+    Position: {x: 6.4, y: -117.600006}
+    Type: 16
+    _textKeys:
+    - Code
+    _textValues:
+    - string name = "The Doctor";
+  - Guid: fecb760c-e075-4cdd-a0e1-3d3e775092a3
+    Position: {x: 308.8, y: 8.800001}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Good evening? Maybe after a drink or two.
+    - ${name}
+  - Guid: d89c30dd-720f-4f6e-b349-557850ddd5b3
+    Position: {x: 700.8, y: 34.4}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A doctor's work in never done you know, and a nice drink is one of the few
+      indulgences I partake in after a long day.
+    - ${name}
+  - Guid: 319c308c-5f84-4ba4-91e0-c02d546d257c
+    Position: {x: 1550.4, y: 35.2}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Quality liquor is comparable to a work of art in that they both are made up
+      of subtle notes which can inspire a world of emotions in an individual.
+    - ${name}
