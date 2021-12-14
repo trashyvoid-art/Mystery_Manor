@@ -4,6 +4,7 @@ using UnityEngine;
 using DialogueSystem;
 using TMPro;
 using System.Linq;
+using UnityEngine.Events;
 
 public class DialogueController : MonoBehaviour
 {
@@ -20,6 +21,12 @@ public class DialogueController : MonoBehaviour
     List<TextMeshProUGUI> optionText;
     [SerializeField]
     GameObject noOptionsNext;
+
+
+    [SerializeField]
+    private UnityEvent OnConvoStart;
+    [SerializeField]
+    private UnityEvent OnConvoEnd;
 
     List<string> optionGuids;
 
@@ -64,6 +71,7 @@ public class DialogueController : MonoBehaviour
             manager = newManager;
         if (manager != null)
         {
+            OnConvoStart.Invoke();
             dialogueParent.SetActive(true);
             RenderCurrentNode();
         }
@@ -72,6 +80,7 @@ public class DialogueController : MonoBehaviour
     public void EndConversation() 
     {
         dialogueParent.SetActive(false);
+        OnConvoEnd.Invoke();
     }
 
     public void Next(int optionChoice = -1) 
