@@ -2,15 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Environment;
+using UnityEngine.Events;
 
 namespace Sound
 {
     [RequireComponent(typeof(AudioPlayer))]
     public class FootstepController : MonoBehaviour
     {
+        [Tooltip("The speed at which steps are played")]
         [SerializeField]
         public float StepsRate = 1;
-        [Tooltip("Adjust so that 'IsGrounded' is false durring a jump")]
+        [Tooltip("Adjust so that 'IsGrounded' is false during a jump")]
         [SerializeField]
         private float GroundCheckDistance = 1.5f;
 
@@ -20,6 +22,12 @@ namespace Sound
         private float speed;
         [SerializeField]
         bool isGrounded;
+
+        [SerializeField]
+        public UnityEvent OnStep;
+        [SerializeField]
+        float timeOffset = 0.01f;
+
         private AudioPlayer player;
 
         // Start is called before the first frame update
@@ -29,6 +37,10 @@ namespace Sound
             player = GetComponent<AudioPlayer>();
             player.enabled = true;
             player.DelayAfter = true;
+            player.OnPlay.AddListener(() => 
+            {
+                Invoke("RunOnStep", timeOffset);
+            });
         }
 
         // Update is called once per frame
@@ -42,9 +54,14 @@ namespace Sound
             if (isGrounded && speed > 0.001f)
             {
                 CheckFloorType();
-                player.Sound.Delay.Value = StepsRate;
+                player.Sound.Delay = StepsRate;
                 player.Play();
             }
+        }
+
+        void RunOnStep() 
+        {
+            OnStep.Invoke();
         }
 
         private bool GoundCheck() 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Sound
 {
@@ -17,6 +18,19 @@ namespace Sound
         public BasicSound Sound;
 
         public bool DelayAfter = false;
+        public UnityEvent OnPlay;
+
+        private float _playerVolume = 1;
+        private float _clipVolume = 1;
+        public float Volume
+        {
+            get => _playerVolume;
+            set
+            { 
+                _playerVolume = Mathf.Clamp(value, 0, 1);
+                source.volume = Mathf.Clamp(_clipVolume * _playerVolume, 0, 1);
+            }
+        }
 
         public void Pause()
         {
@@ -28,10 +42,27 @@ namespace Sound
         {
             source.pitch = Sound.Pitch.Read();
             _delay = Sound.Delay.Read();
+            _clipVolume = Sound.Volume.Read();
+            AudioClip clip = Sound.Clip;
             if (_delay <= 0)
-                source.PlayOneShot(Sound.Clip, Sound.Volume.Read());
-            else if(!IsDelayed)
+            {
+                if (clip != null)
+                {
+                    source.PlayOneShot(clip, Mathf.Clamp(_clipVolume * Volume, 0, 1));
+                    OnPlay.Invoke();
+                }
+            }
+            else if (!IsDelayed)
+            {
                 StartCoroutine("PlayDelay");
+            }
+        }
+
+
+        public void PlayFrom(string repository) 
+        {
+            Sound.LoadAudio(repository);
+            Play();
         }
 
         private IEnumerator PlayDelay() 
@@ -40,8 +71,13 @@ namespace Sound
             if(!DelayAfter)
                 yield return new WaitForSeconds(_delay);
 
-            if(IsDelayed)
-                source.PlayOneShot(Sound.Clip, Sound.Volume.Read());
+            AudioClip clip = Sound.Clip;
+            if (IsDelayed)
+                if (clip != null)
+                {
+                    source.PlayOneShot(clip, Sound.Volume.Read());
+                    OnPlay.Invoke();
+                }
 
             if(DelayAfter)
                 yield return new WaitForSeconds(_delay);

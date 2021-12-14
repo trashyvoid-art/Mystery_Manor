@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using Newtonsoft.Json.Linq;
+using System.Linq;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
 
-namespace Importing 
+namespace Importing
 {
-    public static class Importer 
+    public static class Importer
     {
         /// <summary>
         /// Grabs and records all files from a parent directory.
@@ -22,7 +24,7 @@ namespace Importing
         /// <param name="db"></param>
         /// <param name="topLevelLocation"></param>
         /// <returns></returns>
-        public static Database Import(string parentFolder, string fileSearchPattern = null, Database db = null, string topLevelLocation = null) 
+        public static Database Import(string parentFolder, Database db = null, string topLevelLocation = null, params string[] fileExtensions)
         {
             if (db == null)
                 db = ScriptableObject.CreateInstance<Database>();
@@ -36,22 +38,33 @@ namespace Importing
             if (!Directory.Exists(path))
                 return db;
 
-            string[] files;
+            string[] preFiles = Directory.GetFiles(path);
+            List<string> files = new List<string>();
+            foreach (string file in preFiles)
+                if (fileExtensions.Any(x => file.EndsWith(x)))
+                    files.Add(file);
+            string[] refrences = Directory.GetFiles(path, "*.ref");
+            foreach (string reff in refrences)
+            {
 
-            if (string.IsNullOrEmpty(fileSearchPattern))
-                files = Directory.GetFiles(path);
-            else
-                files = Directory.GetFiles(path, fileSearchPattern);
+                string newFile = ResolveRef(reff);
+                if (string.IsNullOrWhiteSpace(newFile))
+                    continue;
+                if (fileExtensions.Any(x => newFile.EndsWith(x)))
+                {
+                    files.Add(newFile);
+                }
+            }
 
             string parent = SanitizePath(parentFolder);
-            if (files.Length > 0)
+            if (files.Count > 0)
                 if (!db.Folders.ContainsKey(parent))
-                    db.Folders.Add(parent, new Folder() 
+                    db.Folders.Add(parent, new Folder()
                     {
                         FolderName = parent
                     });
 
-            foreach (string file in files) 
+            foreach (string file in files)
             {
                 db.Folders[parent].Files.Add(new File()
                 {
@@ -61,10 +74,10 @@ namespace Importing
             }
 
             string[] directories = Directory.GetDirectories(path);
-            foreach (string dir in directories) 
+            foreach (string dir in directories)
             {
                 string newPath = SanitizePath(Path.Combine(parent, Path.GetFileName(dir)));
-                Import(newPath, fileSearchPattern, db, topLevelLocation);
+                Import(newPath, db, topLevelLocation, fileExtensions);
             }
 
             return db;
@@ -77,24 +90,24 @@ namespace Importing
         /// <param name="location"></param>
         /// <param name="database"></param>
         /// <param name="name"
-        public static void SaveDatabase(Database database, string location, string name) 
+        public static void SaveDatabase(Database database, string location, string name)
         {
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
 
             database.Serialize();
 
             if (AssetDatabase.IsValidFolder(location))
             {
-                AssetDatabase.CreateAsset(database, $"{SanitizePath(Path.Combine(location, name))}.asset");
+                AssetDatabase.CreateAsset(database, $"{ForwardSlashPath(Path.Combine(location, name))}.asset");
                 AssetDatabase.SaveAssets();
                 Debug.Log($"Database \"{name}.asset\" has been saved at \"{location}\".");
             }
-            else 
+            else
             {
                 Debug.LogError($"Could not save Database {name} because \"{location}\" does not exist.");
             }
 
-        #endif
+#endif
         }
 
         /// <summary>
@@ -103,21 +116,37 @@ namespace Importing
         /// <param name="resourcePath"></param>
         /// <param name="fileName"></param>
         /// <returns></returns>
-        public static Database LoadDatabase(string resourcePath, string fileName) 
+        public static Database LoadDatabase(string resourcePath, string fileName)
         {
             Database db = Resources.Load<Database>(SanitizePath(Path.Combine(resourcePath, fileName)));
-            if (db == null) 
+            if (db == null)
             {
-                Debug.LogError($"Could not find the Database \"{fileName}\" at \"{resourcePath}\". Is every");
+                Debug.LogError($"Could not find the Database \"{fileName}\" at \"{resourcePath}\". Is everything spelled correctly?");
                 return null;
             }
             db.DeSerialize();
             return db;
         }
 
+        private static string ResolveRef(string refPath)
+        {
+            if (!System.IO.File.Exists(refPath))
+                return string.Empty;
+            string jsonText = System.IO.File.ReadAllText(refPath);
+            JObject jsonObj = (JObject)JToken.Parse(jsonText);
+            if (jsonObj.ContainsKey("Path"))
+                return (string)jsonObj["Path"];
+            return string.Empty;
+        }
+
         private static string SanitizePath(string s)
         {
             return s.Replace('/', '\\');
+        }
+
+        private static string ForwardSlashPath(string s)
+        {
+            return s.Replace('\\', '/');
         }
     }
 }
