@@ -17,7 +17,7 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 70b19a79-4d8d-4a9b-9c2a-2c0cc53c42a0
     PortName: Next
-    PortGUID: 975cb4dd-7a32-4075-8144-752739699f2f
+    PortGUID: d42df1b0-0b83-47b3-aeb8-1fb91e9b6b3d
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
@@ -50,38 +50,38 @@ MonoBehaviour:
     PortGUID: 0291ff77-c9d0-449c-8ea1-8ac119450c35
     Condition: 
     TargetNodeGuid: 354f6bf6-0004-4894-a2af-0dc909fc0396
+  - BaseNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
+    PortName: Next
+    PortGUID: b7487538-0c9f-4ed1-b439-217850c0d839
+    Condition: 
+    TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
     PortName: Next
-    PortGUID: ee87ca54-cd7b-4389-86e1-6746add5c6f9
+    PortGUID: 510a2a91-8e19-4bac-becb-4653b53428a0
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: b126805d-ae45-46ea-b5e8-37819afa75cf
     PortName: Next
-    PortGUID: 5ffec21b-1242-4c91-88ed-4ef7dab0b437
+    PortGUID: 93e887ea-db4a-4e40-a2af-2b4921ec6282
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
     PortName: Next
-    PortGUID: 647621f1-88a5-417f-842f-316982cf5525
-    Condition: 
-    TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
-  - BaseNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
-    PortName: Next
-    PortGUID: c5eba2d6-595b-4800-97b4-be51ab615187
+    PortGUID: c40fd4e1-ce0c-422e-b97a-2b2360e106f4
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   Nodes:
   - Guid: bff4efe7-0ca3-468c-ae35-cefbbd81a662
-    Position: {x: -56.8, y: -219.2}
+    Position: {x: -57, y: -219}
     Type: 16
     _textKeys:
     - Code
     _textValues:
     - 'string name = "The Adventurer";
 
-      Notes.Journal j = Utility.Toolbox.Instance.Journal;'
+      Notes.Journal journal = Utility.Toolbox.Instance.Journal;'
   - Guid: e2a31422-f166-4498-b906-c8cfd8eb5a35
-    Position: {x: 312.8, y: 15.200001}
+    Position: {x: 313, y: 15}
     Type: 4
     _textKeys:
     - DialogueText
@@ -90,7 +90,7 @@ MonoBehaviour:
     - 
     - ${name}
   - Guid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
-    Position: {x: 1772, y: 969.60004}
+    Position: {x: 1772, y: 970}
     Type: 8
     _textKeys:
     - DialogueText
@@ -101,7 +101,7 @@ MonoBehaviour:
       his head hitting my nose and so I took a quick trip to the infirmary.
     - ${name}
   - Guid: 452f6766-7f66-4471-956e-018fdc5a012b
-    Position: {x: 1772, y: -538.39996}
+    Position: {x: 1772, y: -538}
     Type: 8
     _textKeys:
     - DialogueText
@@ -111,21 +111,21 @@ MonoBehaviour:
       drink with him. Who could blame him though, I am incredible.
     - ${name}
   - Guid: 354f6bf6-0004-4894-a2af-0dc909fc0396
-    Position: {x: 1777.6, y: 657.60004}
+    Position: {x: 1778, y: 658}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - journal.AddEntry("Incident during dinner involving The Psychologist.");
   - Guid: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb
-    Position: {x: 1772, y: -332.8}
+    Position: {x: 1772, y: -333}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - journal.AddEntry("The Adventurer and The Doctor were in the bar together.");
   - Guid: b126805d-ae45-46ea-b5e8-37819afa75cf
-    Position: {x: 1772, y: -15.199999}
+    Position: {x: 1772, y: -15}
     Type: 8
     _textKeys:
     - DialogueText
@@ -135,7 +135,7 @@ MonoBehaviour:
       I solved an ancient King's cipher in only two hours?
     - ${name}
   - Guid: adead8f6-1f17-4475-8b27-c12b070f1487
-    Position: {x: 1777.6, y: 321.6}
+    Position: {x: 1778, y: 322}
     Type: 8
     _textKeys:
     - DialogueText

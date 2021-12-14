@@ -17,7 +17,7 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 1c7f12ca-0c2f-4c98-ba36-bf9e1a22694a
     PortName: Next
-    PortGUID: 1e82da1a-c100-4d99-89b5-52192e5b11df
+    PortGUID: d820b3b3-8395-42d0-b455-b1d23ef665a8
     Condition: 
     TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
   - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
@@ -47,22 +47,22 @@ MonoBehaviour:
     TargetNodeGuid: 86cb3617-6c29-4d0c-bb09-d833c6db40f2
   - BaseNodeGuid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
     PortName: Next
-    PortGUID: df30fc26-ab8a-4930-9161-5aa580b71332
+    PortGUID: 750e4e6a-73bd-4622-b199-1df45d535a3a
     Condition: 
     TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
   - BaseNodeGuid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
     PortName: Next
-    PortGUID: 6b4ced52-92a6-4088-bc57-6d6e18f11330
+    PortGUID: cf719f3e-c9a7-4d1f-9e5a-1e7681786728
     Condition: 
     TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
   - BaseNodeGuid: 77afb165-466d-4bfd-b6bd-0187f71ce3d6
     PortName: Next
-    PortGUID: 5a38d8ed-c1f1-4db0-b277-1c85e42b5a1e
+    PortGUID: e17605fb-3688-471e-bc43-de1167134537
     Condition: 
     TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
   Nodes:
   - Guid: de22f680-f6f2-4185-b948-014f88d222ee
-    Position: {x: 236, y: -63.2}
+    Position: {x: 236, y: -63}
     Type: 4
     _textKeys:
     - DialogueText
@@ -71,7 +71,7 @@ MonoBehaviour:
     - 
     - ${name}
   - Guid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
-    Position: {x: 1003.2, y: -551.2}
+    Position: {x: 1003, y: -551}
     Type: 8
     _textKeys:
     - DialogueText
@@ -80,7 +80,7 @@ MonoBehaviour:
     - I was with you dear in the Entrance Hall don't you remember?
     - ${name}
   - Guid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
-    Position: {x: 1003.2, y: 470.40002}
+    Position: {x: 1003, y: 470}
     Type: 8
     _textKeys:
     - DialogueText
@@ -90,16 +90,16 @@ MonoBehaviour:
       one point.
     - ${name}
   - Guid: bc34f003-a4f8-48bd-897a-d7f0e226a48d
-    Position: {x: 48, y: -301.59998}
+    Position: {x: 48, y: -302}
     Type: 16
     _textKeys:
     - Code
     _textValues:
     - 'string name = "Ms. Scheele";
 
-      Notes.Journal j = Utility.Toolbox.Instance.Journal;'
+      Notes.Journal journal = Utility.Toolbox.Instance.Journal;'
   - Guid: 77afb165-466d-4bfd-b6bd-0187f71ce3d6
-    Position: {x: 1202.4, y: -122.399994}
+    Position: {x: 1202, y: -122}
     Type: 8
     _textKeys:
     - DialogueText
@@ -109,14 +109,14 @@ MonoBehaviour:
       person.
     - ${name}
   - Guid: 86cb3617-6c29-4d0c-bb09-d833c6db40f2
-    Position: {x: 1003.2, y: -313.59998}
+    Position: {x: 1003, y: -314}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - journal.AddEntry("Ms. Scheele was in the entrance hall.");
   - Guid: 52ed8819-14ba-4d7e-a499-688945fa8bff
-    Position: {x: 993.6, y: 718.4}
+    Position: {x: 994, y: 718}
     Type: 64
     _textKeys:
     - Code

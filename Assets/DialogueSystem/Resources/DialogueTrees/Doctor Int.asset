@@ -15,6 +15,11 @@ MonoBehaviour:
   DialogueName: Doctor Int
   EntryPointGUID: f935f95a-056e-469d-a1bc-59c1b21cd217
   NodeLinks:
+  - BaseNodeGuid: f935f95a-056e-469d-a1bc-59c1b21cd217
+    PortName: Next
+    PortGUID: f068e446-3775-440c-98d4-f62c1cbf63a4
+    Condition: 
+    TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     PortName: Where were you at the time of the murder?
     PortGUID: 111235d5-bb62-4d19-946e-762bf1a280be
@@ -45,23 +50,18 @@ MonoBehaviour:
     PortGUID: 87f98752-1728-4dc0-b3c9-08f1ca13cbc7
     Condition: 
     TargetNodeGuid: 0eb957eb-90a1-4f98-8ce3-a45a7b19a437
-  - BaseNodeGuid: f935f95a-056e-469d-a1bc-59c1b21cd217
-    PortName: Next
-    PortGUID: faf5f460-3df3-4173-b9da-403fd962062a
-    Condition: 
-    TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
   Nodes:
   - Guid: dad830d9-4c63-415e-bc73-4855505290b6
-    Position: {x: -9.6, y: -118.399994}
+    Position: {x: -10, y: -118}
     Type: 16
     _textKeys:
     - Code
     _textValues:
     - 'string name = "The Doctor";
 
-      Notes.Journal j = Utility.Toolbox.Instance.Journal;'
+      Notes.Journal journal = Utility.Toolbox.Instance.Journal;'
   - Guid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
-    Position: {x: 263.2, y: 0}
+    Position: {x: 263, y: 0}
     Type: 4
     _textKeys:
     - DialogueText
@@ -70,7 +70,7 @@ MonoBehaviour:
     - Dialogue Node
     - ${name}
   - Guid: df8e414a-fc3b-4c52-9536-63f100225349
-    Position: {x: 951.2, y: -459.19998}
+    Position: {x: 951, y: -459}
     Type: 8
     _textKeys:
     - DialogueText
@@ -79,14 +79,14 @@ MonoBehaviour:
     - I was in the bar with The Adventurer although I didn't pay him much attention.
     - ${name}
   - Guid: 5fbb3e87-1495-4bc5-a68e-00794003104b
-    Position: {x: 951.2, y: -210.40001}
+    Position: {x: 951, y: -210}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
   - Guid: 6b4b14f5-05b2-4964-8dff-abb430b56097
-    Position: {x: 951.2, y: 13.600002}
+    Position: {x: 951, y: 14}
     Type: 8
     _textKeys:
     - DialogueText
@@ -96,7 +96,7 @@ MonoBehaviour:
       stuck her nose in something that didn't concern her.
     - ${name}
   - Guid: 1ffe84e0-e844-4c0b-a072-c907c6b7972c
-    Position: {x: 951.2, y: 265.6}
+    Position: {x: 951, y: 266}
     Type: 8
     _textKeys:
     - DialogueText
@@ -105,7 +105,7 @@ MonoBehaviour:
     - No, now if you will excuse me...
     - ${name}
   - Guid: 1d86230b-750e-4f88-b898-f0e548a5ad4b
-    Position: {x: 951.2, y: 522.4}
+    Position: {x: 951, y: 522}
     Type: 8
     _textKeys:
     - DialogueText
@@ -115,7 +115,7 @@ MonoBehaviour:
       was I close enough to that obnoxious man for me to give him a nose bleed.
     - ${name}
   - Guid: 0eb957eb-90a1-4f98-8ce3-a45a7b19a437
-    Position: {x: 951.2, y: 748}
+    Position: {x: 951, y: 748}
     Type: 64
     _textKeys:
     - Code
