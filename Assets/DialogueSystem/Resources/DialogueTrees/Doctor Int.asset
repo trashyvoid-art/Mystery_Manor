@@ -17,42 +17,487 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: f935f95a-056e-469d-a1bc-59c1b21cd217
     PortName: Next
-    PortGUID: f068e446-3775-440c-98d4-f62c1cbf63a4
+    PortGUID: c3c1d5ab-62ea-42ae-b8ef-114aa1c13519
     Condition: 
     TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     PortName: Where were you at the time of the murder?
     PortGUID: 111235d5-bb62-4d19-946e-762bf1a280be
     Condition: 
-    TargetNodeGuid: df8e414a-fc3b-4c52-9536-63f100225349
-  - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
-    PortName: Do you know why someone would have wanted to hurt the victim?
-    PortGUID: c40c75f7-ca64-4e15-83da-2ba6315e5b36
-    Condition: 
-    TargetNodeGuid: 6b4b14f5-05b2-4964-8dff-abb430b56097
+    TargetNodeGuid: 5fbb3e87-1495-4bc5-a68e-00794003104b
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     PortName: Where were you at the time of the murder?
     PortGUID: 111235d5-bb62-4d19-946e-762bf1a280be
     Condition: 
-    TargetNodeGuid: 5fbb3e87-1495-4bc5-a68e-00794003104b
+    TargetNodeGuid: 34d216ed-3e24-41e2-b55f-70098edcf863
+  - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: c40c75f7-ca64-4e15-83da-2ba6315e5b36
+    Condition: 
+    TargetNodeGuid: cc7a7cc5-6ff2-4b5e-a540-68729d3fdafb
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     PortName: Do you have any other information about the case?
     PortGUID: 0bda6154-d9ad-4951-aca7-3576e844976e
     Condition: 
-    TargetNodeGuid: 1ffe84e0-e844-4c0b-a072-c907c6b7972c
+    TargetNodeGuid: 44e67144-06f7-4d57-9f06-1c02c493ce08
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     PortName: What do you know about the Adventurer's bloody nose?
     PortGUID: 87f98752-1728-4dc0-b3c9-08f1ca13cbc7
     Condition: 
-    TargetNodeGuid: 1d86230b-750e-4f88-b898-f0e548a5ad4b
+    TargetNodeGuid: a6728619-a21c-43b6-9222-366adbcef84f
+  - BaseNodeGuid: 34d216ed-3e24-41e2-b55f-70098edcf863
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: f1245363-a5d2-4d94-b2f2-ea07cc6a9bff
+    Condition: 
+    TargetNodeGuid: e1ab9f96-dd7c-4837-977f-58cca2ed471a
+  - BaseNodeGuid: 34d216ed-3e24-41e2-b55f-70098edcf863
+    PortName: Do you have any other information about the case?
+    PortGUID: 7e1a1685-52cc-4606-9301-0af8e013d287
+    Condition: 
+    TargetNodeGuid: d09c729e-f03f-45e0-8acc-a62892397910
+  - BaseNodeGuid: 34d216ed-3e24-41e2-b55f-70098edcf863
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 637132e8-ba2c-4fb2-be88-b02a3265195c
+    Condition: 
+    TargetNodeGuid: ffac6c85-7a84-401f-b985-7b58847cd904
+  - BaseNodeGuid: e1ab9f96-dd7c-4837-977f-58cca2ed471a
+    PortName: Do you have any other information about the case?
+    PortGUID: 1b8ae4f5-7eb9-40db-8255-c3059199b15c
+    Condition: 
+    TargetNodeGuid: fae63bf8-ceca-4d9a-a460-6369217c3f02
+  - BaseNodeGuid: e1ab9f96-dd7c-4837-977f-58cca2ed471a
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 7f859d06-943a-42c6-a86d-374ce5ab410a
+    Condition: 
+    TargetNodeGuid: fd996c69-e7f0-4e7a-b45c-0617429dcfb3
+  - BaseNodeGuid: cc7a7cc5-6ff2-4b5e-a540-68729d3fdafb
+    PortName: Where were you at the time of the murder?
+    PortGUID: f4407ebe-7372-4d24-afe3-bdd2fda3361a
+    Condition: 
+    TargetNodeGuid: 5532e760-4635-46f4-b488-351582b46058
+  - BaseNodeGuid: cc7a7cc5-6ff2-4b5e-a540-68729d3fdafb
+    PortName: Do you have any other information about the case?
+    PortGUID: 15e44871-2bb9-4412-8491-8c899890d4ac
+    Condition: 
+    TargetNodeGuid: 8ec65d0b-c28a-4d72-bcbe-3cb56190601c
+  - BaseNodeGuid: cc7a7cc5-6ff2-4b5e-a540-68729d3fdafb
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 206e262d-b23f-47f4-a51a-74befb9d2fef
+    Condition: 
+    TargetNodeGuid: c04e9e38-93e6-4e3d-a14a-0c1a90f54c95
+  - BaseNodeGuid: 5532e760-4635-46f4-b488-351582b46058
+    PortName: Do you have any other information about the case?
+    PortGUID: c88f8ecb-0e04-49af-8774-a9e8a13cced6
+    Condition: 
+    TargetNodeGuid: 077bbd28-0565-4c1a-b02e-946afc518924
+  - BaseNodeGuid: 5532e760-4635-46f4-b488-351582b46058
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: c00afbc9-b00f-4c6b-b3fa-298545980b32
+    Condition: 
+    TargetNodeGuid: 4756f178-fc57-44e7-96a5-98e7ab7c39df
+  - BaseNodeGuid: 077bbd28-0565-4c1a-b02e-946afc518924
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 4737aa69-eba3-40f2-9034-04eefb42dc0d
+    Condition: 
+    TargetNodeGuid: 03dc2439-e69f-40a9-a6c4-4c631d06d29e
+  - BaseNodeGuid: fd996c69-e7f0-4e7a-b45c-0617429dcfb3
+    PortName: Do you have any other information about the case?
+    PortGUID: d5103218-39dd-4b25-8b0a-6c1cd99dadf4
+    Condition: 
+    TargetNodeGuid: e8d4ff8d-1d0b-4845-8c7e-f279e342ecd8
+  - BaseNodeGuid: fae63bf8-ceca-4d9a-a460-6369217c3f02
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 7e1d471b-4ae9-4a1b-ae5f-4a2c84a921d1
+    Condition: 
+    TargetNodeGuid: 9e26fc9c-fb84-4a02-8927-ffc7a4ae3e7a
+  - BaseNodeGuid: d09c729e-f03f-45e0-8acc-a62892397910
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 0370bcf7-7872-489b-bcb6-0121d1440ffa
+    Condition: 
+    TargetNodeGuid: 2278a922-b5f1-4cd5-9f45-582410b84525
+  - BaseNodeGuid: 2278a922-b5f1-4cd5-9f45-582410b84525
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: bb3ee7b6-780e-48e7-a0a0-4e797fde3250
+    Condition: 
+    TargetNodeGuid: 6cad2013-1a65-437d-8635-4c2ec74dcef2
+  - BaseNodeGuid: d09c729e-f03f-45e0-8acc-a62892397910
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 2e9c4fb1-a29d-4f1a-af3b-347eba4bc442
+    Condition: 
+    TargetNodeGuid: 40a7933c-4da0-44bb-88e1-5bb0b189a461
+  - BaseNodeGuid: 40a7933c-4da0-44bb-88e1-5bb0b189a461
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 0a7fdfa9-3062-423c-9c9b-a1aef5ab2842
+    Condition: 
+    TargetNodeGuid: 8a4fa5ff-a654-4970-864b-54277e6bc427
+  - BaseNodeGuid: ffac6c85-7a84-401f-b985-7b58847cd904
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 8abfeea0-0554-49a9-b61c-2114e6751b51
+    Condition: 
+    TargetNodeGuid: 32a5d767-ddd6-4ac0-98cb-8f807023af30
+  - BaseNodeGuid: 32a5d767-ddd6-4ac0-98cb-8f807023af30
+    PortName: Do you have any other information about the case?
+    PortGUID: 447f56cd-c65d-46fb-934f-42395b93dcdd
+    Condition: 
+    TargetNodeGuid: f5f164a8-98b7-44bb-8b2a-c353f4321131
+  - BaseNodeGuid: fa58324d-83b3-4979-9d5f-7af30c01378e
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 0f98bff1-6e6a-4b50-837e-e4a08862d205
+    Condition: 
+    TargetNodeGuid: a1ba6fb7-b2fa-4d05-9f47-04794e94e971
+  - BaseNodeGuid: ffac6c85-7a84-401f-b985-7b58847cd904
+    PortName: Do you have any other information about the case?
+    PortGUID: 96d8c9c9-dbf0-4129-afc5-2713af2e7b0e
+    Condition: 
+    TargetNodeGuid: fa58324d-83b3-4979-9d5f-7af30c01378e
+  - BaseNodeGuid: 8ec65d0b-c28a-4d72-bcbe-3cb56190601c
+    PortName: Where were you at the time of the murder?
+    PortGUID: 3b6d91b6-9ac4-42e4-970b-c294a16f5271
+    Condition: 
+    TargetNodeGuid: bb867fd2-e553-4301-bbc0-1f05b041b108
+  - BaseNodeGuid: 8ec65d0b-c28a-4d72-bcbe-3cb56190601c
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 8c020593-17e9-4d10-a3ad-a7bf9a849a2c
+    Condition: 
+    TargetNodeGuid: f4507aee-9145-421d-8039-bd87db76f989
+  - BaseNodeGuid: c04e9e38-93e6-4e3d-a14a-0c1a90f54c95
+    PortName: Where were you at the time of the murder?
+    PortGUID: a06e9a01-feb6-4415-81da-f6dea281f307
+    Condition: 
+    TargetNodeGuid: 4c8c8347-239b-415b-a9d9-c6d7e135555d
+  - BaseNodeGuid: c04e9e38-93e6-4e3d-a14a-0c1a90f54c95
+    PortName: Do you have any other information about the case?
+    PortGUID: d92647e3-ad2c-4553-a753-72f939d43c0c
+    Condition: 
+    TargetNodeGuid: 5f905c28-e344-408e-b8a5-6f1855eb53de
+  - BaseNodeGuid: 4756f178-fc57-44e7-96a5-98e7ab7c39df
+    PortName: Do you have any other information about the case?
+    PortGUID: 32c43ba5-cce4-4916-9535-214773e342cf
+    Condition: 
+    TargetNodeGuid: 1e6b728f-80a1-434b-a132-ef4f3057d599
+  - BaseNodeGuid: bb867fd2-e553-4301-bbc0-1f05b041b108
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: df2a6fe5-af2d-4f3c-b4c8-d2412e5e7362
+    Condition: 
+    TargetNodeGuid: 1fe1022c-fa97-42dc-a9bb-b61eb2ef4dc9
+  - BaseNodeGuid: f4507aee-9145-421d-8039-bd87db76f989
+    PortName: Where were you at the time of the murder?
+    PortGUID: a2ee69ee-402d-4cb5-8bfa-cb041540265a
+    Condition: 
+    TargetNodeGuid: cef8bce4-6c4d-4871-8de4-51e1feba0c8a
+  - BaseNodeGuid: 4c8c8347-239b-415b-a9d9-c6d7e135555d
+    PortName: Do you have any other information about the case?
+    PortGUID: b03f96c8-b94e-4f4c-a05d-54a8be9caad3
+    Condition: 
+    TargetNodeGuid: c0464f7a-d785-40e4-9056-8acad1806a9b
+  - BaseNodeGuid: 5f905c28-e344-408e-b8a5-6f1855eb53de
+    PortName: Where were you at the time of the murder?
+    PortGUID: da0fab35-0599-4780-a3b7-4fe721d7035a
+    Condition: 
+    TargetNodeGuid: d0bef3ea-d58a-4afd-ab89-fdea0df583ae
+  - BaseNodeGuid: 44e67144-06f7-4d57-9f06-1c02c493ce08
+    PortName: ' Where were you at the time of the murder?'
+    PortGUID: 62ee8ab7-209a-432d-bfd6-ba7220ff4a13
+    Condition: 
+    TargetNodeGuid: 12595506-15ca-4f67-8ad8-d5ec0ca2e11c
+  - BaseNodeGuid: 44e67144-06f7-4d57-9f06-1c02c493ce08
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 7945186d-d5bd-4f1b-a560-871cbdf3e563
+    Condition: 
+    TargetNodeGuid: 515fadf0-3302-42df-8df3-62c15727b738
+  - BaseNodeGuid: 44e67144-06f7-4d57-9f06-1c02c493ce08
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 1f3e1108-eab2-43c9-8e6d-87ceaebc1064
+    Condition: 
+    TargetNodeGuid: 36c07367-dd19-4c16-b9a5-f90579246ba3
+  - BaseNodeGuid: 12595506-15ca-4f67-8ad8-d5ec0ca2e11c
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 37c3f445-4041-4a98-aab9-34d76f9ae725
+    Condition: 
+    TargetNodeGuid: 5c822935-5ecf-48e2-8fa4-c6ad2fd0ae67
+  - BaseNodeGuid: 12595506-15ca-4f67-8ad8-d5ec0ca2e11c
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 3bd65d61-9e00-4062-b7a2-aaf6c37a5ff0
+    Condition: 
+    TargetNodeGuid: 63816d2e-c13a-4851-b674-ffe96593f864
+  - BaseNodeGuid: 5c822935-5ecf-48e2-8fa4-c6ad2fd0ae67
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: aa2abab3-ed09-411e-81bf-da583cdb242c
+    Condition: 
+    TargetNodeGuid: 681d2748-3622-4157-a533-3ef6f029e512
+  - BaseNodeGuid: 63816d2e-c13a-4851-b674-ffe96593f864
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 0d40d9f3-0ec4-4070-ad4e-5003aee2a3b1
+    Condition: 
+    TargetNodeGuid: 6eecac84-dbbb-4f79-bbeb-fddddc9861c8
+  - BaseNodeGuid: 515fadf0-3302-42df-8df3-62c15727b738
+    PortName: Where were you at the time of the murder?
+    PortGUID: 735a948b-81de-4302-98d6-a9f25d181cb8
+    Condition: 
+    TargetNodeGuid: b07b8356-afc6-4e5b-acf8-48539447dc35
+  - BaseNodeGuid: 515fadf0-3302-42df-8df3-62c15727b738
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 72656494-f024-4566-977c-cb763f3083a9
+    Condition: 
+    TargetNodeGuid: b268aa90-8c92-4eb5-a073-1b88cf2e7c7a
+  - BaseNodeGuid: b07b8356-afc6-4e5b-acf8-48539447dc35
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 7e6c96fd-be99-46bd-a1ad-dc0b8324a177
+    Condition: 
+    TargetNodeGuid: 8bc3cd26-4c92-48a3-9e50-148da0dccb3e
+  - BaseNodeGuid: b268aa90-8c92-4eb5-a073-1b88cf2e7c7a
+    PortName: Where were you at the time of the murder?
+    PortGUID: bacbe409-2ede-45f5-b91a-2769c775dd36
+    Condition: 
+    TargetNodeGuid: ddae063d-7f98-4c8a-838e-83926dd879bb
+  - BaseNodeGuid: 36c07367-dd19-4c16-b9a5-f90579246ba3
+    PortName: Where were you at the time of the murder?
+    PortGUID: a9760e17-3072-4e0b-bdd4-ceceb62453a0
+    Condition: 
+    TargetNodeGuid: 59f1a779-8a4c-4c4b-a717-a12cf6e37d1f
+  - BaseNodeGuid: 36c07367-dd19-4c16-b9a5-f90579246ba3
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 4ae23e49-173f-4f97-8996-d700968fc782
+    Condition: 
+    TargetNodeGuid: 903e9a45-21d9-4854-a641-c65a21eaf393
+  - BaseNodeGuid: 59f1a779-8a4c-4c4b-a717-a12cf6e37d1f
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: b8e61eff-a740-4e6d-9a67-10f2f24b22ff
+    Condition: 
+    TargetNodeGuid: fb269b2c-361b-4d01-9539-db0225f2cac6
+  - BaseNodeGuid: 903e9a45-21d9-4854-a641-c65a21eaf393
+    PortName: Where were you at the time of the murder?
+    PortGUID: afb37c00-4c3b-423c-b13d-fa9d5dd6ce45
+    Condition: 
+    TargetNodeGuid: eb5ff54b-2978-4934-a2ce-2e69f034f764
+  - BaseNodeGuid: a6728619-a21c-43b6-9222-366adbcef84f
+    PortName: Where were you at the time of the murder?
+    PortGUID: aee5738f-11f4-4a9e-8959-8c9248af4dac
+    Condition: 
+    TargetNodeGuid: 7ff2e7f4-a714-4bbe-b28e-215b8222869a
+  - BaseNodeGuid: a6728619-a21c-43b6-9222-366adbcef84f
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 2b95eef8-9a75-45f1-8f4a-ce11f8fd2d41
+    Condition: 
+    TargetNodeGuid: 25513dc3-768e-4453-883c-ac36408c18d9
+  - BaseNodeGuid: a6728619-a21c-43b6-9222-366adbcef84f
+    PortName: Do you have any other information about the case?
+    PortGUID: 06ecc81d-b7d7-47bc-b9b6-488e890187cc
+    Condition: 
+    TargetNodeGuid: aef544b5-808f-4b6c-9444-5060f3cf4374
+  - BaseNodeGuid: 7ff2e7f4-a714-4bbe-b28e-215b8222869a
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 40da30bf-259e-4ff5-996c-46240d8b7783
+    Condition: 
+    TargetNodeGuid: e843b624-5edc-47c0-8b78-7419caa4e012
+  - BaseNodeGuid: 7ff2e7f4-a714-4bbe-b28e-215b8222869a
+    PortName: Do you have any other information about the case?
+    PortGUID: d809e085-5241-4250-957d-6932437b383e
+    Condition: 
+    TargetNodeGuid: 6da77162-a550-43f9-97f4-da595b8c477f
+  - BaseNodeGuid: 25513dc3-768e-4453-883c-ac36408c18d9
+    PortName: Where were you at the time of the murder?
+    PortGUID: 9ffeb0e1-2ef6-430f-806c-cbe9d14c8dbc
+    Condition: 
+    TargetNodeGuid: b10c92a5-9ea3-4f4e-9a53-75f243348e6d
+  - BaseNodeGuid: 25513dc3-768e-4453-883c-ac36408c18d9
+    PortName: Do you have any other information about the case?
+    PortGUID: 267b6c04-fec9-404a-8761-77eb853e2d93
+    Condition: 
+    TargetNodeGuid: 35344f9e-b351-4390-b3b6-61b828cc2d9f
+  - BaseNodeGuid: aef544b5-808f-4b6c-9444-5060f3cf4374
+    PortName: Where were you at the time of the murder?
+    PortGUID: 52de3c7c-95f8-41a4-bfa2-87a8f2d26967
+    Condition: 
+    TargetNodeGuid: cc1ed415-a24e-4b35-95fe-3ccd43d5f532
+  - BaseNodeGuid: aef544b5-808f-4b6c-9444-5060f3cf4374
+    PortName: Do you have any other information about the case?
+    PortGUID: f1ec2b50-d2a6-4e76-a769-3df77f4f6af0
+    Condition: 
+    TargetNodeGuid: 0dce1df1-b529-4506-8f84-9d2df07e2d47
+  - BaseNodeGuid: e843b624-5edc-47c0-8b78-7419caa4e012
+    PortName: Do you have any other information about the case?
+    PortGUID: e0de723e-b1bf-42ff-94a2-ba0467ecf18f
+    Condition: 
+    TargetNodeGuid: b9942cad-194f-4741-8a49-0d293c8a9d51
+  - BaseNodeGuid: 6da77162-a550-43f9-97f4-da595b8c477f
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 63abe42b-2c10-43fc-8337-d5e1f4d5c630
+    Condition: 
+    TargetNodeGuid: e288282b-7f4b-41aa-a4e5-d0f0ff0144bd
+  - BaseNodeGuid: b10c92a5-9ea3-4f4e-9a53-75f243348e6d
+    PortName: Do you have any other information about the case?
+    PortGUID: 220366a2-d2b7-4314-a719-a6c33e1c591f
+    Condition: 
+    TargetNodeGuid: 63a6e344-9720-4f77-bbac-4aaf4102591e
+  - BaseNodeGuid: 35344f9e-b351-4390-b3b6-61b828cc2d9f
+    PortName: Where were you at the time of the murder?
+    PortGUID: 71e52410-e690-43cf-a473-c8f9f24807a2
+    Condition: 
+    TargetNodeGuid: 092fd610-92d3-49b3-a78f-e6832c1d7ac6
+  - BaseNodeGuid: cc1ed415-a24e-4b35-95fe-3ccd43d5f532
+    PortName: Do you have any other information about the case?
+    PortGUID: 6bd40e9d-ef04-4322-98e8-8091bcae5d9b
+    Condition: 
+    TargetNodeGuid: d4ba38b2-2e86-4ca6-b1af-78c5746732b3
+  - BaseNodeGuid: 0dce1df1-b529-4506-8f84-9d2df07e2d47
+    PortName: Where were you at the time of the murder?
+    PortGUID: e73ea4e7-8f1a-463c-93fb-49e5a80d4b79
+    Condition: 
+    TargetNodeGuid: 0646f441-c700-4684-a5df-87000719a6d8
+  - BaseNodeGuid: cc7a7cc5-6ff2-4b5e-a540-68729d3fdafb
+    PortName: Where were you at the time of the murder?
+    PortGUID: f4407ebe-7372-4d24-afe3-bdd2fda3361a
+    Condition: 
+    TargetNodeGuid: 5dc80157-1dcb-4533-a3c4-8b4da012660d
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     PortName: What do you know about the Adventurer's bloody nose?
     PortGUID: 87f98752-1728-4dc0-b3c9-08f1ca13cbc7
     Condition: 
     TargetNodeGuid: 0eb957eb-90a1-4f98-8ce3-a45a7b19a437
+  - BaseNodeGuid: cc7a7cc5-6ff2-4b5e-a540-68729d3fdafb
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 206e262d-b23f-47f4-a51a-74befb9d2fef
+    Condition: 
+    TargetNodeGuid: 877c44f5-65e0-4be1-acd6-878492155dea
+  - BaseNodeGuid: 8ec65d0b-c28a-4d72-bcbe-3cb56190601c
+    PortName: Where were you at the time of the murder?
+    PortGUID: 3b6d91b6-9ac4-42e4-970b-c294a16f5271
+    Condition: 
+    TargetNodeGuid: 8aa844f3-779a-4fee-bc76-46e2b5488105
+  - BaseNodeGuid: f4507aee-9145-421d-8039-bd87db76f989
+    PortName: Where were you at the time of the murder?
+    PortGUID: a2ee69ee-402d-4cb5-8bfa-cb041540265a
+    Condition: 
+    TargetNodeGuid: 3b5375d9-7428-4aff-8deb-ba5b97a08630
+  - BaseNodeGuid: c04e9e38-93e6-4e3d-a14a-0c1a90f54c95
+    PortName: Where were you at the time of the murder?
+    PortGUID: a06e9a01-feb6-4415-81da-f6dea281f307
+    Condition: 
+    TargetNodeGuid: b7ec5b48-45db-4235-a9be-2eb3cd912d4e
+  - BaseNodeGuid: 5f905c28-e344-408e-b8a5-6f1855eb53de
+    PortName: Where were you at the time of the murder?
+    PortGUID: da0fab35-0599-4780-a3b7-4fe721d7035a
+    Condition: 
+    TargetNodeGuid: e0ca023d-9f08-4f8c-99fd-2d2c1939ca23
+  - BaseNodeGuid: 44e67144-06f7-4d57-9f06-1c02c493ce08
+    PortName: ' Where were you at the time of the murder?'
+    PortGUID: 62ee8ab7-209a-432d-bfd6-ba7220ff4a13
+    Condition: 
+    TargetNodeGuid: 009398ce-2a8d-45b2-ad13-bc7441cf9d4b
+  - BaseNodeGuid: 515fadf0-3302-42df-8df3-62c15727b738
+    PortName: Where were you at the time of the murder?
+    PortGUID: 735a948b-81de-4302-98d6-a9f25d181cb8
+    Condition: 
+    TargetNodeGuid: bf11f6c8-64ba-485d-9d04-80f3ddb3206f
+  - BaseNodeGuid: b268aa90-8c92-4eb5-a073-1b88cf2e7c7a
+    PortName: Where were you at the time of the murder?
+    PortGUID: bacbe409-2ede-45f5-b91a-2769c775dd36
+    Condition: 
+    TargetNodeGuid: ec8a2262-56cb-4155-9f7c-9785804bee22
+  - BaseNodeGuid: 36c07367-dd19-4c16-b9a5-f90579246ba3
+    PortName: Where were you at the time of the murder?
+    PortGUID: a9760e17-3072-4e0b-bdd4-ceceb62453a0
+    Condition: 
+    TargetNodeGuid: cc41a09d-fe6f-4d7a-8426-b88f9ad56e55
+  - BaseNodeGuid: 903e9a45-21d9-4854-a641-c65a21eaf393
+    PortName: Where were you at the time of the murder?
+    PortGUID: afb37c00-4c3b-423c-b13d-fa9d5dd6ce45
+    Condition: 
+    TargetNodeGuid: 997bc62a-e027-4e1a-8d76-3f6e25738433
+  - BaseNodeGuid: a6728619-a21c-43b6-9222-366adbcef84f
+    PortName: Where were you at the time of the murder?
+    PortGUID: aee5738f-11f4-4a9e-8959-8c9248af4dac
+    Condition: 
+    TargetNodeGuid: 696425df-4c6b-43c7-b197-120a0b5dc551
+  - BaseNodeGuid: 25513dc3-768e-4453-883c-ac36408c18d9
+    PortName: Where were you at the time of the murder?
+    PortGUID: 9ffeb0e1-2ef6-430f-806c-cbe9d14c8dbc
+    Condition: 
+    TargetNodeGuid: 121acf01-7f19-42ac-88b7-a026ed530f96
+  - BaseNodeGuid: 35344f9e-b351-4390-b3b6-61b828cc2d9f
+    PortName: Where were you at the time of the murder?
+    PortGUID: 71e52410-e690-43cf-a473-c8f9f24807a2
+    Condition: 
+    TargetNodeGuid: 347c2f80-5b73-4ee6-b2e5-256d237f4a0d
+  - BaseNodeGuid: aef544b5-808f-4b6c-9444-5060f3cf4374
+    PortName: Where were you at the time of the murder?
+    PortGUID: 52de3c7c-95f8-41a4-bfa2-87a8f2d26967
+    Condition: 
+    TargetNodeGuid: 61539658-f656-4a40-ac71-60e57ee180bf
+  - BaseNodeGuid: 0dce1df1-b529-4506-8f84-9d2df07e2d47
+    PortName: Where were you at the time of the murder?
+    PortGUID: e73ea4e7-8f1a-463c-93fb-49e5a80d4b79
+    Condition: 
+    TargetNodeGuid: b667dab0-f8ac-4623-bd2e-c13e2deb6d6a
+  - BaseNodeGuid: 44e67144-06f7-4d57-9f06-1c02c493ce08
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 1f3e1108-eab2-43c9-8e6d-87ceaebc1064
+    Condition: 
+    TargetNodeGuid: b5126ca6-5fb9-4373-8bde-b56270e7e4b4
+  - BaseNodeGuid: 515fadf0-3302-42df-8df3-62c15727b738
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 72656494-f024-4566-977c-cb763f3083a9
+    Condition: 
+    TargetNodeGuid: ac8d37d7-f96f-48b6-856d-02cdea8db6c8
+  - BaseNodeGuid: b07b8356-afc6-4e5b-acf8-48539447dc35
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 7e6c96fd-be99-46bd-a1ad-dc0b8324a177
+    Condition: 
+    TargetNodeGuid: d22a8233-28b7-4e0b-b6e8-9ea96cc9901b
+  - BaseNodeGuid: 5c822935-5ecf-48e2-8fa4-c6ad2fd0ae67
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: aa2abab3-ed09-411e-81bf-da583cdb242c
+    Condition: 
+    TargetNodeGuid: 36bf8427-8ccc-4af6-8a30-810afa48bbea
+  - BaseNodeGuid: 8ec65d0b-c28a-4d72-bcbe-3cb56190601c
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 8c020593-17e9-4d10-a3ad-a7bf9a849a2c
+    Condition: 
+    TargetNodeGuid: d9974cb0-bb1c-4741-9c0d-788dbce5aeb4
+  - BaseNodeGuid: bb867fd2-e553-4301-bbc0-1f05b041b108
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: df2a6fe5-af2d-4f3c-b4c8-d2412e5e7362
+    Condition: 
+    TargetNodeGuid: b30cb6fc-b2df-481e-8d1f-c5669b1728a9
+  - BaseNodeGuid: 077bbd28-0565-4c1a-b02e-946afc518924
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 4737aa69-eba3-40f2-9034-04eefb42dc0d
+    Condition: 
+    TargetNodeGuid: d6dd1c6e-7bad-4ce7-82f7-052760302621
+  - BaseNodeGuid: 5532e760-4635-46f4-b488-351582b46058
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: c00afbc9-b00f-4c6b-b3fa-298545980b32
+    Condition: 
+    TargetNodeGuid: 6d4c7550-700f-4e1b-8741-59117cb543bb
+  - BaseNodeGuid: 34d216ed-3e24-41e2-b55f-70098edcf863
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 637132e8-ba2c-4fb2-be88-b02a3265195c
+    Condition: 
+    TargetNodeGuid: 77dbccd5-dbee-4c61-af58-88d69d8e3d60
+  - BaseNodeGuid: d09c729e-f03f-45e0-8acc-a62892397910
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 2e9c4fb1-a29d-4f1a-af3b-347eba4bc442
+    Condition: 
+    TargetNodeGuid: fb7f571a-d221-4670-a71a-b52b14b4ab89
+  - BaseNodeGuid: 2278a922-b5f1-4cd5-9f45-582410b84525
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: bb3ee7b6-780e-48e7-a0a0-4e797fde3250
+    Condition: 
+    TargetNodeGuid: 5134b8d0-40a6-4282-9d6a-a84591ff991a
+  - BaseNodeGuid: fae63bf8-ceca-4d9a-a460-6369217c3f02
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 7e1d471b-4ae9-4a1b-ae5f-4a2c84a921d1
+    Condition: 
+    TargetNodeGuid: 8f8dc880-12c6-40f4-b98b-a27980e05e07
+  - BaseNodeGuid: e1ab9f96-dd7c-4837-977f-58cca2ed471a
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 7f859d06-943a-42c6-a86d-374ce5ab410a
+    Condition: 
+    TargetNodeGuid: ad9f712f-d1ad-45b6-9cbd-da709cda3340
   Nodes:
   - Guid: dad830d9-4c63-415e-bc73-4855505290b6
-    Position: {x: -10, y: -118}
+    Position: {x: -9.6, y: -118.399994}
     Type: 16
     _textKeys:
     - Code
@@ -61,17 +506,17 @@ MonoBehaviour:
 
       Notes.Journal journal = Utility.Toolbox.Instance.Journal;'
   - Guid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
-    Position: {x: 263, y: 0}
+    Position: {x: 263.2, y: 0}
     Type: 4
     _textKeys:
     - DialogueText
     - CharacterName
     _textValues:
-    - Dialogue Node
+    - Yes?
     - ${name}
-  - Guid: df8e414a-fc3b-4c52-9536-63f100225349
-    Position: {x: 951, y: -459}
-    Type: 8
+  - Guid: 34d216ed-3e24-41e2-b55f-70098edcf863
+    Position: {x: 1244, y: -1679.2}
+    Type: 4
     _textKeys:
     - DialogueText
     - CharacterName
@@ -79,14 +524,219 @@ MonoBehaviour:
     - I was in the bar with The Adventurer although I didn't pay him much attention.
     - ${name}
   - Guid: 5fbb3e87-1495-4bc5-a68e-00794003104b
-    Position: {x: 951, y: -210}
+    Position: {x: 1244, y: -1290.3999}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
-  - Guid: 6b4b14f5-05b2-4964-8dff-abb430b56097
-    Position: {x: 951, y: 14}
+  - Guid: d09c729e-f03f-45e0-8acc-a62892397910
+    Position: {x: 2192, y: -1679.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, now if you will excuse me...
+    - ${name}
+  - Guid: ffac6c85-7a84-401f-b985-7b58847cd904
+    Position: {x: 2192, y: -1270.3999}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: cc7a7cc5-6ff2-4b5e-a540-68729d3fdafb
+    Position: {x: 1177.6, y: -44.800003}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: 5532e760-4635-46f4-b488-351582b46058
+    Position: {x: 2192, y: -404.80002}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: c04e9e38-93e6-4e3d-a14a-0c1a90f54c95
+    Position: {x: 2192, y: 560}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: 8ec65d0b-c28a-4d72-bcbe-3cb56190601c
+    Position: {x: 2192, y: 111.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, now if you will excuse me...
+    - ${name}
+  - Guid: aef544b5-808f-4b6c-9444-5060f3cf4374
+    Position: {x: 2218.4, y: 4684.8}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Dialogue Node
+    - ${name}
+  - Guid: 25513dc3-768e-4453-883c-ac36408c18d9
+    Position: {x: 2198.4, y: 4092.0002}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: 0dce1df1-b529-4506-8f84-9d2df07e2d47
+    Position: {x: 3040, y: 4948.8}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: e1ab9f96-dd7c-4837-977f-58cca2ed471a
+    Position: {x: 2192, y: -2193.5999}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: 7ff2e7f4-a714-4bbe-b28e-215b8222869a
+    Position: {x: 2198.4, y: 3588}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: e843b624-5edc-47c0-8b78-7419caa4e012
+    Position: {x: 3040.8, y: 3334.4001}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: 6da77162-a550-43f9-97f4-da595b8c477f
+    Position: {x: 3041.6, y: 3616}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Dialogue Node
+    - ${name}
+  - Guid: 5dc80157-1dcb-4533-a3c4-8b4da012660d
+    Position: {x: 2182.4, y: -105.600006}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: 877c44f5-65e0-4be1-acd6-878492155dea
+    Position: {x: 2194.4, y: 877.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: 44e67144-06f7-4d57-9f06-1c02c493ce08
+    Position: {x: 1232.8, y: 1368.8}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Dialogue Node
+    - ${name}
+  - Guid: 12595506-15ca-4f67-8ad8-d5ec0ca2e11c
+    Position: {x: 2144, y: 1164}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: 515fadf0-3302-42df-8df3-62c15727b738
+    Position: {x: 2144, y: 1716.8}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: 5c822935-5ecf-48e2-8fa4-c6ad2fd0ae67
+    Position: {x: 3106.4, y: 1300}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: b268aa90-8c92-4eb5-a073-1b88cf2e7c7a
+    Position: {x: 3092, y: 2246.4001}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: 903e9a45-21d9-4854-a641-c65a21eaf393
+    Position: {x: 3092, y: 2893.6}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: b9942cad-194f-4741-8a49-0d293c8a9d51
+    Position: {x: 4108, y: 3325.6}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, now if you will excuse me...
+    - ${name}
+  - Guid: e288282b-7f4b-41aa-a4e5-d0f0ff0144bd
+    Position: {x: 4109.6, y: 3648}
     Type: 8
     _textKeys:
     - DialogueText
@@ -95,8 +745,8 @@ MonoBehaviour:
     - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
       stuck her nose in something that didn't concern her.
     - ${name}
-  - Guid: 1ffe84e0-e844-4c0b-a072-c907c6b7972c
-    Position: {x: 951, y: 266}
+  - Guid: 63a6e344-9720-4f77-bbac-4aaf4102591e
+    Position: {x: 4096, y: 3981.6}
     Type: 8
     _textKeys:
     - DialogueText
@@ -104,8 +754,206 @@ MonoBehaviour:
     _textValues:
     - No, now if you will excuse me...
     - ${name}
-  - Guid: 1d86230b-750e-4f88-b898-f0e548a5ad4b
-    Position: {x: 951, y: 522}
+  - Guid: d4ba38b2-2e86-4ca6-b1af-78c5746732b3
+    Position: {x: 4092, y: 4592}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, now if you will excuse me...
+    - ${name}
+  - Guid: 0646f441-c700-4684-a5df-87000719a6d8
+    Position: {x: 4092, y: 4932}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: 35344f9e-b351-4390-b3b6-61b828cc2d9f
+    Position: {x: 3196.8, y: 4265.5996}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Dialogue Node
+    - ${name}
+  - Guid: fa58324d-83b3-4979-9d5f-7af30c01378e
+    Position: {x: 3295.2, y: -978.4}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, now if you will excuse me...
+    - ${name}
+  - Guid: 40a7933c-4da0-44bb-88e1-5bb0b189a461
+    Position: {x: 3294.4, y: -1550.3999}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: 2278a922-b5f1-4cd5-9f45-582410b84525
+    Position: {x: 3294.4, y: -1854.3999}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: fae63bf8-ceca-4d9a-a460-6369217c3f02
+    Position: {x: 3294.4, y: -2563.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, now if you will excuse me...
+    - ${name}
+  - Guid: 32a5d767-ddd6-4ac0-98cb-8f807023af30
+    Position: {x: 3294.4, y: -1257.6}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: a1ba6fb7-b2fa-4d05-9f47-04794e94e971
+    Position: {x: 4493.6, y: -1048}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: 8a4fa5ff-a654-4970-864b-54277e6bc427
+    Position: {x: 4493.6, y: -1515.2}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: f5f164a8-98b7-44bb-8b2a-c353f4321131
+    Position: {x: 4493.6, y: -1268.7999}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, now if you will excuse me...
+    - ${name}
+  - Guid: e8d4ff8d-1d0b-4845-8c7e-f279e342ecd8
+    Position: {x: 4483.2, y: -2106.4}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, now if you will excuse me...
+    - ${name}
+  - Guid: 4c8c8347-239b-415b-a9d9-c6d7e135555d
+    Position: {x: 3308, y: 632}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: 077bbd28-0565-4c1a-b02e-946afc518924
+    Position: {x: 3295.2, y: -523.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, now if you will excuse me...
+    - ${name}
+  - Guid: 4756f178-fc57-44e7-96a5-98e7ab7c39df
+    Position: {x: 3295.2, y: -241.59999}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: 1e6b728f-80a1-434b-a132-ef4f3057d599
+    Position: {x: 4354.4, y: -232.8}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, now if you will excuse me...
+    - ${name}
+  - Guid: c0464f7a-d785-40e4-9056-8acad1806a9b
+    Position: {x: 4384.8, y: 626.39996}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, now if you will excuse me...
+    - ${name}
+  - Guid: d0bef3ea-d58a-4afd-ab89-fdea0df583ae
+    Position: {x: 4352, y: 944}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: 36c07367-dd19-4c16-b9a5-f90579246ba3
+    Position: {x: 2058.4, y: 2376}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: 63816d2e-c13a-4851-b674-ffe96593f864
+    Position: {x: 3092.8, y: 1575.2001}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: 6eecac84-dbbb-4f79-bbeb-fddddc9861c8
+    Position: {x: 4176, y: 1680}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: 681d2748-3622-4157-a533-3ef6f029e512
+    Position: {x: 4199.2, y: 1349.6001}
     Type: 8
     _textKeys:
     - DialogueText
@@ -114,8 +962,377 @@ MonoBehaviour:
     - A bloody nose? I don't know anything about that. At no point during the evening
       was I close enough to that obnoxious man for me to give him a nose bleed.
     - ${name}
+  - Guid: a6728619-a21c-43b6-9222-366adbcef84f
+    Position: {x: 1152.8, y: 3678.4001}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
   - Guid: 0eb957eb-90a1-4f98-8ce3-a45a7b19a437
-    Position: {x: 951, y: 748}
+    Position: {x: 1152.8, y: 4065.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: f4507aee-9145-421d-8039-bd87db76f989
+    Position: {x: 3308, y: 380.8}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: bb867fd2-e553-4301-bbc0-1f05b041b108
+    Position: {x: 3272.8, y: -4.800001}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: 8aa844f3-779a-4fee-bc76-46e2b5488105
+    Position: {x: 3272.8, y: 228.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: 3b5375d9-7428-4aff-8deb-ba5b97a08630
+    Position: {x: 4407.2, y: 476}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: cef8bce4-6c4d-4871-8de4-51e1feba0c8a
+    Position: {x: 4407.2, y: 245.59999}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: 5f905c28-e344-408e-b8a5-6f1855eb53de
+    Position: {x: 3308, y: 1022.39996}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - No, now if you will excuse me...
+    - ${name}
+  - Guid: b7ec5b48-45db-4235-a9be-2eb3cd912d4e
+    Position: {x: 3308, y: 877.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: e0ca023d-9f08-4f8c-99fd-2d2c1939ca23
+    Position: {x: 4379.2, y: 1178.4}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: 009398ce-2a8d-45b2-ad13-bc7441cf9d4b
+    Position: {x: 2143.2, y: 1458.4}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: b07b8356-afc6-4e5b-acf8-48539447dc35
+    Position: {x: 3092, y: 1812}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: bf11f6c8-64ba-485d-9d04-80f3ddb3206f
+    Position: {x: 3092.8, y: 2041.6001}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: ddae063d-7f98-4c8a-838e-83926dd879bb
+    Position: {x: 4176, y: 2266.4001}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: ec8a2262-56cb-4155-9f7c-9785804bee22
+    Position: {x: 4176, y: 2485.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: 59f1a779-8a4c-4c4b-a717-a12cf6e37d1f
+    Position: {x: 3092.8, y: 2472}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: cc41a09d-fe6f-4d7a-8426-b88f9ad56e55
+    Position: {x: 3183.2, y: 2760.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: fb269b2c-361b-4d01-9539-db0225f2cac6
+    Position: {x: 4176, y: 2658.4001}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
+      stuck her nose in something that didn't concern her.
+    - ${name}
+  - Guid: eb5ff54b-2978-4934-a2ce-2e69f034f764
+    Position: {x: 4178.4, y: 2893.6}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: 997bc62a-e027-4e1a-8d76-3f6e25738433
+    Position: {x: 4178.4, y: 3130.4001}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: 696425df-4c6b-43c7-b197-120a0b5dc551
+    Position: {x: 2198.4, y: 3895.2}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: b10c92a5-9ea3-4f4e-9a53-75f243348e6d
+    Position: {x: 3160.8, y: 3856}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: 121acf01-7f19-42ac-88b7-a026ed530f96
+    Position: {x: 3164.8, y: 4107.1997}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: 092fd610-92d3-49b3-a78f-e6832c1d7ac6
+    Position: {x: 4063.2, y: 4228}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: 347c2f80-5b73-4ee6-b2e5-256d237f4a0d
+    Position: {x: 4063.2, y: 4447.1997}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: cc1ed415-a24e-4b35-95fe-3ccd43d5f532
+    Position: {x: 3018.4, y: 4502.4}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+  - Guid: 61539658-f656-4a40-ac71-60e57ee180bf
+    Position: {x: 3018.4, y: 4753.5996}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: b667dab0-f8ac-4623-bd2e-c13e2deb6d6a
+    Position: {x: 4120, y: 5178.4}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
+  - Guid: b5126ca6-5fb9-4373-8bde-b56270e7e4b4
+    Position: {x: 2069.6, y: 2688}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: ac8d37d7-f96f-48b6-856d-02cdea8db6c8
+    Position: {x: 2536, y: 2145.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: 8bc3cd26-4c92-48a3-9e50-148da0dccb3e
+    Position: {x: 4148, y: 1906.4}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: d22a8233-28b7-4e0b-b6e8-9ea96cc9901b
+    Position: {x: 4148, y: 2111.2}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: 36bf8427-8ccc-4af6-8a30-810afa48bbea
+    Position: {x: 4199.2, y: 1536.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: d9974cb0-bb1c-4741-9c0d-788dbce5aeb4
+    Position: {x: 2712, y: 403.19998}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: 1fe1022c-fa97-42dc-a9bb-b61eb2ef4dc9
+    Position: {x: 4374.4, y: -28}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: b30cb6fc-b2df-481e-8d1f-c5669b1728a9
+    Position: {x: 3948.8, y: 107.2}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: 03dc2439-e69f-40a9-a6c4-4c631d06d29e
+    Position: {x: 4197.6, y: -625.60004}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: d6dd1c6e-7bad-4ce7-82f7-052760302621
+    Position: {x: 4197.6, y: -408}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: 6d4c7550-700f-4e1b-8741-59117cb543bb
+    Position: {x: 2802.4, y: -166.4}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: 77dbccd5-dbee-4c61-af58-88d69d8e3d60
+    Position: {x: 2225.6, y: -957.60004}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: fb7f571a-d221-4670-a71a-b52b14b4ab89
+    Position: {x: 2885.6, y: -1466.3999}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: 6cad2013-1a65-437d-8635-4c2ec74dcef2
+    Position: {x: 4453.6, y: -1874.3999}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: 5134b8d0-40a6-4282-9d6a-a84591ff991a
+    Position: {x: 4462.4, y: -1644.7999}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: 9e26fc9c-fb84-4a02-8927-ffc7a4ae3e7a
+    Position: {x: 4291.2, y: -2679.2}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: 8f8dc880-12c6-40f4-b98b-a27980e05e07
+    Position: {x: 3939.2, y: -2447.2}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+  - Guid: fd996c69-e7f0-4e7a-b45c-0617429dcfb3
+    Position: {x: 3264, y: -2259.2}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: ad9f712f-d1ad-45b6-9cbd-da709cda3340
+    Position: {x: 3264, y: -1998.3999}
     Type: 64
     _textKeys:
     - Code
