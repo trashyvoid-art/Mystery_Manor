@@ -17,80 +17,163 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 70b19a79-4d8d-4a9b-9c2a-2c0cc53c42a0
     PortName: Next
-    PortGUID: d42df1b0-0b83-47b3-aeb8-1fb91e9b6b3d
+    PortGUID: de5a4630-900b-477e-b225-4d14e0b442d0
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
-    PortName: Bloody Nose?
-    PortGUID: 656e7b9d-4213-420b-8eca-f04cb8f1deea
-    Condition: 
-    TargetNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
-  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
-    PortName: Do you have any other information about the case?
-    PortGUID: 0291ff77-c9d0-449c-8ea1-8ac119450c35
-    Condition: 
-    TargetNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
-  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
-    PortName: Do you know why someone would have wanted to hurt the victim?
-    PortGUID: fdb9342c-4c8e-4584-a4ce-f351e8ebfdc3
-    Condition: 
-    TargetNodeGuid: b126805d-ae45-46ea-b5e8-37819afa75cf
-  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
     PortName: Where were you at the time of the murder?
-    PortGUID: 017ba2a9-2591-447f-bddf-fbcebda10db4
+    PortGUID: 656e7b9d-4213-420b-8eca-f04cb8f1deea
     Condition: 
     TargetNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
     PortName: Where were you at the time of the murder?
-    PortGUID: 017ba2a9-2591-447f-bddf-fbcebda10db4
+    PortGUID: 656e7b9d-4213-420b-8eca-f04cb8f1deea
     Condition: 
     TargetNodeGuid: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
-    PortName: Do you have any other information about the case?
+    PortName: Where were you at the time of the murder?
+    PortGUID: 656e7b9d-4213-420b-8eca-f04cb8f1deea
+    Condition: 
+    TargetNodeGuid: f17b7453-aec0-4de8-8915-14e6b84e396b
+  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    PortName: Do you know why someone would have wanted to hurt the victim?
     PortGUID: 0291ff77-c9d0-449c-8ea1-8ac119450c35
     Condition: 
-    TargetNodeGuid: 354f6bf6-0004-4894-a2af-0dc909fc0396
-  - BaseNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
-    PortName: Next
-    PortGUID: b7487538-0c9f-4ed1-b439-217850c0d839
+    TargetNodeGuid: b126805d-ae45-46ea-b5e8-37819afa75cf
+  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    PortName: Do you have any other information about the case?
+    PortGUID: fdb9342c-4c8e-4584-a4ce-f351e8ebfdc3
     Condition: 
-    TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    TargetNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
+  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    PortName: Do you have any other information about the case?
+    PortGUID: fdb9342c-4c8e-4584-a4ce-f351e8ebfdc3
+    Condition: 
+    TargetNodeGuid: 354f6bf6-0004-4894-a2af-0dc909fc0396
+  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    PortName: Bloody Nose?
+    PortGUID: 017ba2a9-2591-447f-bddf-fbcebda10db4
+    Condition: 
+    TargetNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
+  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 0291ff77-c9d0-449c-8ea1-8ac119450c35
+    Condition: 
+    TargetNodeGuid: f17b7453-aec0-4de8-8915-14e6b84e396b
+  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    PortName: Do you have any other information about the case?
+    PortGUID: fdb9342c-4c8e-4584-a4ce-f351e8ebfdc3
+    Condition: 
+    TargetNodeGuid: f17b7453-aec0-4de8-8915-14e6b84e396b
+  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    PortName: Bloody Nose?
+    PortGUID: 017ba2a9-2591-447f-bddf-fbcebda10db4
+    Condition: 
+    TargetNodeGuid: f17b7453-aec0-4de8-8915-14e6b84e396b
   - BaseNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
     PortName: Next
-    PortGUID: 510a2a91-8e19-4bac-becb-4653b53428a0
+    PortGUID: d5fcf113-d692-4adc-88b7-49e506c45bcf
     Condition: 
-    TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: b126805d-ae45-46ea-b5e8-37819afa75cf
     PortName: Next
-    PortGUID: 93e887ea-db4a-4e40-a2af-2b4921ec6282
+    PortGUID: 8610bca1-83ba-415d-a8ca-1be565529a53
     Condition: 
-    TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
     PortName: Next
-    PortGUID: c40fd4e1-ce0c-422e-b97a-2b2360e106f4
+    PortGUID: 153e6d7a-2224-4699-8e7b-f7dc80607d62
+    Condition: 
+    TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
+  - BaseNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
+    PortName: Next
+    PortGUID: 3b88bf59-dd0b-48a2-ba78-5c5368afded1
+    Condition: 
+    TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
+  - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
+    PortName: Pass
+    PortGUID: 4490d240-66fa-418f-a429-1b3e49b3738b
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+  - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
+    PortName: Fail
+    PortGUID: 37c23860-9631-45c0-81ea-ab2a25730a15
+    Condition: 
+    TargetNodeGuid: df64c86a-461c-427d-8872-d228d1c60e19
   Nodes:
   - Guid: bff4efe7-0ca3-468c-ae35-cefbbd81a662
-    Position: {x: -57, y: -219}
+    Position: {x: -56.8, y: -219.2}
     Type: 16
     _textKeys:
     - Code
     _textValues:
     - 'string name = "The Adventurer";
 
-      Notes.Journal journal = Utility.Toolbox.Instance.Journal;'
+      Notes.Journal journal = Utility.Toolbox.Instance.Journal;
+
+      int
+      choices = 0;'
   - Guid: e2a31422-f166-4498-b906-c8cfd8eb5a35
-    Position: {x: 313, y: 15}
+    Position: {x: 312.8, y: 15.200001}
     Type: 4
     _textKeys:
     - DialogueText
     - CharacterName
     _textValues:
-    - 
+    - Yes?
     - ${name}
+  - Guid: 452f6766-7f66-4471-956e-018fdc5a012b
+    Position: {x: 1122.4, y: -510.40002}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar of course! The fine Doctor practically begged me to have a
+      drink with him. Who could blame him though, I am incredible.
+    - ${name}
+  - Guid: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb
+    Position: {x: 1122.4, y: -260}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("The Adventurer and The Doctor were in the bar together.");
+  - Guid: b126805d-ae45-46ea-b5e8-37819afa75cf
+    Position: {x: 1122.4, y: -102.399994}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - WHAT! NO! She was amazing and smart, just like me. Have I mentioned the time
+      I solved an ancient King's cipher in only two hours?
+    - ${name}
+  - Guid: f17b7453-aec0-4de8-8915-14e6b84e396b
+    Position: {x: 1122.4, y: 138.40001}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - choices +=1;
+  - Guid: adead8f6-1f17-4475-8b27-c12b070f1487
+    Position: {x: 1122.4, y: 308.8}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - There was this moment during dinner...but I'm sure it was nothing.
+    - ${name}
+  - Guid: 354f6bf6-0004-4894-a2af-0dc909fc0396
+    Position: {x: 1122.4, y: 580.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("Incident during dinner involving The Psychologist.");
   - Guid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
-    Position: {x: 1772, y: 970}
+    Position: {x: 1122.4, y: 767.2}
     Type: 8
     _textKeys:
     - DialogueText
@@ -100,46 +183,20 @@ MonoBehaviour:
       close together, close talking you see and there was an incident that lead to
       his head hitting my nose and so I took a quick trip to the infirmary.
     - ${name}
-  - Guid: 452f6766-7f66-4471-956e-018fdc5a012b
-    Position: {x: 1772, y: -538}
+  - Guid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
+    Position: {x: 2732, y: 14.399998}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - choices < 4
+  - Guid: df64c86a-461c-427d-8872-d228d1c60e19
+    Position: {x: 3024, y: 32.8}
     Type: 8
     _textKeys:
     - DialogueText
     - CharacterName
     _textValues:
-    - I was in the bar of course! The fine Doctor practically begged me to have a
-      drink with him. Who could blame him though, I am incredible.
-    - ${name}
-  - Guid: 354f6bf6-0004-4894-a2af-0dc909fc0396
-    Position: {x: 1778, y: 658}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - journal.AddEntry("Incident during dinner involving The Psychologist.");
-  - Guid: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb
-    Position: {x: 1772, y: -333}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - journal.AddEntry("The Adventurer and The Doctor were in the bar together.");
-  - Guid: b126805d-ae45-46ea-b5e8-37819afa75cf
-    Position: {x: 1772, y: -15}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - WHAT! NO! She was amazing and smart, just like me. Have I mentioned the time
-      I solved an ancient King's cipher in only two hours?
-    - ${name}
-  - Guid: adead8f6-1f17-4475-8b27-c12b070f1487
-    Position: {x: 1778, y: 322}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - There was this moment during dinner...but I'm sure it was nothing.
+    - I should get back to investigating. I'm an amazing detective if you didn't
+      know!
     - ${name}

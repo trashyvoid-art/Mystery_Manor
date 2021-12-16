@@ -432,7 +432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 406217eb23a055c48ad332cb61ec540f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DialogueName: Doctor Int
+  DialogueName: Adventurer Int
 --- !u!65 &395246357
 BoxCollider:
   m_ObjectHideFlags: 0
