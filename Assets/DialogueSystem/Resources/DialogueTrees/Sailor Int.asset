@@ -17,292 +17,103 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: a9a76df3-5213-4388-b395-589f6197184e
     PortName: Next
-    PortGUID: afba4916-0506-46b7-a1e2-98ac1d18ea4a
+    PortGUID: 055f1cf3-d140-424d-beaf-773edd159cf8
     Condition: 
     TargetNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
-  - BaseNodeGuid: c42606c9-2822-4d3f-81dc-95e64c51df83
-    PortName: Do you know why someone would have wanted to hurt the victim?
-    PortGUID: bbd35785-715d-435c-885c-fc38f9b0e621
-    Condition: 
-    TargetNodeGuid: c19b41e6-f910-4ca8-bf09-79678e80230a
-  - BaseNodeGuid: 7f15a5bb-91e1-4f68-9f20-ec5bd165208a
-    PortName: Do you have any other information about the case?
-    PortGUID: f6d08e29-b0a6-4bd2-9e13-39f35cc078e6
-    Condition: 
-    TargetNodeGuid: d8768969-7ed4-46c0-9f45-cf96caac5d91
-  - BaseNodeGuid: 678bbf2f-cbc5-4df7-aee2-8844283ff0c7
-    PortName: Where were you at the time of the murder?
-    PortGUID: 09f010da-402b-4c1a-b289-489f8c0c161f
-    Condition: 
-    TargetNodeGuid: d04f1ef3-ce20-412a-919d-632da29df5ca
-  - BaseNodeGuid: 678bbf2f-cbc5-4df7-aee2-8844283ff0c7
-    PortName: Where were you at the time of the murder?
-    PortGUID: 09f010da-402b-4c1a-b289-489f8c0c161f
-    Condition: 
-    TargetNodeGuid: 44d925b7-fa1d-404c-8a6b-1d13b4bcfd6d
-  - BaseNodeGuid: 7f9a441f-d3be-4ed1-a2e0-ed6722d90f15
-    PortName: Where were you at the time of the murder?
-    PortGUID: 6309bf4e-dfd1-4419-9908-46211b80ec38
-    Condition: 
-    TargetNodeGuid: fd27352c-fbb2-4c77-ae94-944e4e0c230f
-  - BaseNodeGuid: 7f9a441f-d3be-4ed1-a2e0-ed6722d90f15
-    PortName: Do you have any other information about the case?
-    PortGUID: 73aa9ac7-cce9-4522-a9ad-c98e06f60fa1
-    Condition: 
-    TargetNodeGuid: 678bbf2f-cbc5-4df7-aee2-8844283ff0c7
-  - BaseNodeGuid: 7f9a441f-d3be-4ed1-a2e0-ed6722d90f15
-    PortName: Where were you at the time of the murder?
-    PortGUID: 6309bf4e-dfd1-4419-9908-46211b80ec38
-    Condition: 
-    TargetNodeGuid: 2a4a160e-8807-4521-8773-7ce40621ddc2
-  - BaseNodeGuid: 2b152aca-0405-458f-a743-558ef9807907
-    PortName: Where were you at the time of the murder?
-    PortGUID: f5db412e-40eb-4416-9a30-d867480231b8
-    Condition: 
-    TargetNodeGuid: 98718d3e-3580-4429-9304-317d740c836f
-  - BaseNodeGuid: 2b152aca-0405-458f-a743-558ef9807907
-    PortName: Do you know why someone would have wanted to hurt the victim?
-    PortGUID: 5dfaf0ce-ba05-42f1-bd3f-e4796bf138cc
-    Condition: 
-    TargetNodeGuid: 5afeabc0-952e-4207-961e-319629698b01
-  - BaseNodeGuid: 2b152aca-0405-458f-a743-558ef9807907
-    PortName: Where were you at the time of the murder?
-    PortGUID: f5db412e-40eb-4416-9a30-d867480231b8
-    Condition: 
-    TargetNodeGuid: f1276cae-9271-4b0f-a9d9-9b0e9f87a9c0
-  - BaseNodeGuid: 98718d3e-3580-4429-9304-317d740c836f
-    PortName: Do you know why someone would have wanted to hurt the victim?
-    PortGUID: bf8b108b-5976-456c-a3b7-30f6cefaa834
-    Condition: 
-    TargetNodeGuid: 4dfba897-fa9d-4864-b397-a969ee0c4198
-  - BaseNodeGuid: 5b3d4a4b-e47c-4ee2-8433-01caddf24e8c
-    PortName: Do you know why someone would have wanted to hurt the victim?
-    PortGUID: e0ac6070-b01b-4257-aec6-38ce45fd5b32
-    Condition: 
-    TargetNodeGuid: 7f15a5bb-91e1-4f68-9f20-ec5bd165208a
-  - BaseNodeGuid: 5b3d4a4b-e47c-4ee2-8433-01caddf24e8c
-    PortName: Do you have any other information about the case?
-    PortGUID: 2aceea68-6660-43ae-863d-2a4f85a79236
-    Condition: 
-    TargetNodeGuid: c42606c9-2822-4d3f-81dc-95e64c51df83
-  - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
-    PortName: Where were you at the time of the murder?
-    PortGUID: 57059fe8-7b99-468c-8f9b-3dc22aca7f0b
-    Condition: 
-    TargetNodeGuid: 5b3d4a4b-e47c-4ee2-8433-01caddf24e8c
-  - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
-    PortName: Do you know why someone would have wanted to hurt the victim?
-    PortGUID: 3965af18-3957-4a8f-92ce-52f0d9e94ce0
-    Condition: 
-    TargetNodeGuid: 7f9a441f-d3be-4ed1-a2e0-ed6722d90f15
-  - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
-    PortName: Do you have any other information about the case?
-    PortGUID: 85f8aec8-8713-42de-94f2-b01aab097575
-    Condition: 
-    TargetNodeGuid: 2b152aca-0405-458f-a743-558ef9807907
   - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
     PortName: Where were you at the time of the murder?
     PortGUID: 57059fe8-7b99-468c-8f9b-3dc22aca7f0b
     Condition: 
     TargetNodeGuid: 80b8a965-6ebf-4359-94de-754b7e064f63
-  - BaseNodeGuid: fd27352c-fbb2-4c77-ae94-944e4e0c230f
+  - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
     PortName: Do you have any other information about the case?
-    PortGUID: 50e2bbf9-f332-4296-8403-5e44e74c2e19
+    PortGUID: 85f8aec8-8713-42de-94f2-b01aab097575
     Condition: 
-    TargetNodeGuid: 8587b41d-82a1-4664-bc93-7ba301b7e8e1
-  - BaseNodeGuid: 5afeabc0-952e-4207-961e-319629698b01
+    TargetNodeGuid: f9ffe10d-420c-45ee-b2e8-3c66cfceb901
+  - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 3965af18-3957-4a8f-92ce-52f0d9e94ce0
+    Condition: 
+    TargetNodeGuid: 126bbdfc-83c5-46ae-bc2d-7a35c3247901
+  - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
+    PortName: Do you have any other information about the case?
+    PortGUID: 85f8aec8-8713-42de-94f2-b01aab097575
+    Condition: 
+    TargetNodeGuid: 465df431-b06a-4a9d-8580-0e0299823d28
+  - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 3965af18-3957-4a8f-92ce-52f0d9e94ce0
+    Condition: 
+    TargetNodeGuid: 465df431-b06a-4a9d-8580-0e0299823d28
+  - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
     PortName: Where were you at the time of the murder?
-    PortGUID: 48ddfab5-a69b-41a7-a39b-72b8a104c925
+    PortGUID: 57059fe8-7b99-468c-8f9b-3dc22aca7f0b
     Condition: 
-    TargetNodeGuid: 0a579650-f67f-442c-9a8f-61aa7e8c5fbd
-  - BaseNodeGuid: 5afeabc0-952e-4207-961e-319629698b01
+    TargetNodeGuid: 465df431-b06a-4a9d-8580-0e0299823d28
+  - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
     PortName: Where were you at the time of the murder?
-    PortGUID: 48ddfab5-a69b-41a7-a39b-72b8a104c925
+    PortGUID: 57059fe8-7b99-468c-8f9b-3dc22aca7f0b
     Condition: 
-    TargetNodeGuid: df837cb6-6fd1-43fb-8b02-3ebdd39ca6a4
+    TargetNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
+  - BaseNodeGuid: f9ffe10d-420c-45ee-b2e8-3c66cfceb901
+    PortName: Next
+    PortGUID: 5e83cf17-87f6-448c-a26e-9aef6ef182a4
+    Condition: 
+    TargetNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
+  - BaseNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
+    PortName: Next
+    PortGUID: 9f91e52a-125c-4222-ab3c-635c035c97f4
+    Condition: 
+    TargetNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
+  - BaseNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
+    PortName: Pass
+    PortGUID: ba2fabf3-32be-4c1b-8936-bd3a8580a8c4
+    Condition: 
+    TargetNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
+  - BaseNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
+    PortName: Fail
+    PortGUID: 27fd0b71-0b05-47c7-90c7-eb6733a2d937
+    Condition: 
+    TargetNodeGuid: 4dd230d6-0a3f-4ab6-bc91-369d48031f43
   Nodes:
   - Guid: 0f54fb55-3b6d-464f-804b-3ccde1a544b9
-    Position: {x: 14, y: -138}
+    Position: {x: 14.4, y: -138.4}
     Type: 16
     _textKeys:
     - Code
     _textValues:
     - 'string name ="The Sailor";
 
-      Notes.Journal journal = Utility.Toolbox.Instance.Journal;'
-  - Guid: c42606c9-2822-4d3f-81dc-95e64c51df83
-    Position: {x: 2011, y: -109}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - No...
-    - ${name}
-  - Guid: c19b41e6-f910-4ca8-bf09-79678e80230a
-    Position: {x: 2770, y: -78}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - No, I mean I don't think so. I can't think of a reason someone would intentionally
-      want to hurt her.
-    - ${name}
-  - Guid: d8768969-7ed4-46c0-9f45-cf96caac5d91
-    Position: {x: 2839, y: -394}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - No...
-    - ${name}
-  - Guid: 7f15a5bb-91e1-4f68-9f20-ec5bd165208a
-    Position: {x: 2020, y: -424}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - No, I mean I don't think so. I can't think of a reason someone would intentionally
-      want to hurt her.
-    - ${name}
-  - Guid: 678bbf2f-cbc5-4df7-aee2-8844283ff0c7
-    Position: {x: 1783, y: 675}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - No...
-    - ${name}
-  - Guid: 8587b41d-82a1-4664-bc93-7ba301b7e8e1
-    Position: {x: 3114, y: 358}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - No...
-    - ${name}
-  - Guid: 7f9a441f-d3be-4ed1-a2e0-ed6722d90f15
-    Position: {x: 967, y: 327}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - No, I mean I don't think so. I can't think of a reason someone would intentionally
-      want to hurt her.
-    - ${name}
-  - Guid: 2b152aca-0405-458f-a743-558ef9807907
-    Position: {x: 1062, y: 976}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - No...
-    - ${name}
-  - Guid: 98718d3e-3580-4429-9304-317d740c836f
-    Position: {x: 1886, y: 1018}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - When the lights went out I was in the in the observatory. I wanted to see the
-      stars, being out at sea constantly they are the one thing that remains the
-      same...
-    - ${name}
-  - Guid: 4dfba897-fa9d-4864-b397-a969ee0c4198
-    Position: {x: 3014, y: 1063}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - No, I mean I don't think so. I can't think of a reason someone would intentionally
-      want to hurt her.
-    - ${name}
-  - Guid: 0a579650-f67f-442c-9a8f-61aa7e8c5fbd
-    Position: {x: 3014, y: 1489}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - When the lights went out I was in the in the observatory. I wanted to see the
-      stars, being out at sea constantly they are the one thing that remains the
-      same...
-    - ${name}
-  - Guid: 5b3d4a4b-e47c-4ee2-8433-01caddf24e8c
-    Position: {x: 914, y: -241}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - When the lights went out I was in the in the observatory. I wanted to see the
-      stars, being out at sea constantly they are the one thing that remains the
-      same...
-    - ${name}
+      Notes.Journal journal = Utility.Toolbox.Instance.Journal;
+
+      int
+      choices = 0;'
   - Guid: 2496025e-e0b3-42f0-b92a-94cac6149a20
-    Position: {x: 202, y: 0}
+    Position: {x: 202.4, y: 0}
     Type: 4
     _textKeys:
     - DialogueText
     - CharacterName
     _textValues:
-    - Dialogue Node
+    - Hello again
     - ${name}
   - Guid: 80b8a965-6ebf-4359-94de-754b7e064f63
-    Position: {x: 978, y: 87}
+    Position: {x: 988.8, y: -156}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - journal.AddEntry("The Sailor was in the Observatory.");
-  - Guid: fd27352c-fbb2-4c77-ae94-944e4e0c230f
-    Position: {x: 1762, y: 183}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - When the lights went out I was in the in the observatory. I wanted to see the
-      stars, being out at sea constantly they are the one thing that remains the
-      same...
-    - ${name}
-  - Guid: 2a4a160e-8807-4521-8773-7ce40621ddc2
-    Position: {x: 1858, y: 442}
+  - Guid: 465df431-b06a-4a9d-8580-0e0299823d28
+    Position: {x: 988.8, y: 260.8}
     Type: 64
     _textKeys:
     - Code
     _textValues:
-    - journal.AddEntry("The Sailor was in the Observatory.");
-  - Guid: d04f1ef3-ce20-412a-919d-632da29df5ca
-    Position: {x: 2478, y: 620}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - When the lights went out I was in the in the observatory. I wanted to see the
-      stars, being out at sea constantly they are the one thing that remains the
-      same...
-    - ${name}
-  - Guid: 44d925b7-fa1d-404c-8a6b-1d13b4bcfd6d
-    Position: {x: 2474, y: 826}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - journal.AddEntry("The Sailor was in the Observatory.");
-  - Guid: 5afeabc0-952e-4207-961e-319629698b01
-    Position: {x: 1907, y: 1531}
-    Type: 4
+    - choices += 1;
+  - Guid: 126bbdfc-83c5-46ae-bc2d-7a35c3247901
+    Position: {x: 990.4, y: 19.2}
+    Type: 8
     _textKeys:
     - DialogueText
     - CharacterName
@@ -310,17 +121,39 @@ MonoBehaviour:
     - No, I mean I don't think so. I can't think of a reason someone would intentionally
       want to hurt her.
     - ${name}
-  - Guid: f1276cae-9271-4b0f-a9d9-9b0e9f87a9c0
-    Position: {x: 1955, y: 1269}
-    Type: 64
+  - Guid: f9ffe10d-420c-45ee-b2e8-3c66cfceb901
+    Position: {x: 990.4, y: 456}
+    Type: 8
     _textKeys:
-    - Code
+    - DialogueText
+    - CharacterName
     _textValues:
-    - journal.AddEntry("The Sailor was in the Observatory.");
-  - Guid: df837cb6-6fd1-43fb-8b02-3ebdd39ca6a4
-    Position: {x: 3040, y: 1764}
-    Type: 64
+    - No...
+    - ${name}
+  - Guid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
+    Position: {x: 988.8, y: -391.2}
+    Type: 8
     _textKeys:
-    - Code
+    - DialogueText
+    - CharacterName
     _textValues:
-    - journal.AddEntry("The Sailor was in the Observatory.");
+    - When the lights went out I was in the in the observatory. I wanted to see the
+      stars, being out at sea constantly they are the one thing that remains the
+      same...
+    - ${name}
+  - Guid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
+    Position: {x: 2324, y: 31.2}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - choices < 3
+  - Guid: 4dd230d6-0a3f-4ab6-bc91-369d48031f43
+    Position: {x: 2730.4, y: 31.2}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Sorry I couldn't be of more help.
+    - ${name}
