@@ -20,6 +20,7 @@ namespace DialogueSystem.Code
         // Variable(s) From Node: bc34f003-a4f8-48bd-897a-d7f0e226a48d //
 string name = "Ms. Scheele";
 Notes.Journal journal = Utility.Toolbox.Instance.Journal;
+int choices = 0;
 
 
         public void Start()
@@ -30,6 +31,8 @@ Notes.Journal journal = Utility.Toolbox.Instance.Journal;
             dialogueChecks.Add("Ms_Scheele_Int_de22f680f6f24185b948014f88d222ee_66ffc2b8f5bb494d87106b6c23b02974",Ms_Scheele_Int_de22f680f6f24185b948014f88d222ee_66ffc2b8f5bb494d87106b6c23b02974);
             eventFunctions.Add("Ms_Scheele_Int_86cb36176c294d0cbb09d833c6db40f2",Ms_Scheele_Int_86cb36176c294d0cbb09d833c6db40f2);
             eventFunctions.Add("Ms_Scheele_Int_52ed881914ba4d7ea499688945fa8bff",Ms_Scheele_Int_52ed881914ba4d7ea499688945fa8bff);
+            conditionChecks.Add("Ms_Scheele_Int_2e5d28741701475eb8fd136775e7a9af",Ms_Scheele_Int_2e5d28741701475eb8fd136775e7a9af);
+            eventFunctions.Add("Ms_Scheele_Int_cb2e3459d7df4849a2881da80427682c",Ms_Scheele_Int_cb2e3459d7df4849a2881da80427682c);
 
         }
 
@@ -55,6 +58,10 @@ Notes.Journal journal = Utility.Toolbox.Instance.Journal;
 
 
         // Condition Checks //
+        // Condition From Node: 2e5d2874-1701-475e-b8fd-136775e7a9af //
+        public bool Ms_Scheele_Int_2e5d28741701475eb8fd136775e7a9af() {
+            return (choices < 3);
+        }
 
 
         // Event Functions //
@@ -65,6 +72,10 @@ journal.AddEntry("Ms. Scheele was in the entrance hall.");
         // Event From Node: 52ed8819-14ba-4d7e-a499-688945fa8bff //
         public void Ms_Scheele_Int_52ed881914ba4d7ea499688945fa8bff() {
 journal.AddEntry("The Doctor and the Psychologist confrontation, Possible motive for the Doctor.");
+        }
+        // Event From Node: cb2e3459-d7df-4849-a288-1da80427682c //
+        public void Ms_Scheele_Int_cb2e3459d7df4849a2881da80427682c() {
+choices += 1;
         }
 
     }
