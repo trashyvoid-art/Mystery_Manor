@@ -10,8 +10,18 @@ public class ConsoleLogHandler : ILogHandler
     private StreamWriter mainSW;
     private FileStream lateFS;
     private StreamWriter lateSW;
+
+    private string latestPath;
+    private string currentPath;
+
     private ILogHandler defaultLogHandler = Debug.unityLogger.logHandler;
+    /// <summary>
+    /// Min level to put the log in the ingame console log / the min for the Debug Console (exclsuding Warnings -> Fatal)
+    /// </summary>
     public static LogLevel filterLogLevel = LogLevel.Console;
+    /// <summary>
+    /// The min log level to log to file.
+    /// </summary>
     public static LogLevel filterFileLogLevel = LogLevel.Information;
 
     static object locker = new object();
@@ -34,13 +44,11 @@ public class ConsoleLogHandler : ILogHandler
 
         string latestPath = SanitizePath(Path.Combine(filePath, $"latest.log"));
 
-        mainFS = new FileStream(mainPath, FileMode.OpenOrCreate, FileAccess.ReadWrite);
-        mainSW = new StreamWriter(mainFS);
+        currentPath = mainPath;
 
         if(File.Exists(latestPath))
             File.WriteAllText(latestPath, String.Empty);
-        lateFS = new FileStream(latestPath, FileMode.OpenOrCreate, FileAccess.ReadWrite);
-        lateSW = new StreamWriter(lateFS);
+        this.latestPath = latestPath;
 
         _logs = new Queue<string>();
 
@@ -67,10 +75,6 @@ public class ConsoleLogHandler : ILogHandler
     ~ConsoleLogHandler() 
     {
         Console.Log(LogLevel.All, $"Console has been Unloaded. End of Log.");
-        lateSW.Close();
-        lateFS.Close();
-        mainSW.Close();
-        mainFS.Close();
     }
 
     public static bool IsLogAllowedOnConsole(LogLevel logLevel)
@@ -132,10 +136,8 @@ public class ConsoleLogHandler : ILogHandler
             }
             if (IsLogAllowedOnFile(logLevel))
             {
-                mainSW.WriteLine(toWrite);
-                mainSW.Flush();
-                lateSW.WriteLine(toWrite);
-                lateSW.Flush();
+                File.AppendAllText(currentPath, toWrite + "\n");
+                File.AppendAllText(latestPath, toWrite + "\n");
             }
         }
     }
