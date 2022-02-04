@@ -325,14 +325,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 10
   jumpHeight: 1
-  gravityForce: 20
-  feet: {fileID: 4855780448036312270}
-  groundCheckDistance: 0.5
-  groundMask:
+  interactionMask:
     serializedVersion: 2
-    m_Bits: 64
-  groundCheckVelocityReset: -2
-  isOnGround: 0
+    m_Bits: 65
+  velocity: {x: 0, y: 0, z: 0}
+  JumpIsHit: 0
+  IsHeadHit: 0
+  _onGround: 0
 --- !u!114 &4855780448517748686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,6 +348,9 @@ MonoBehaviour:
   InvertXAxis: 0
   MouseSensitivity: 20
   camera: {fileID: 2556557986530909004}
+  OnJolt:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!82 &4321652146724857756
 AudioSource:
   m_ObjectHideFlags: 0
@@ -476,6 +478,9 @@ MonoBehaviour:
     _loop: 0
     _audioPool: 
   DelayAfter: 0
+  OnPlay:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &8368500222535893378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,6 +497,10 @@ MonoBehaviour:
   GroundCheckDistance: 1.5
   speed: 0
   isGrounded: 0
+  OnStep:
+    m_PersistentCalls:
+      m_Calls: []
+  timeOffset: 0.01
 --- !u!114 &1101341129370313640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,7 +540,6 @@ MonoBehaviour:
   GlobalInteraction: {fileID: 0}
   HandController: {fileID: 0}
   Eyes: {fileID: 2556557986530909004}
-  Feet: {fileID: 4855780448036312271}
   Hand: {fileID: 4974393029893268546}
 --- !u!1 &4974393029893268546
 GameObject:
