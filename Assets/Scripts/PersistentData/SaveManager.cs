@@ -374,20 +374,7 @@ namespace PersistentData
 
         private static string[] secrets = new string[] 
         {
-            "OwenR",
-            "Granny Is Super Old",
-            "I see you snooping",
-            "up up down down left right left right B A start",
-            "Fishboi is constantly floating between a state of immortality and suffocating due to lack of water",
-            "Just don't check the basement",
-            "Granny is a communist",
-            "Strange-Cargo: Halfway Home",
-            "Strange Cargo 2: Sons of Liberty",
-            "Strange Cargo 4: Gloos of the Patriots",
-            "Granny Doesn't Call 911",
-            "Granny once had a basement before the police found it",
-            "Granny has been kidnapped by ninjas. Are you a bad enough dude to rescue Granny?",
-            "Please hire me, they won't pay me here"
+            "Owen Was Here"
         };
 
         private static string DecryptBytes(byte[] bytes) 
