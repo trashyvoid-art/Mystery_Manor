@@ -7,7 +7,7 @@ namespace Environment
     public enum Material
     {
         None = 0,
-        Grass = 1,
+        //Grass = 1,
         Tile = 2,
         Wood = 3
     }
