@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4061961925069277742}
   - component: {fileID: 7025200060781859676}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4855780448036312270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Feet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 8368500222535893378}
   - component: {fileID: 1101341129370313640}
   - component: {fileID: 2751266153008432041}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -324,7 +324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 10
-  jumpHeight: 1
+  jumpHeight: 0.33
   interactionMask:
     serializedVersion: 2
     m_Bits: 65
@@ -551,7 +551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6881308459744410031}
   - component: {fileID: 1112643099090682705}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
