@@ -163,6 +163,7 @@ GameObject:
   - component: {fileID: 8368500222535893378}
   - component: {fileID: 1101341129370313640}
   - component: {fileID: 2751266153008432041}
+  - component: {fileID: 6299020989572631541}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -275,7 +276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 8ac20c4b5f6e5a746a957014dbe5be15, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: ba2d33b796715634782d680debf9dccb, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -332,6 +333,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   groundCheckVelocityReset: -2
+  useGravity: 1
   isOnGround: 0
 --- !u!114 &4855780448517748686
 MonoBehaviour:
@@ -349,6 +351,9 @@ MonoBehaviour:
   InvertXAxis: 0
   MouseSensitivity: 20
   camera: {fileID: 2556557986530909004}
+  OnJolt:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!82 &4321652146724857756
 AudioSource:
   m_ObjectHideFlags: 0
@@ -476,6 +481,9 @@ MonoBehaviour:
     _loop: 0
     _audioPool: 
   DelayAfter: 0
+  OnPlay:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &8368500222535893378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,6 +500,10 @@ MonoBehaviour:
   GroundCheckDistance: 1.5
   speed: 0
   isGrounded: 0
+  OnStep:
+    m_PersistentCalls:
+      m_Calls: []
+  timeOffset: 0.01
 --- !u!114 &1101341129370313640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -530,9 +542,28 @@ MonoBehaviour:
   Movement: {fileID: 0}
   GlobalInteraction: {fileID: 0}
   HandController: {fileID: 0}
+  Footsteps: {fileID: 0}
   Eyes: {fileID: 2556557986530909004}
   Feet: {fileID: 4855780448036312271}
   Hand: {fileID: 4974393029893268546}
+--- !u!114 &6299020989572631541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4855780448517748685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 842eae031c1dea4469478a02cc7bdef1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultDeviceType: 2
+  OnDeviceChange:
+    m_PersistentCalls:
+      m_Calls: []
+  _recentScheme: 
+  _lastDevice: 0
 --- !u!1 &4974393029893268546
 GameObject:
   m_ObjectHideFlags: 0

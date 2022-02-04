@@ -35,12 +35,12 @@ namespace Utility
 
         void Update()
         {
-            if(Hover != null)
-                Hover.text = HoverText;
+            if (Hover != null)
+                Hover.text = ToolTipIcons.ResolveString(HoverText);
             if (Use != null)
-                Use.text = UseText;
+                Use.text = ToolTipIcons.ResolveString(UseText);
             if (Hold != null)
-                Hold.text = HoldText;
+                Hold.text = ToolTipIcons.ResolveString(HoldText);
         }
     }
 }
