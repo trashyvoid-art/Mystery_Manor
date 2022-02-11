@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4061961925069277742}
   - component: {fileID: 7025200060781859676}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4855780448036312270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Feet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,11 +159,11 @@ GameObject:
   - component: {fileID: 4855780448517748684}
   - component: {fileID: 4855780448517748686}
   - component: {fileID: 4321652146724857756}
-  - component: {fileID: 3792809125781561602}
-  - component: {fileID: 8368500222535893378}
   - component: {fileID: 1101341129370313640}
   - component: {fileID: 2751266153008432041}
-  m_Layer: 0
+  - component: {fileID: 1876252774059148812}
+  - component: {fileID: 943413784585307037}
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -324,15 +324,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 10
-  jumpHeight: 1
-  gravityForce: 20
-  feet: {fileID: 4855780448036312270}
-  groundCheckDistance: 0.5
-  groundMask:
+  jumpHeight: 0.33
+  interactionMask:
     serializedVersion: 2
-    m_Bits: 64
-  groundCheckVelocityReset: -2
-  isOnGround: 0
+    m_Bits: 65
+  velocity: {x: 0, y: 0, z: 0}
+  JumpIsHit: 0
+  IsHeadHit: 0
+  _onGround: 0
 --- !u!114 &4855780448517748686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,6 +348,9 @@ MonoBehaviour:
   InvertXAxis: 0
   MouseSensitivity: 20
   camera: {fileID: 2556557986530909004}
+  OnJolt:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!82 &4321652146724857756
 AudioSource:
   m_ObjectHideFlags: 0
@@ -445,53 +447,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &3792809125781561602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4855780448517748685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7fab3db30850b648bd54f22bc00f267, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Sound:
-    _pitch:
-      Value: 1
-      Range:
-        Min: 0
-        Max: 0
-    _volume:
-      Value: 1
-      Range:
-        Min: 0
-        Max: 0
-    _deley:
-      Value: 0
-      Range:
-        Min: 0
-        Max: 0
-    _loop: 0
-    _audioPool: 
-  DelayAfter: 0
---- !u!114 &8368500222535893378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4855780448517748685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2953c0909348e404fbc8bef3f58f3121, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StepsRate: 0.4
-  GroundCheckDistance: 1.5
-  speed: 0
-  isGrounded: 0
 --- !u!114 &1101341129370313640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,8 +486,70 @@ MonoBehaviour:
   GlobalInteraction: {fileID: 0}
   HandController: {fileID: 0}
   Eyes: {fileID: 2556557986530909004}
-  Feet: {fileID: 4855780448036312271}
   Hand: {fileID: 4974393029893268546}
+--- !u!114 &1876252774059148812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4855780448517748685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2441dbb9ca2784d8143a3ba0ed928b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sourceVolume: 1
+  OnPlay:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlayEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  Container:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: ResourceList, ns: Sound.Source.Internal, asm: Assembly-CSharp}
+      data:
+        _pitch:
+          Value: 1
+          Range:
+            Min: 0
+            Max: 0
+        _volume:
+          Value: 1
+          Range:
+            Min: 0
+            Max: 0
+        _deley:
+          Value: 0
+          Range:
+            Min: 0
+            Max: 0
+        _loop:
+          Value: 1
+          Range:
+            Min: 0
+            Max: 0
+        _audioPool: 
+        _soundBites: []
+--- !u!114 &943413784585307037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4855780448517748685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eeb05311a98d3b4eb961bcf292221c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StepRate: 0.4
+  StepRepository: Player\Footsteps
+  materialType: 0
 --- !u!1 &4974393029893268546
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,7 +560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6881308459744410031}
   - component: {fileID: 1112643099090682705}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}

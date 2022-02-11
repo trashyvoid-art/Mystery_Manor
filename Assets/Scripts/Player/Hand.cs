@@ -55,14 +55,14 @@ namespace Player
             }
             Holding = obj;
             tt.HoldText = Holding.HoldText;
-            player.Footsteps.OnStep.AddListener(Holding.Shake);
+            //player.Footsteps.OnStep.AddListener(Holding.Shake);
             player.HeadMovement.OnJolt.AddListener(Holding.Shake);
         }
         public void LetGo() 
         {
             if (Holding != null)
             {
-                player.Footsteps.OnStep.RemoveListener(Holding.Shake);
+                //player.Footsteps.OnStep.RemoveListener(Holding.Shake);
                 player.HeadMovement.OnJolt.RemoveListener(Holding.Shake);
                 Holding.PutDown();
             }
