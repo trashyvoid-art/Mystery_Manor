@@ -75,11 +75,11 @@ namespace Player.Movement
 
         void HandleJumping()
         {
-            if (IsOnGround && !JumpIsHit)
-            {
-                velocity.y = jumpHeight * -Physics.gravity.y;//Mathf.Sqrt(jumpHeight * -2.0f * -gravityForce);
-                JumpIsHit = true;
-            }
+            //if (IsOnGround && !JumpIsHit)
+            //{
+            //    velocity.y = jumpHeight * -Physics.gravity.y;//Mathf.Sqrt(jumpHeight * -2.0f * -gravityForce);
+            //    JumpIsHit = true;
+            //}
         }
 
         void FixedUpdate()
