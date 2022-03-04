@@ -1491,6 +1491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shamsa
       objectReference: {fileID: 0}
+    - target: {fileID: 1029128926880775802, guid: a3f0fdec1cbddf1428ec47662e4bce32, type: 3}
+      propertyPath: _hoverText
+      value: '{use} to talk'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3f0fdec1cbddf1428ec47662e4bce32, type: 3}
 --- !u!1 &1255171610
@@ -2245,6 +2249,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &1527198048 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6067380973698346341, guid: f6c8ccd4939d35640ac7515996e6c251, type: 3}
+  m_PrefabInstance: {fileID: 575785449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1527198051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527198048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e812a2ea6571046a4b70f1bc846708, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hoverText: 
 --- !u!1001 &1602012816
 PrefabInstance:
   m_ObjectHideFlags: 0

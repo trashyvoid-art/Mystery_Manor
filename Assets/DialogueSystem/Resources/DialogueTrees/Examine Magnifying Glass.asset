@@ -17,12 +17,12 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 0f77ab09-c429-440f-a726-f78f94cd8e3b
     PortName: Next
-    PortGUID: 427243ac-8130-43b8-9201-bcb592207e77
+    PortGUID: b65c19d9-7a84-4299-be43-c46678871bf3
     Condition: 
     TargetNodeGuid: 1d98a5b2-eb16-4229-8a7f-909b36ba3648
   - BaseNodeGuid: 1d98a5b2-eb16-4229-8a7f-909b36ba3648
     PortName: Next
-    PortGUID: 7e55e990-f856-4d61-ad83-3b89cd99d752
+    PortGUID: bcd053b3-ece6-42c1-a130-f376976a859e
     Condition: 
     TargetNodeGuid: d83f1542-2549-44c1-b8a9-de8c04b2dd21
   - BaseNodeGuid: 35d8df2a-fc67-423a-b7ea-9b6f6a0bcc01
