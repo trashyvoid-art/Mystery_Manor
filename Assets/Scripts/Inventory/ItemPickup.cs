@@ -7,7 +7,7 @@ namespace Interaction
     public class ItemPickup : BasicInteractable
     {
         ItemObject item;
-        private void Start()
+        private void Awake()
         {
             item = new ItemObject();
         }

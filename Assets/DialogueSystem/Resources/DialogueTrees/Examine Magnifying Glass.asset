@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: Examine Magnifying Glass
+  m_EditorClassIdentifier: 
+  DialogueName: Examine Magnifying Glass
+  EntryPointGUID: 0f77ab09-c429-440f-a726-f78f94cd8e3b
+  NodeLinks:
+  - BaseNodeGuid: 0f77ab09-c429-440f-a726-f78f94cd8e3b
+    PortName: Next
+    PortGUID: 427243ac-8130-43b8-9201-bcb592207e77
+    Condition: 
+    TargetNodeGuid: 1d98a5b2-eb16-4229-8a7f-909b36ba3648
+  - BaseNodeGuid: 1d98a5b2-eb16-4229-8a7f-909b36ba3648
+    PortName: Next
+    PortGUID: 7e55e990-f856-4d61-ad83-3b89cd99d752
+    Condition: 
+    TargetNodeGuid: d83f1542-2549-44c1-b8a9-de8c04b2dd21
+  - BaseNodeGuid: 35d8df2a-fc67-423a-b7ea-9b6f6a0bcc01
+    PortName: This is the murder weapon used to kill Scarlett...
+    PortGUID: ce0f594c-127a-4f2c-9966-cbd167d16e3a
+    Condition: 
+    TargetNodeGuid: 
+  Nodes:
+  - Guid: 0d44e9de-84f1-4a20-add7-f755edf1657e
+    Position: {x: -137, y: -154}
+    Type: 16
+    _textKeys:
+    - Code
+    _textValues:
+    - 'string name = "Knife";
+
+      Notes.Journal journal = Utility.Toolbox.Instance.Journal;'
+  - Guid: d83f1542-2549-44c1-b8a9-de8c04b2dd21
+    Position: {x: 725, y: -40}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("A magnifying glass was used to bludgeon Scarlett to death");
+  - Guid: 35d8df2a-fc67-423a-b7ea-9b6f6a0bcc01
+    Position: {x: 217, y: 139}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Examine the weapon.
+    - ${name}
+  - Guid: 1d98a5b2-eb16-4229-8a7f-909b36ba3648
+    Position: {x: 358, y: -84}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - This is the murder weapon used to kill Scarlett...
+    - ${name}

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e9a2a79fc5fd414396d0599ee0cbd6f, type: 3}
-  m_Name: Knife
+  m_Name: Blahblah
   m_EditorClassIdentifier: 
-  ItemName: Knife
-  ItemIcon: {fileID: 21300000, guid: d9d031e1125eff54fb3148ff8e0a884c, type: 3}
-  prefab: {fileID: 7619550035760563966, guid: 0f4549a7cc533f944beb358cd1e3c54d, type: 3}
+  ItemName: 
+  ItemIcon: {fileID: 0}
+  prefab: {fileID: 0}
