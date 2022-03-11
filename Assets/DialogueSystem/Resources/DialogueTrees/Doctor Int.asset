@@ -17,7 +17,7 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: f935f95a-056e-469d-a1bc-59c1b21cd217
     PortName: Next
-    PortGUID: e09b3e6f-ee17-451a-9b76-59d528a4e5a1
+    PortGUID: 64c7ee81-de0c-4b6d-adf5-bb2125d069c4
     Condition: 
     TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
@@ -35,16 +35,6 @@ MonoBehaviour:
     PortGUID: 87f98752-1728-4dc0-b3c9-08f1ca13cbc7
     Condition: 
     TargetNodeGuid: 3b323f3f-0512-4e78-a020-d4b65d83daef
-  - BaseNodeGuid: 3b323f3f-0512-4e78-a020-d4b65d83daef
-    PortName: Next
-    PortGUID: 5a1a1347-174a-49c8-b2eb-3ba7b565dd87
-    Condition: 
-    TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
-  - BaseNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
-    PortName: Pass
-    PortGUID: 07500f33-0709-4444-ad7b-2622c75c4058
-    Condition: 
-    TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     PortName: Where were you at the time of the murder?
     PortGUID: 111235d5-bb62-4d19-946e-762bf1a280be
@@ -70,11 +60,6 @@ MonoBehaviour:
     PortGUID: 111235d5-bb62-4d19-946e-762bf1a280be
     Condition: 
     TargetNodeGuid: b8dd409c-7584-4689-874c-785ba0d06479
-  - BaseNodeGuid: b8dd409c-7584-4689-874c-785ba0d06479
-    PortName: Next
-    PortGUID: 86ba34a8-e990-42ad-b1b4-a9c2270cbb95
-    Condition: 
-    TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     PortName: Do you know why someone would have wanted to hurt the victim?
     PortGUID: c40c75f7-ca64-4e15-83da-2ba6315e5b36
@@ -85,19 +70,34 @@ MonoBehaviour:
     PortGUID: 0bda6154-d9ad-4951-aca7-3576e844976e
     Condition: 
     TargetNodeGuid: 2813fb2c-bb6f-4ffe-93d7-3abae43e8da6
-  - BaseNodeGuid: 30bc7599-469b-45f3-97ed-7a60b8df58d2
+  - BaseNodeGuid: b8dd409c-7584-4689-874c-785ba0d06479
     PortName: Next
-    PortGUID: bef369f0-848c-4a61-b3bc-c9a74e8ddf54
+    PortGUID: 5d74dc0f-d7b4-4754-bf06-fc916c1cf8f6
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: 2813fb2c-bb6f-4ffe-93d7-3abae43e8da6
     PortName: Next
-    PortGUID: 52192566-2231-4f77-b576-881cca64591e
+    PortGUID: b7db7abf-098b-4846-a617-28a89ab190ce
+    Condition: 
+    TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
+  - BaseNodeGuid: 3b323f3f-0512-4e78-a020-d4b65d83daef
+    PortName: Next
+    PortGUID: fae457c9-3c92-4926-957b-96c6b5c05265
+    Condition: 
+    TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
+  - BaseNodeGuid: 30bc7599-469b-45f3-97ed-7a60b8df58d2
+    PortName: Next
+    PortGUID: d482f12c-f570-4851-b5e1-c64e05100042
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
+    PortName: Pass
+    PortGUID: b477f482-3a6c-401e-b273-452b544e3932
+    Condition: 
+    TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
+  - BaseNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
     PortName: Fail
-    PortGUID: fcaac670-9db6-457e-ada1-bd14c1083a01
+    PortGUID: 1f09cda5-058a-46b6-9825-3e063100ca0e
     Condition: 
     TargetNodeGuid: 73ee94d7-55c2-4575-bb7e-0fabca25ac33
   Nodes:
@@ -152,7 +152,7 @@ MonoBehaviour:
     - DialogueText
     - CharacterName
     _textValues:
-    - No, now if you will excuse me...
+    - No
     - ${name}
   - Guid: 3b323f3f-0512-4e78-a020-d4b65d83daef
     Position: {x: 1092.8, y: 556}

@@ -17,7 +17,7 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: a9a76df3-5213-4388-b395-589f6197184e
     PortName: Next
-    PortGUID: 055f1cf3-d140-424d-beaf-773edd159cf8
+    PortGUID: a6f60e1a-bff0-4cd7-8e36-6b8b364a720e
     Condition: 
     TargetNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
   - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
@@ -57,22 +57,22 @@ MonoBehaviour:
     TargetNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
   - BaseNodeGuid: f9ffe10d-420c-45ee-b2e8-3c66cfceb901
     PortName: Next
-    PortGUID: 5e83cf17-87f6-448c-a26e-9aef6ef182a4
+    PortGUID: e017375f-1e1c-4bf6-81d6-6c558c61482e
     Condition: 
     TargetNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
   - BaseNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
     PortName: Next
-    PortGUID: 9f91e52a-125c-4222-ab3c-635c035c97f4
+    PortGUID: 0a904318-f07a-4199-884e-f841ecb623da
     Condition: 
     TargetNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
   - BaseNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
     PortName: Pass
-    PortGUID: ba2fabf3-32be-4c1b-8936-bd3a8580a8c4
+    PortGUID: 8967babb-906e-4208-85b7-f218bfb22456
     Condition: 
     TargetNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
   - BaseNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
     PortName: Fail
-    PortGUID: 27fd0b71-0b05-47c7-90c7-eb6733a2d937
+    PortGUID: 33727f89-1eb2-4e27-8bd0-8424b5256df1
     Condition: 
     TargetNodeGuid: 4dd230d6-0a3f-4ab6-bc91-369d48031f43
   Nodes:
@@ -95,7 +95,7 @@ MonoBehaviour:
     - DialogueText
     - CharacterName
     _textValues:
-    - Hello again
+    - Hello again.
     - ${name}
   - Guid: 80b8a965-6ebf-4359-94de-754b7e064f63
     Position: {x: 988.8, y: -156}
@@ -149,7 +149,7 @@ MonoBehaviour:
     _textValues:
     - choices < 3
   - Guid: 4dd230d6-0a3f-4ab6-bc91-369d48031f43
-    Position: {x: 2730.4, y: 31.2}
+    Position: {x: 2647.2, y: 40}
     Type: 8
     _textKeys:
     - DialogueText
