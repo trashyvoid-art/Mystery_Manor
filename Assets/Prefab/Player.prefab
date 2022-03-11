@@ -163,6 +163,7 @@ GameObject:
   - component: {fileID: 2751266153008432041}
   - component: {fileID: 1876252774059148812}
   - component: {fileID: 943413784585307037}
+  - component: {fileID: 2628945030131663777}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -275,7 +276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 8ac20c4b5f6e5a746a957014dbe5be15, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: ba2d33b796715634782d680debf9dccb, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -550,6 +551,24 @@ MonoBehaviour:
   StepRate: 0.4
   StepRepository: Player\Footsteps
   materialType: 0
+--- !u!114 &2628945030131663777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4855780448517748685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 842eae031c1dea4469478a02cc7bdef1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultDeviceType: 2
+  OnDeviceChange:
+    m_PersistentCalls:
+      m_Calls: []
+  _recentScheme: 
+  _lastDevice: 0
 --- !u!1 &4974393029893268546
 GameObject:
   m_ObjectHideFlags: 0
