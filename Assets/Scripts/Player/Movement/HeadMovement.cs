@@ -17,11 +17,11 @@ namespace Player.Movement
         [Tooltip("Invert the Horizontal input (Usually off)")]
         [SerializeField]
         public bool InvertXAxis = false;
-        [Tooltip("Hoe fast the camera will turn")]
+        [Tooltip("How fast the camera will turn")]
         [Range(1, 150)]
         [SerializeField] 
         public float MouseSensitivity = 50;
-        [Tooltip("The thing that will turn virtically (The game camera)")]
+        [Tooltip("The thing that will turn vertically (The game camera)")]
         [SerializeField] 
         public new GameObject camera;
 
@@ -86,7 +86,6 @@ namespace Player.Movement
                 lastInput = mouseInput;
                 lastVector = thisVector;
             }
-
 
             // Where we want to go based on player input
             Vector2 targetChange = look.ReadValue<Vector2>() * MouseSensitivity * Time.deltaTime;

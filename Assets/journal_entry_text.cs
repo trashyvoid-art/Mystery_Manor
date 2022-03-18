@@ -23,7 +23,7 @@ void Start()
         for (int i = 0; i < journal.EntryCount; i++) // We need to loop through the journal cus we can't get an array directly yet
         {
             Notes.Entry note = journal.GetEntryAtIndex(i); // We grab the note at an index in the journal
-            entry += note.Note + "/n/n"; // Then we add that note to our list
+            entry += note.Note + "\n\n"; // Then we add that note to our list
         }
         text.text = entry;
         // Here we can do whatever we want to the 'entries' list like make new UI components and what not
