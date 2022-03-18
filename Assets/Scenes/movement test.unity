@@ -823,6 +823,7 @@ GameObject:
   - component: {fileID: 356518631}
   - component: {fileID: 356518630}
   - component: {fileID: 356518632}
+  - component: {fileID: 356518633}
   m_Layer: 0
   m_Name: Samfull
   m_TagString: Untagged
@@ -935,6 +936,19 @@ CapsuleCollider:
   m_Height: 7
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &356518633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356518627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d5e629a40e050c47bd77a46b1004af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPos: {fileID: 1796503525}
 --- !u!1 &386000268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1624,7 +1638,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 555551941}
-  - component: {fileID: 555551940}
   - component: {fileID: 555551942}
   m_Layer: 0
   m_Name: MoveController
@@ -1633,18 +1646,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &555551940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555551939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5a2a4a5c739b4342b9bc2efb40a895f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &555551941
 Transform:
   m_ObjectHideFlags: 0
@@ -3834,6 +3835,7 @@ GameObject:
   - component: {fileID: 1528463505}
   - component: {fileID: 1528463504}
   - component: {fileID: 1528463506}
+  - component: {fileID: 1528463507}
   m_Layer: 0
   m_Name: seanfull
   m_TagString: Untagged
@@ -3946,6 +3948,19 @@ CapsuleCollider:
   m_Height: 7
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1528463507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528463501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d5e629a40e050c47bd77a46b1004af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPos: {fileID: 1796503525}
 --- !u!1 &1534681421
 GameObject:
   m_ObjectHideFlags: 0
@@ -3989,6 +4004,7 @@ GameObject:
   - component: {fileID: 1545664201}
   - component: {fileID: 1545664200}
   - component: {fileID: 1545664202}
+  - component: {fileID: 1545664203}
   m_Layer: 0
   m_Name: sanchezfull
   m_TagString: Untagged
@@ -4101,6 +4117,19 @@ CapsuleCollider:
   m_Height: 7
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1545664203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545664197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d5e629a40e050c47bd77a46b1004af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPos: {fileID: 1796503525}
 --- !u!1 &1583010166
 GameObject:
   m_ObjectHideFlags: 0
@@ -4144,6 +4173,7 @@ GameObject:
   - component: {fileID: 1590516744}
   - component: {fileID: 1590516743}
   - component: {fileID: 1590516745}
+  - component: {fileID: 1590516746}
   m_Layer: 0
   m_Name: shamsafull
   m_TagString: Untagged
@@ -4256,6 +4286,19 @@ CapsuleCollider:
   m_Height: 7
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1590516746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590516740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d5e629a40e050c47bd77a46b1004af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPos: {fileID: 1796503525}
 --- !u!1001 &1602012816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4736,6 +4779,7 @@ GameObject:
   - component: {fileID: 1787948207}
   - component: {fileID: 1787948206}
   - component: {fileID: 1787948208}
+  - component: {fileID: 1787948209}
   m_Layer: 0
   m_Name: Scheelefull
   m_TagString: Untagged
@@ -4848,6 +4892,19 @@ CapsuleCollider:
   m_Height: 7
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1787948209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787948203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d5e629a40e050c47bd77a46b1004af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPos: {fileID: 1796503525}
 --- !u!1 &1796503510 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4855780448517748685, guid: 80c836b7be835074688e11f8e19068aa, type: 3}
@@ -4867,6 +4924,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorwayThreshold: 0
   canTriggerDoorway: 1
+--- !u!4 &1796503525 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4855780448517748677, guid: 80c836b7be835074688e11f8e19068aa, type: 3}
+  m_PrefabInstance: {fileID: 137065149}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1803073699
 GameObject:
   m_ObjectHideFlags: 0

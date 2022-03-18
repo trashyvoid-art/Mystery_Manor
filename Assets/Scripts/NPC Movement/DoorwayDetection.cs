@@ -41,6 +41,13 @@ public class DoorwayDetection : MonoBehaviour
         }
     }
 
+
+    IEnumerator DoorwayBuffer()
+    {
+        yield return new WaitForSeconds(30);
+        canTriggerDoorway = true;
+    }
+
     //private void OnCollisionEnter(Collision collision)
     //{
     //    if (collision.gameObject.tag == "Player" && canTriggerDoorway)
@@ -59,9 +66,4 @@ public class DoorwayDetection : MonoBehaviour
 
     //}
 
-    IEnumerator DoorwayBuffer()
-    {
-        yield return new WaitForSeconds(30);
-        canTriggerDoorway = true;
-    }
 }
