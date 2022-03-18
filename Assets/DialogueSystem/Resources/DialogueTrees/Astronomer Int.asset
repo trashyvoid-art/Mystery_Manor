@@ -17,7 +17,7 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: a2786608-d197-40bb-8455-fadfa044f567
     PortName: Next
-    PortGUID: 32ad1567-0bbb-4532-ac57-fcff005c6c4f
+    PortGUID: 5dd3be52-5acc-46c6-94cf-65510229323f
     Condition: 
     TargetNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
   - BaseNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
@@ -76,32 +76,32 @@ MonoBehaviour:
     TargetNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
   - BaseNodeGuid: 51eeae81-37b9-410c-8f46-ec829aa87881
     PortName: Next
-    PortGUID: 11a367c8-ca8c-4a38-9b6a-9dd560e3f311
+    PortGUID: a94243f4-2888-4bc9-a2e5-85860cce630c
     Condition: 
     TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
   - BaseNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
     PortName: Pass
-    PortGUID: b8b26aae-2b36-471f-864f-aa3e86c162da
+    PortGUID: c488a3a4-d66d-4f98-be7b-c6a10b0e3261
     Condition: 
     TargetNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
   - BaseNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
     PortName: Fail
-    PortGUID: dad6b31a-3c2a-4f29-ab5d-d66939378945
+    PortGUID: 13d73920-cbe0-424c-98fa-3b63edae181c
     Condition: 
     TargetNodeGuid: 26345dbf-e14e-48ff-8cd7-59c90f9dfde6
   - BaseNodeGuid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
     PortName: Next
-    PortGUID: 29001f80-a766-45d5-b093-07e400320473
+    PortGUID: 22dda109-58d8-4113-8273-039fd0bc2ccc
     Condition: 
     TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
   - BaseNodeGuid: db1e1554-2b8f-47d5-a5fb-0d4428e30b62
     PortName: Next
-    PortGUID: 7e8a6d44-c657-464e-ac4b-12d610949f0c
+    PortGUID: ba8f5a94-ae7d-47e5-b084-f22dc3b2caae
     Condition: 
     TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
   Nodes:
   - Guid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
-    Position: {x: 304.8, y: -26.400002}
+    Position: {x: 305, y: -26}
     Type: 4
     _textKeys:
     - DialogueText
@@ -110,14 +110,14 @@ MonoBehaviour:
     - How do you do?
     - ${name}
   - Guid: c1b5c562-0429-4dc6-a8dd-6234469dee05
-    Position: {x: 1295.2, y: -118.399994}
+    Position: {x: 1295, y: -118}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - journal.AddEntry("The Astronomer was in the infirmary.");
   - Guid: 51eeae81-37b9-410c-8f46-ec829aa87881
-    Position: {x: 1295.2, y: -389.6}
+    Position: {x: 1295, y: -390}
     Type: 8
     _textKeys:
     - DialogueText
@@ -128,14 +128,14 @@ MonoBehaviour:
       about it describes this whole manor.
     - ${name}
   - Guid: 587b23ce-d7f1-4406-beb0-4a840ad35495
-    Position: {x: 2800.8, y: 79.2}
+    Position: {x: 2801, y: 79}
     Type: 32
     _textKeys:
     - Condition
     _textValues:
     - choices < 3
   - Guid: 26345dbf-e14e-48ff-8cd7-59c90f9dfde6
-    Position: {x: 3139.2, y: 79.2}
+    Position: {x: 3139, y: 79}
     Type: 8
     _textKeys:
     - DialogueText
@@ -144,7 +144,7 @@ MonoBehaviour:
     - If we all work together we'll surely solve this case.
     - ${name}
   - Guid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
-    Position: {x: 1292.8, y: 552.8}
+    Position: {x: 1293, y: 553}
     Type: 8
     _textKeys:
     - DialogueText
@@ -154,14 +154,17 @@ MonoBehaviour:
       I asked what happened he acted somewhat skilamalink.
     - ${name}
   - Guid: d2a00e74-797e-4ff6-a354-779009fbda74
-    Position: {x: 1292.8, y: 822.39996}
+    Position: {x: 1293, y: 822}
     Type: 64
     _textKeys:
     - Code
     _textValues:
-    - journal.AddEntry("The Adventurer had a bloody nose.");
+    - 'journal.AddEntry("The Adventurer had a bloody nose.");
+
+      shamsaTalkedTo
+      = true;'
   - Guid: db1e1554-2b8f-47d5-a5fb-0d4428e30b62
-    Position: {x: 1295.2, y: 88}
+    Position: {x: 1295, y: 88}
     Type: 8
     _textKeys:
     - DialogueText
@@ -170,21 +173,23 @@ MonoBehaviour:
     - I can't imagine why anyone would do something so cruel.
     - ${name}
   - Guid: 3be24e7b-4af9-4f81-95ed-1d520b2e56ab
-    Position: {x: 1295.2, y: 359.19998}
+    Position: {x: 1295, y: 359}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - choices += 1;
   - Guid: 116917f5-2d17-47f4-8030-76c6415234cb
-    Position: {x: 0, y: -170.4}
+    Position: {x: 0, y: -170}
     Type: 16
     _textKeys:
     - Code
     _textValues:
-    - 'string name = "The Astronomer";
+    - 'public bool shamsaTalkedTo = false;
 
-      Notes.Journal journal = Utility.Toolbox.Instance.Journal;
+      string name = "The Astronomer";
 
-      int
-      choices =0;'
+      Notes.Journal
+      journal = Utility.Toolbox.Instance.Journal;
+
+      int choices =0;'

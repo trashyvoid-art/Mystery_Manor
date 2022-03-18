@@ -45,7 +45,7 @@ Notes.Journal journal = Utility.Toolbox.Instance.Journal;
         // Event Functions //
         // Event From Node: d83f1542-2549-44c1-b8a9-de8c04b2dd21 //
         public void Examine_Magnifying_Glass_d83f1542254944c1b8a9de8c04b2dd21() {
-journal.AddEntry("A magnifying glass was used to bludgeon Scarlett to death");
+journal.AddEntry("A hollow base? A concealed weapon perhaps?");
         }
 
     }

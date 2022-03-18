@@ -18,6 +18,7 @@ namespace DialogueSystem.Code
 
         // Variables //
         // Variable(s) From Node: 116917f5-2d17-47f4-8030-76c6415234cb //
+public bool shamsaTalkedTo = false;
 string name = "The Astronomer";
 Notes.Journal journal = Utility.Toolbox.Instance.Journal;
 int choices =0;
@@ -72,6 +73,7 @@ journal.AddEntry("The Astronomer was in the infirmary.");
         // Event From Node: d2a00e74-797e-4ff6-a354-779009fbda74 //
         public void Astronomer_Int_d2a00e74797e4ff6a354779009fbda74() {
 journal.AddEntry("The Adventurer had a bloody nose.");
+shamsaTalkedTo = true;
         }
         // Event From Node: 3be24e7b-4af9-4f81-95ed-1d520b2e56ab //
         public void Astronomer_Int_3be24e7b4af94f8195ed1d520b2e56ab() {

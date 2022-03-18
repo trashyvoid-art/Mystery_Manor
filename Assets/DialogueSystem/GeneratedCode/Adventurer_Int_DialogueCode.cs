@@ -18,6 +18,7 @@ namespace DialogueSystem.Code
 
         // Variables //
         // Variable(s) From Node: bff4efe7-0ca3-468c-ae35-cefbbd81a662 //
+Astronomer_Int_DialogueCode shamsa = new Astronomer_Int_DialogueCode();
 string name = "The Adventurer";
 Notes.Journal journal = Utility.Toolbox.Instance.Journal;
 int choices = 0;
@@ -60,7 +61,7 @@ int choices = 0;
         // Choice: Bloody Nose? - 017ba2a9-2591-447f-bddf-fbcebda10db4 //
         public bool Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_017ba2a92591447fbddffbcebda10db4()
         {
-            return (true);
+            return (shamsa.shamsaTalkedTo = true);
         }
 
 
