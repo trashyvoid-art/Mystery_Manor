@@ -17,7 +17,7 @@ namespace Player.Movement
         [Tooltip("Invert the Horizontal input (Usually off)")]
         [SerializeField]
         public bool InvertXAxis = false;
-        [Tooltip("Hoe fast the camera will turn")]
+        [Tooltip("How fast the camera will turn")]
         [Range(1, 150)]
         [SerializeField] 
         public float MouseSensitivity = 50;

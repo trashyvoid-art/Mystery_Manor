@@ -22,4 +22,6 @@
 
 > Ed Hein - Sound Design
 
+> Casey Huffer - Sound Design
+
 Wiki
