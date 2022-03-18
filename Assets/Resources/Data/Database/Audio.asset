@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Audio
   m_EditorClassIdentifier: 
   keys:
+  - 
   - Environment\Creaks
   - Environment\Electricity
   - Environment\Room Tone
@@ -23,6 +24,10 @@ MonoBehaviour:
   - Weapons\Knife
   - Writing
   values:
+  - FolderName: 
+    Files:
+    - ParentFolder: 
+      FileLocation: Good_Bitify_Sleep Away(Reprise).mp3
   - FolderName: Environment\Creaks
     Files:
     - ParentFolder: Environment\Creaks
