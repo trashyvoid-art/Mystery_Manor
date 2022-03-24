@@ -82,6 +82,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: pipe
+    second: {fileID: 2100000, guid: ca53af96471a9417387e30217cba73c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: plant_base
     second: {fileID: 2100000, guid: 4155696130464ba45a946f096da57222, type: 2}
   - first:
