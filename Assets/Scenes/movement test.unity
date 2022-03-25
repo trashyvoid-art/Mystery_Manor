@@ -948,6 +948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d5e629a40e050c47bd77a46b1004af0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawns: []
   playerPos: {fileID: 1796503525}
 --- !u!1 &386000268
 GameObject:
@@ -3258,7 +3259,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 0
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -3960,6 +3961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d5e629a40e050c47bd77a46b1004af0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawns: []
   playerPos: {fileID: 1796503525}
 --- !u!1 &1534681421
 GameObject:
@@ -4129,6 +4131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d5e629a40e050c47bd77a46b1004af0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawns: []
   playerPos: {fileID: 1796503525}
 --- !u!1 &1583010166
 GameObject:
@@ -4298,6 +4301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d5e629a40e050c47bd77a46b1004af0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawns: []
   playerPos: {fileID: 1796503525}
 --- !u!1001 &1602012816
 PrefabInstance:
@@ -4904,6 +4908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d5e629a40e050c47bd77a46b1004af0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawns: []
   playerPos: {fileID: 1796503525}
 --- !u!1 &1796503510 stripped
 GameObject:
@@ -5595,7 +5600,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 21fd36753bcb9b94d989b2700b4b8e12, type: 2}
+  - {fileID: 2100000, guid: f4fe84001ad7eda40bce7d877e41d8e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5742,6 +5747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
   m_ActionsAsset: {fileID: -944628639613478452, guid: 8ac20c4b5f6e5a746a957014dbe5be15, type: 3}
   m_PointAction: {fileID: -3558122725362014955, guid: 8ac20c4b5f6e5a746a957014dbe5be15, type: 3}
   m_MoveAction: {fileID: 4505201909468117204, guid: 8ac20c4b5f6e5a746a957014dbe5be15, type: 3}
