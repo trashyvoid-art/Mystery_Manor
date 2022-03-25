@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/please dear god.unity
     guid: 048d49598bea94ea09f5702fd3e06113
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/InventoryTesting.unity
     guid: d86b917da3c7c7649bb8182741dc59e2
+  - enabled: 1
+    path: Assets/Scenes/Manor_New.unity
+    guid: 947dbf24f52a2486b8d0acb28b08b890
   m_configObjects: {}
