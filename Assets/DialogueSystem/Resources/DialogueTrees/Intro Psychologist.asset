@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: Intro Psychologist
+  m_EditorClassIdentifier: 
+  DialogueName: Intro Psychologist
+  EntryPointGUID: 56dd7da7-c5fe-4221-9d6b-10ffddec7b6f
+  NodeLinks:
+  - BaseNodeGuid: 56dd7da7-c5fe-4221-9d6b-10ffddec7b6f
+    PortName: Next
+    PortGUID: 98ebeeac-0938-4f2a-a583-7bbe54fe04ff
+    Condition: 
+    TargetNodeGuid: d2b45009-90f1-49f2-ab69-2e5dd516700e
+  - BaseNodeGuid: d2b45009-90f1-49f2-ab69-2e5dd516700e
+    PortName: Next
+    PortGUID: fbd6b043-dd1c-43c9-9d37-60b2452cba73
+    Condition: 
+    TargetNodeGuid: 1875c891-1b6c-46fd-9f99-c22b1bb1a463
+  Nodes:
+  - Guid: eb17a32d-6d31-4bf4-986e-0d05b2b9198b
+    Position: {x: -33, y: -121}
+    Type: 16
+    _textKeys:
+    - Code
+    _textValues:
+    - string name = "Scarlett";
+  - Guid: d2b45009-90f1-49f2-ab69-2e5dd516700e
+    Position: {x: 195, y: 0}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Dia Duit, tell me do you think the crystals on these chandeliers are real?
+    - ${name}
+  - Guid: 1875c891-1b6c-46fd-9f99-c22b1bb1a463
+    Position: {x: 655, y: 0}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - It seems like a waste to have chandeliers if they're made of glass, a bit like
+      having silverware not made of actual silver.
+    - ${name}

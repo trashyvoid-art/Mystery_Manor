@@ -17,43 +17,34 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 8ebd45cc-174b-410a-aef7-f7ebd9fd0693
     PortName: Next
-    PortGUID: d8d27ad2-f136-4e3c-9448-d12f80705962
+    PortGUID: b12f95d9-6de3-402a-8d31-9e3d9731a50b
     Condition: 
     TargetNodeGuid: 2b07a0e7-695d-47c0-af94-e1a9696878c6
   - BaseNodeGuid: 2b07a0e7-695d-47c0-af94-e1a9696878c6
     PortName: Next
-    PortGUID: da56fe44-48aa-446d-8444-4200b63d5eb0
+    PortGUID: b4155042-9810-4e69-a5a8-b08a15c88091
     Condition: 
     TargetNodeGuid: 5d141c4a-c0de-4b58-81ae-ddad778e09ac
   - BaseNodeGuid: 5d141c4a-c0de-4b58-81ae-ddad778e09ac
     PortName: Next
-    PortGUID: 75358d26-92f2-4186-b0b9-a63ef9e4ab9a
+    PortGUID: 07ed35af-654b-4d54-80c0-c5ba47de4da7
     Condition: 
     TargetNodeGuid: 154ff027-cc39-4ce9-a761-e06c0d7d77ac
   - BaseNodeGuid: 154ff027-cc39-4ce9-a761-e06c0d7d77ac
     PortName: Next
-    PortGUID: 4505b649-e4ac-44a5-ae01-c63fb707a4fe
+    PortGUID: dfa4c369-bbd6-428b-8dde-de2f2d31406b
     Condition: 
     TargetNodeGuid: e7d7ca35-2100-47d2-a2e0-56024a4d0cf9
   Nodes:
   - Guid: f8a94eb7-4b4f-40a5-a77d-30ca2f55c6ca
-    Position: {x: -46.4, y: -164.8}
+    Position: {x: -46, y: -165}
     Type: 16
     _textKeys:
     - Code
     _textValues:
     - string name = "THE ADVENTURER";
-  - Guid: 2b07a0e7-695d-47c0-af94-e1a9696878c6
-    Position: {x: 389.6, y: 54.399998}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - Don't speak! I am a mind reader you see.
-    - ${name}
   - Guid: 5d141c4a-c0de-4b58-81ae-ddad778e09ac
-    Position: {x: 852, y: 55.2}
+    Position: {x: 492, y: 0}
     Type: 8
     _textKeys:
     - DialogueText
@@ -63,7 +54,7 @@ MonoBehaviour:
       who is this handsome charming, and bricky man I see.
     - ${name}
   - Guid: 154ff027-cc39-4ce9-a761-e06c0d7d77ac
-    Position: {x: 1817.6, y: 55.2}
+    Position: {x: 1255, y: 0}
     Type: 8
     _textKeys:
     - DialogueText
@@ -73,7 +64,7 @@ MonoBehaviour:
       I have had the pleasure to happen upon.
     - ${name}
   - Guid: e7d7ca35-2100-47d2-a2e0-56024a4d0cf9
-    Position: {x: 2680, y: 55.2}
+    Position: {x: 1990, y: 0}
     Type: 8
     _textKeys:
     - DialogueText
@@ -81,4 +72,13 @@ MonoBehaviour:
     _textValues:
     - Well you're right and if you're up for a bit of nanty narking in the bar later
       I will gladly regale the tales of my adventures.
+    - ${name}
+  - Guid: 2b07a0e7-695d-47c0-af94-e1a9696878c6
+    Position: {x: 206, y: 0}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Don't speak! I am a mind reader you see.
     - ${name}
