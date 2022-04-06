@@ -18,7 +18,7 @@ namespace DialogueSystem.Code
 
         // Variables //
         // Variable(s) From Node: bff4efe7-0ca3-468c-ae35-cefbbd81a662 //
-Astronomer_Int_DialogueCode shamsa = new Astronomer_Int_DialogueCode();
+Astronomer_Int_DialogueCode shamsa;
 string name = "The Adventurer";
 Notes.Journal journal = Utility.Toolbox.Instance.Journal;
 int choices = 0;
@@ -35,6 +35,7 @@ int choices = 0;
             eventFunctions.Add("Adventurer_Int_f17b7453aec04de8891514e6b84e396b",Adventurer_Int_f17b7453aec04de8891514e6b84e396b);
             eventFunctions.Add("Adventurer_Int_354f6bf600044894a2af0dc909fc0396",Adventurer_Int_354f6bf600044894a2af0dc909fc0396);
             conditionChecks.Add("Adventurer_Int_0efcc623b62a4e9ea6e3c6f5404dd1ba",Adventurer_Int_0efcc623b62a4e9ea6e3c6f5404dd1ba);
+            eventFunctions.Add("Adventurer_Int_16ca64c016bd45a7b92c0efd6395fa37",Adventurer_Int_16ca64c016bd45a7b92c0efd6395fa37);
 
         }
 
@@ -61,7 +62,7 @@ int choices = 0;
         // Choice: Bloody Nose? - 017ba2a9-2591-447f-bddf-fbcebda10db4 //
         public bool Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_017ba2a92591447fbddffbcebda10db4()
         {
-            return (shamsa.shamsaTalkedTo = true);
+            return (shamsa.shamsaTalkedTo == 1);
         }
 
 
@@ -84,6 +85,10 @@ choices +=1;
         // Event From Node: 354f6bf6-0004-4894-a2af-0dc909fc0396 //
         public void Adventurer_Int_354f6bf600044894a2af0dc909fc0396() {
 journal.AddEntry("Incident during dinner involving The Psychologist.");
+        }
+        // Event From Node: 16ca64c0-16bd-45a7-b92c-0efd6395fa37 //
+        public void Adventurer_Int_16ca64c016bd45a7b92c0efd6395fa37() {
+shamsa = new Astronomer_Int_DialogueCode();
         }
 
     }
