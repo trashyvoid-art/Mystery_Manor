@@ -17,12 +17,12 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 0f77ab09-c429-440f-a726-f78f94cd8e3b
     PortName: Next
-    PortGUID: 427243ac-8130-43b8-9201-bcb592207e77
+    PortGUID: 6f8e7bda-2c19-43c1-a8e7-f7d1a27e3f7d
     Condition: 
     TargetNodeGuid: 1d98a5b2-eb16-4229-8a7f-909b36ba3648
   - BaseNodeGuid: 1d98a5b2-eb16-4229-8a7f-909b36ba3648
     PortName: Next
-    PortGUID: 7e55e990-f856-4d61-ad83-3b89cd99d752
+    PortGUID: c05f9633-f2e3-4763-96dc-d10c35d5703d
     Condition: 
     TargetNodeGuid: d83f1542-2549-44c1-b8a9-de8c04b2dd21
   - BaseNodeGuid: 35d8df2a-fc67-423a-b7ea-9b6f6a0bcc01
@@ -46,7 +46,7 @@ MonoBehaviour:
     _textKeys:
     - Code
     _textValues:
-    - journal.AddEntry("A magnifying glass was used to bludgeon Scarlett to death");
+    - journal.AddEntry("A hollow base? A concealed weapon perhaps?");
   - Guid: 35d8df2a-fc67-423a-b7ea-9b6f6a0bcc01
     Position: {x: 217, y: 139}
     Type: 4
@@ -63,5 +63,5 @@ MonoBehaviour:
     - DialogueText
     - CharacterName
     _textValues:
-    - This is the murder weapon used to kill Scarlett...
+    - A magnifying glass with a hollow base.
     - ${name}

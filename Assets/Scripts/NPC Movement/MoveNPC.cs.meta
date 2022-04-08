@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b2adfecbca616a14e849422021219ec3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Player: {fileID: 4855780448517748685, guid: 80c836b7be835074688e11f8e19068aa, type: 3}
+  - sanchezPatrolRoute: {instanceID: 0}
+  - Sanchez: {instanceID: 0}
+  - samPatrolRoute: {instanceID: 0}
+  - Sam: {instanceID: 0}
+  - seanPatrolRoute: {instanceID: 0}
+  - Sean: {instanceID: 0}
+  - shamsaPatrolRoute: {instanceID: 0}
+  - Shamsa: {instanceID: 0}
+  - scheelePatrolRoute: {instanceID: 0}
+  - Scheele: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

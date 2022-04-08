@@ -12,7 +12,7 @@ namespace Player.Movement
     public class MovementController : MonoBehaviour
     {
         // Exposed fields
-        [Tooltip("The speef of the player.")]
+        [Tooltip("The speed of the player.")]
         [Range(1f, 100f)]
         [SerializeField]
         public float MoveSpeed = 10.0f;
