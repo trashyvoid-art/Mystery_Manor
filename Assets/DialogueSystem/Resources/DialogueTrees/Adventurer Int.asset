@@ -17,9 +17,14 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 70b19a79-4d8d-4a9b-9c2a-2c0cc53c42a0
     PortName: Next
-    PortGUID: e45e15ec-1e42-4351-be87-e0ced3dcf8e6
+    PortGUID: 43aa4b26-8f0d-436f-98f1-70899c006282
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+  - BaseNodeGuid: 70b19a79-4d8d-4a9b-9c2a-2c0cc53c42a0
+    PortName: Next
+    PortGUID: 0b2e1ad0-d08b-46fe-b4a7-887f2a9f4249
+    Condition: 
+    TargetNodeGuid: 16ca64c0-16bd-45a7-b92c-0efd6395fa37
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
     PortName: Where were you at the time of the murder?
     PortGUID: 656e7b9d-4213-420b-8eca-f04cb8f1deea
@@ -53,7 +58,7 @@ MonoBehaviour:
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
     PortName: Bloody Nose?
     PortGUID: 017ba2a9-2591-447f-bddf-fbcebda10db4
-    Condition: shamsa.shamsaTalkedTo = true
+    Condition: shamsa.shamsaTalkedTo == 1
     TargetNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
     PortName: Do you know why someone would have wanted to hurt the victim?
@@ -68,54 +73,39 @@ MonoBehaviour:
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
     PortName: Bloody Nose?
     PortGUID: 017ba2a9-2591-447f-bddf-fbcebda10db4
-    Condition: shamsa.shamsaTalkedTo = true
+    Condition: shamsa.shamsaTalkedTo == 1
     TargetNodeGuid: f17b7453-aec0-4de8-8915-14e6b84e396b
   - BaseNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
     PortName: Next
-    PortGUID: 30cabf5a-562b-4ab0-b8bd-cb6dde58ca02
+    PortGUID: 5e5f8cd6-df25-4094-b4d0-1c854aa2e92f
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: b126805d-ae45-46ea-b5e8-37819afa75cf
     PortName: Next
-    PortGUID: 52183f52-cbc5-4187-89a0-f0d99b84886a
+    PortGUID: 5550bcfa-8fd6-4604-9366-df0f79b8669a
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
     PortName: Next
-    PortGUID: 9137851f-e2b5-4ee0-8070-bce50652c6d7
+    PortGUID: 077cc78a-5b6c-4597-8dbb-5398ada7b146
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
     PortName: Next
-    PortGUID: 7e8c5c39-7550-4896-8d36-088d9479cb88
+    PortGUID: f436ee03-b2bc-45ec-b7e9-1e0be3d0e431
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
     PortName: Pass
-    PortGUID: f0c87dc3-c8ba-47c1-a4b2-c4d2fd18a724
+    PortGUID: 2fb2f64a-08af-4ccb-a2f3-f67343c38a71
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
     PortName: Fail
-    PortGUID: cf42c23c-14ac-4818-b1ab-72c0e66c6129
+    PortGUID: 47731ab6-8602-454f-8681-3829d8666754
     Condition: 
     TargetNodeGuid: df64c86a-461c-427d-8872-d228d1c60e19
   Nodes:
-  - Guid: bff4efe7-0ca3-468c-ae35-cefbbd81a662
-    Position: {x: -57, y: -219}
-    Type: 16
-    _textKeys:
-    - Code
-    _textValues:
-    - 'Astronomer_Int_DialogueCode shamsa = new Astronomer_Int_DialogueCode();
-
-      string
-      name = "The Adventurer";
-
-      Notes.Journal journal = Utility.Toolbox.Instance.Journal;
-
-      int
-      choices = 0;'
   - Guid: e2a31422-f166-4498-b906-c8cfd8eb5a35
     Position: {x: 313, y: 15}
     Type: 4
@@ -203,3 +193,24 @@ MonoBehaviour:
     - I should get back to investigating. I'm an amazing detective if you didn't
       know!
     - ${name}
+  - Guid: bff4efe7-0ca3-468c-ae35-cefbbd81a662
+    Position: {x: -138, y: -230}
+    Type: 16
+    _textKeys:
+    - Code
+    _textValues:
+    - 'Astronomer_Int_DialogueCode shamsa;
+
+      string name = "The Adventurer";
+
+      Notes.Journal
+      journal = Utility.Toolbox.Instance.Journal;
+
+      int choices = 0;'
+  - Guid: 16ca64c0-16bd-45a7-b92c-0efd6395fa37
+    Position: {x: 313, y: -109}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - shamsa = new Astronomer_Int_DialogueCode();

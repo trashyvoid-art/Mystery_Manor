@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
   m_Name: Accusations
   m_EditorClassIdentifier: 
-  DialogueName: Sailor-Pysch/Accusations
+  DialogueName: Accusations
   EntryPointGUID: 1a900f89-6e20-44a1-b0b6-a8db81c91400
   NodeLinks:
   - BaseNodeGuid: 1a900f89-6e20-44a1-b0b6-a8db81c91400
     PortName: Next
-    PortGUID: 45da1a7e-614d-4133-b738-e30ebc6b7fb7
+    PortGUID: 5543bd07-47bf-4d4a-b4a4-b82adf9a3af2
     Condition: 
     TargetNodeGuid: 0e1dd970-9a82-4f4f-b353-6041cfbfb357
   - BaseNodeGuid: 0e1dd970-9a82-4f4f-b353-6041cfbfb357
     PortName: Next
-    PortGUID: 350885e2-680c-459d-b1f6-1c49e22756ed
+    PortGUID: 1bdd1bd9-8844-4164-8370-9f55fe74a322
     Condition: 
     TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
   - BaseNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
@@ -52,27 +52,27 @@ MonoBehaviour:
     TargetNodeGuid: 7fbcfaae-14b8-44b8-bcb9-eb84890e2f3e
   - BaseNodeGuid: 28f401ce-4763-4142-97ed-f6f779bc8c3c
     PortName: Next
-    PortGUID: fe7238c8-98fb-4ad9-8387-5bc31c31b7ae
+    PortGUID: 6102b8fa-48e7-48b6-8f60-8e2a1b22ff25
     Condition: 
     TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
   - BaseNodeGuid: f9818342-a7d3-4cfc-ba8f-64bd7818086b
     PortName: Next
-    PortGUID: 697c103e-99d7-4017-8f2a-dceb11c6ceac
+    PortGUID: 9e2ad787-bb75-4842-b2d6-fbbbe8944401
     Condition: 
     TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
   - BaseNodeGuid: 255a3504-5ead-4135-b03f-4da3577e028d
     PortName: Next
-    PortGUID: c6312a41-8dc2-4ec9-8efc-27c012c88cf4
+    PortGUID: 130c4f4f-35f5-4a6e-9ac8-22ce612d2165
     Condition: 
     TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
   - BaseNodeGuid: 19540e13-fc69-4df1-885c-468313b102ba
     PortName: Next
-    PortGUID: 091bad46-79de-4ddf-b089-a4d3c442940d
+    PortGUID: c8085a23-50ce-495c-bd06-62131a632a19
     Condition: 
     TargetNodeGuid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
   Nodes:
   - Guid: 44ea825c-02aa-4942-a11c-5767b6404ae6
-    Position: {x: 14.4, y: -409.59998}
+    Position: {x: 14.4, y: -409.6}
     Type: 16
     _textKeys:
     - Code
@@ -90,16 +90,6 @@ MonoBehaviour:
       name5 = "Ms. Scheele";
 
       string name6 = "The Sailor";'
-  - Guid: 0e1dd970-9a82-4f4f-b353-6041cfbfb357
-    Position: {x: 256, y: 0}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - 'After questioning all of you and gathering evidence, I have deternimed who
-      killed The Psychologist. '
-    - ${name}
   - Guid: bc5ab7aa-87f9-4e2e-848f-da9e4d8f6e65
     Position: {x: 964, y: 0}
     Type: 4
@@ -128,7 +118,7 @@ MonoBehaviour:
     - Honestly I am a little offended that you think I would hurt anyone.
     - ${name4}
   - Guid: 255a3504-5ead-4135-b03f-4da3577e028d
-    Position: {x: 1905.6, y: 557.60004}
+    Position: {x: 1905.6, y: 557.6}
     Type: 8
     _textKeys:
     - DialogueText
@@ -147,7 +137,7 @@ MonoBehaviour:
       I'm so sorry."
     - ${name6}
   - Guid: 19540e13-fc69-4df1-885c-468313b102ba
-    Position: {x: 1905.6, y: -499.19998}
+    Position: {x: 1905.6, y: -499.2}
     Type: 8
     _textKeys:
     - DialogueText
@@ -158,3 +148,13 @@ MonoBehaviour:
       everything I believe in! I always say only the poorest of adventurers resort
       to violence."
     - ${name2}
+  - Guid: 0e1dd970-9a82-4f4f-b353-6041cfbfb357
+    Position: {x: 256, y: 0}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - 'After questioning all of you and gathering evidence, I have deternimed that
+      the murderer is... '
+    - ${name}
