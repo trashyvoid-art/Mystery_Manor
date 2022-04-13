@@ -37,7 +37,7 @@ int choices = 0;
 
         // Dialogue Checks //
         // From Node: f122eae0-c005-4e53-924a-eda199421940 //
-        // Choice: Exanime Body - 7db36f92-2d7d-4486-a45c-0c56f1fa7dea //
+        // Choice: Examine Body - 7db36f92-2d7d-4486-a45c-0c56f1fa7dea //
         public bool Psych_Body_f122eae0c0054e53924aeda199421940_7db36f922d7d4486a45c0c56f1fa7dea()
         {
             return (true);
