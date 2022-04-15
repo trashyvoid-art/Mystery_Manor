@@ -17,37 +17,37 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: a2786608-d197-40bb-8455-fadfa044f567
     PortName: Next
-    PortGUID: 1af73be6-922c-49ac-a8ad-c51323fa38fe
+    PortGUID: 6ed1d5c8-d63d-498c-8193-e6fcd512fe27
     Condition: 
     TargetNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
   - BaseNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
     PortName: Pass
-    PortGUID: cc6b9017-915b-433d-82d1-33c55ed0a8a5
+    PortGUID: e60c7499-2092-4100-bd81-3d783d60ae2f
     Condition: 
     TargetNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
   - BaseNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
     PortName: Fail
-    PortGUID: cf6a00d6-c347-4a23-a649-3839222cc767
+    PortGUID: d82c9c86-bc73-4e0f-8994-13906a11b174
     Condition: 
     TargetNodeGuid: 26345dbf-e14e-48ff-8cd7-59c90f9dfde6
   - BaseNodeGuid: 31076eaf-81fd-4a68-8436-68e39cdb0698
     PortName: Fail
-    PortGUID: d015acf2-6eaa-42d6-81b8-072c12b64351
+    PortGUID: 533d676d-efdc-4182-a61f-6a59e639edcd
     Condition: 
     TargetNodeGuid: c1b5c562-0429-4dc6-a8dd-6234469dee05
   - BaseNodeGuid: 31076eaf-81fd-4a68-8436-68e39cdb0698
     PortName: Pass
-    PortGUID: 8c8cfcfd-3a8f-49d3-bc17-735d54652e4c
+    PortGUID: 3feb1b88-c043-45dd-9dce-c7ea830e6eeb
     Condition: 
     TargetNodeGuid: 51eeae81-37b9-410c-8f46-ec829aa87881
   - BaseNodeGuid: 31076eaf-81fd-4a68-8436-68e39cdb0698
     PortName: Fail
-    PortGUID: 8d6b457a-95ea-432a-b8ce-25cd70652c11
+    PortGUID: c6cd97f3-2552-4a7b-b61a-2223aea990b5
     Condition: 
     TargetNodeGuid: 51eeae81-37b9-410c-8f46-ec829aa87881
   - BaseNodeGuid: 51eeae81-37b9-410c-8f46-ec829aa87881
     PortName: Next
-    PortGUID: 9fe7e173-8c0a-4945-9ece-5e6822f560cb
+    PortGUID: e037322e-28ca-45db-a095-3cb02e87e308
     Condition: 
     TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
   - BaseNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
@@ -82,39 +82,39 @@ MonoBehaviour:
     TargetNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
   - BaseNodeGuid: db1e1554-2b8f-47d5-a5fb-0d4428e30b62
     PortName: Next
-    PortGUID: 03081b1b-da5d-4b26-b83a-3dc85b1fae95
+    PortGUID: 7d971baf-5161-405f-a2bd-8cefa18774d7
     Condition: 
     TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
   - BaseNodeGuid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
     PortName: Next
-    PortGUID: e7e0e318-7572-4668-8a57-1617f9352df4
+    PortGUID: 57406c0d-6c6f-4355-b6da-61fd3af6a8d3
     Condition: 
     TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
   - BaseNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
     PortName: Pass
-    PortGUID: 6e5c598e-333e-40c6-8a0f-66f020e910bf
+    PortGUID: 71f85af6-c8b1-40b8-a5af-208595a68978
     Condition: 
     TargetNodeGuid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
   - BaseNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
     PortName: Fail
-    PortGUID: adba907d-3129-4c73-a299-c36ef7ae48a4
+    PortGUID: f439e033-52c3-4c37-b087-cb8bf4c438b5
     Condition: 
     TargetNodeGuid: d2a00e74-797e-4ff6-a354-779009fbda74
   - BaseNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
     PortName: Fail
-    PortGUID: 3f1db0a1-b6a6-425b-bf02-d4e5c716c06e
+    PortGUID: 9eab82de-8287-43b0-b091-b7f2e7d44494
     Condition: 
     TargetNodeGuid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
   Nodes:
   - Guid: 587b23ce-d7f1-4406-beb0-4a840ad35495
-    Position: {x: 2801, y: 79}
+    Position: {x: 2801.5999, y: 79.2}
     Type: 32
     _textKeys:
     - Condition
     _textValues:
     - choices < 3
   - Guid: 26345dbf-e14e-48ff-8cd7-59c90f9dfde6
-    Position: {x: 3139, y: 79}
+    Position: {x: 3139.2, y: 79.2}
     Type: 8
     _textKeys:
     - DialogueText
@@ -123,7 +123,7 @@ MonoBehaviour:
     - If we all work together we'll surely solve this case.
     - ${name}
   - Guid: 116917f5-2d17-47f4-8030-76c6415234cb
-    Position: {x: 0, y: -170}
+    Position: {x: 0, y: -170.4}
     Type: 16
     _textKeys:
     - Code
@@ -138,16 +138,18 @@ MonoBehaviour:
       int choices =0;
 
       int
-      locationLearned = 0;'
+      locationLearned = 0;
+
+      DataTracker dt = DataTracker.Instance;'
   - Guid: 31076eaf-81fd-4a68-8436-68e39cdb0698
-    Position: {x: 953, y: 553}
+    Position: {x: 953.60004, y: 552.8}
     Type: 32
     _textKeys:
     - Condition
     _textValues:
     - locationLearned > 0
   - Guid: c1b5c562-0429-4dc6-a8dd-6234469dee05
-    Position: {x: 1447, y: 838}
+    Position: {x: 1447.2, y: 837.6}
     Type: 64
     _textKeys:
     - Code
@@ -157,14 +159,14 @@ MonoBehaviour:
       locationLearned
       += 1;'
   - Guid: 3be24e7b-4af9-4f81-95ed-1d520b2e56ab
-    Position: {x: 1443, y: 268}
+    Position: {x: 1443.2, y: 268}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - choices += 1;
   - Guid: 51eeae81-37b9-410c-8f46-ec829aa87881
-    Position: {x: 1259, y: 455}
+    Position: {x: 1259.2, y: 455.19998}
     Type: 8
     _textKeys:
     - DialogueText
@@ -175,7 +177,7 @@ MonoBehaviour:
       about it describes this whole manor.
     - ${name}
   - Guid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
-    Position: {x: 376, y: -75}
+    Position: {x: 376, y: -75.2}
     Type: 4
     _textKeys:
     - DialogueText
@@ -184,7 +186,7 @@ MonoBehaviour:
     - How do you do?
     - ${name}
   - Guid: db1e1554-2b8f-47d5-a5fb-0d4428e30b62
-    Position: {x: 1373, y: -729}
+    Position: {x: 1373.6, y: -728.8}
     Type: 8
     _textKeys:
     - DialogueText
@@ -193,7 +195,7 @@ MonoBehaviour:
     - I can't imagine why anyone would do something so cruel.
     - ${name}
   - Guid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
-    Position: {x: 1514, y: -163}
+    Position: {x: 1514.3999, y: -163.2}
     Type: 8
     _textKeys:
     - DialogueText
@@ -203,17 +205,17 @@ MonoBehaviour:
       I asked what happened he acted somewhat skilamalink.
     - ${name}
   - Guid: d2a00e74-797e-4ff6-a354-779009fbda74
-    Position: {x: 1514, y: 92}
+    Position: {x: 1514.3999, y: 92}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - 'journal.AddEntry("The Adventurer had a bloody nose.");
 
-      shamsaTalkedTo
+      dt.shamsaTalkedTo
       += 1;'
   - Guid: 70d846c3-c125-4aea-9240-1a81c8691d59
-    Position: {x: 1228, y: 33}
+    Position: {x: 1228, y: 32.8}
     Type: 32
     _textKeys:
     - Condition
