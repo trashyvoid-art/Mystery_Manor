@@ -82,6 +82,5 @@ namespace Player
             Utility.Toolbox.Instance.Pause.OnPause.AddListener(OnPause);
             Utility.Toolbox.Instance.Pause.OnUnPause.AddListener(OnUnPause);
         }
-
     }
 }

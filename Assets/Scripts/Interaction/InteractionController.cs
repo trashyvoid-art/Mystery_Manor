@@ -24,7 +24,6 @@ namespace Interaction
         public IInteractable Previous { get; private set; }
 
         bool lastButton;
-        bool canMove;
 
         private void Start()
         {
@@ -124,14 +123,6 @@ namespace Interaction
                 }
             }
             lastButton = buttonDown;
-
-            if (Input.GetKey(KeyCode.Q))
-            {
-                canMove = false;
-                Cursor.lockState = CursorLockMode.None;
-            }
-
-            Cursor.lockState = CursorLockMode.Confined;
         }
 
         private void OnDrawGizmos()

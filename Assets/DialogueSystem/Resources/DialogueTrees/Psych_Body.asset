@@ -17,11 +17,11 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: a3cf2d51-9518-419e-b494-922274890bae
     PortName: Next
-    PortGUID: 34308933-04a9-4024-b82d-9a459541f6c0
+    PortGUID: f00b33bf-0f2f-45be-8be2-acd7a17c40f8
     Condition: 
     TargetNodeGuid: f122eae0-c005-4e53-924a-eda199421940
   - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
-    PortName: Examine Body
+    PortName: Exanime Body
     PortGUID: 7db36f92-2d7d-4486-a45c-0c56f1fa7dea
     Condition: 
     TargetNodeGuid: 791c1573-9eda-4790-af9b-d0ef93a01c7b
@@ -31,7 +31,7 @@ MonoBehaviour:
     Condition: 
     TargetNodeGuid: 0ad39360-e60e-4c02-92ab-6178b976c4b7
   - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
-    PortName: Examine Body
+    PortName: Exanime Body
     PortGUID: 7db36f92-2d7d-4486-a45c-0c56f1fa7dea
     Condition: 
     TargetNodeGuid: b2a41c09-e3fe-4890-b19f-d14b391ad51f
@@ -41,7 +41,7 @@ MonoBehaviour:
     Condition: 
     TargetNodeGuid: b2a41c09-e3fe-4890-b19f-d14b391ad51f
   - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
-    PortName: Examine Body
+    PortName: Exanime Body
     PortGUID: 7db36f92-2d7d-4486-a45c-0c56f1fa7dea
     Condition: 
     TargetNodeGuid: ad5b43b4-3030-43be-bc65-193c48c700ce
@@ -52,22 +52,22 @@ MonoBehaviour:
     TargetNodeGuid: 2fd25a4f-fc9b-4fc3-adbe-35e38cca059c
   - BaseNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
     PortName: Pass
-    PortGUID: 40a04bcd-3d5c-4953-9a5e-7d26a882007a
+    PortGUID: 53fb4b05-6cdb-4b79-9939-e1782c23e8a3
     Condition: 
     TargetNodeGuid: f122eae0-c005-4e53-924a-eda199421940
   - BaseNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
     PortName: Fail
-    PortGUID: 6eede666-12e7-49e5-9577-349678234266
+    PortGUID: a61b7140-b428-4c07-bc5f-12c714a25b97
     Condition: 
     TargetNodeGuid: f1101084-4238-436f-a5ad-b5834df5f68b
   - BaseNodeGuid: 2fd25a4f-fc9b-4fc3-adbe-35e38cca059c
     PortName: Next
-    PortGUID: 24fd56d4-1013-4619-966e-2957b726de82
+    PortGUID: 10d3c9e9-7cd3-4cbf-a863-4048a8799214
     Condition: 
     TargetNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
   - BaseNodeGuid: ad5b43b4-3030-43be-bc65-193c48c700ce
     PortName: Next
-    PortGUID: 1a985f5f-474c-4dc7-80f7-f6b3cbfe11ae
+    PortGUID: c37ac5e6-62b2-422c-8e3f-16ca21eaee68
     Condition: 
     TargetNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
   Nodes:
