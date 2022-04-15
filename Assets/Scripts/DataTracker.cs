@@ -15,12 +15,12 @@ public class DataTracker : MonoBehaviour
     int choices = 0;
     int locationLearned = 0;
 
-    public Astronomer_Int_DialogueCode shamsa = new Astronomer_Int_DialogueCode();
-    public Sailor_Int_DialogueCode sean = new Sailor_Int_DialogueCode();
-    public Ms_Scheele_Int_DialogueCode scheele = new Ms_Scheele_Int_DialogueCode();
-    public Doctor_Int_DialogueCode sanchez = new Doctor_Int_DialogueCode();
-    public Adventurer_Int_DialogueCode sam = new Adventurer_Int_DialogueCode();
-    public Psych_Body_DialogueCode scarlette = new Psych_Body_DialogueCode();
+    public Astronomer_Int_DialogueCode shamsa;
+    public Sailor_Int_DialogueCode sean;
+    public Ms_Scheele_Int_DialogueCode scheele;
+    public Doctor_Int_DialogueCode sanchez;
+    public Adventurer_Int_DialogueCode sam;
+    public Psych_Body_DialogueCode scarlette;
 
     public int shamsaTalkedTo = 0;
     public int seanTalkedTo = 0;
@@ -113,8 +113,13 @@ public class DataTracker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-    }
+        shamsa = new Astronomer_Int_DialogueCode();
+        sean = new Sailor_Int_DialogueCode();
+        scheele = new Ms_Scheele_Int_DialogueCode();
+        sanchez = new Doctor_Int_DialogueCode();
+        sam = new Adventurer_Int_DialogueCode();
+        scarlette = new Psych_Body_DialogueCode();
+}
 
     // Update is called once per frame
     void Update()
