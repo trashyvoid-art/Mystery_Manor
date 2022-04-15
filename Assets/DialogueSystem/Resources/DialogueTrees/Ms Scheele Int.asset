@@ -17,7 +17,7 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 1c7f12ca-0c2f-4c98-ba36-bf9e1a22694a
     PortName: Next
-    PortGUID: 03b395f8-6d6a-4a14-8906-c68c97382901
+    PortGUID: e40e971f-540b-4bad-b9a9-17d8a74ec79a
     Condition: 
     TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
   - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
@@ -62,27 +62,27 @@ MonoBehaviour:
     TargetNodeGuid: cb2e3459-d7df-4849-a288-1da80427682c
   - BaseNodeGuid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
     PortName: Next
-    PortGUID: b1ebf0f7-4b29-460d-a6b1-b3cab2381584
+    PortGUID: c5206f74-d6eb-46ba-9010-596247a17540
     Condition: 
     TargetNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
   - BaseNodeGuid: 77afb165-466d-4bfd-b6bd-0187f71ce3d6
     PortName: Next
-    PortGUID: a06861be-1b8e-470c-bd48-832d1da16879
+    PortGUID: 3a2a635e-c237-4ccf-973a-82317008a704
     Condition: 
     TargetNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
   - BaseNodeGuid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
     PortName: Next
-    PortGUID: 13db8018-d976-4af3-8570-4e28d76435b5
+    PortGUID: 308e4699-c6a8-4b97-ba1a-b3026dab58ca
     Condition: 
     TargetNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
   - BaseNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
     PortName: Fail
-    PortGUID: 78ade434-3e38-4271-9479-8366ab2a70b6
+    PortGUID: cd317bd8-1ffe-4960-b456-b0d719292e98
     Condition: 
     TargetNodeGuid: 7390cb2b-1aac-49e4-9c52-909641563c98
   - BaseNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
     PortName: Pass
-    PortGUID: 376450ec-d39e-4540-a0fd-df0e0799fb44
+    PortGUID: c08a6b28-88c8-4f31-b036-37338466d761
     Condition: 
     TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
   Nodes:
@@ -106,7 +106,9 @@ MonoBehaviour:
       Notes.Journal journal = Utility.Toolbox.Instance.Journal;
 
       int
-      choices = 0;'
+      choices = 0;
+
+      DataTracker dt = DataTracker.Instance;'
   - Guid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
     Position: {x: 999.2, y: -673.60004}
     Type: 8
