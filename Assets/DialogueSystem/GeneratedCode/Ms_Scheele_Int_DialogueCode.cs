@@ -21,6 +21,7 @@ namespace DialogueSystem.Code
 string name = "Ms. Scheele";
 Notes.Journal journal = Utility.Toolbox.Instance.Journal;
 int choices = 0;
+DataTracker dt = DataTracker.Instance;
 
 
         public void Start()
@@ -33,6 +34,8 @@ int choices = 0;
             eventFunctions.Add("Ms_Scheele_Int_52ed881914ba4d7ea499688945fa8bff",Ms_Scheele_Int_52ed881914ba4d7ea499688945fa8bff);
             conditionChecks.Add("Ms_Scheele_Int_2e5d28741701475eb8fd136775e7a9af",Ms_Scheele_Int_2e5d28741701475eb8fd136775e7a9af);
             eventFunctions.Add("Ms_Scheele_Int_cb2e3459d7df4849a2881da80427682c",Ms_Scheele_Int_cb2e3459d7df4849a2881da80427682c);
+            eventFunctions.Add("Ms_Scheele_Int_a28021a5226d46ae9a16f2931e9702ca",Ms_Scheele_Int_a28021a5226d46ae9a16f2931e9702ca);
+            eventFunctions.Add("Ms_Scheele_Int_516232e98cfc48f28f1ce48b0faad408",Ms_Scheele_Int_516232e98cfc48f28f1ce48b0faad408);
 
         }
 
@@ -67,15 +70,25 @@ int choices = 0;
         // Event Functions //
         // Event From Node: 86cb3617-6c29-4d0c-bb09-d833c6db40f2 //
         public void Ms_Scheele_Int_86cb36176c294d0cbb09d833c6db40f2() {
+GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 1");
 journal.AddEntry("Ms. Scheele was in the entrance hall.");
         }
         // Event From Node: 52ed8819-14ba-4d7e-a499-688945fa8bff //
         public void Ms_Scheele_Int_52ed881914ba4d7ea499688945fa8bff() {
+GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 3");
 journal.AddEntry("The Doctor and the Psychologist confrontation, Possible motive for the Doctor.");
         }
         // Event From Node: cb2e3459-d7df-4849-a288-1da80427682c //
         public void Ms_Scheele_Int_cb2e3459d7df4849a2881da80427682c() {
 choices += 1;
+        }
+        // Event From Node: a28021a5-226d-46ae-9a16-f2931e9702ca //
+        public void Ms_Scheele_Int_a28021a5226d46ae9a16f2931e9702ca() {
+GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 2");
+        }
+        // Event From Node: 516232e9-8cfc-48f2-8f1c-e48b0faad408 //
+        public void Ms_Scheele_Int_516232e98cfc48f28f1ce48b0faad408() {
+GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele End");
         }
 
     }

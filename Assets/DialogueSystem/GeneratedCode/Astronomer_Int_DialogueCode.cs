@@ -23,6 +23,7 @@ string name = "The Astronomer";
 Notes.Journal journal = Utility.Toolbox.Instance.Journal;
 int choices =0;
 int locationLearned = 0;
+DataTracker dt = DataTracker.Instance;
 
 
         public void Start()
@@ -89,7 +90,7 @@ choices += 1;
         // Event From Node: d2a00e74-797e-4ff6-a354-779009fbda74 //
         public void Astronomer_Int_d2a00e74797e4ff6a354779009fbda74() {
 journal.AddEntry("The Adventurer had a bloody nose.");
-shamsaTalkedTo += 1;
+dt.shamsaTalkedTo += 1;
         }
 
     }

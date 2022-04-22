@@ -17,7 +17,7 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: f935f95a-056e-469d-a1bc-59c1b21cd217
     PortName: Next
-    PortGUID: e3c3e187-8de0-4b50-a78d-e76a68859e05
+    PortGUID: e7d18fd7-2c8b-4c5f-b91a-f78cbde0d357
     Condition: 
     TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
@@ -72,37 +72,115 @@ MonoBehaviour:
     TargetNodeGuid: 2813fb2c-bb6f-4ffe-93d7-3abae43e8da6
   - BaseNodeGuid: b8dd409c-7584-4689-874c-785ba0d06479
     PortName: Next
-    PortGUID: e7263efd-8dfb-487c-82a9-c3634ef9f4cb
+    PortGUID: cf12be3e-e399-4215-a094-13498d8b04f5
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: 2813fb2c-bb6f-4ffe-93d7-3abae43e8da6
     PortName: Next
-    PortGUID: af8234f4-858e-47bf-9c63-0a70b47666c1
+    PortGUID: 9311a313-5bce-49d1-91c9-9ea4f958e90b
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: 3b323f3f-0512-4e78-a020-d4b65d83daef
     PortName: Next
-    PortGUID: 268dfa1c-4ba5-4edb-8d58-3ff02f89d2d4
+    PortGUID: 657f216f-976b-43d1-803b-c6322414bc87
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: 30bc7599-469b-45f3-97ed-7a60b8df58d2
     PortName: Next
-    PortGUID: fa95b994-3ed5-417d-8360-13918d12e7f1
+    PortGUID: bcb92811-a2ca-4bb2-bc77-408dc083abfa
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
     PortName: Pass
-    PortGUID: c514310e-8b72-4e9e-98a7-f812aea75569
+    PortGUID: 2161a869-6c40-43d9-a161-7e8be317f269
     Condition: 
     TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
   - BaseNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
     PortName: Fail
-    PortGUID: bbc139b0-4eda-4d71-a47d-bba63a480a1f
+    PortGUID: 797c7479-191e-4b83-9de8-22552645f324
     Condition: 
     TargetNodeGuid: 73ee94d7-55c2-4575-bb7e-0fabca25ac33
+  - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: c40c75f7-ca64-4e15-83da-2ba6315e5b36
+    Condition: 
+    TargetNodeGuid: f029878e-6249-49f9-b919-d5521eb0c215
   Nodes:
+  - Guid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
+    Position: {x: 263, y: 0}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - What?
+    - ${name}
+  - Guid: 54f63204-9443-45bc-8f3c-d61b6056ab2f
+    Position: {x: 1093, y: 86}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - choices += 1;
+  - Guid: 5fbb3e87-1495-4bc5-a68e-00794003104b
+    Position: {x: 1093, y: -481}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 1");
+
+      journal.AddEntry("The
+      Doctor was in the Bar with the Adventurer.");'
+  - Guid: b8dd409c-7584-4689-874c-785ba0d06479
+    Position: {x: 1103, y: -767}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    - Audio
+    _textValues:
+    - I was in the bar with The Adventurer although I didn't pay him much attention.
+    - ${name}
+    - 
+  - Guid: 3b323f3f-0512-4e78-a020-d4b65d83daef
+    Position: {x: 1093, y: 556}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: 0eb957eb-90a1-4f98-8ce3-a45a7b19a437
+    Position: {x: 1093, y: 791}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("Denies incident with The Adventurer, lying?");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sanchez
+      5");'
+  - Guid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
+    Position: {x: 2479, y: -58}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - choices < 4
+  - Guid: 73ee94d7-55c2-4575-bb7e-0fabca25ac33
+    Position: {x: 2876, y: -58}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Now if you'll excuse me. I have other matters to attend to.
+    - ${name}
   - Guid: dad830d9-4c63-415e-bc73-4855505290b6
-    Position: {x: -9.6, y: -118.399994}
+    Position: {x: 0, y: -213}
     Type: 16
     _textKeys:
     - Code
@@ -115,66 +193,8 @@ MonoBehaviour:
       choices = 0;
 
       DataTracker dt = DataTracker.Instance;'
-  - Guid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
-    Position: {x: 263.2, y: 0}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - What?
-    - ${name}
-  - Guid: 54f63204-9443-45bc-8f3c-d61b6056ab2f
-    Position: {x: 1092.7999, y: 86.399994}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - choices += 1;
-  - Guid: 5fbb3e87-1495-4bc5-a68e-00794003104b
-    Position: {x: 1092.7999, y: -480.80002}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
-  - Guid: b8dd409c-7584-4689-874c-785ba0d06479
-    Position: {x: 1103.2, y: -767.2}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - I was in the bar with The Adventurer although I didn't pay him much attention.
-    - ${name}
-  - Guid: 2813fb2c-bb6f-4ffe-93d7-3abae43e8da6
-    Position: {x: 1096, y: 300.8}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - No
-    - ${name}
-  - Guid: 3b323f3f-0512-4e78-a020-d4b65d83daef
-    Position: {x: 1092.7999, y: 556}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - A bloody nose? I don't know anything about that. At no point during the evening
-      was I close enough to that obnoxious man for me to give him a nose bleed.
-    - ${name}
-  - Guid: 0eb957eb-90a1-4f98-8ce3-a45a7b19a437
-    Position: {x: 1092.7999, y: 791.2}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - journal.AddEntry("Denies incident with The Adventurer, lying?");
   - Guid: 30bc7599-469b-45f3-97ed-7a60b8df58d2
-    Position: {x: 1103.2, y: -220.8}
+    Position: {x: 1093, y: -318}
     Type: 8
     _textKeys:
     - DialogueText
@@ -183,19 +203,33 @@ MonoBehaviour:
     - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
       stuck her nose in something that didn't concern her.
     - ${name}
-  - Guid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
-    Position: {x: 2479.2, y: -58.4}
-    Type: 32
+  - Guid: f029878e-6249-49f9-b919-d5521eb0c215
+    Position: {x: 1103, y: -113}
+    Type: 64
     _textKeys:
-    - Condition
+    - Code
     _textValues:
-    - choices < 4
-  - Guid: 73ee94d7-55c2-4575-bb7e-0fabca25ac33
-    Position: {x: 2876, y: -58.4}
+    - GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 2");
+  - Guid: 2813fb2c-bb6f-4ffe-93d7-3abae43e8da6
+    Position: {x: 1093, y: 223}
     Type: 8
     _textKeys:
     - DialogueText
     - CharacterName
     _textValues:
-    - Now if you'll excuse me. I have other matters to attend to.
+    - No
     - ${name}
+  - Guid: b2652e28-9d31-4a39-91c6-24b9d2e8d0d9
+    Position: {x: 1093, y: 419}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 3");
+  - Guid: 293b8729-313e-446d-86d7-9b9aa9b7bae3
+    Position: {x: 2876, y: 138}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Sanchez End");

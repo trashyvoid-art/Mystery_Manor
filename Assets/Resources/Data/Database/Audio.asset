@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keys:
   - 
+  - Character Speech\Chapter 4
+  - Character Speech\Chapter 4\Ms Scheele
   - Environment\Creaks
   - Environment\Electricity
   - Environment\Room Tone
@@ -28,6 +30,30 @@ MonoBehaviour:
     Files:
     - ParentFolder: 
       FileLocation: Good_Bitify_Sleep Away(Reprise).mp3
+  - FolderName: Character Speech\Chapter 4
+    Files:
+    - ParentFolder: Character Speech\Chapter 4
+      FileLocation: Character Speech\Chapter 4\SanchezEndofConvo.wav
+    - ParentFolder: Character Speech\Chapter 4
+      FileLocation: Character Speech\Chapter 4\SanchezVoiceline1.wav
+    - ParentFolder: Character Speech\Chapter 4
+      FileLocation: Character Speech\Chapter 4\SanchezVoiceline2.wav
+    - ParentFolder: Character Speech\Chapter 4
+      FileLocation: Character Speech\Chapter 4\SanchezVoiceline3.wav
+    - ParentFolder: Character Speech\Chapter 4
+      FileLocation: Character Speech\Chapter 4\SanchezVoiceline4.wav
+    - ParentFolder: Character Speech\Chapter 4
+      FileLocation: Character Speech\Chapter 4\SanchezVoiceline5.wav
+  - FolderName: Character Speech\Chapter 4\Ms Scheele
+    Files:
+    - ParentFolder: Character Speech\Chapter 4\Ms Scheele
+      FileLocation: Character Speech\Chapter 4\Ms Scheele\MsScheeleEndofConvo.wav
+    - ParentFolder: Character Speech\Chapter 4\Ms Scheele
+      FileLocation: Character Speech\Chapter 4\Ms Scheele\MsScheeleVoiceline1.wav
+    - ParentFolder: Character Speech\Chapter 4\Ms Scheele
+      FileLocation: Character Speech\Chapter 4\Ms Scheele\MsScheeleVoiceline2.wav
+    - ParentFolder: Character Speech\Chapter 4\Ms Scheele
+      FileLocation: Character Speech\Chapter 4\Ms Scheele\MsScheeleVoiceline3.wav
   - FolderName: Environment\Creaks
     Files:
     - ParentFolder: Environment\Creaks

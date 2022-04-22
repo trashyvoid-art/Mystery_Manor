@@ -21,6 +21,7 @@ namespace DialogueSystem.Code
 string name ="The Sailor";
 Notes.Journal journal = Utility.Toolbox.Instance.Journal;
 int choices = 0;
+DataTracker dt = DataTracker.Instance;
 
 
         public void Start()
