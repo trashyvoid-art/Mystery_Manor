@@ -47,6 +47,12 @@ public class DataTracker
     public int samTalkedTo { get; set; } = 0;
     public int scarletteTalkedTo { get; set; } = 0;
 
+    public int clues { get; set; } = 0;
+
+    public int correctAccusations { get; set; } = 0;
+
+    public int wrongAccusations { get; set; } = 0;
+
     //ShamsaTalkedTo setter
     //public void setShamsaTalkedTo(int _shamsaTalkedTo)
     //{

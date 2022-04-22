@@ -17,9 +17,84 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 1c7f12ca-0c2f-4c98-ba36-bf9e1a22694a
     PortName: Next
-    PortGUID: bceaefb7-190a-468b-b39b-330cde879a3a
+    PortGUID: a014c42c-cf00-41af-9d91-a96922513ab9
     Condition: 
     TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+  - BaseNodeGuid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
+    PortName: Next
+    PortGUID: 4253b691-fbf7-4c1f-8b36-68c3d0063e7e
+    Condition: 
+    TargetNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
+  - BaseNodeGuid: 77afb165-466d-4bfd-b6bd-0187f71ce3d6
+    PortName: Next
+    PortGUID: 39973868-8baf-47d5-a09a-e318dfd33131
+    Condition: 
+    TargetNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
+  - BaseNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
+    PortName: Fail
+    PortGUID: 6d682976-4b34-4663-a8b3-ca638c1f24bb
+    Condition: 
+    TargetNodeGuid: 7390cb2b-1aac-49e4-9c52-909641563c98
+  - BaseNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
+    PortName: Pass
+    PortGUID: 31bbd664-b74f-4260-8f4d-e7c8f1a37010
+    Condition: 
+    TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+  - BaseNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
+    PortName: Fail
+    PortGUID: b7bc0a51-3e60-4442-8d27-449148975342
+    Condition: 
+    TargetNodeGuid: 516232e9-8cfc-48f2-8f1c-e48b0faad408
+  - BaseNodeGuid: 65516af0-a0fb-430b-9224-b527ce2c662c
+    PortName: Fail
+    PortGUID: dd2fa451-c4de-49d2-9c65-00f4dce72c67
+    Condition: 
+    TargetNodeGuid: 86cb3617-6c29-4d0c-bb09-d833c6db40f2
+  - BaseNodeGuid: 65516af0-a0fb-430b-9224-b527ce2c662c
+    PortName: Pass
+    PortGUID: e82ac461-408b-405f-ac7c-644745d9eac1
+    Condition: 
+    TargetNodeGuid: 86cb3617-6c29-4d0c-bb09-d833c6db40f2
+  - BaseNodeGuid: 65516af0-a0fb-430b-9224-b527ce2c662c
+    PortName: Pass
+    PortGUID: 424de13f-671d-4e35-a485-ab69102774c2
+    Condition: 
+    TargetNodeGuid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
+  - BaseNodeGuid: 65516af0-a0fb-430b-9224-b527ce2c662c
+    PortName: Fail
+    PortGUID: 12658291-370a-46ce-99cb-204ae3874f19
+    Condition: 
+    TargetNodeGuid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
+  - BaseNodeGuid: 65516af0-a0fb-430b-9224-b527ce2c662c
+    PortName: Fail
+    PortGUID: 56ef2ed2-d73c-429e-b238-bd8ef4e53965
+    Condition: 
+    TargetNodeGuid: 58b94c1c-e19e-4594-b96c-e00ab7769dd9
+  - BaseNodeGuid: 074278c8-af68-46b7-86db-563f306b6704
+    PortName: Fail
+    PortGUID: 4f9cda8c-867c-4ded-8bf4-418ca17ceec5
+    Condition: 
+    TargetNodeGuid: 2a4316b0-d5f9-40c0-8f2a-58cee703a297
+  - BaseNodeGuid: 074278c8-af68-46b7-86db-563f306b6704
+    PortName: Pass
+    PortGUID: e9d1a547-c7f8-4f2c-a3a1-58c6b73aabcf
+    Condition: 
+    TargetNodeGuid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
+  - BaseNodeGuid: 074278c8-af68-46b7-86db-563f306b6704
+    PortName: Fail
+    PortGUID: 949b405e-1d29-49bc-a1d1-bf8fae0bfee4
+    Condition: 
+    TargetNodeGuid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
+  - BaseNodeGuid: 074278c8-af68-46b7-86db-563f306b6704
+    PortName: Pass
+    PortGUID: 26bd5b90-ae64-4840-bce0-a7a5ecaa1391
+    Condition: 
+    TargetNodeGuid: 52ed8819-14ba-4d7e-a499-688945fa8bff
+  - BaseNodeGuid: 074278c8-af68-46b7-86db-563f306b6704
+    PortName: Fail
+    PortGUID: 700bf997-cdd0-437c-9f49-0b800c34c24a
+    Condition: 
+    TargetNodeGuid: 52ed8819-14ba-4d7e-a499-688945fa8bff
   - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
     PortName: Where were you at the time of the murder
     PortGUID: 108d8c03-2852-4b3a-bb72-6b64844e6603
@@ -31,21 +106,6 @@ MonoBehaviour:
     Condition: 
     TargetNodeGuid: 77afb165-466d-4bfd-b6bd-0187f71ce3d6
   - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
-    PortName: Do you have any other information?
-    PortGUID: 66ffc2b8-f5bb-494d-8710-6b6c23b02974
-    Condition: 
-    TargetNodeGuid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
-  - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
-    PortName: Do you have any other information?
-    PortGUID: 66ffc2b8-f5bb-494d-8710-6b6c23b02974
-    Condition: 
-    TargetNodeGuid: 52ed8819-14ba-4d7e-a499-688945fa8bff
-  - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
-    PortName: Where were you at the time of the murder
-    PortGUID: 108d8c03-2852-4b3a-bb72-6b64844e6603
-    Condition: 
-    TargetNodeGuid: 86cb3617-6c29-4d0c-bb09-d833c6db40f2
-  - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
     PortName: Where were you at the time of the murder
     PortGUID: 108d8c03-2852-4b3a-bb72-6b64844e6603
     Condition: 
@@ -60,53 +120,34 @@ MonoBehaviour:
     PortGUID: 66ffc2b8-f5bb-494d-8710-6b6c23b02974
     Condition: 
     TargetNodeGuid: cb2e3459-d7df-4849-a288-1da80427682c
-  - BaseNodeGuid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
-    PortName: Next
-    PortGUID: 5cbcd17f-da79-45e2-b3e5-9c901d51b94d
-    Condition: 
-    TargetNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
-  - BaseNodeGuid: 77afb165-466d-4bfd-b6bd-0187f71ce3d6
-    PortName: Next
-    PortGUID: 63f077dc-8985-4ede-bad5-d1dd254260c6
-    Condition: 
-    TargetNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
-  - BaseNodeGuid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
-    PortName: Next
-    PortGUID: 88b735fd-fa06-4570-80b7-55dde86fe112
-    Condition: 
-    TargetNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
-  - BaseNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
-    PortName: Fail
-    PortGUID: d8f7f0c0-42a0-44b2-8c0d-dd36c2741ef7
-    Condition: 
-    TargetNodeGuid: 7390cb2b-1aac-49e4-9c52-909641563c98
-  - BaseNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
-    PortName: Pass
-    PortGUID: ce22f601-2b96-4571-91cf-cc0fcb476c6f
-    Condition: 
-    TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
   - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
     PortName: Do you know why someone would have wanted to hurt the victim?
     PortGUID: 04a49ac7-9ceb-4573-b98b-81deb9a5ea1f
     Condition: 
     TargetNodeGuid: a28021a5-226d-46ae-9a16-f2931e9702ca
-  - BaseNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
-    PortName: Fail
-    PortGUID: 58cb2506-9672-4497-899a-763ba7beb797
+  - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+    PortName: Where were you at the time of the murder
+    PortGUID: 108d8c03-2852-4b3a-bb72-6b64844e6603
     Condition: 
-    TargetNodeGuid: 516232e9-8cfc-48f2-8f1c-e48b0faad408
+    TargetNodeGuid: 65516af0-a0fb-430b-9224-b527ce2c662c
+  - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+    PortName: Do you have any other information?
+    PortGUID: 66ffc2b8-f5bb-494d-8710-6b6c23b02974
+    Condition: 
+    TargetNodeGuid: 074278c8-af68-46b7-86db-563f306b6704
+  - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+    PortName: Did you kill Scarlette?
+    PortGUID: 6b2d0f09-dff5-42e3-bc62-524871d43361
+    Condition: dt.clues >= 6
+    TargetNodeGuid: d2dcd9be-c08a-47a0-bc8b-d62db9a327ec
+  - BaseNodeGuid: d2dcd9be-c08a-47a0-bc8b-d62db9a327ec
+    PortName: Next
+    PortGUID: 2caeebca-1afe-4464-a95f-ae79ab450b77
+    Condition: 
+    TargetNodeGuid: 9f979fd0-12b2-4b3b-9243-e40eb880aee3
   Nodes:
-  - Guid: de22f680-f6f2-4185-b948-014f88d222ee
-    Position: {x: 236, y: -63}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - How might I be of assistance?
-    - ${name}
   - Guid: bc34f003-a4f8-48bd-897a-d7f0e226a48d
-    Position: {x: 48, y: -302}
+    Position: {x: 48, y: -302.40002}
     Type: 16
     _textKeys:
     - Code
@@ -118,9 +159,14 @@ MonoBehaviour:
       int
       choices = 0;
 
-      DataTracker dt = DataTracker.Instance;'
+      int locationsLearned = 0;
+
+      int infoLearned = 0;
+
+      DataTracker
+      dt = DataTracker.Instance;'
   - Guid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
-    Position: {x: 999, y: -674}
+    Position: {x: 999.2, y: -674.4}
     Type: 8
     _textKeys:
     - DialogueText
@@ -128,18 +174,8 @@ MonoBehaviour:
     _textValues:
     - I was with you, Dear, in the Entrance Hall don't you remember?
     - ${name}
-  - Guid: 86cb3617-6c29-4d0c-bb09-d833c6db40f2
-    Position: {x: 999, y: -437}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 1");
-
-      journal.AddEntry("Ms.
-      Scheele was in the entrance hall.");'
   - Guid: 77afb165-466d-4bfd-b6bd-0187f71ce3d6
-    Position: {x: 990, y: -260}
+    Position: {x: 990.4, y: -260}
     Type: 8
     _textKeys:
     - DialogueText
@@ -148,35 +184,15 @@ MonoBehaviour:
     - Certainly not! Scarlett could be too much sometimes, but she really was a lovely
       person.
     - ${name}
-  - Guid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
-    Position: {x: 990, y: 194}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - Sanchez and Scarlett seemed to be involved in quite the collie shangles at
-      one point.
-    - ${name}
-  - Guid: 52ed8819-14ba-4d7e-a499-688945fa8bff
-    Position: {x: 990, y: 460}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 3");
-
-      journal.AddEntry("The
-      Doctor and the Psychologist confrontation, Possible motive for the Doctor.");'
   - Guid: 2e5d2874-1701-475e-b8fd-136775e7a9af
-    Position: {x: 2180, y: -271}
+    Position: {x: 2180, y: -271.2}
     Type: 32
     _textKeys:
     - Condition
     _textValues:
     - choices < 3
   - Guid: 7390cb2b-1aac-49e4-9c52-909641563c98
-    Position: {x: 2511, y: -271}
+    Position: {x: 2511.2, y: -271.2}
     Type: 8
     _textKeys:
     - DialogueText
@@ -185,23 +201,113 @@ MonoBehaviour:
     - Best of luck with the rest of your investigation.
     - ${name}
   - Guid: cb2e3459-d7df-4849-a288-1da80427682c
-    Position: {x: 1002, y: 70}
+    Position: {x: 1002.4, y: 69.600006}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - choices += 1;
   - Guid: a28021a5-226d-46ae-9a16-f2931e9702ca
-    Position: {x: 990, y: -64}
+    Position: {x: 990.4, y: -64}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 2");
   - Guid: 516232e9-8cfc-48f2-8f1c-e48b0faad408
-    Position: {x: 2511, y: -75}
+    Position: {x: 2511.2, y: -75.2}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele End");
+  - Guid: 86cb3617-6c29-4d0c-bb09-d833c6db40f2
+    Position: {x: 970.4, y: -441.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 1");
+
+'
+  - Guid: 58b94c1c-e19e-4594-b96c-e00ab7769dd9
+    Position: {x: 1432, y: -441.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("Ms. Scheele was in the entrance hall.");
+
+      locationsLearned+=1;
+
+      dt.clues+=1;'
+  - Guid: 65516af0-a0fb-430b-9224-b527ce2c662c
+    Position: {x: 631.2, y: -468.80002}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - locationsLearned>0
+  - Guid: 074278c8-af68-46b7-86db-563f306b6704
+    Position: {x: 719.2, y: 326.4}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - infoLearned > 0
+  - Guid: 52ed8819-14ba-4d7e-a499-688945fa8bff
+    Position: {x: 990.4, y: 460}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 3");
+
+'
+  - Guid: 2a4316b0-d5f9-40c0-8f2a-58cee703a297
+    Position: {x: 1476.7999, y: 408}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Doctor and the Psychologist confrontation, Possible
+      motive for the Doctor.");
+
+      infoLearned+=1;
+
+      dt.clues+=1;'
+  - Guid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
+    Position: {x: 990.4, y: 193.6}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Sanchez and Scarlett seemed to be involved in quite the collie shangles at
+      one point.
+    - ${name}
+  - Guid: de22f680-f6f2-4185-b948-014f88d222ee
+    Position: {x: 256.80002, y: -144}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - How might I be of assistance?
+    - ${name}
+  - Guid: d2dcd9be-c08a-47a0-bc8b-d62db9a327ec
+    Position: {x: 675.2, y: 619.2}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Unfortunately, I am afraid you have missed the mark with this one.
+    - ${name}
+  - Guid: 9f979fd0-12b2-4b3b-9243-e40eb880aee3
+    Position: {x: 1088, y: 824}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - dt.wrongAccusations+=1;

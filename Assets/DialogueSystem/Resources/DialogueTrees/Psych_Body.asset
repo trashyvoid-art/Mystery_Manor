@@ -17,19 +17,9 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: a3cf2d51-9518-419e-b494-922274890bae
     PortName: Next
-    PortGUID: f00b33bf-0f2f-45be-8be2-acd7a17c40f8
+    PortGUID: e6e63628-04a0-4abe-8fb5-4cfc55a4f8c5
     Condition: 
     TargetNodeGuid: f122eae0-c005-4e53-924a-eda199421940
-  - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
-    PortName: Exanime Body
-    PortGUID: 7db36f92-2d7d-4486-a45c-0c56f1fa7dea
-    Condition: 
-    TargetNodeGuid: 791c1573-9eda-4790-af9b-d0ef93a01c7b
-  - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
-    PortName: Examine Hands
-    PortGUID: 20212544-bc22-43e6-a4c1-83dc617dd63a
-    Condition: 
-    TargetNodeGuid: 0ad39360-e60e-4c02-92ab-6178b976c4b7
   - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
     PortName: Exanime Body
     PortGUID: 7db36f92-2d7d-4486-a45c-0c56f1fa7dea
@@ -50,26 +40,61 @@ MonoBehaviour:
     PortGUID: 20212544-bc22-43e6-a4c1-83dc617dd63a
     Condition: 
     TargetNodeGuid: 2fd25a4f-fc9b-4fc3-adbe-35e38cca059c
+  - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
+    PortName: Examine Blood
+    PortGUID: 2d199e62-b0bc-4e5e-93c5-5e7cf2026b89
+    Condition: 
+    TargetNodeGuid: 5624cd99-2b70-48be-b5e1-db7b68dbd2bb
   - BaseNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
     PortName: Pass
-    PortGUID: 53fb4b05-6cdb-4b79-9939-e1782c23e8a3
+    PortGUID: 6bb6c90d-fa9f-4177-bcfb-d572dd6be772
     Condition: 
     TargetNodeGuid: f122eae0-c005-4e53-924a-eda199421940
   - BaseNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
     PortName: Fail
-    PortGUID: a61b7140-b428-4c07-bc5f-12c714a25b97
+    PortGUID: 3ba14ed4-e5a6-44fb-8e3f-8f8c3c622d33
     Condition: 
     TargetNodeGuid: f1101084-4238-436f-a5ad-b5834df5f68b
   - BaseNodeGuid: 2fd25a4f-fc9b-4fc3-adbe-35e38cca059c
     PortName: Next
-    PortGUID: 10d3c9e9-7cd3-4cbf-a863-4048a8799214
+    PortGUID: 02eab84f-7315-460d-977e-60e552585a73
     Condition: 
     TargetNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
   - BaseNodeGuid: ad5b43b4-3030-43be-bc65-193c48c700ce
     PortName: Next
-    PortGUID: c37ac5e6-62b2-422c-8e3f-16ca21eaee68
+    PortGUID: 4d3a9b73-8fe0-488d-b600-4e387f7ee0aa
     Condition: 
     TargetNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
+  - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
+    PortName: Exanime Body
+    PortGUID: 7db36f92-2d7d-4486-a45c-0c56f1fa7dea
+    Condition: 
+    TargetNodeGuid: 761caa1e-b972-4d33-8731-c9953d7b45a9
+  - BaseNodeGuid: 761caa1e-b972-4d33-8731-c9953d7b45a9
+    PortName: Fail
+    PortGUID: 8de08bb8-81fc-4de4-b81f-22e503846e2a
+    Condition: 
+    TargetNodeGuid: 791c1573-9eda-4790-af9b-d0ef93a01c7b
+  - BaseNodeGuid: aab88120-a917-4c6f-b20b-fdcb6384cfb7
+    PortName: Fail
+    PortGUID: 53143cb9-2b8c-4f11-9613-70b84ad8df1c
+    Condition: 
+    TargetNodeGuid: 0ad39360-e60e-4c02-92ab-6178b976c4b7
+  - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
+    PortName: Examine Hands
+    PortGUID: 20212544-bc22-43e6-a4c1-83dc617dd63a
+    Condition: 
+    TargetNodeGuid: aab88120-a917-4c6f-b20b-fdcb6384cfb7
+  - BaseNodeGuid: f1c70959-a853-458a-aa31-2421f36b7a69
+    PortName: Fail
+    PortGUID: 7c8960e4-cd90-4ea7-83fc-545cf25601e4
+    Condition: 
+    TargetNodeGuid: 37d5097f-6e19-47ba-b51f-d27057cd9537
+  - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
+    PortName: Examine Blood
+    PortGUID: 2d199e62-b0bc-4e5e-93c5-5e7cf2026b89
+    Condition: 
+    TargetNodeGuid: f1c70959-a853-458a-aa31-2421f36b7a69
   Nodes:
   - Guid: 925071b6-c5b9-456f-bc20-ff5e6dae9dc2
     Position: {x: -169.6, y: -142.4}
@@ -79,12 +104,21 @@ MonoBehaviour:
     _textValues:
     - 'string name = "Dead Body";
 
-      Notes.Journal journal = Utility.Toolbox.Instance.Journal;
+      int body = 0;
+
+      int hands = 0;
 
       int
-      choices = 0;'
+      blood = 0;
+
+      DataTracker dt = DataTracker.Instance;
+
+      Notes.Journal
+      journal = Utility.Toolbox.Instance.Journal;
+
+      int choices = 0;'
   - Guid: f122eae0-c005-4e53-924a-eda199421940
-    Position: {x: 221.6, y: -9.6}
+    Position: {x: 221.59999, y: -9.6}
     Type: 4
     _textKeys:
     - DialogueText
@@ -92,27 +126,13 @@ MonoBehaviour:
     _textValues:
     - Examine Body
     - ${name}
-  - Guid: 0ad39360-e60e-4c02-92ab-6178b976c4b7
-    Position: {x: 550.4, y: 400}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - journal.AddEntry("The assailant had dark hair? Well that could be almost anyone...");
   - Guid: 939df39a-2ae3-488c-a989-ba6394d81f52
     Position: {x: 1469.6, y: -111.2}
     Type: 32
     _textKeys:
     - Condition
     _textValues:
-    - choices < 2
-  - Guid: 791c1573-9eda-4790-af9b-d0ef93a01c7b
-    Position: {x: 587.2, y: -232.8}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - journal.AddEntry("Psychologist's body had two stab wounds in the abdomen area.");
+    - choices < 3
   - Guid: 2fd25a4f-fc9b-4fc3-adbe-35e38cca059c
     Position: {x: 618.4, y: 174.40001}
     Type: 8
@@ -147,3 +167,70 @@ MonoBehaviour:
     - Code
     _textValues:
     - choices += 1;
+  - Guid: 5624cd99-2b70-48be-b5e1-db7b68dbd2bb
+    Position: {x: 212, y: 388}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Streaks of blood leading away from a pool of blood
+    - ${name}
+  - Guid: 761caa1e-b972-4d33-8731-c9953d7b45a9
+    Position: {x: 282.40002, y: -305.6}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - body > 0
+  - Guid: 791c1573-9eda-4790-af9b-d0ef93a01c7b
+    Position: {x: 587.2, y: -232.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("Psychologist''s body had two stab wounds in the abdomen
+      area.");
+
+      body += 1;
+
+      dt.clues += 1;'
+  - Guid: aab88120-a917-4c6f-b20b-fdcb6384cfb7
+    Position: {x: 543.2, y: 393.59998}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - hands > 0
+  - Guid: 0ad39360-e60e-4c02-92ab-6178b976c4b7
+    Position: {x: 733.60004, y: 416.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The assailant had dark hair? Well that could be almost anyone...");
+
+      hands
+      += 1;
+
+      dt.clues += 1;'
+  - Guid: 37d5097f-6e19-47ba-b51f-d27057cd9537
+    Position: {x: 316, y: 605.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("Footprints and trail of blood from Scarlette''s body leads
+      out further into the office, but end abrubtly.");
+
+      blood += 1;
+
+      dt.clues
+      += 1;'
+  - Guid: f1c70959-a853-458a-aa31-2421f36b7a69
+    Position: {x: 87.2, y: 605.6}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - blood > 0
