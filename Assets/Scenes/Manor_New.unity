@@ -12396,6 +12396,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051150131}
   m_CullTransparentMesh: 1
+--- !u!1 &2051172616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2051172619}
+  - component: {fileID: 2051172618}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2051172618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051172616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb999e11e71c0e9408479ea493a061c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioArray:
+  - name: Sanchez 1
+    audio: {fileID: 8300000, guid: 4bd33ea9690b7c647910dcdbaaceba65, type: 3}
+    source: {fileID: 0}
+  - name: Sanchez 2
+    audio: {fileID: 8300000, guid: f1640528951da644183b2fa754d89b09, type: 3}
+    source: {fileID: 0}
+  - name: Sanchez 3
+    audio: {fileID: 8300000, guid: cd3fd490ae8cb52458e6c82f588b502c, type: 3}
+    source: {fileID: 0}
+  - name: Sanchez 4
+    audio: {fileID: 8300000, guid: 900aabe6250f0774091040444ab7f2cd, type: 3}
+    source: {fileID: 0}
+  - name: Sanchez 5
+    audio: {fileID: 8300000, guid: 5025b40e5ad8e554eb7f04f2a4acfd31, type: 3}
+    source: {fileID: 0}
+  - name: Sanchez End
+    audio: {fileID: 8300000, guid: ae9e7cf767160b04f8f980a0d9f639b8, type: 3}
+    source: {fileID: 0}
+  - name: Ms Scheele 1
+    audio: {fileID: 8300000, guid: ae9e7cf767160b04f8f980a0d9f639b8, type: 3}
+    source: {fileID: 0}
+  - name: Ms Scheele 2
+    audio: {fileID: 8300000, guid: ae9e7cf767160b04f8f980a0d9f639b8, type: 3}
+    source: {fileID: 0}
+  - name: Ms Scheele 3
+    audio: {fileID: 8300000, guid: ae9e7cf767160b04f8f980a0d9f639b8, type: 3}
+    source: {fileID: 0}
+  - name: Ms Scheele End
+    audio: {fileID: 8300000, guid: ae9e7cf767160b04f8f980a0d9f639b8, type: 3}
+    source: {fileID: 0}
+--- !u!4 &2051172619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051172616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 39.412903, y: 13.329, z: 2.5805554}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2066127769
 GameObject:
   m_ObjectHideFlags: 0

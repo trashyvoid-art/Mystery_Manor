@@ -10,7 +10,7 @@ public class PrintText : MonoBehaviour
     int index;
     string expectedText;
     TextMeshProUGUI text;
-
+    
     UnityEvent OnCharacterPrint;
 
     // Start is called before the first frame update

@@ -17,7 +17,7 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 1c7f12ca-0c2f-4c98-ba36-bf9e1a22694a
     PortName: Next
-    PortGUID: e40e971f-540b-4bad-b9a9-17d8a74ec79a
+    PortGUID: bceaefb7-190a-468b-b39b-330cde879a3a
     Condition: 
     TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
   - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
@@ -62,32 +62,42 @@ MonoBehaviour:
     TargetNodeGuid: cb2e3459-d7df-4849-a288-1da80427682c
   - BaseNodeGuid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
     PortName: Next
-    PortGUID: c5206f74-d6eb-46ba-9010-596247a17540
+    PortGUID: 5cbcd17f-da79-45e2-b3e5-9c901d51b94d
     Condition: 
     TargetNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
   - BaseNodeGuid: 77afb165-466d-4bfd-b6bd-0187f71ce3d6
     PortName: Next
-    PortGUID: 3a2a635e-c237-4ccf-973a-82317008a704
+    PortGUID: 63f077dc-8985-4ede-bad5-d1dd254260c6
     Condition: 
     TargetNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
   - BaseNodeGuid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
     PortName: Next
-    PortGUID: 308e4699-c6a8-4b97-ba1a-b3026dab58ca
+    PortGUID: 88b735fd-fa06-4570-80b7-55dde86fe112
     Condition: 
     TargetNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
   - BaseNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
     PortName: Fail
-    PortGUID: cd317bd8-1ffe-4960-b456-b0d719292e98
+    PortGUID: d8f7f0c0-42a0-44b2-8c0d-dd36c2741ef7
     Condition: 
     TargetNodeGuid: 7390cb2b-1aac-49e4-9c52-909641563c98
   - BaseNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
     PortName: Pass
-    PortGUID: c08a6b28-88c8-4f31-b036-37338466d761
+    PortGUID: ce22f601-2b96-4571-91cf-cc0fcb476c6f
     Condition: 
     TargetNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+  - BaseNodeGuid: de22f680-f6f2-4185-b948-014f88d222ee
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 04a49ac7-9ceb-4573-b98b-81deb9a5ea1f
+    Condition: 
+    TargetNodeGuid: a28021a5-226d-46ae-9a16-f2931e9702ca
+  - BaseNodeGuid: 2e5d2874-1701-475e-b8fd-136775e7a9af
+    PortName: Fail
+    PortGUID: 58cb2506-9672-4497-899a-763ba7beb797
+    Condition: 
+    TargetNodeGuid: 516232e9-8cfc-48f2-8f1c-e48b0faad408
   Nodes:
   - Guid: de22f680-f6f2-4185-b948-014f88d222ee
-    Position: {x: 236, y: -63.2}
+    Position: {x: 236, y: -63}
     Type: 4
     _textKeys:
     - DialogueText
@@ -96,7 +106,7 @@ MonoBehaviour:
     - How might I be of assistance?
     - ${name}
   - Guid: bc34f003-a4f8-48bd-897a-d7f0e226a48d
-    Position: {x: 48, y: -302.40002}
+    Position: {x: 48, y: -302}
     Type: 16
     _textKeys:
     - Code
@@ -110,7 +120,7 @@ MonoBehaviour:
 
       DataTracker dt = DataTracker.Instance;'
   - Guid: e4382c8e-b048-4dcd-a58f-83f9fe1139d7
-    Position: {x: 999.2, y: -673.60004}
+    Position: {x: 999, y: -674}
     Type: 8
     _textKeys:
     - DialogueText
@@ -119,14 +129,17 @@ MonoBehaviour:
     - I was with you, Dear, in the Entrance Hall don't you remember?
     - ${name}
   - Guid: 86cb3617-6c29-4d0c-bb09-d833c6db40f2
-    Position: {x: 999.2, y: -436.80002}
+    Position: {x: 999, y: -437}
     Type: 64
     _textKeys:
     - Code
     _textValues:
-    - journal.AddEntry("Ms. Scheele was in the entrance hall.");
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 1");
+
+      journal.AddEntry("Ms.
+      Scheele was in the entrance hall.");'
   - Guid: 77afb165-466d-4bfd-b6bd-0187f71ce3d6
-    Position: {x: 990.4, y: -260}
+    Position: {x: 990, y: -260}
     Type: 8
     _textKeys:
     - DialogueText
@@ -136,7 +149,7 @@ MonoBehaviour:
       person.
     - ${name}
   - Guid: 9994ed39-8b88-48fa-9745-83e50d3dbff2
-    Position: {x: 990.4, y: 194.40001}
+    Position: {x: 990, y: 194}
     Type: 8
     _textKeys:
     - DialogueText
@@ -146,29 +159,24 @@ MonoBehaviour:
       one point.
     - ${name}
   - Guid: 52ed8819-14ba-4d7e-a499-688945fa8bff
-    Position: {x: 990.4, y: 460}
+    Position: {x: 990, y: 460}
     Type: 64
     _textKeys:
     - Code
     _textValues:
-    - journal.AddEntry("The Doctor and the Psychologist confrontation, Possible motive
-      for the Doctor.");
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 3");
+
+      journal.AddEntry("The
+      Doctor and the Psychologist confrontation, Possible motive for the Doctor.");'
   - Guid: 2e5d2874-1701-475e-b8fd-136775e7a9af
-    Position: {x: 2180, y: -271.2}
+    Position: {x: 2180, y: -271}
     Type: 32
     _textKeys:
     - Condition
     _textValues:
     - choices < 3
-  - Guid: cb2e3459-d7df-4849-a288-1da80427682c
-    Position: {x: 999.2, y: 0}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - choices += 1;
   - Guid: 7390cb2b-1aac-49e4-9c52-909641563c98
-    Position: {x: 2511.2, y: -271.2}
+    Position: {x: 2511, y: -271}
     Type: 8
     _textKeys:
     - DialogueText
@@ -176,3 +184,24 @@ MonoBehaviour:
     _textValues:
     - Best of luck with the rest of your investigation.
     - ${name}
+  - Guid: cb2e3459-d7df-4849-a288-1da80427682c
+    Position: {x: 1002, y: 70}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - choices += 1;
+  - Guid: a28021a5-226d-46ae-9a16-f2931e9702ca
+    Position: {x: 990, y: -64}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 2");
+  - Guid: 516232e9-8cfc-48f2-8f1c-e48b0faad408
+    Position: {x: 2511, y: -75}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele End");

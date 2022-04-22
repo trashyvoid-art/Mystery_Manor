@@ -22,6 +22,7 @@ Astronomer_Int_DialogueCode shamsa;
 string name = "The Adventurer";
 Notes.Journal journal = Utility.Toolbox.Instance.Journal;
 int choices = 0;
+DataTracker dt = DataTracker.Instance;
 
 
         public void Start()

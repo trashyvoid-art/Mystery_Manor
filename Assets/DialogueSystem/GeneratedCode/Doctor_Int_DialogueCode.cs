@@ -21,6 +21,7 @@ namespace DialogueSystem.Code
 string name = "The Doctor";
 Notes.Journal journal = Utility.Toolbox.Instance.Journal;
 int choices = 0;
+DataTracker dt = DataTracker.Instance;
 
 
         public void Start()
@@ -34,6 +35,9 @@ int choices = 0;
             eventFunctions.Add("Doctor_Int_5fbb3e8714954bc5a68e00794003104b",Doctor_Int_5fbb3e8714954bc5a68e00794003104b);
             eventFunctions.Add("Doctor_Int_0eb957eb90a14f988ce3a45a7b19a437",Doctor_Int_0eb957eb90a14f988ce3a45a7b19a437);
             conditionChecks.Add("Doctor_Int_e6433e341bf44500b7c8c177708cdbbe",Doctor_Int_e6433e341bf44500b7c8c177708cdbbe);
+            eventFunctions.Add("Doctor_Int_f029878e624949f9b919d5521eb0c215",Doctor_Int_f029878e624949f9b919d5521eb0c215);
+            eventFunctions.Add("Doctor_Int_b2652e289d314a3991c624b9d2e8d0d9",Doctor_Int_b2652e289d314a3991c624b9d2e8d0d9);
+            eventFunctions.Add("Doctor_Int_293b8729313e446d86d79b9aa9b7bae3",Doctor_Int_293b8729313e446d86d79b9aa9b7bae3);
 
         }
 
@@ -78,11 +82,25 @@ choices += 1;
         }
         // Event From Node: 5fbb3e87-1495-4bc5-a68e-00794003104b //
         public void Doctor_Int_5fbb3e8714954bc5a68e00794003104b() {
-journal.AddEntry("The Doctor was in the Bar with the Adventurer."); 
+GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 1");
+journal.AddEntry("The Doctor was in the Bar with the Adventurer.");
         }
         // Event From Node: 0eb957eb-90a1-4f98-8ce3-a45a7b19a437 //
         public void Doctor_Int_0eb957eb90a14f988ce3a45a7b19a437() {
 journal.AddEntry("Denies incident with The Adventurer, lying?");
+GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 5");
+        }
+        // Event From Node: f029878e-6249-49f9-b919-d5521eb0c215 //
+        public void Doctor_Int_f029878e624949f9b919d5521eb0c215() {
+GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 2");
+        }
+        // Event From Node: b2652e28-9d31-4a39-91c6-24b9d2e8d0d9 //
+        public void Doctor_Int_b2652e289d314a3991c624b9d2e8d0d9() {
+GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 3");
+        }
+        // Event From Node: 293b8729-313e-446d-86d7-9b9aa9b7bae3 //
+        public void Doctor_Int_293b8729313e446d86d79b9aa9b7bae3() {
+GameObject.FindObjectOfType<AudioManager>().Play("Sanchez End");
         }
 
     }
