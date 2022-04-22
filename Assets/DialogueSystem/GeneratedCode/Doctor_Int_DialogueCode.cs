@@ -29,38 +29,38 @@ DataTracker dt = DataTracker.Instance;
         public void Start()
         {
             // Setup //
-            eventFunctions.Add("Doctor_Int_54f63204944345bc8f3cd61b6056ab2f",Doctor_Int_54f63204944345bc8f3cd61b6056ab2f);
-            eventFunctions.Add("Doctor_Int_5fbb3e8714954bc5a68e00794003104b",Doctor_Int_5fbb3e8714954bc5a68e00794003104b);
-            conditionChecks.Add("Doctor_Int_e6433e341bf44500b7c8c177708cdbbe",Doctor_Int_e6433e341bf44500b7c8c177708cdbbe);
-            eventFunctions.Add("Doctor_Int_f029878e624949f9b919d5521eb0c215",Doctor_Int_f029878e624949f9b919d5521eb0c215);
-            eventFunctions.Add("Doctor_Int_b2652e289d314a3991c624b9d2e8d0d9",Doctor_Int_b2652e289d314a3991c624b9d2e8d0d9);
-            eventFunctions.Add("Doctor_Int_293b8729313e446d86d79b9aa9b7bae3",Doctor_Int_293b8729313e446d86d79b9aa9b7bae3);
-            eventFunctions.Add("Doctor_Int_3e60f92cc75949b9982c7fa46567a7f3",Doctor_Int_3e60f92cc75949b9982c7fa46567a7f3);
-            eventFunctions.Add("Doctor_Int_68891d21931645e8ac4e2aa14cfd8119",Doctor_Int_68891d21931645e8ac4e2aa14cfd8119);
-            dialogueChecks.Add("Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_111235d5bb624d19946e762bf1a280be",Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_111235d5bb624d19946e762bf1a280be);
             dialogueChecks.Add("Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_87f9875217284dc0b3c908f1ca13cbc7",Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_87f9875217284dc0b3c908f1ca13cbc7);
+            dialogueChecks.Add("Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_111235d5bb624d19946e762bf1a280be",Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_111235d5bb624d19946e762bf1a280be);
             dialogueChecks.Add("Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_c40c75f7ca644e1583da2ba6315e5b36",Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_c40c75f7ca644e1583da2ba6315e5b36);
             dialogueChecks.Add("Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_0bda6154d9ad4951aca73576e844976e",Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_0bda6154d9ad4951aca73576e844976e);
-            dialogueChecks.Add("Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_7b68b1c4df534ffc9a9fc0affc043287",Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_7b68b1c4df534ffc9a9fc0affc043287);
-            conditionChecks.Add("Doctor_Int_b18fc7f1744d428387910ef4404c5c55",Doctor_Int_b18fc7f1744d428387910ef4404c5c55);
+            dialogueChecks.Add("Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_9d0f0bd4af28482da07204fc9a87320b",Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_9d0f0bd4af28482da07204fc9a87320b);
+            eventFunctions.Add("Doctor_Int_54f63204944345bc8f3cd61b6056ab2f",Doctor_Int_54f63204944345bc8f3cd61b6056ab2f);
+            conditionChecks.Add("Doctor_Int_e6433e341bf44500b7c8c177708cdbbe",Doctor_Int_e6433e341bf44500b7c8c177708cdbbe);
+            eventFunctions.Add("Doctor_Int_b2652e289d314a3991c624b9d2e8d0d9",Doctor_Int_b2652e289d314a3991c624b9d2e8d0d9);
+            eventFunctions.Add("Doctor_Int_293b8729313e446d86d79b9aa9b7bae3",Doctor_Int_293b8729313e446d86d79b9aa9b7bae3);
+            conditionChecks.Add("Doctor_Int_5d006fd1b303432b860fdc5d51b0a59c",Doctor_Int_5d006fd1b303432b860fdc5d51b0a59c);
             eventFunctions.Add("Doctor_Int_0eb957eb90a14f988ce3a45a7b19a437",Doctor_Int_0eb957eb90a14f988ce3a45a7b19a437);
-            eventFunctions.Add("Doctor_Int_6af0e407c7c54b8683c1770fa9ab71ea",Doctor_Int_6af0e407c7c54b8683c1770fa9ab71ea);
-            conditionChecks.Add("Doctor_Int_8cfbfa6e2c8942a2bcffc39b5faccfa6",Doctor_Int_8cfbfa6e2c8942a2bcffc39b5faccfa6);
+            eventFunctions.Add("Doctor_Int_f029878e624949f9b919d5521eb0c215",Doctor_Int_f029878e624949f9b919d5521eb0c215);
+            eventFunctions.Add("Doctor_Int_5fbb3e8714954bc5a68e00794003104b",Doctor_Int_5fbb3e8714954bc5a68e00794003104b);
+            eventFunctions.Add("Doctor_Int_ac5f27ab1cb141848befdc3d938b0e5f",Doctor_Int_ac5f27ab1cb141848befdc3d938b0e5f);
+            conditionChecks.Add("Doctor_Int_01cdf448af4540ab9570776ac7058fb5",Doctor_Int_01cdf448af4540ab9570776ac7058fb5);
+            eventFunctions.Add("Doctor_Int_882801d323e34c6488fa0b08e73b0cd7",Doctor_Int_882801d323e34c6488fa0b08e73b0cd7);
+            eventFunctions.Add("Doctor_Int_f79854ee5eda4daa80ab07b3dc1031c7",Doctor_Int_f79854ee5eda4daa80ab07b3dc1031c7);
 
         }
 
         // Dialogue Checks //
         // From Node: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31 //
-        // Choice: Where were you at the time of the murder? - 111235d5-bb62-4d19-946e-762bf1a280be //
-        public bool Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_111235d5bb624d19946e762bf1a280be()
-        {
-            return (true);
-        }
-        // From Node: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31 //
         // Choice: What do you know about the Adventurer's bloody nose? - 87f98752-1728-4dc0-b3c9-08f1ca13cbc7 //
         public bool Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_87f9875217284dc0b3c908f1ca13cbc7()
         {
             return (dt.shamsaTalkedTo == 1);
+        }
+        // From Node: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31 //
+        // Choice: Where were you at the time of the murder? - 111235d5-bb62-4d19-946e-762bf1a280be //
+        public bool Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_111235d5bb624d19946e762bf1a280be()
+        {
+            return (true);
         }
         // From Node: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31 //
         // Choice: Do you know why someone would have wanted to hurt the victim? - c40c75f7-ca64-4e15-83da-2ba6315e5b36 //
@@ -75,10 +75,10 @@ DataTracker dt = DataTracker.Instance;
             return (true);
         }
         // From Node: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31 //
-        // Choice: Did you kill Scarlette? - 7b68b1c4-df53-4ffc-9a9f-c0affc043287 //
-        public bool Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_7b68b1c4df534ffc9a9fc0affc043287()
+        // Choice: Did you kill Scarlette? - 9d0f0bd4-af28-482d-a072-04fc9a87320b //
+        public bool Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_9d0f0bd4af28482da07204fc9a87320b()
         {
-            return (dt.clues >= 6);
+            return (dt.clues >= 7);
         }
 
 
@@ -87,12 +87,12 @@ DataTracker dt = DataTracker.Instance;
         public bool Doctor_Int_e6433e341bf44500b7c8c177708cdbbe() {
             return (choices < 4);
         }
-        // Condition From Node: b18fc7f1-744d-4283-8791-0ef4404c5c55 //
-        public bool Doctor_Int_b18fc7f1744d428387910ef4404c5c55() {
+        // Condition From Node: 5d006fd1-b303-432b-860f-dc5d51b0a59c //
+        public bool Doctor_Int_5d006fd1b303432b860fdc5d51b0a59c() {
             return (locationLearned > 0);
         }
-        // Condition From Node: 8cfbfa6e-2c89-42a2-bcff-c39b5faccfa6 //
-        public bool Doctor_Int_8cfbfa6e2c8942a2bcffc39b5faccfa6() {
+        // Condition From Node: 01cdf448-af45-40ab-9570-776ac7058fb5 //
+        public bool Doctor_Int_01cdf448af4540ab9570776ac7058fb5() {
             return (bloodyNose > 0);
         }
 
@@ -102,15 +102,6 @@ DataTracker dt = DataTracker.Instance;
         public void Doctor_Int_54f63204944345bc8f3cd61b6056ab2f() {
 choices += 1;
         }
-        // Event From Node: 5fbb3e87-1495-4bc5-a68e-00794003104b //
-        public void Doctor_Int_5fbb3e8714954bc5a68e00794003104b() {
-GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 1");
-
-        }
-        // Event From Node: f029878e-6249-49f9-b919-d5521eb0c215 //
-        public void Doctor_Int_f029878e624949f9b919d5521eb0c215() {
-GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 2");
-        }
         // Event From Node: b2652e28-9d31-4a39-91c6-24b9d2e8d0d9 //
         public void Doctor_Int_b2652e289d314a3991c624b9d2e8d0d9() {
 GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 3");
@@ -119,25 +110,33 @@ GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 3");
         public void Doctor_Int_293b8729313e446d86d79b9aa9b7bae3() {
 GameObject.FindObjectOfType<AudioManager>().Play("Sanchez End");
         }
-        // Event From Node: 3e60f92c-c759-49b9-982c-7fa46567a7f3 //
-        public void Doctor_Int_3e60f92cc75949b9982c7fa46567a7f3() {
-dt.wrongAccusations += 1;
-        }
-        // Event From Node: 68891d21-9316-45e8-ac4e-2aa14cfd8119 //
-        public void Doctor_Int_68891d21931645e8ac4e2aa14cfd8119() {
-journal.AddEntry("The Doctor was in the Bar with the Adventurer.");
-locationLearned += 1;
-dt.clues += 1;
-        }
         // Event From Node: 0eb957eb-90a1-4f98-8ce3-a45a7b19a437 //
         public void Doctor_Int_0eb957eb90a14f988ce3a45a7b19a437() {
 GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 5");
         }
-        // Event From Node: 6af0e407-c7c5-4b86-83c1-770fa9ab71ea //
-        public void Doctor_Int_6af0e407c7c54b8683c1770fa9ab71ea() {
+        // Event From Node: f029878e-6249-49f9-b919-d5521eb0c215 //
+        public void Doctor_Int_f029878e624949f9b919d5521eb0c215() {
+GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 2");
+        }
+        // Event From Node: 5fbb3e87-1495-4bc5-a68e-00794003104b //
+        public void Doctor_Int_5fbb3e8714954bc5a68e00794003104b() {
+journal.AddEntry("The Doctor was in the Bar with the Adventurer.");
+locationLearned += 1;
+dt.clues += 1;
+        }
+        // Event From Node: ac5f27ab-1cb1-4184-8bef-dc3d938b0e5f //
+        public void Doctor_Int_ac5f27ab1cb141848befdc3d938b0e5f() {
+GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 1");
+        }
+        // Event From Node: 882801d3-23e3-4c64-88fa-0b08e73b0cd7 //
+        public void Doctor_Int_882801d323e34c6488fa0b08e73b0cd7() {
 journal.AddEntry("Denies incident with The Adventurer, lying?");
 bloodyNose += 1;
 dt.clues += 1;
+        }
+        // Event From Node: f79854ee-5eda-4daa-80ab-07b3dc1031c7 //
+        public void Doctor_Int_f79854ee5eda4daa80ab07b3dc1031c7() {
+dt.wrongAccusations += 1;
         }
 
     }

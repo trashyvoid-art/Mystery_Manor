@@ -17,7 +17,7 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: a9a76df3-5213-4388-b395-589f6197184e
     PortName: Next
-    PortGUID: 3384b81c-9e6f-42ce-a1ef-ed8b5a68875b
+    PortGUID: b1201a8c-81e8-4ce8-9191-55e3346e59d7
     Condition: 
     TargetNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
   - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
@@ -53,46 +53,46 @@ MonoBehaviour:
   - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
     PortName: Did you kill Scarlette
     PortGUID: 7ff9f792-d85b-402f-9dc6-9b3a088f5951
-    Condition: dt.clues >= 6
+    Condition: dt.clues >= 7
     TargetNodeGuid: 12e380dc-180a-4113-aa9f-e1cc8560a2cf
   - BaseNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
     PortName: Pass
-    PortGUID: c280f90e-4da5-45e6-bf9a-ddc483ee0e27
+    PortGUID: eafa3b42-afe5-4a98-8cfe-bf85bc40af14
     Condition: 
     TargetNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
   - BaseNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
     PortName: Fail
-    PortGUID: b478e3cf-e357-48ad-8238-b042b3cc336a
+    PortGUID: cdaf3ac5-97cc-46d8-8e38-270130b2f015
     Condition: 
     TargetNodeGuid: 4dd230d6-0a3f-4ab6-bc91-369d48031f43
   - BaseNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
     PortName: Next
-    PortGUID: 6023bfd1-8874-41aa-9ce1-b3a7bbf95cd0
+    PortGUID: 41d965a4-5c81-4c41-a07f-665d705d4275
     Condition: 
     TargetNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
   - BaseNodeGuid: 12d82d65-7b5c-4ddd-9f8f-188d9838173e
     PortName: Fail
-    PortGUID: 4e862ba2-6418-4f4f-b25b-2374ea77d9a6
+    PortGUID: 922eb232-46a0-4778-b028-f0e533853283
     Condition: 
     TargetNodeGuid: 80b8a965-6ebf-4359-94de-754b7e064f63
   - BaseNodeGuid: 12d82d65-7b5c-4ddd-9f8f-188d9838173e
     PortName: Pass
-    PortGUID: 6c9ec79d-a5e1-49c2-bc91-bb6f060951b3
+    PortGUID: 1a11f641-77a1-4ddc-b279-6ba59055789b
     Condition: 
     TargetNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
   - BaseNodeGuid: 12d82d65-7b5c-4ddd-9f8f-188d9838173e
     PortName: Fail
-    PortGUID: 6bbdca5f-08ca-4c5d-9547-b5910070d826
+    PortGUID: b7833b5f-0ff4-42e1-b093-df3b212de375
     Condition: 
     TargetNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
   - BaseNodeGuid: f9ffe10d-420c-45ee-b2e8-3c66cfceb901
     PortName: Next
-    PortGUID: 42fa9548-fe90-442a-8a3c-9eeae11675d2
+    PortGUID: 6185e7fb-eb5e-4898-b692-850e9550e84f
     Condition: 
     TargetNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
   - BaseNodeGuid: 12e380dc-180a-4113-aa9f-e1cc8560a2cf
     PortName: Next
-    PortGUID: 175e8ff1-465c-4645-96b0-cb86534d3331
+    PortGUID: 03fc1e86-6c65-4ae9-8d02-a21a0439d2e9
     Condition: 
     TargetNodeGuid: c155a34a-36ad-4d0d-a95c-10895de5194e
   Nodes:
@@ -112,15 +112,6 @@ MonoBehaviour:
       int locationsLearned = 0;
 
       DataTracker dt = DataTracker.Instance;'
-  - Guid: 2496025e-e0b3-42f0-b92a-94cac6149a20
-    Position: {x: 202.4, y: 0}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - Hello again.
-    - ${name}
   - Guid: 465df431-b06a-4a9d-8580-0e0299823d28
     Position: {x: 988.8, y: 260.8}
     Type: 64
@@ -209,3 +200,12 @@ MonoBehaviour:
     - Code
     _textValues:
     - dt.correctAccusations += 1;
+  - Guid: 2496025e-e0b3-42f0-b92a-94cac6149a20
+    Position: {x: 202.4, y: 0}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Hello again.
+    - ${name}

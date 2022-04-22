@@ -28,15 +28,15 @@ DataTracker dt = DataTracker.Instance;
         public void Start()
         {
             // Setup //
-            dialogueChecks.Add("Sailor_Int_2496025ee0b342f0b92a94cac6149a20_85f8aec8871342de94f2b01aab097575",Sailor_Int_2496025ee0b342f0b92a94cac6149a20_85f8aec8871342de94f2b01aab097575);
-            dialogueChecks.Add("Sailor_Int_2496025ee0b342f0b92a94cac6149a20_3965af1839574a8f92ce52f0d9e94ce0",Sailor_Int_2496025ee0b342f0b92a94cac6149a20_3965af1839574a8f92ce52f0d9e94ce0);
-            dialogueChecks.Add("Sailor_Int_2496025ee0b342f0b92a94cac6149a20_57059fe87b99468c8f9b3dc22aca7f0b",Sailor_Int_2496025ee0b342f0b92a94cac6149a20_57059fe87b99468c8f9b3dc22aca7f0b);
-            dialogueChecks.Add("Sailor_Int_2496025ee0b342f0b92a94cac6149a20_7ff9f792d85b402f9dc69b3a088f5951",Sailor_Int_2496025ee0b342f0b92a94cac6149a20_7ff9f792d85b402f9dc69b3a088f5951);
             eventFunctions.Add("Sailor_Int_465df431b06a4a9d85800e0299823d28",Sailor_Int_465df431b06a4a9d85800e0299823d28);
             conditionChecks.Add("Sailor_Int_ad42c76a391f4aeeb56effb2e7ed83a6",Sailor_Int_ad42c76a391f4aeeb56effb2e7ed83a6);
             eventFunctions.Add("Sailor_Int_80b8a9656ebf435994de754b7e064f63",Sailor_Int_80b8a9656ebf435994de754b7e064f63);
             conditionChecks.Add("Sailor_Int_12d82d657b5c4ddd9f8f188d9838173e",Sailor_Int_12d82d657b5c4ddd9f8f188d9838173e);
             eventFunctions.Add("Sailor_Int_c155a34a36ad4d0da95c10895de5194e",Sailor_Int_c155a34a36ad4d0da95c10895de5194e);
+            dialogueChecks.Add("Sailor_Int_2496025ee0b342f0b92a94cac6149a20_85f8aec8871342de94f2b01aab097575",Sailor_Int_2496025ee0b342f0b92a94cac6149a20_85f8aec8871342de94f2b01aab097575);
+            dialogueChecks.Add("Sailor_Int_2496025ee0b342f0b92a94cac6149a20_3965af1839574a8f92ce52f0d9e94ce0",Sailor_Int_2496025ee0b342f0b92a94cac6149a20_3965af1839574a8f92ce52f0d9e94ce0);
+            dialogueChecks.Add("Sailor_Int_2496025ee0b342f0b92a94cac6149a20_57059fe87b99468c8f9b3dc22aca7f0b",Sailor_Int_2496025ee0b342f0b92a94cac6149a20_57059fe87b99468c8f9b3dc22aca7f0b);
+            dialogueChecks.Add("Sailor_Int_2496025ee0b342f0b92a94cac6149a20_7ff9f792d85b402f9dc69b3a088f5951",Sailor_Int_2496025ee0b342f0b92a94cac6149a20_7ff9f792d85b402f9dc69b3a088f5951);
 
         }
 
@@ -63,7 +63,7 @@ DataTracker dt = DataTracker.Instance;
         // Choice: Did you kill Scarlette - 7ff9f792-d85b-402f-9dc6-9b3a088f5951 //
         public bool Sailor_Int_2496025ee0b342f0b92a94cac6149a20_7ff9f792d85b402f9dc69b3a088f5951()
         {
-            return (dt.clues >= 6);
+            return (dt.clues >= 7);
         }
 
 
