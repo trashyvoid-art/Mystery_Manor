@@ -41,6 +41,9 @@ int choices = 0;
             eventFunctions.Add("Psych_Body_0ad39360e60e4c0292ab6178b976c4b7",Psych_Body_0ad39360e60e4c0292ab6178b976c4b7);
             eventFunctions.Add("Psych_Body_37d5097f6e1947bab51fd27057cd9537",Psych_Body_37d5097f6e1947bab51fd27057cd9537);
             conditionChecks.Add("Psych_Body_f1c70959a853458aaa312421f36b7a69",Psych_Body_f1c70959a853458aaa312421f36b7a69);
+            eventFunctions.Add("Psych_Body_a1c2a242078542ee800038ab807a165f",Psych_Body_a1c2a242078542ee800038ab807a165f);
+            eventFunctions.Add("Psych_Body_587fa074cd964e9fb323c18425fa278e",Psych_Body_587fa074cd964e9fb323c18425fa278e);
+            eventFunctions.Add("Psych_Body_50ae30f288044c9d949e3b6dc5c623a6",Psych_Body_50ae30f288044c9d949e3b6dc5c623a6);
 
         }
 
@@ -92,20 +95,29 @@ choices += 1;
         // Event From Node: 791c1573-9eda-4790-af9b-d0ef93a01c7b //
         public void Psych_Body_791c15739eda4790af9bd0ef93a01c7b() {
 journal.AddEntry("Psychologist's body had two stab wounds in the abdomen area.");
-body += 1;
 dt.clues += 1;
         }
         // Event From Node: 0ad39360-e60e-4c02-92ab-6178b976c4b7 //
         public void Psych_Body_0ad39360e60e4c0292ab6178b976c4b7() {
 journal.AddEntry("The assailant had dark hair? Well that could be almost anyone...");
-hands += 1;
 dt.clues += 1;
         }
         // Event From Node: 37d5097f-6e19-47ba-b51f-d27057cd9537 //
         public void Psych_Body_37d5097f6e1947bab51fd27057cd9537() {
 journal.AddEntry("Footprints and trail of blood from Scarlette's body leads out further into the office, but end abrubtly.");
-blood += 1;
 dt.clues += 1;
+        }
+        // Event From Node: a1c2a242-0785-42ee-8000-38ab807a165f //
+        public void Psych_Body_a1c2a242078542ee800038ab807a165f() {
+body += 1;
+        }
+        // Event From Node: 587fa074-cd96-4e9f-b323-c18425fa278e //
+        public void Psych_Body_587fa074cd964e9fb323c18425fa278e() {
+hands += 1;
+        }
+        // Event From Node: 50ae30f2-8804-4c9d-949e-3b6dc5c623a6 //
+        public void Psych_Body_50ae30f288044c9d949e3b6dc5c623a6() {
+blood += 1;
         }
 
     }

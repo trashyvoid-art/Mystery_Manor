@@ -17,7 +17,7 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: f935f95a-056e-469d-a1bc-59c1b21cd217
     PortName: Next
-    PortGUID: 805c67dc-bd48-4d56-932a-d53a24bc8b7b
+    PortGUID: 51b86d53-693d-43f5-aba0-c83ab4188f25
     Condition: 
     TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
@@ -97,49 +97,69 @@ MonoBehaviour:
     TargetNodeGuid: ed466ae8-36ab-46b8-93a4-cae673f013b0
   - BaseNodeGuid: b8dd409c-7584-4689-874c-785ba0d06479
     PortName: Next
-    PortGUID: a9b04e9f-7143-4dd4-bed1-5b4a912b3ff2
+    PortGUID: 3563b6cc-fe43-4f3b-a791-403e390e1e32
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: 3b323f3f-0512-4e78-a020-d4b65d83daef
     PortName: Next
-    PortGUID: 2ee015e5-6d54-439f-b438-69052e03b9dc
+    PortGUID: e23bbbee-7675-470e-bcea-a32ab25dae8c
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
     PortName: Pass
-    PortGUID: 48400e47-80a5-42e3-afb3-094e4f342ca1
+    PortGUID: fe89c8ea-ddfd-492f-970e-cdfa2c800c50
     Condition: 
     TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
   - BaseNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
     PortName: Fail
-    PortGUID: 39a6f28f-6411-45ac-aa0e-bca1a68142e9
+    PortGUID: edce9c3c-6ad2-41d2-bd3c-eed60d99d63e
     Condition: 
     TargetNodeGuid: 73ee94d7-55c2-4575-bb7e-0fabca25ac33
   - BaseNodeGuid: 30bc7599-469b-45f3-97ed-7a60b8df58d2
     PortName: Next
-    PortGUID: de488641-c9ff-4a12-adca-a45a997dded5
+    PortGUID: 02eab972-bf55-4db5-af3c-18a91404f1c9
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: 2813fb2c-bb6f-4ffe-93d7-3abae43e8da6
     PortName: Next
-    PortGUID: e1ae4bf5-d67c-488c-90df-d026748c7bed
+    PortGUID: d78e314b-5a7f-4b55-95db-3d3c86ca1a72
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: 5d006fd1-b303-432b-860f-dc5d51b0a59c
     PortName: Fail
-    PortGUID: 99ce13e6-f584-4462-8e65-2c45db45816a
+    PortGUID: 35d9beaf-8ed1-448f-9da0-f83ee2abcbb2
     Condition: 
     TargetNodeGuid: 5fbb3e87-1495-4bc5-a68e-00794003104b
   - BaseNodeGuid: 01cdf448-af45-40ab-9570-776ac7058fb5
     PortName: Fail
-    PortGUID: c4192e19-0982-465d-bb2b-867eb956c8d1
+    PortGUID: d09db967-7434-4b1a-98e7-c04604e7cc17
     Condition: 
     TargetNodeGuid: 882801d3-23e3-4c64-88fa-0b08e73b0cd7
   - BaseNodeGuid: ed466ae8-36ab-46b8-93a4-cae673f013b0
     PortName: Next
-    PortGUID: 9751e7ee-28ff-4656-9d9c-ceb9f67181b4
+    PortGUID: 150e911a-89d1-4e94-9e47-4a9e1fc9555f
     Condition: 
     TargetNodeGuid: f79854ee-5eda-4daa-80ab-07b3dc1031c7
+  - BaseNodeGuid: 5d006fd1-b303-432b-860f-dc5d51b0a59c
+    PortName: Pass
+    PortGUID: 8a9ebe14-94b9-4c7a-8c65-b2248a24b5bd
+    Condition: 
+    TargetNodeGuid: 0e0e2aff-ee46-4980-90b3-8c5c2664026d
+  - BaseNodeGuid: 5d006fd1-b303-432b-860f-dc5d51b0a59c
+    PortName: Fail
+    PortGUID: 4d5110f9-ff1f-40c5-b3a1-6b6339e86cf7
+    Condition: 
+    TargetNodeGuid: 0e0e2aff-ee46-4980-90b3-8c5c2664026d
+  - BaseNodeGuid: 01cdf448-af45-40ab-9570-776ac7058fb5
+    PortName: Pass
+    PortGUID: 7541cd13-d14c-4f4d-839e-521468a4da38
+    Condition: 
+    TargetNodeGuid: 098f9fa8-1e90-4d0c-9f5a-b0f8e7138099
+  - BaseNodeGuid: 01cdf448-af45-40ab-9570-776ac7058fb5
+    PortName: Fail
+    PortGUID: dee675f4-87af-4558-9da4-c1ea58c87682
+    Condition: 
+    TargetNodeGuid: 098f9fa8-1e90-4d0c-9f5a-b0f8e7138099
   Nodes:
   - Guid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     Position: {x: 263.2, y: 0}
@@ -275,10 +295,8 @@ MonoBehaviour:
     _textValues:
     - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer.");
 
-      locationLearned
-      += 1;
-
-      dt.clues += 1;'
+      dt.clues
+      += 1;'
   - Guid: ac5f27ab-1cb1-4184-8bef-dc3d938b0e5f
     Position: {x: 444, y: -391.2}
     Type: 64
@@ -301,10 +319,8 @@ MonoBehaviour:
     _textValues:
     - 'journal.AddEntry("Denies incident with The Adventurer, lying?");
 
-      bloodyNose
-      += 1;
-
-      dt.clues += 1;'
+      dt.clues
+      += 1;'
   - Guid: ed466ae8-36ab-46b8-93a4-cae673f013b0
     Position: {x: 702.4, y: 983.2}
     Type: 8
@@ -321,3 +337,17 @@ MonoBehaviour:
     - Code
     _textValues:
     - dt.wrongAccusations += 1;
+  - Guid: 0e0e2aff-ee46-4980-90b3-8c5c2664026d
+    Position: {x: 1792, y: -499.2}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - locationLearned += 1;
+  - Guid: 098f9fa8-1e90-4d0c-9f5a-b0f8e7138099
+    Position: {x: 910.4, y: 677.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - bloodyNose += 1;

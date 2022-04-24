@@ -17,7 +17,7 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: a3cf2d51-9518-419e-b494-922274890bae
     PortName: Next
-    PortGUID: e6e63628-04a0-4abe-8fb5-4cfc55a4f8c5
+    PortGUID: 940e0bab-998b-4c30-a1bf-7ba06cdbf768
     Condition: 
     TargetNodeGuid: f122eae0-c005-4e53-924a-eda199421940
   - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
@@ -45,56 +45,86 @@ MonoBehaviour:
     PortGUID: 2d199e62-b0bc-4e5e-93c5-5e7cf2026b89
     Condition: 
     TargetNodeGuid: 5624cd99-2b70-48be-b5e1-db7b68dbd2bb
-  - BaseNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
-    PortName: Pass
-    PortGUID: 6bb6c90d-fa9f-4177-bcfb-d572dd6be772
-    Condition: 
-    TargetNodeGuid: f122eae0-c005-4e53-924a-eda199421940
-  - BaseNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
-    PortName: Fail
-    PortGUID: 3ba14ed4-e5a6-44fb-8e3f-8f8c3c622d33
-    Condition: 
-    TargetNodeGuid: f1101084-4238-436f-a5ad-b5834df5f68b
-  - BaseNodeGuid: 2fd25a4f-fc9b-4fc3-adbe-35e38cca059c
-    PortName: Next
-    PortGUID: 02eab84f-7315-460d-977e-60e552585a73
-    Condition: 
-    TargetNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
-  - BaseNodeGuid: ad5b43b4-3030-43be-bc65-193c48c700ce
-    PortName: Next
-    PortGUID: 4d3a9b73-8fe0-488d-b600-4e387f7ee0aa
-    Condition: 
-    TargetNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
   - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
     PortName: Exanime Body
     PortGUID: 7db36f92-2d7d-4486-a45c-0c56f1fa7dea
     Condition: 
     TargetNodeGuid: 761caa1e-b972-4d33-8731-c9953d7b45a9
-  - BaseNodeGuid: 761caa1e-b972-4d33-8731-c9953d7b45a9
-    PortName: Fail
-    PortGUID: 8de08bb8-81fc-4de4-b81f-22e503846e2a
-    Condition: 
-    TargetNodeGuid: 791c1573-9eda-4790-af9b-d0ef93a01c7b
-  - BaseNodeGuid: aab88120-a917-4c6f-b20b-fdcb6384cfb7
-    PortName: Fail
-    PortGUID: 53143cb9-2b8c-4f11-9613-70b84ad8df1c
-    Condition: 
-    TargetNodeGuid: 0ad39360-e60e-4c02-92ab-6178b976c4b7
   - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
     PortName: Examine Hands
     PortGUID: 20212544-bc22-43e6-a4c1-83dc617dd63a
     Condition: 
     TargetNodeGuid: aab88120-a917-4c6f-b20b-fdcb6384cfb7
-  - BaseNodeGuid: f1c70959-a853-458a-aa31-2421f36b7a69
-    PortName: Fail
-    PortGUID: 7c8960e4-cd90-4ea7-83fc-545cf25601e4
-    Condition: 
-    TargetNodeGuid: 37d5097f-6e19-47ba-b51f-d27057cd9537
   - BaseNodeGuid: f122eae0-c005-4e53-924a-eda199421940
     PortName: Examine Blood
     PortGUID: 2d199e62-b0bc-4e5e-93c5-5e7cf2026b89
     Condition: 
     TargetNodeGuid: f1c70959-a853-458a-aa31-2421f36b7a69
+  - BaseNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
+    PortName: Pass
+    PortGUID: 9a705bc1-11e2-42ac-81a0-ecaaf5c46ba8
+    Condition: 
+    TargetNodeGuid: f122eae0-c005-4e53-924a-eda199421940
+  - BaseNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
+    PortName: Fail
+    PortGUID: a5ec61cf-3ec3-48d5-9341-f8bf1f428fa5
+    Condition: 
+    TargetNodeGuid: f1101084-4238-436f-a5ad-b5834df5f68b
+  - BaseNodeGuid: 2fd25a4f-fc9b-4fc3-adbe-35e38cca059c
+    PortName: Next
+    PortGUID: af4c6349-1e0e-4cad-aa26-d49b9ea86d8d
+    Condition: 
+    TargetNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
+  - BaseNodeGuid: ad5b43b4-3030-43be-bc65-193c48c700ce
+    PortName: Next
+    PortGUID: d0cd18a9-8912-45e3-a4f5-eef2b2887d04
+    Condition: 
+    TargetNodeGuid: 939df39a-2ae3-488c-a989-ba6394d81f52
+  - BaseNodeGuid: 761caa1e-b972-4d33-8731-c9953d7b45a9
+    PortName: Fail
+    PortGUID: 7ecf0022-5bf5-4fc3-a35c-7a55023858a7
+    Condition: 
+    TargetNodeGuid: 791c1573-9eda-4790-af9b-d0ef93a01c7b
+  - BaseNodeGuid: aab88120-a917-4c6f-b20b-fdcb6384cfb7
+    PortName: Fail
+    PortGUID: 824598d8-dd08-439f-ac1d-f810446ba59b
+    Condition: 
+    TargetNodeGuid: 0ad39360-e60e-4c02-92ab-6178b976c4b7
+  - BaseNodeGuid: f1c70959-a853-458a-aa31-2421f36b7a69
+    PortName: Fail
+    PortGUID: b9e41382-ea7c-4641-bed6-4371333d76e1
+    Condition: 
+    TargetNodeGuid: 37d5097f-6e19-47ba-b51f-d27057cd9537
+  - BaseNodeGuid: 761caa1e-b972-4d33-8731-c9953d7b45a9
+    PortName: Pass
+    PortGUID: 5f3e4d0d-934d-4cd5-8c9e-8f6e62c9f28f
+    Condition: 
+    TargetNodeGuid: a1c2a242-0785-42ee-8000-38ab807a165f
+  - BaseNodeGuid: 761caa1e-b972-4d33-8731-c9953d7b45a9
+    PortName: Fail
+    PortGUID: a4f05e78-3c08-4d10-a2a4-609127d12e22
+    Condition: 
+    TargetNodeGuid: a1c2a242-0785-42ee-8000-38ab807a165f
+  - BaseNodeGuid: aab88120-a917-4c6f-b20b-fdcb6384cfb7
+    PortName: Pass
+    PortGUID: 9b32e5c0-0746-45bb-a864-3fbdb85ce0dc
+    Condition: 
+    TargetNodeGuid: 587fa074-cd96-4e9f-b323-c18425fa278e
+  - BaseNodeGuid: aab88120-a917-4c6f-b20b-fdcb6384cfb7
+    PortName: Fail
+    PortGUID: c20f596f-9fc1-49a8-a066-63a12cb14058
+    Condition: 
+    TargetNodeGuid: 587fa074-cd96-4e9f-b323-c18425fa278e
+  - BaseNodeGuid: f1c70959-a853-458a-aa31-2421f36b7a69
+    PortName: Pass
+    PortGUID: 85a391c7-f4a3-4566-b9e6-2132cd3c3bf9
+    Condition: 
+    TargetNodeGuid: 50ae30f2-8804-4c9d-949e-3b6dc5c623a6
+  - BaseNodeGuid: f1c70959-a853-458a-aa31-2421f36b7a69
+    PortName: Fail
+    PortGUID: 553db1e4-1489-416c-af3c-96cd8b10d503
+    Condition: 
+    TargetNodeGuid: 50ae30f2-8804-4c9d-949e-3b6dc5c623a6
   Nodes:
   - Guid: 925071b6-c5b9-456f-bc20-ff5e6dae9dc2
     Position: {x: -169.6, y: -142.4}
@@ -192,8 +222,6 @@ MonoBehaviour:
     - 'journal.AddEntry("Psychologist''s body had two stab wounds in the abdomen
       area.");
 
-      body += 1;
-
       dt.clues += 1;'
   - Guid: aab88120-a917-4c6f-b20b-fdcb6384cfb7
     Position: {x: 543.2, y: 393.59998}
@@ -210,10 +238,8 @@ MonoBehaviour:
     _textValues:
     - 'journal.AddEntry("The assailant had dark hair? Well that could be almost anyone...");
 
-      hands
-      += 1;
-
-      dt.clues += 1;'
+      dt.clues
+      += 1;'
   - Guid: 37d5097f-6e19-47ba-b51f-d27057cd9537
     Position: {x: 316, y: 605.6}
     Type: 64
@@ -223,10 +249,7 @@ MonoBehaviour:
     - 'journal.AddEntry("Footprints and trail of blood from Scarlette''s body leads
       out further into the office, but end abrubtly.");
 
-      blood += 1;
-
-      dt.clues
-      += 1;'
+      dt.clues += 1;'
   - Guid: f1c70959-a853-458a-aa31-2421f36b7a69
     Position: {x: 87.2, y: 605.6}
     Type: 32
@@ -234,3 +257,24 @@ MonoBehaviour:
     - Condition
     _textValues:
     - blood > 0
+  - Guid: a1c2a242-0785-42ee-8000-38ab807a165f
+    Position: {x: 1115.2, y: -221.59999}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - body += 1;
+  - Guid: 587fa074-cd96-4e9f-b323-c18425fa278e
+    Position: {x: 1338.3999, y: 430.4}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - hands += 1;
+  - Guid: 50ae30f2-8804-4c9d-949e-3b6dc5c623a6
+    Position: {x: 1044, y: 605.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - blood += 1;
