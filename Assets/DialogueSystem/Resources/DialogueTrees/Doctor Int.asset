@@ -17,24 +17,14 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: f935f95a-056e-469d-a1bc-59c1b21cd217
     PortName: Next
-    PortGUID: e3c3e187-8de0-4b50-a78d-e76a68859e05
+    PortGUID: 270e82e2-59ef-4e30-aea8-2fd2030b6f8c
     Condition: 
     TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
-    PortName: Where were you at the time of the murder?
-    PortGUID: 111235d5-bb62-4d19-946e-762bf1a280be
-    Condition: 
-    TargetNodeGuid: 5fbb3e87-1495-4bc5-a68e-00794003104b
-  - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     PortName: What do you know about the Adventurer's bloody nose?
     PortGUID: 87f98752-1728-4dc0-b3c9-08f1ca13cbc7
-    Condition: 
+    Condition: dt.shamsaTalkedTo == 1
     TargetNodeGuid: 0eb957eb-90a1-4f98-8ce3-a45a7b19a437
-  - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
-    PortName: What do you know about the Adventurer's bloody nose?
-    PortGUID: 87f98752-1728-4dc0-b3c9-08f1ca13cbc7
-    Condition: 
-    TargetNodeGuid: 3b323f3f-0512-4e78-a020-d4b65d83daef
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     PortName: Where were you at the time of the murder?
     PortGUID: 111235d5-bb62-4d19-946e-762bf1a280be
@@ -53,7 +43,7 @@ MonoBehaviour:
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     PortName: What do you know about the Adventurer's bloody nose?
     PortGUID: 87f98752-1728-4dc0-b3c9-08f1ca13cbc7
-    Condition: 
+    Condition: dt.shamsaTalkedTo == 1
     TargetNodeGuid: 54f63204-9443-45bc-8f3c-d61b6056ab2f
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     PortName: Where were you at the time of the murder?
@@ -70,39 +60,146 @@ MonoBehaviour:
     PortGUID: 0bda6154-d9ad-4951-aca7-3576e844976e
     Condition: 
     TargetNodeGuid: 2813fb2c-bb6f-4ffe-93d7-3abae43e8da6
-  - BaseNodeGuid: b8dd409c-7584-4689-874c-785ba0d06479
-    PortName: Next
-    PortGUID: e7263efd-8dfb-487c-82a9-c3634ef9f4cb
+  - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: c40c75f7-ca64-4e15-83da-2ba6315e5b36
     Condition: 
-    TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
-  - BaseNodeGuid: 2813fb2c-bb6f-4ffe-93d7-3abae43e8da6
-    PortName: Next
-    PortGUID: af8234f4-858e-47bf-9c63-0a70b47666c1
+    TargetNodeGuid: f029878e-6249-49f9-b919-d5521eb0c215
+  - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
+    PortName: Do you have any other information about the case?
+    PortGUID: 0bda6154-d9ad-4951-aca7-3576e844976e
     Condition: 
-    TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
+    TargetNodeGuid: b2652e28-9d31-4a39-91c6-24b9d2e8d0d9
+  - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
+    PortName: Where were you at the time of the murder?
+    PortGUID: 111235d5-bb62-4d19-946e-762bf1a280be
+    Condition: 
+    TargetNodeGuid: 5d006fd1-b303-432b-860f-dc5d51b0a59c
+  - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
+    PortName: Where were you at the time of the murder?
+    PortGUID: 111235d5-bb62-4d19-946e-762bf1a280be
+    Condition: 
+    TargetNodeGuid: ac5f27ab-1cb1-4184-8bef-dc3d938b0e5f
+  - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
+    PortName: What do you know about the Adventurer's bloody nose?
+    PortGUID: 87f98752-1728-4dc0-b3c9-08f1ca13cbc7
+    Condition: dt.shamsaTalkedTo == 1
+    TargetNodeGuid: 01cdf448-af45-40ab-9570-776ac7058fb5
+  - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
+    PortName: Did you kill Scarlette?
+    PortGUID: 9d0f0bd4-af28-482d-a072-04fc9a87320b
+    Condition: dt.clues == 7
+    TargetNodeGuid: ed466ae8-36ab-46b8-93a4-cae673f013b0
   - BaseNodeGuid: 3b323f3f-0512-4e78-a020-d4b65d83daef
     PortName: Next
-    PortGUID: 268dfa1c-4ba5-4edb-8d58-3ff02f89d2d4
-    Condition: 
-    TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
-  - BaseNodeGuid: 30bc7599-469b-45f3-97ed-7a60b8df58d2
-    PortName: Next
-    PortGUID: fa95b994-3ed5-417d-8360-13918d12e7f1
+    PortGUID: 6757fb72-f67a-442b-9541-50dac159c19a
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
     PortName: Pass
-    PortGUID: c514310e-8b72-4e9e-98a7-f812aea75569
+    PortGUID: ddeaa280-9266-4d5f-ac3b-2aadeb795355
     Condition: 
     TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
   - BaseNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
     PortName: Fail
-    PortGUID: bbc139b0-4eda-4d71-a47d-bba63a480a1f
+    PortGUID: 4c7398ca-64f9-42f8-abac-149992dbd623
     Condition: 
     TargetNodeGuid: 73ee94d7-55c2-4575-bb7e-0fabca25ac33
+  - BaseNodeGuid: 2813fb2c-bb6f-4ffe-93d7-3abae43e8da6
+    PortName: Next
+    PortGUID: 78f699da-c28d-4012-a604-04c8ba023bb8
+    Condition: 
+    TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
+  - BaseNodeGuid: 5d006fd1-b303-432b-860f-dc5d51b0a59c
+    PortName: Fail
+    PortGUID: f857e8b0-5179-4b15-a0c4-598e33ec053c
+    Condition: 
+    TargetNodeGuid: 5fbb3e87-1495-4bc5-a68e-00794003104b
+  - BaseNodeGuid: 5d006fd1-b303-432b-860f-dc5d51b0a59c
+    PortName: Pass
+    PortGUID: 559c7fc4-a258-40c1-bd12-8f2b69b12e77
+    Condition: 
+    TargetNodeGuid: b8dd409c-7584-4689-874c-785ba0d06479
+  - BaseNodeGuid: 5d006fd1-b303-432b-860f-dc5d51b0a59c
+    PortName: Fail
+    PortGUID: c244df20-92db-410e-96a8-ab1345e587b5
+    Condition: 
+    TargetNodeGuid: b8dd409c-7584-4689-874c-785ba0d06479
+  - BaseNodeGuid: 01cdf448-af45-40ab-9570-776ac7058fb5
+    PortName: Fail
+    PortGUID: 9705ec65-0f89-4409-81a5-c4d2868273a3
+    Condition: 
+    TargetNodeGuid: 882801d3-23e3-4c64-88fa-0b08e73b0cd7
+  - BaseNodeGuid: ed466ae8-36ab-46b8-93a4-cae673f013b0
+    PortName: Next
+    PortGUID: ffc9632e-133e-4e2c-843a-7fc36541dca9
+    Condition: 
+    TargetNodeGuid: f79854ee-5eda-4daa-80ab-07b3dc1031c7
+  - BaseNodeGuid: 30bc7599-469b-45f3-97ed-7a60b8df58d2
+    PortName: Next
+    PortGUID: 4a98126f-0a2b-4605-9f32-43fba9a340ab
+    Condition: 
+    TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
+  - BaseNodeGuid: b8dd409c-7584-4689-874c-785ba0d06479
+    PortName: Next
+    PortGUID: f201a952-6b07-48b7-8a80-5fbcacf52e2c
+    Condition: 
+    TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
+  - BaseNodeGuid: 01cdf448-af45-40ab-9570-776ac7058fb5
+    PortName: Pass
+    PortGUID: edca5262-bd26-4d5e-a560-9c6c11715916
+    Condition: 
+    TargetNodeGuid: 3b323f3f-0512-4e78-a020-d4b65d83daef
+  - BaseNodeGuid: 01cdf448-af45-40ab-9570-776ac7058fb5
+    PortName: Fail
+    PortGUID: c98a6c9c-4c22-4f53-8ffd-59519b844bb5
+    Condition: 
+    TargetNodeGuid: 3b323f3f-0512-4e78-a020-d4b65d83daef
   Nodes:
+  - Guid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
+    Position: {x: 263, y: 0}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - What?
+    - ${name}
+  - Guid: 54f63204-9443-45bc-8f3c-d61b6056ab2f
+    Position: {x: 1094, y: 86}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - choices += 1;
+  - Guid: 3b323f3f-0512-4e78-a020-d4b65d83daef
+    Position: {x: 1094, y: 556}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A bloody nose? I don't know anything about that. At no point during the evening
+      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - ${name}
+  - Guid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
+    Position: {x: 2479, y: -58}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - choices < 4
+  - Guid: 73ee94d7-55c2-4575-bb7e-0fabca25ac33
+    Position: {x: 2876, y: -58}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Now if you'll excuse me. I have other matters to attend to.
+    - ${name}
   - Guid: dad830d9-4c63-415e-bc73-4855505290b6
-    Position: {x: -9.6, y: -118.399994}
+    Position: {x: 0, y: -213}
     Type: 16
     _textKeys:
     - Code
@@ -114,41 +211,14 @@ MonoBehaviour:
       int
       choices = 0;
 
-      DataTracker dt = DataTracker.Instance;'
-  - Guid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
-    Position: {x: 263.2, y: 0}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - What?
-    - ${name}
-  - Guid: 54f63204-9443-45bc-8f3c-d61b6056ab2f
-    Position: {x: 1092.7999, y: 86.399994}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - choices += 1;
-  - Guid: 5fbb3e87-1495-4bc5-a68e-00794003104b
-    Position: {x: 1092.7999, y: -480.80002}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer."); '
-  - Guid: b8dd409c-7584-4689-874c-785ba0d06479
-    Position: {x: 1103.2, y: -767.2}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - I was in the bar with The Adventurer although I didn't pay him much attention.
-    - ${name}
+      int locationLearned = 0;
+
+      int bloodyNose = 0;
+
+      DataTracker
+      dt = DataTracker.Instance;'
   - Guid: 2813fb2c-bb6f-4ffe-93d7-3abae43e8da6
-    Position: {x: 1096, y: 300.8}
+    Position: {x: 1094, y: 223}
     Type: 8
     _textKeys:
     - DialogueText
@@ -156,25 +226,52 @@ MonoBehaviour:
     _textValues:
     - No
     - ${name}
-  - Guid: 3b323f3f-0512-4e78-a020-d4b65d83daef
-    Position: {x: 1092.7999, y: 556}
+  - Guid: b2652e28-9d31-4a39-91c6-24b9d2e8d0d9
+    Position: {x: 1094, y: 419}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 3");
+  - Guid: 293b8729-313e-446d-86d7-9b9aa9b7bae3
+    Position: {x: 2876, y: 138}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Sanchez End");
+  - Guid: 5d006fd1-b303-432b-860f-dc5d51b0a59c
+    Position: {x: 1103, y: -522}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - locationLearned > 0
+  - Guid: f029878e-6249-49f9-b919-d5521eb0c215
+    Position: {x: 1329, y: -113}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 2");
+  - Guid: ed466ae8-36ab-46b8-93a4-cae673f013b0
+    Position: {x: 702, y: 983}
     Type: 8
     _textKeys:
     - DialogueText
     - CharacterName
     _textValues:
-    - A bloody nose? I don't know anything about that. At no point during the evening
-      was I close enough to that obnoxious man for me to give him a nose bleed.
+    - If you truly believe I did this perhaps you should reexamine your notes.
     - ${name}
-  - Guid: 0eb957eb-90a1-4f98-8ce3-a45a7b19a437
-    Position: {x: 1092.7999, y: 791.2}
+  - Guid: f79854ee-5eda-4daa-80ab-07b3dc1031c7
+    Position: {x: 875, y: 1234}
     Type: 64
     _textKeys:
     - Code
     _textValues:
-    - journal.AddEntry("Denies incident with The Adventurer, lying?");
+    - dt.wrongAccusations += 1;
   - Guid: 30bc7599-469b-45f3-97ed-7a60b8df58d2
-    Position: {x: 1103.2, y: -220.8}
+    Position: {x: 1103, y: -309}
     Type: 8
     _textKeys:
     - DialogueText
@@ -183,19 +280,59 @@ MonoBehaviour:
     - Damfino. Although she did have a tendency to be a bit meddlesome, maybe she
       stuck her nose in something that didn't concern her.
     - ${name}
-  - Guid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
-    Position: {x: 2479.2, y: -58.4}
-    Type: 32
+  - Guid: 5fbb3e87-1495-4bc5-a68e-00794003104b
+    Position: {x: 1305, y: -463}
+    Type: 64
     _textKeys:
-    - Condition
+    - Code
     _textValues:
-    - choices < 4
-  - Guid: 73ee94d7-55c2-4575-bb7e-0fabca25ac33
-    Position: {x: 2876, y: -58.4}
+    - 'journal.AddEntry("The Doctor was in the Bar with the Adventurer.");
+
+      dt.clues
+      += 1;
+
+      locationLearned += 1;'
+  - Guid: ac5f27ab-1cb1-4184-8bef-dc3d938b0e5f
+    Position: {x: 1305, y: -587}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 1");
+  - Guid: b8dd409c-7584-4689-874c-785ba0d06479
+    Position: {x: 1305, y: -783}
     Type: 8
     _textKeys:
     - DialogueText
     - CharacterName
+    - Audio
     _textValues:
-    - Now if you'll excuse me. I have other matters to attend to.
+    - I was in the bar with The Adventurer, although I didn't pay him much attention.
     - ${name}
+    - 
+  - Guid: 01cdf448-af45-40ab-9570-776ac7058fb5
+    Position: {x: 745, y: 648}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - bloodyNose > 0
+  - Guid: 882801d3-23e3-4c64-88fa-0b08e73b0cd7
+    Position: {x: 985, y: 752}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("Denies incident with The Adventurer, lying?");
+
+      dt.clues
+      += 1;
+
+      bloodyNose += 1;'
+  - Guid: 0eb957eb-90a1-4f98-8ce3-a45a7b19a437
+    Position: {x: 1358, y: 752}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 5");

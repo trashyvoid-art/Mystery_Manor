@@ -17,39 +17,64 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: a2786608-d197-40bb-8455-fadfa044f567
     PortName: Next
-    PortGUID: 6ed1d5c8-d63d-498c-8193-e6fcd512fe27
+    PortGUID: edc94081-5c3f-44ee-b03d-bccd771ca7e9
     Condition: 
     TargetNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
   - BaseNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
     PortName: Pass
-    PortGUID: e60c7499-2092-4100-bd81-3d783d60ae2f
+    PortGUID: b63649f6-fe8d-475b-8d18-9a65cf4d8c6d
     Condition: 
     TargetNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
   - BaseNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
     PortName: Fail
-    PortGUID: d82c9c86-bc73-4e0f-8994-13906a11b174
+    PortGUID: 0ef4c11a-6e5e-4792-b375-e9baad458b60
     Condition: 
     TargetNodeGuid: 26345dbf-e14e-48ff-8cd7-59c90f9dfde6
   - BaseNodeGuid: 31076eaf-81fd-4a68-8436-68e39cdb0698
     PortName: Fail
-    PortGUID: 533d676d-efdc-4182-a61f-6a59e639edcd
+    PortGUID: 90a52466-fba3-4e40-82f1-f8f01c312538
     Condition: 
     TargetNodeGuid: c1b5c562-0429-4dc6-a8dd-6234469dee05
   - BaseNodeGuid: 31076eaf-81fd-4a68-8436-68e39cdb0698
     PortName: Pass
-    PortGUID: 3feb1b88-c043-45dd-9dce-c7ea830e6eeb
+    PortGUID: ced8994e-28d8-4adc-b9b9-958239686a5f
     Condition: 
     TargetNodeGuid: 51eeae81-37b9-410c-8f46-ec829aa87881
   - BaseNodeGuid: 31076eaf-81fd-4a68-8436-68e39cdb0698
     PortName: Fail
-    PortGUID: c6cd97f3-2552-4a7b-b61a-2223aea990b5
+    PortGUID: 42a1dc05-1132-485d-8a04-750d99a6d6a6
     Condition: 
     TargetNodeGuid: 51eeae81-37b9-410c-8f46-ec829aa87881
   - BaseNodeGuid: 51eeae81-37b9-410c-8f46-ec829aa87881
     PortName: Next
-    PortGUID: e037322e-28ca-45db-a095-3cb02e87e308
+    PortGUID: cee4aa2a-9526-4cd9-879b-e48a6ae1e7f8
     Condition: 
     TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
+  - BaseNodeGuid: db1e1554-2b8f-47d5-a5fb-0d4428e30b62
+    PortName: Next
+    PortGUID: 495bb0c8-708f-49af-88e3-4d62c19aa7b2
+    Condition: 
+    TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
+  - BaseNodeGuid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
+    PortName: Next
+    PortGUID: f1a658a3-e32f-421b-8d24-d077dc0e7021
+    Condition: 
+    TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
+  - BaseNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
+    PortName: Pass
+    PortGUID: 32d13ff4-0383-4551-a5d8-bef25fabf438
+    Condition: 
+    TargetNodeGuid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
+  - BaseNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
+    PortName: Fail
+    PortGUID: 9e6c8a02-298b-440c-ae4d-2e5ef8e85b02
+    Condition: 
+    TargetNodeGuid: d2a00e74-797e-4ff6-a354-779009fbda74
+  - BaseNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
+    PortName: Fail
+    PortGUID: 96d1b0bd-ae63-4f2d-96c9-137873b696dc
+    Condition: 
+    TargetNodeGuid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
   - BaseNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
     PortName: Do you know why someone would have wanted to hurt the victim?
     PortGUID: c7afa89b-a4d0-4601-b527-0254eafba349
@@ -80,31 +105,16 @@ MonoBehaviour:
     PortGUID: 571adf63-a14c-4068-98fd-d5b55270f405
     Condition: 
     TargetNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
-  - BaseNodeGuid: db1e1554-2b8f-47d5-a5fb-0d4428e30b62
+  - BaseNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
+    PortName: Did you kill Scarlette?
+    PortGUID: 8bce3ee6-2170-433b-97d5-f3ccb6409263
+    Condition: dt.clues>=7
+    TargetNodeGuid: 39545422-df84-4aa6-9227-8f574352c17c
+  - BaseNodeGuid: 39545422-df84-4aa6-9227-8f574352c17c
     PortName: Next
-    PortGUID: 7d971baf-5161-405f-a2bd-8cefa18774d7
+    PortGUID: 21421272-4f87-4b70-95e2-89b0092618af
     Condition: 
-    TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
-  - BaseNodeGuid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
-    PortName: Next
-    PortGUID: 57406c0d-6c6f-4355-b6da-61fd3af6a8d3
-    Condition: 
-    TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
-  - BaseNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
-    PortName: Pass
-    PortGUID: 71f85af6-c8b1-40b8-a5af-208595a68978
-    Condition: 
-    TargetNodeGuid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
-  - BaseNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
-    PortName: Fail
-    PortGUID: f439e033-52c3-4c37-b087-cb8bf4c438b5
-    Condition: 
-    TargetNodeGuid: d2a00e74-797e-4ff6-a354-779009fbda74
-  - BaseNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
-    PortName: Fail
-    PortGUID: 9eab82de-8287-43b0-b091-b7f2e7d44494
-    Condition: 
-    TargetNodeGuid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
+    TargetNodeGuid: 07eeb4f5-ec86-4a5e-a72d-8f9177d02ce8
   Nodes:
   - Guid: 587b23ce-d7f1-4406-beb0-4a840ad35495
     Position: {x: 2801.5999, y: 79.2}
@@ -157,7 +167,9 @@ MonoBehaviour:
     - 'journal.AddEntry("The Astronomer was in the infirmary.");
 
       locationLearned
-      += 1;'
+      += 1;
+
+      dt.clues+=1;'
   - Guid: 3be24e7b-4af9-4f81-95ed-1d520b2e56ab
     Position: {x: 1443.2, y: 268}
     Type: 64
@@ -175,15 +187,6 @@ MonoBehaviour:
     - I was in the infirmary, have you seen it? It is simultaneously one of the most
       horrifying and interesting places I have ever been, which now that I think
       about it describes this whole manor.
-    - ${name}
-  - Guid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
-    Position: {x: 376, y: -75.2}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - How do you do?
     - ${name}
   - Guid: db1e1554-2b8f-47d5-a5fb-0d4428e30b62
     Position: {x: 1373.6, y: -728.8}
@@ -213,11 +216,38 @@ MonoBehaviour:
     - 'journal.AddEntry("The Adventurer had a bloody nose.");
 
       dt.shamsaTalkedTo
-      += 1;'
+      += 1;
+
+      dt.clues+=1;'
   - Guid: 70d846c3-c125-4aea-9240-1a81c8691d59
-    Position: {x: 1228, y: 32.8}
+    Position: {x: 1211.2, y: -163.2}
     Type: 32
     _textKeys:
     - Condition
     _textValues:
-    - shamsaTalkedTo > 0
+    - dt.shamsaTalkedTo > 0
+  - Guid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
+    Position: {x: 339.2, y: -24}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - How do you do?
+    - ${name}
+  - Guid: 39545422-df84-4aa6-9227-8f574352c17c
+    Position: {x: 826.4, y: 783.2}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Honestly I am a little offended that you think I would hurt anyone.
+    - ${name}
+  - Guid: 07eeb4f5-ec86-4a5e-a72d-8f9177d02ce8
+    Position: {x: 1233.6, y: 1032}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - dt.wrongAccusations+=1;
