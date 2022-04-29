@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: Plant
+  m_EditorClassIdentifier: 
+  DialogueName: Plant
+  EntryPointGUID: a34a7001-ea60-47ae-b592-ea0cb2163a68
+  NodeLinks:
+  - BaseNodeGuid: a34a7001-ea60-47ae-b592-ea0cb2163a68
+    PortName: Next
+    PortGUID: 667b7a84-a6fd-4ceb-922d-6719eaa5e512
+    Condition: 
+    TargetNodeGuid: 5667e12a-d640-477a-9333-fdbeb36c5a0a
+  - BaseNodeGuid: 5667e12a-d640-477a-9333-fdbeb36c5a0a
+    PortName: Next
+    PortGUID: 173bf0a9-d8c3-41a9-ad77-3a559f29eb52
+    Condition: 
+    TargetNodeGuid: 4dec9dff-622f-4d69-9642-0beed3809e7d
+  Nodes:
+  - Guid: 5667e12a-d640-477a-9333-fdbeb36c5a0a
+    Position: {x: 212.8, y: -57.600002}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - A Dieffenbachia, a common house plant.
+    - Plant
+  - Guid: 4dec9dff-622f-4d69-9642-0beed3809e7d
+    Position: {x: 479.2, y: 46.399998}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - journal.AddEntry("A medium sized plant with large oval leaves that are light
+      in the middle and dark around the edges.");
+  - Guid: 2b6d429f-08e9-4658-81b2-46e73bc43198
+    Position: {x: -4.8, y: -187.2}
+    Type: 16
+    _textKeys:
+    - Code
+    _textValues:
+    - Notes.Journal journal = Utility.Toolbox.Instance.Journal;
