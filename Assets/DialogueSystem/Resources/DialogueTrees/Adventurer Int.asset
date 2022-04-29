@@ -17,47 +17,82 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 70b19a79-4d8d-4a9b-9c2a-2c0cc53c42a0
     PortName: Next
-    PortGUID: 4336eed7-a98a-4a47-aed9-b0c6cff0b795
+    PortGUID: be821d93-a70e-4dc4-96ff-4f7f4d16c64b
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: 70b19a79-4d8d-4a9b-9c2a-2c0cc53c42a0
     PortName: Next
-    PortGUID: c9d0356c-1cb2-4fb3-b1c6-ae17b4415c16
+    PortGUID: 5dfbbd9b-4665-4490-82f7-09fa19b09b99
     Condition: 
     TargetNodeGuid: 16ca64c0-16bd-45a7-b92c-0efd6395fa37
   - BaseNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
     PortName: Next
-    PortGUID: 35423309-7863-426b-88ed-6b6114f34ebc
+    PortGUID: 392229b1-30f6-4ac0-a5db-c3f4fa11bfb1
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: b126805d-ae45-46ea-b5e8-37819afa75cf
     PortName: Next
-    PortGUID: dd0d9a34-155c-4c67-a388-ff6eae28b9d5
-    Condition: 
-    TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
-  - BaseNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
-    PortName: Next
-    PortGUID: 57bc5c32-e34e-453a-a745-fc8a8e57ec9f
+    PortGUID: 77551547-72af-4075-b67a-707054d4b941
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
     PortName: Next
-    PortGUID: a1780d0d-9484-4006-916c-0fd50de9d566
+    PortGUID: ae3972b2-72f6-48fd-bc5e-4ac1fd73f1e8
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
     PortName: Pass
-    PortGUID: dba5b94d-fce4-4177-94be-931e3a6a7d2f
+    PortGUID: 9648368a-8f38-4689-a4ac-d2646ae3a709
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
     PortName: Fail
-    PortGUID: e87babf7-c8fa-4487-8032-0079a022478a
+    PortGUID: 26cff10c-2aae-4bce-ba49-fccb676fef30
     Condition: 
     TargetNodeGuid: df64c86a-461c-427d-8872-d228d1c60e19
-  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
-    PortName: Where were you at the time of the murder?
-    PortGUID: 656e7b9d-4213-420b-8eca-f04cb8f1deea
+  - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
+    PortName: Fail
+    PortGUID: e14bf3c1-6369-41d8-90af-619fb922d04c
+    Condition: 
+    TargetNodeGuid: 87a4edc0-0917-42bf-a70a-4eb1619982b4
+  - BaseNodeGuid: 6d994dc1-6564-4e80-b549-41f586314fbb
+    PortName: Next
+    PortGUID: c91d26cb-1420-492e-92df-e54d4b465d64
+    Condition: 
+    TargetNodeGuid: d8765c57-977c-4e04-b3e7-465fe27df8d6
+  - BaseNodeGuid: d8765c57-977c-4e04-b3e7-465fe27df8d6
+    PortName: Next
+    PortGUID: 871db135-b429-4651-ae5a-ad52671b6edc
+    Condition: 
+    TargetNodeGuid: 7c0ae52e-b1f8-4dca-b6be-c82c4561acaf
+  - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
+    PortName: Fail
+    PortGUID: b8bd1cdd-4044-4de1-8ca3-1cd67e518ed3
+    Condition: 
+    TargetNodeGuid: 354f6bf6-0004-4894-a2af-0dc909fc0396
+  - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
+    PortName: Pass
+    PortGUID: a173fddb-5a26-4023-894c-4c9f276e5d55
+    Condition: 
+    TargetNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
+  - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
+    PortName: Fail
+    PortGUID: 0162f08e-d2bd-4d83-800b-60052f44a0e6
+    Condition: 
+    TargetNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
+  - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
+    PortName: Fail
+    PortGUID: 3fa9c43e-cf4d-4ce7-92b7-5050a6c115e8
+    Condition: 
+    TargetNodeGuid: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb
+  - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
+    PortName: Pass
+    PortGUID: 1af660b0-4db9-4d3f-a4a2-766c4db2ecea
+    Condition: 
+    TargetNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
+  - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
+    PortName: Fail
+    PortGUID: 4fa78d18-46d6-4c6a-aae1-fbbb7152d435
     Condition: 
     TargetNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
@@ -70,11 +105,6 @@ MonoBehaviour:
     PortGUID: 0291ff77-c9d0-449c-8ea1-8ac119450c35
     Condition: 
     TargetNodeGuid: b126805d-ae45-46ea-b5e8-37819afa75cf
-  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
-    PortName: Do you have any other information about the case?
-    PortGUID: fdb9342c-4c8e-4584-a4ce-f351e8ebfdc3
-    Condition: 
-    TargetNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
     PortName: Bloody Nose?
     PortGUID: 017ba2a9-2591-447f-bddf-fbcebda10db4
@@ -110,46 +140,26 @@ MonoBehaviour:
     PortGUID: 656e7b9d-4213-420b-8eca-f04cb8f1deea
     Condition: 
     TargetNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
-  - BaseNodeGuid: 6d994dc1-6564-4e80-b549-41f586314fbb
+  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    PortName: Where were you at the time of the murder?
+    PortGUID: 656e7b9d-4213-420b-8eca-f04cb8f1deea
+    Condition: 
+    TargetNodeGuid: f97b460f-0e8a-455e-9b9a-136dc809a9b0
+  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: 0291ff77-c9d0-449c-8ea1-8ac119450c35
+    Condition: 
+    TargetNodeGuid: 3def0688-b359-4510-8da7-c447d28c67dd
+  - BaseNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
     PortName: Next
-    PortGUID: 8daff740-e347-4d4f-8714-3aab26ab4688
+    PortGUID: faf70893-e4e0-4dbd-85de-57e3697b34a0
     Condition: 
-    TargetNodeGuid: d8765c57-977c-4e04-b3e7-465fe27df8d6
-  - BaseNodeGuid: d8765c57-977c-4e04-b3e7-465fe27df8d6
-    PortName: Next
-    PortGUID: 8b5b83df-6780-4988-a635-bab146f4a848
+    TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
+  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    PortName: Do you have any other information about the case?
+    PortGUID: fdb9342c-4c8e-4584-a4ce-f351e8ebfdc3
     Condition: 
-    TargetNodeGuid: 7c0ae52e-b1f8-4dca-b6be-c82c4561acaf
-  - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
-    PortName: Fail
-    PortGUID: 960914bb-5428-4784-a923-d98ea368b6cf
-    Condition: 
-    TargetNodeGuid: 354f6bf6-0004-4894-a2af-0dc909fc0396
-  - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
-    PortName: Fail
-    PortGUID: 1f33871c-716a-40c5-a86b-ddfa989e4eed
-    Condition: 
-    TargetNodeGuid: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb
-  - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
-    PortName: Pass
-    PortGUID: 237f0e94-c025-49c6-aa02-3f8f33069575
-    Condition: 
-    TargetNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
-  - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
-    PortName: Fail
-    PortGUID: d294b061-c2c3-40c9-9f24-333493df7cab
-    Condition: 
-    TargetNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
-  - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
-    PortName: Pass
-    PortGUID: b87fc252-8fd0-41af-ab56-d185845b8c56
-    Condition: 
-    TargetNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
-  - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
-    PortName: Fail
-    PortGUID: 6f06acf4-bfbf-42ae-97d3-afed994e51de
-    Condition: 
-    TargetNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
+    TargetNodeGuid: f42b6ba0-11bf-4eaf-ae17-8b47abf8bf5e
   Nodes:
   - Guid: 452f6766-7f66-4471-956e-018fdc5a012b
     Position: {x: 1122, y: -510}
@@ -234,15 +244,6 @@ MonoBehaviour:
     - Code
     _textValues:
     - shamsa = new Astronomer_Int_DialogueCode();
-  - Guid: e2a31422-f166-4498-b906-c8cfd8eb5a35
-    Position: {x: 314, y: 13}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - Yes?
-    - ${name}
   - Guid: 6d994dc1-6564-4e80-b549-41f586314fbb
     Position: {x: 354, y: 512}
     Type: 8
@@ -308,8 +309,31 @@ MonoBehaviour:
     - Condition
     _textValues:
     - locationLearned > 0
+  - Guid: f97b460f-0e8a-455e-9b9a-136dc809a9b0
+    Position: {x: 1170, y: -640}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Sam 1");
+  - Guid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    Position: {x: 337, y: 33}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Yes?
+    - ${name}
+  - Guid: 3def0688-b359-4510-8da7-c447d28c67dd
+    Position: {x: 1296, y: 94}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Sam 2");
   - Guid: adead8f6-1f17-4475-8b27-c12b070f1487
-    Position: {x: 1334, y: 306}
+    Position: {x: 1490, y: 396}
     Type: 8
     _textKeys:
     - DialogueText
@@ -317,3 +341,17 @@ MonoBehaviour:
     _textValues:
     - There was this moment during dinner...but I'm sure it was nothing.
     - ${name}
+  - Guid: f42b6ba0-11bf-4eaf-ae17-8b47abf8bf5e
+    Position: {x: 1490, y: 272}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Sam 3");
+  - Guid: 87a4edc0-0917-42bf-a70a-4eb1619982b4
+    Position: {x: 3024, y: 229}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Sam End");

@@ -31,7 +31,6 @@ DataTracker dt = DataTracker.Instance;
             // Setup //
             conditionChecks.Add("Astronomer_Int_587b23ced7f14406beb04a840ad35495",Astronomer_Int_587b23ced7f14406beb04a840ad35495);
             conditionChecks.Add("Astronomer_Int_31076eaf81fd4a68843668e39cdb0698",Astronomer_Int_31076eaf81fd4a68843668e39cdb0698);
-            eventFunctions.Add("Astronomer_Int_c1b5c56204294dc6a8dd6234469dee05",Astronomer_Int_c1b5c56204294dc6a8dd6234469dee05);
             eventFunctions.Add("Astronomer_Int_3be24e7b4af94f8195ed1d520b2e56ab",Astronomer_Int_3be24e7b4af94f8195ed1d520b2e56ab);
             eventFunctions.Add("Astronomer_Int_d2a00e74797e4ff6a354779009fbda74",Astronomer_Int_d2a00e74797e4ff6a354779009fbda74);
             conditionChecks.Add("Astronomer_Int_70d846c3c1254aea92401a81c8691d59",Astronomer_Int_70d846c3c1254aea92401a81c8691d59);
@@ -40,6 +39,14 @@ DataTracker dt = DataTracker.Instance;
             dialogueChecks.Add("Astronomer_Int_23e0ca1fd5ed485a8a0620257e18854e_bf886ecabd8744679e362bc1ee281072",Astronomer_Int_23e0ca1fd5ed485a8a0620257e18854e_bf886ecabd8744679e362bc1ee281072);
             dialogueChecks.Add("Astronomer_Int_23e0ca1fd5ed485a8a0620257e18854e_8bce3ee62170433b97d5f3ccb6409263",Astronomer_Int_23e0ca1fd5ed485a8a0620257e18854e_8bce3ee62170433b97d5f3ccb6409263);
             eventFunctions.Add("Astronomer_Int_07eeb4f5ec864a5ea72d8f9177d02ce8",Astronomer_Int_07eeb4f5ec864a5ea72d8f9177d02ce8);
+            eventFunctions.Add("Astronomer_Int_32a284ffd0184b029c096d8b4f056bf8",Astronomer_Int_32a284ffd0184b029c096d8b4f056bf8);
+            eventFunctions.Add("Astronomer_Int_7bd3c545cc974a8eb336e8e1cccff714",Astronomer_Int_7bd3c545cc974a8eb336e8e1cccff714);
+            eventFunctions.Add("Astronomer_Int_9ddcd9d6d4fc4825a5b3893ebfbbc7a7",Astronomer_Int_9ddcd9d6d4fc4825a5b3893ebfbbc7a7);
+            eventFunctions.Add("Astronomer_Int_c4b0fab1806a46c9af4f306b846e0b32",Astronomer_Int_c4b0fab1806a46c9af4f306b846e0b32);
+            eventFunctions.Add("Astronomer_Int_2b046335ca9b428e8696b9b9937bb532",Astronomer_Int_2b046335ca9b428e8696b9b9937bb532);
+            eventFunctions.Add("Astronomer_Int_c1b5c56204294dc6a8dd6234469dee05",Astronomer_Int_c1b5c56204294dc6a8dd6234469dee05);
+            eventFunctions.Add("Astronomer_Int_c95d443e0122422aaedc045d9b49e28b",Astronomer_Int_c95d443e0122422aaedc045d9b49e28b);
+            eventFunctions.Add("Astronomer_Int_377fdbabc6d441ce9533e4b3ab8b6b3c",Astronomer_Int_377fdbabc6d441ce9533e4b3ab8b6b3c);
 
         }
 
@@ -86,12 +93,6 @@ DataTracker dt = DataTracker.Instance;
 
 
         // Event Functions //
-        // Event From Node: c1b5c562-0429-4dc6-a8dd-6234469dee05 //
-        public void Astronomer_Int_c1b5c56204294dc6a8dd6234469dee05() {
-journal.AddEntry("The Astronomer was in the infirmary.");
-locationLearned += 1;
-dt.clues+=1;
-        }
         // Event From Node: 3be24e7b-4af9-4f81-95ed-1d520b2e56ab //
         public void Astronomer_Int_3be24e7b4af94f8195ed1d520b2e56ab() {
 choices += 1;
@@ -105,6 +106,43 @@ dt.clues+=1;
         // Event From Node: 07eeb4f5-ec86-4a5e-a72d-8f9177d02ce8 //
         public void Astronomer_Int_07eeb4f5ec864a5ea72d8f9177d02ce8() {
 dt.wrongAccusations+=1;
+        }
+        // Event From Node: 32a284ff-d018-4b02-9c09-6d8b4f056bf8 //
+        public void Astronomer_Int_32a284ffd0184b029c096d8b4f056bf8() {
+GameObject.FindObjectOfType<AudioManager>().Play("Shamsa 2");
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+        }
+        // Event From Node: 7bd3c545-cc97-4a8e-b336-e8e1cccff714 //
+        public void Astronomer_Int_7bd3c545cc974a8eb336e8e1cccff714() {
+GameObject.FindObjectOfType<AudioManager>().Play("Shamsa 1");
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+        }
+        // Event From Node: 9ddcd9d6-d4fc-4825-a5b3-893ebfbbc7a7 //
+        public void Astronomer_Int_9ddcd9d6d4fc4825a5b3893ebfbbc7a7() {
+GameObject.FindObjectOfType<AudioManager>().Play("Shamsa End");
+        }
+        // Event From Node: c4b0fab1-806a-46c9-af4f-306b846e0b32 //
+        public void Astronomer_Int_c4b0fab1806a46c9af4f306b846e0b32() {
+GameObject.FindObjectOfType<AudioManager>().Play("Start Convo");
+        }
+        // Event From Node: 2b046335-ca9b-428e-8696-b9b9937bb532 //
+        public void Astronomer_Int_2b046335ca9b428e8696b9b9937bb532() {
+GameObject.FindObjectOfType<AudioManager>().Play("Shamsa 3");
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+        }
+        // Event From Node: c1b5c562-0429-4dc6-a8dd-6234469dee05 //
+        public void Astronomer_Int_c1b5c56204294dc6a8dd6234469dee05() {
+journal.AddEntry("The Astronomer was in the infirmary.");
+locationLearned += 1;
+dt.clues+=1;
+        }
+        // Event From Node: c95d443e-0122-422a-aedc-045d9b49e28b //
+        public void Astronomer_Int_c95d443e0122422aaedc045d9b49e28b() {
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+        }
+        // Event From Node: 377fdbab-c6d4-41ce-9533-e4b3ab8b6b3c //
+        public void Astronomer_Int_377fdbabc6d441ce9533e4b3ab8b6b3c() {
+GameObject.FindObjectOfType<AudioManager>().Play("End Convo");
         }
 
     }

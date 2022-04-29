@@ -33,16 +33,20 @@ DataTracker dt = DataTracker.Instance;
             eventFunctions.Add("Adventurer_Int_f17b7453aec04de8891514e6b84e396b",Adventurer_Int_f17b7453aec04de8891514e6b84e396b);
             conditionChecks.Add("Adventurer_Int_0efcc623b62a4e9ea6e3c6f5404dd1ba",Adventurer_Int_0efcc623b62a4e9ea6e3c6f5404dd1ba);
             eventFunctions.Add("Adventurer_Int_16ca64c016bd45a7b92c0efd6395fa37",Adventurer_Int_16ca64c016bd45a7b92c0efd6395fa37);
-            dialogueChecks.Add("Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_656e7b9d4213420b8ecaf04cb8f1deea",Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_656e7b9d4213420b8ecaf04cb8f1deea);
-            dialogueChecks.Add("Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_0291ff77c9d0449c8ea18ac119450c35",Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_0291ff77c9d0449c8ea18ac119450c35);
-            dialogueChecks.Add("Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_fdb9342c4c8e4584a4cef351e8ebfdc3",Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_fdb9342c4c8e4584a4cef351e8ebfdc3);
-            dialogueChecks.Add("Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_017ba2a92591447fbddffbcebda10db4",Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_017ba2a92591447fbddffbcebda10db4);
-            dialogueChecks.Add("Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_579112dc3c7b4cdfbc319a81eb89eb85",Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_579112dc3c7b4cdfbc319a81eb89eb85);
             eventFunctions.Add("Adventurer_Int_7c0ae52eb1f84dcab6bec82c4561acaf",Adventurer_Int_7c0ae52eb1f84dcab6bec82c4561acaf);
             conditionChecks.Add("Adventurer_Int_9fc2c948d06f46e782edd5cf12329e18",Adventurer_Int_9fc2c948d06f46e782edd5cf12329e18);
             eventFunctions.Add("Adventurer_Int_354f6bf600044894a2af0dc909fc0396",Adventurer_Int_354f6bf600044894a2af0dc909fc0396);
             eventFunctions.Add("Adventurer_Int_4f7d54b5320f4bc398b9dc59f9ca68eb",Adventurer_Int_4f7d54b5320f4bc398b9dc59f9ca68eb);
             conditionChecks.Add("Adventurer_Int_32827ca3b84b474cb5d39d75c91aa001",Adventurer_Int_32827ca3b84b474cb5d39d75c91aa001);
+            eventFunctions.Add("Adventurer_Int_f97b460f0e8a455e9b9a136dc809a9b0",Adventurer_Int_f97b460f0e8a455e9b9a136dc809a9b0);
+            dialogueChecks.Add("Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_656e7b9d4213420b8ecaf04cb8f1deea",Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_656e7b9d4213420b8ecaf04cb8f1deea);
+            dialogueChecks.Add("Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_0291ff77c9d0449c8ea18ac119450c35",Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_0291ff77c9d0449c8ea18ac119450c35);
+            dialogueChecks.Add("Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_017ba2a92591447fbddffbcebda10db4",Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_017ba2a92591447fbddffbcebda10db4);
+            dialogueChecks.Add("Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_fdb9342c4c8e4584a4cef351e8ebfdc3",Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_fdb9342c4c8e4584a4cef351e8ebfdc3);
+            dialogueChecks.Add("Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_579112dc3c7b4cdfbc319a81eb89eb85",Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_579112dc3c7b4cdfbc319a81eb89eb85);
+            eventFunctions.Add("Adventurer_Int_3def0688b35945108da7c447d28c67dd",Adventurer_Int_3def0688b35945108da7c447d28c67dd);
+            eventFunctions.Add("Adventurer_Int_f42b6ba011bf4eafae178b47abf8bf5e",Adventurer_Int_f42b6ba011bf4eafae178b47abf8bf5e);
+            eventFunctions.Add("Adventurer_Int_87a4edc0091742bfa70a4eb1619982b4",Adventurer_Int_87a4edc0091742bfa70a4eb1619982b4);
 
         }
 
@@ -60,16 +64,16 @@ DataTracker dt = DataTracker.Instance;
             return (true);
         }
         // From Node: e2a31422-f166-4498-b906-c8cfd8eb5a35 //
-        // Choice: Do you have any other information about the case? - fdb9342c-4c8e-4584-a4ce-f351e8ebfdc3 //
-        public bool Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_fdb9342c4c8e4584a4cef351e8ebfdc3()
-        {
-            return (true);
-        }
-        // From Node: e2a31422-f166-4498-b906-c8cfd8eb5a35 //
         // Choice: Bloody Nose? - 017ba2a9-2591-447f-bddf-fbcebda10db4 //
         public bool Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_017ba2a92591447fbddffbcebda10db4()
         {
             return (dt.shamsaTalkedTo == 1);
+        }
+        // From Node: e2a31422-f166-4498-b906-c8cfd8eb5a35 //
+        // Choice: Do you have any other information about the case? - fdb9342c-4c8e-4584-a4ce-f351e8ebfdc3 //
+        public bool Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_fdb9342c4c8e4584a4cef351e8ebfdc3()
+        {
+            return (true);
         }
         // From Node: e2a31422-f166-4498-b906-c8cfd8eb5a35 //
         // Choice: Did you kill Scarlette? - 579112dc-3c7b-4cdf-bc31-9a81eb89eb85 //
@@ -118,6 +122,22 @@ infoLearned += 1;
 journal.AddEntry("The Adventurer and The Doctor were in the bar together.");
 dt.clues += 1;
 locationLearned += 1;
+        }
+        // Event From Node: f97b460f-0e8a-455e-9b9a-136dc809a9b0 //
+        public void Adventurer_Int_f97b460f0e8a455e9b9a136dc809a9b0() {
+GameObject.FindObjectOfType<AudioManager>().Play("Sam 1");
+        }
+        // Event From Node: 3def0688-b359-4510-8da7-c447d28c67dd //
+        public void Adventurer_Int_3def0688b35945108da7c447d28c67dd() {
+GameObject.FindObjectOfType<AudioManager>().Play("Sam 2");
+        }
+        // Event From Node: f42b6ba0-11bf-4eaf-ae17-8b47abf8bf5e //
+        public void Adventurer_Int_f42b6ba011bf4eafae178b47abf8bf5e() {
+GameObject.FindObjectOfType<AudioManager>().Play("Sam 3");
+        }
+        // Event From Node: 87a4edc0-0917-42bf-a70a-4eb1619982b4 //
+        public void Adventurer_Int_87a4edc0091742bfa70a4eb1619982b4() {
+GameObject.FindObjectOfType<AudioManager>().Play("Sam End");
         }
 
     }

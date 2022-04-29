@@ -119,7 +119,7 @@ GameObject.FindObjectOfType<AudioManager>().Play("Sean 2");
         }
         // Event From Node: 867c7f16-5d1e-40ca-ac84-c9ffd9dc0798 //
         public void Sailor_Int_867c7f165d1e40caac84c9ffd9dc0798() {
-GameObject.FindObjectOfType<AudioManager>().Play("Sean 1");
+GameObject.FindObjectOfType<AudioManager>().Play("Sean 3");
         }
         // Event From Node: 4524fe52-8ba4-4c0b-b340-d64646a58a75 //
         public void Sailor_Int_4524fe528ba44c0bb340d64646a58a75() {
