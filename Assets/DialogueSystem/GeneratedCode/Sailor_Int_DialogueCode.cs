@@ -103,6 +103,7 @@ dt.showBackgroundImage += 1;
         // Event From Node: 0a68badc-55b8-49c0-b3da-e6cfb475065e //
         public void Sailor_Int_0a68badc55b849c0b3dae6cfb475065e() {
 dt.showBackgroundImage = 0;
+dt.currentScene = 1;
         }
 
     }
