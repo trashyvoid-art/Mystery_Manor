@@ -19,4 +19,9 @@ public class LoadNextScene_DeleteLater : MonoBehaviour
             SceneManager.LoadScene(NextLevelLoad);
         }
     }
+
+    //public void GoToIntro()
+    //{
+    //    SceneManager.LoadScene(1);
+    //}
 }

@@ -23,6 +23,7 @@ Notes.Journal journal = Utility.Toolbox.Instance.Journal;
 int choices = 0;
 int locationsLearned = 0;
 DataTracker dt = DataTracker.Instance;
+GameObject scene = GameObject.Find("SceneManager");
 
 
         public void Start()
