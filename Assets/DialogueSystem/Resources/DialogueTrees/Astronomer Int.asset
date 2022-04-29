@@ -17,62 +17,67 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: a2786608-d197-40bb-8455-fadfa044f567
     PortName: Next
-    PortGUID: edc94081-5c3f-44ee-b03d-bccd771ca7e9
+    PortGUID: 7f9a665f-4839-4368-b8b5-d08d7f5f2633
     Condition: 
     TargetNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
   - BaseNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
     PortName: Pass
-    PortGUID: b63649f6-fe8d-475b-8d18-9a65cf4d8c6d
+    PortGUID: d0e23f8b-1bba-43a2-b534-ec169226f5a4
     Condition: 
     TargetNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
   - BaseNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
     PortName: Fail
-    PortGUID: 0ef4c11a-6e5e-4792-b375-e9baad458b60
+    PortGUID: de0abbfc-dd15-45f9-90e6-79b60043eadf
     Condition: 
     TargetNodeGuid: 26345dbf-e14e-48ff-8cd7-59c90f9dfde6
+  - BaseNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
+    PortName: Fail
+    PortGUID: e46535c3-4ba8-482b-8fde-6471b4896288
+    Condition: 
+    TargetNodeGuid: 9ddcd9d6-d4fc-4825-a5b3-893ebfbbc7a7
   - BaseNodeGuid: 31076eaf-81fd-4a68-8436-68e39cdb0698
     PortName: Fail
-    PortGUID: 90a52466-fba3-4e40-82f1-f8f01c312538
+    PortGUID: a3288baa-09fe-4211-be47-970d6f3996c9
     Condition: 
     TargetNodeGuid: c1b5c562-0429-4dc6-a8dd-6234469dee05
   - BaseNodeGuid: 31076eaf-81fd-4a68-8436-68e39cdb0698
     PortName: Pass
-    PortGUID: ced8994e-28d8-4adc-b9b9-958239686a5f
+    PortGUID: a7a9f1cb-1ecb-4273-96e1-5372488f37f1
     Condition: 
     TargetNodeGuid: 51eeae81-37b9-410c-8f46-ec829aa87881
   - BaseNodeGuid: 31076eaf-81fd-4a68-8436-68e39cdb0698
     PortName: Fail
-    PortGUID: 42a1dc05-1132-485d-8a04-750d99a6d6a6
+    PortGUID: f1985768-794a-4429-9008-9dbbf99b4b28
     Condition: 
     TargetNodeGuid: 51eeae81-37b9-410c-8f46-ec829aa87881
   - BaseNodeGuid: 51eeae81-37b9-410c-8f46-ec829aa87881
     PortName: Next
-    PortGUID: cee4aa2a-9526-4cd9-879b-e48a6ae1e7f8
+    PortGUID: 884e2632-bd03-4854-8aa2-29efc8931fc2
     Condition: 
     TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
   - BaseNodeGuid: db1e1554-2b8f-47d5-a5fb-0d4428e30b62
     PortName: Next
-    PortGUID: 495bb0c8-708f-49af-88e3-4d62c19aa7b2
+    PortGUID: e3add998-bff8-4555-8c48-cb6790d73133
     Condition: 
     TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
   - BaseNodeGuid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
     PortName: Next
-    PortGUID: f1a658a3-e32f-421b-8d24-d077dc0e7021
+    PortGUID: ca0be337-a91a-4c66-89ad-fc5f55ffd6ef
     Condition: 
     TargetNodeGuid: 587b23ce-d7f1-4406-beb0-4a840ad35495
   - BaseNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
     PortName: Pass
-    PortGUID: 32d13ff4-0383-4551-a5d8-bef25fabf438
+    PortGUID: 9906936f-063a-47d4-8c38-383f3cbb431a
     Condition: 
     TargetNodeGuid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
   - BaseNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
     PortName: Fail
-    PortGUID: 9e6c8a02-298b-440c-ae4d-2e5ef8e85b02
+    PortGUID: 270f9c64-545c-4f8b-9073-ddc0b09c0607
     Condition: 
     TargetNodeGuid: d2a00e74-797e-4ff6-a354-779009fbda74
   - BaseNodeGuid: 70d846c3-c125-4aea-9240-1a81c8691d59
     PortName: Fail
-    PortGUID: 96d1b0bd-ae63-4f2d-96c9-137873b696dc
+    PortGUID: 0e98642d-a1c2-42e3-ab46-4ced25f24fd0
     Condition: 
     TargetNodeGuid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
   - BaseNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
@@ -110,21 +115,41 @@ MonoBehaviour:
     PortGUID: 8bce3ee6-2170-433b-97d5-f3ccb6409263
     Condition: dt.clues>=7
     TargetNodeGuid: 39545422-df84-4aa6-9227-8f574352c17c
+  - BaseNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
+    PortName: Do you know why someone would have wanted to hurt the victim?
+    PortGUID: c7afa89b-a4d0-4601-b527-0254eafba349
+    Condition: 
+    TargetNodeGuid: 32a284ff-d018-4b02-9c09-6d8b4f056bf8
+  - BaseNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
+    PortName: Do you have any other information about the case?
+    PortGUID: 571adf63-a14c-4068-98fd-d5b55270f405
+    Condition: 
+    TargetNodeGuid: 2b046335-ca9b-428e-8696-b9b9937bb532
+  - BaseNodeGuid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
+    PortName: Where were you at the time of the murder?
+    PortGUID: bf886eca-bd87-4467-9e36-2bc1ee281072
+    Condition: 
+    TargetNodeGuid: 7bd3c545-cc97-4a8e-b336-e8e1cccff714
   - BaseNodeGuid: 39545422-df84-4aa6-9227-8f574352c17c
     PortName: Next
-    PortGUID: 21421272-4f87-4b70-95e2-89b0092618af
+    PortGUID: 3aadc8bf-92d6-4b77-9748-6155575ffb72
     Condition: 
     TargetNodeGuid: 07eeb4f5-ec86-4a5e-a72d-8f9177d02ce8
+  - BaseNodeGuid: a2786608-d197-40bb-8455-fadfa044f567
+    PortName: Next
+    PortGUID: 216d7bef-9d63-408b-a1eb-d4d61a69de78
+    Condition: 
+    TargetNodeGuid: c4b0fab1-806a-46c9-af4f-306b846e0b32
   Nodes:
   - Guid: 587b23ce-d7f1-4406-beb0-4a840ad35495
-    Position: {x: 2801.5999, y: 79.2}
+    Position: {x: 2802, y: 79}
     Type: 32
     _textKeys:
     - Condition
     _textValues:
     - choices < 3
   - Guid: 26345dbf-e14e-48ff-8cd7-59c90f9dfde6
-    Position: {x: 3139.2, y: 79.2}
+    Position: {x: 3139, y: 79}
     Type: 8
     _textKeys:
     - DialogueText
@@ -132,8 +157,130 @@ MonoBehaviour:
     _textValues:
     - If we all work together we'll surely solve this case.
     - ${name}
+  - Guid: 31076eaf-81fd-4a68-8436-68e39cdb0698
+    Position: {x: 954, y: 553}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - locationLearned > 0
+  - Guid: 3be24e7b-4af9-4f81-95ed-1d520b2e56ab
+    Position: {x: 1443, y: 268}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - choices += 1;
+  - Guid: 51eeae81-37b9-410c-8f46-ec829aa87881
+    Position: {x: 1259, y: 455}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the infirmary, have you seen it? It is simultaneously one of the most
+      horrifying and interesting places I have ever been, which now that I think
+      about it describes this whole manor.
+    - ${name}
+  - Guid: db1e1554-2b8f-47d5-a5fb-0d4428e30b62
+    Position: {x: 1374, y: -729}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I can't imagine why anyone would do something so cruel.
+    - ${name}
+  - Guid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
+    Position: {x: 1514, y: -163}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - At one point The Adventurer came into the infirmary with a bloody nose. When
+      I asked what happened he acted somewhat skilamalink.
+    - ${name}
+  - Guid: d2a00e74-797e-4ff6-a354-779009fbda74
+    Position: {x: 1514, y: 92}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Adventurer had a bloody nose.");
+
+      dt.shamsaTalkedTo
+      += 1;
+
+      dt.clues+=1;'
+  - Guid: 70d846c3-c125-4aea-9240-1a81c8691d59
+    Position: {x: 1211, y: -163}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - dt.shamsaTalkedTo > 0
+  - Guid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
+    Position: {x: 339, y: -24}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - How do you do?
+    - ${name}
+  - Guid: 39545422-df84-4aa6-9227-8f574352c17c
+    Position: {x: 826, y: 783}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Honestly I am a little offended that you think I would hurt anyone.
+    - ${name}
+  - Guid: 07eeb4f5-ec86-4a5e-a72d-8f9177d02ce8
+    Position: {x: 1234, y: 1032}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - dt.wrongAccusations+=1;
+  - Guid: 32a284ff-d018-4b02-9c09-6d8b4f056bf8
+    Position: {x: 1374, y: -533}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Shamsa 2");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Next
+      Line");'
+  - Guid: 7bd3c545-cc97-4a8e-b336-e8e1cccff714
+    Position: {x: 1259, y: 651}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Shamsa 1");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Next
+      Line");'
+  - Guid: 9ddcd9d6-d4fc-4825-a5b3-893ebfbbc7a7
+    Position: {x: 3139, y: 275}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Shamsa End");
+  - Guid: c4b0fab1-806a-46c9-af4f-306b846e0b32
+    Position: {x: 339, y: -143}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Start Convo");
   - Guid: 116917f5-2d17-47f4-8030-76c6415234cb
-    Position: {x: 0, y: -170.4}
+    Position: {x: -78, y: -170}
     Type: 16
     _textKeys:
     - Code
@@ -151,15 +298,18 @@ MonoBehaviour:
       locationLearned = 0;
 
       DataTracker dt = DataTracker.Instance;'
-  - Guid: 31076eaf-81fd-4a68-8436-68e39cdb0698
-    Position: {x: 953.60004, y: 552.8}
-    Type: 32
+  - Guid: 2b046335-ca9b-428e-8696-b9b9937bb532
+    Position: {x: 1514, y: -303}
+    Type: 64
     _textKeys:
-    - Condition
+    - Code
     _textValues:
-    - locationLearned > 0
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Shamsa 3");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Next
+      Line");'
   - Guid: c1b5c562-0429-4dc6-a8dd-6234469dee05
-    Position: {x: 1447.2, y: 837.6}
+    Position: {x: 1259, y: 796}
     Type: 64
     _textKeys:
     - Code
@@ -170,84 +320,3 @@ MonoBehaviour:
       += 1;
 
       dt.clues+=1;'
-  - Guid: 3be24e7b-4af9-4f81-95ed-1d520b2e56ab
-    Position: {x: 1443.2, y: 268}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - choices += 1;
-  - Guid: 51eeae81-37b9-410c-8f46-ec829aa87881
-    Position: {x: 1259.2, y: 455.19998}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - I was in the infirmary, have you seen it? It is simultaneously one of the most
-      horrifying and interesting places I have ever been, which now that I think
-      about it describes this whole manor.
-    - ${name}
-  - Guid: db1e1554-2b8f-47d5-a5fb-0d4428e30b62
-    Position: {x: 1373.6, y: -728.8}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - I can't imagine why anyone would do something so cruel.
-    - ${name}
-  - Guid: c0c0a754-6c9a-4897-a06e-ac15aaf6b340
-    Position: {x: 1514.3999, y: -163.2}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - At one point The Adventurer came into the infirmary with a bloody nose. When
-      I asked what happened he acted somewhat skilamalink.
-    - ${name}
-  - Guid: d2a00e74-797e-4ff6-a354-779009fbda74
-    Position: {x: 1514.3999, y: 92}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'journal.AddEntry("The Adventurer had a bloody nose.");
-
-      dt.shamsaTalkedTo
-      += 1;
-
-      dt.clues+=1;'
-  - Guid: 70d846c3-c125-4aea-9240-1a81c8691d59
-    Position: {x: 1211.2, y: -163.2}
-    Type: 32
-    _textKeys:
-    - Condition
-    _textValues:
-    - dt.shamsaTalkedTo > 0
-  - Guid: 23e0ca1f-d5ed-485a-8a06-20257e18854e
-    Position: {x: 339.2, y: -24}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - How do you do?
-    - ${name}
-  - Guid: 39545422-df84-4aa6-9227-8f574352c17c
-    Position: {x: 826.4, y: 783.2}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - Honestly I am a little offended that you think I would hurt anyone.
-    - ${name}
-  - Guid: 07eeb4f5-ec86-4a5e-a72d-8f9177d02ce8
-    Position: {x: 1233.6, y: 1032}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - dt.wrongAccusations+=1;
