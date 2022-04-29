@@ -12445,16 +12445,67 @@ MonoBehaviour:
     audio: {fileID: 8300000, guid: ae9e7cf767160b04f8f980a0d9f639b8, type: 3}
     source: {fileID: 0}
   - name: Ms Scheele 1
-    audio: {fileID: 8300000, guid: ae9e7cf767160b04f8f980a0d9f639b8, type: 3}
+    audio: {fileID: 8300000, guid: 47792bf85543d014c8fe310d1e8d7289, type: 3}
     source: {fileID: 0}
   - name: Ms Scheele 2
-    audio: {fileID: 8300000, guid: ae9e7cf767160b04f8f980a0d9f639b8, type: 3}
+    audio: {fileID: 8300000, guid: 562ba6961cb2ed04aac6206f55d009ff, type: 3}
     source: {fileID: 0}
   - name: Ms Scheele 3
-    audio: {fileID: 8300000, guid: ae9e7cf767160b04f8f980a0d9f639b8, type: 3}
+    audio: {fileID: 8300000, guid: 35bc119204824f944826ecc61a86e5af, type: 3}
     source: {fileID: 0}
   - name: Ms Scheele End
-    audio: {fileID: 8300000, guid: ae9e7cf767160b04f8f980a0d9f639b8, type: 3}
+    audio: {fileID: 8300000, guid: 1ecc811eca7cd514f9801b206596abb4, type: 3}
+    source: {fileID: 0}
+  - name: Start Convo
+    audio: {fileID: 8300000, guid: 8672b93f64aae3a49baf9573d12d0a02, type: 3}
+    source: {fileID: 0}
+  - name: End Convo
+    audio: {fileID: 8300000, guid: 6f38e0133f749984d9f2765270a750bb, type: 3}
+    source: {fileID: 0}
+  - name: Next Line
+    audio: {fileID: 8300000, guid: 35b89decd69dfed478ca98ab05933717, type: 3}
+    source: {fileID: 0}
+  - name: Tab Beep
+    audio: {fileID: 8300000, guid: 17eb5131e18539a45bdc49ab4ff4b9f6, type: 3}
+    source: {fileID: 0}
+  - name: Sam 1
+    audio: {fileID: 8300000, guid: 722d7c54ffcec944b8b2b73a0020fd7e, type: 3}
+    source: {fileID: 0}
+  - name: Sam 2
+    audio: {fileID: 8300000, guid: 789b660b26c297d458a8e8d6f922f6d7, type: 3}
+    source: {fileID: 0}
+  - name: Sam 3
+    audio: {fileID: 8300000, guid: 38981197f1aafda4fa04f9d9466499c6, type: 3}
+    source: {fileID: 0}
+  - name: Sam 4
+    audio: {fileID: 8300000, guid: 0b361a8b0252f574ea7e29a308299bd9, type: 3}
+    source: {fileID: 0}
+  - name: Sam End
+    audio: {fileID: 8300000, guid: eb70831d78ae80041acf65fa34044154, type: 3}
+    source: {fileID: 0}
+  - name: Sean 1
+    audio: {fileID: 8300000, guid: 04b6ce9be15e7104dab26a5c97ac9da4, type: 3}
+    source: {fileID: 0}
+  - name: Sean 2
+    audio: {fileID: 8300000, guid: 1464de7a0c10fa8478b8f85aaf903bb2, type: 3}
+    source: {fileID: 0}
+  - name: Sean 3
+    audio: {fileID: 8300000, guid: eb70831d78ae80041acf65fa34044154, type: 3}
+    source: {fileID: 0}
+  - name: Sean End
+    audio: {fileID: 8300000, guid: eb70831d78ae80041acf65fa34044154, type: 3}
+    source: {fileID: 0}
+  - name: Shamsa 1
+    audio: {fileID: 8300000, guid: 0c5a7e85fafa4e8488b1bc2fa8d1fa11, type: 3}
+    source: {fileID: 0}
+  - name: Shamsa 2
+    audio: {fileID: 8300000, guid: 0f288336cacac6243acd9de66f19ff42, type: 3}
+    source: {fileID: 0}
+  - name: Shamsa 3
+    audio: {fileID: 8300000, guid: d4c858d7676f14743bbe3f70bc75e681, type: 3}
+    source: {fileID: 0}
+  - name: Shamsa End
+    audio: {fileID: 8300000, guid: 8667b0e176ab6b949a2030820641398d, type: 3}
     source: {fileID: 0}
 --- !u!4 &2051172619
 Transform:

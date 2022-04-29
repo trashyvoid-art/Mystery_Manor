@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keys:
   - 
-  - Character Speech\Chapter 4
+  - Character Speech
   - Character Speech\Chapter 4\Ms Scheele
+  - Character Speech\Chapter 4\Sam
+  - Character Speech\Chapter 4\Sanchez
+  - Character Speech\Chapter 4\Sean
+  - Character Speech\Chapter 4\Shamsa
   - Environment\Creaks
   - Environment\Electricity
   - Environment\Room Tone
@@ -30,20 +34,16 @@ MonoBehaviour:
     Files:
     - ParentFolder: 
       FileLocation: Good_Bitify_Sleep Away(Reprise).mp3
-  - FolderName: Character Speech\Chapter 4
+  - FolderName: Character Speech
     Files:
-    - ParentFolder: Character Speech\Chapter 4
-      FileLocation: Character Speech\Chapter 4\SanchezEndofConvo.wav
-    - ParentFolder: Character Speech\Chapter 4
-      FileLocation: Character Speech\Chapter 4\SanchezVoiceline1.wav
-    - ParentFolder: Character Speech\Chapter 4
-      FileLocation: Character Speech\Chapter 4\SanchezVoiceline2.wav
-    - ParentFolder: Character Speech\Chapter 4
-      FileLocation: Character Speech\Chapter 4\SanchezVoiceline3.wav
-    - ParentFolder: Character Speech\Chapter 4
-      FileLocation: Character Speech\Chapter 4\SanchezVoiceline4.wav
-    - ParentFolder: Character Speech\Chapter 4
-      FileLocation: Character Speech\Chapter 4\SanchezVoiceline5.wav
+    - ParentFolder: Character Speech
+      FileLocation: Character Speech\EndofConvoBeep.wav
+    - ParentFolder: Character Speech
+      FileLocation: Character Speech\NextLineBeep_v2.wav
+    - ParentFolder: Character Speech
+      FileLocation: Character Speech\StartofConvoBeep.wav
+    - ParentFolder: Character Speech
+      FileLocation: Character Speech\TabBeep.wav
   - FolderName: Character Speech\Chapter 4\Ms Scheele
     Files:
     - ParentFolder: Character Speech\Chapter 4\Ms Scheele
@@ -54,6 +54,52 @@ MonoBehaviour:
       FileLocation: Character Speech\Chapter 4\Ms Scheele\MsScheeleVoiceline2.wav
     - ParentFolder: Character Speech\Chapter 4\Ms Scheele
       FileLocation: Character Speech\Chapter 4\Ms Scheele\MsScheeleVoiceline3.wav
+  - FolderName: Character Speech\Chapter 4\Sam
+    Files:
+    - ParentFolder: Character Speech\Chapter 4\Sam
+      FileLocation: Character Speech\Chapter 4\Sam\SamEndofConvo.wav
+    - ParentFolder: Character Speech\Chapter 4\Sam
+      FileLocation: Character Speech\Chapter 4\Sam\SamVoiceline1.wav
+    - ParentFolder: Character Speech\Chapter 4\Sam
+      FileLocation: Character Speech\Chapter 4\Sam\SamVoiceline2.wav
+    - ParentFolder: Character Speech\Chapter 4\Sam
+      FileLocation: Character Speech\Chapter 4\Sam\SamVoiceline3.wav
+    - ParentFolder: Character Speech\Chapter 4\Sam
+      FileLocation: Character Speech\Chapter 4\Sam\SamVoiceline4.wav
+  - FolderName: Character Speech\Chapter 4\Sanchez
+    Files:
+    - ParentFolder: Character Speech\Chapter 4\Sanchez
+      FileLocation: Character Speech\Chapter 4\Sanchez\SanchezEndofConvo.wav
+    - ParentFolder: Character Speech\Chapter 4\Sanchez
+      FileLocation: Character Speech\Chapter 4\Sanchez\SanchezVoiceline1.wav
+    - ParentFolder: Character Speech\Chapter 4\Sanchez
+      FileLocation: Character Speech\Chapter 4\Sanchez\SanchezVoiceline2.wav
+    - ParentFolder: Character Speech\Chapter 4\Sanchez
+      FileLocation: Character Speech\Chapter 4\Sanchez\SanchezVoiceline3.wav
+    - ParentFolder: Character Speech\Chapter 4\Sanchez
+      FileLocation: Character Speech\Chapter 4\Sanchez\SanchezVoiceline4.wav
+    - ParentFolder: Character Speech\Chapter 4\Sanchez
+      FileLocation: Character Speech\Chapter 4\Sanchez\SanchezVoiceline5.wav
+  - FolderName: Character Speech\Chapter 4\Sean
+    Files:
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanEndofConvo.wav
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanVoiceline1.wav
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanVoiceline2.wav
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanVoiceline3.wav
+  - FolderName: Character Speech\Chapter 4\Shamsa
+    Files:
+    - ParentFolder: Character Speech\Chapter 4\Shamsa
+      FileLocation: Character Speech\Chapter 4\Shamsa\ShamsaEndofConvo.wav
+    - ParentFolder: Character Speech\Chapter 4\Shamsa
+      FileLocation: Character Speech\Chapter 4\Shamsa\ShamsaVoiceline1.wav
+    - ParentFolder: Character Speech\Chapter 4\Shamsa
+      FileLocation: Character Speech\Chapter 4\Shamsa\ShamsaVoiceline2.wav
+    - ParentFolder: Character Speech\Chapter 4\Shamsa
+      FileLocation: Character Speech\Chapter 4\Shamsa\ShamsaVoiceline3.wav
   - FolderName: Environment\Creaks
     Files:
     - ParentFolder: Environment\Creaks
