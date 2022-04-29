@@ -53,6 +53,8 @@ public class DataTracker
 
     public int wrongAccusations { get; set; } = 0;
 
+    public int showBackgroundImage { get; set; } = 0;
+
     //ShamsaTalkedTo setter
     //public void setShamsaTalkedTo(int _shamsaTalkedTo)
     //{

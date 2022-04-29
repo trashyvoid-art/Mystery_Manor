@@ -80,7 +80,7 @@ DataTracker dt = DataTracker.Instance;
         // Choice: Did you kill Scarlette? - 9d0f0bd4-af28-482d-a072-04fc9a87320b //
         public bool Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_9d0f0bd4af28482da07204fc9a87320b()
         {
-            return (dt.clues >= 7);
+            return (dt.clues == 7);
         }
 
 
