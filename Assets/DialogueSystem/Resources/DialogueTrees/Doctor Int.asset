@@ -17,7 +17,7 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: f935f95a-056e-469d-a1bc-59c1b21cd217
     PortName: Next
-    PortGUID: 64c7ee81-de0c-4b6d-adf5-bb2125d069c4
+    PortGUID: e3c3e187-8de0-4b50-a78d-e76a68859e05
     Condition: 
     TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
   - BaseNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
@@ -72,32 +72,32 @@ MonoBehaviour:
     TargetNodeGuid: 2813fb2c-bb6f-4ffe-93d7-3abae43e8da6
   - BaseNodeGuid: b8dd409c-7584-4689-874c-785ba0d06479
     PortName: Next
-    PortGUID: 5d74dc0f-d7b4-4754-bf06-fc916c1cf8f6
+    PortGUID: e7263efd-8dfb-487c-82a9-c3634ef9f4cb
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: 2813fb2c-bb6f-4ffe-93d7-3abae43e8da6
     PortName: Next
-    PortGUID: b7db7abf-098b-4846-a617-28a89ab190ce
+    PortGUID: af8234f4-858e-47bf-9c63-0a70b47666c1
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: 3b323f3f-0512-4e78-a020-d4b65d83daef
     PortName: Next
-    PortGUID: fae457c9-3c92-4926-957b-96c6b5c05265
+    PortGUID: 268dfa1c-4ba5-4edb-8d58-3ff02f89d2d4
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: 30bc7599-469b-45f3-97ed-7a60b8df58d2
     PortName: Next
-    PortGUID: d482f12c-f570-4851-b5e1-c64e05100042
+    PortGUID: fa95b994-3ed5-417d-8360-13918d12e7f1
     Condition: 
     TargetNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
   - BaseNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
     PortName: Pass
-    PortGUID: b477f482-3a6c-401e-b273-452b544e3932
+    PortGUID: c514310e-8b72-4e9e-98a7-f812aea75569
     Condition: 
     TargetNodeGuid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
   - BaseNodeGuid: e6433e34-1bf4-4500-b7c8-c177708cdbbe
     PortName: Fail
-    PortGUID: 1f09cda5-058a-46b6-9825-3e063100ca0e
+    PortGUID: bbc139b0-4eda-4d71-a47d-bba63a480a1f
     Condition: 
     TargetNodeGuid: 73ee94d7-55c2-4575-bb7e-0fabca25ac33
   Nodes:
@@ -112,7 +112,9 @@ MonoBehaviour:
       Notes.Journal journal = Utility.Toolbox.Instance.Journal;
 
       int
-      choices = 0;'
+      choices = 0;
+
+      DataTracker dt = DataTracker.Instance;'
   - Guid: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31
     Position: {x: 263.2, y: 0}
     Type: 4
@@ -123,14 +125,14 @@ MonoBehaviour:
     - What?
     - ${name}
   - Guid: 54f63204-9443-45bc-8f3c-d61b6056ab2f
-    Position: {x: 1092.8, y: 86.399994}
+    Position: {x: 1092.7999, y: 86.399994}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - choices += 1;
   - Guid: 5fbb3e87-1495-4bc5-a68e-00794003104b
-    Position: {x: 1092.8, y: -480.80002}
+    Position: {x: 1092.7999, y: -480.80002}
     Type: 64
     _textKeys:
     - Code
@@ -155,7 +157,7 @@ MonoBehaviour:
     - No
     - ${name}
   - Guid: 3b323f3f-0512-4e78-a020-d4b65d83daef
-    Position: {x: 1092.8, y: 556}
+    Position: {x: 1092.7999, y: 556}
     Type: 8
     _textKeys:
     - DialogueText
@@ -165,7 +167,7 @@ MonoBehaviour:
       was I close enough to that obnoxious man for me to give him a nose bleed.
     - ${name}
   - Guid: 0eb957eb-90a1-4f98-8ce3-a45a7b19a437
-    Position: {x: 1092.8, y: 791.2}
+    Position: {x: 1092.7999, y: 791.2}
     Type: 64
     _textKeys:
     - Code
