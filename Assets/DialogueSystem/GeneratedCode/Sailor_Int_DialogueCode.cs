@@ -32,11 +32,13 @@ DataTracker dt = DataTracker.Instance;
             conditionChecks.Add("Sailor_Int_ad42c76a391f4aeeb56effb2e7ed83a6",Sailor_Int_ad42c76a391f4aeeb56effb2e7ed83a6);
             eventFunctions.Add("Sailor_Int_80b8a9656ebf435994de754b7e064f63",Sailor_Int_80b8a9656ebf435994de754b7e064f63);
             conditionChecks.Add("Sailor_Int_12d82d657b5c4ddd9f8f188d9838173e",Sailor_Int_12d82d657b5c4ddd9f8f188d9838173e);
-            eventFunctions.Add("Sailor_Int_c155a34a36ad4d0da95c10895de5194e",Sailor_Int_c155a34a36ad4d0da95c10895de5194e);
             dialogueChecks.Add("Sailor_Int_2496025ee0b342f0b92a94cac6149a20_85f8aec8871342de94f2b01aab097575",Sailor_Int_2496025ee0b342f0b92a94cac6149a20_85f8aec8871342de94f2b01aab097575);
             dialogueChecks.Add("Sailor_Int_2496025ee0b342f0b92a94cac6149a20_3965af1839574a8f92ce52f0d9e94ce0",Sailor_Int_2496025ee0b342f0b92a94cac6149a20_3965af1839574a8f92ce52f0d9e94ce0);
             dialogueChecks.Add("Sailor_Int_2496025ee0b342f0b92a94cac6149a20_57059fe87b99468c8f9b3dc22aca7f0b",Sailor_Int_2496025ee0b342f0b92a94cac6149a20_57059fe87b99468c8f9b3dc22aca7f0b);
             dialogueChecks.Add("Sailor_Int_2496025ee0b342f0b92a94cac6149a20_7ff9f792d85b402f9dc69b3a088f5951",Sailor_Int_2496025ee0b342f0b92a94cac6149a20_7ff9f792d85b402f9dc69b3a088f5951);
+            eventFunctions.Add("Sailor_Int_c155a34a36ad4d0da95c10895de5194e",Sailor_Int_c155a34a36ad4d0da95c10895de5194e);
+            eventFunctions.Add("Sailor_Int_d65e2a8dc36e499e917a2a17afc898e7",Sailor_Int_d65e2a8dc36e499e917a2a17afc898e7);
+            eventFunctions.Add("Sailor_Int_0a68badc55b849c0b3dae6cfb475065e",Sailor_Int_0a68badc55b849c0b3dae6cfb475065e);
 
         }
 
@@ -92,6 +94,14 @@ dt.clues+=1;
         // Event From Node: c155a34a-36ad-4d0d-a95c-10895de5194e //
         public void Sailor_Int_c155a34a36ad4d0da95c10895de5194e() {
 dt.correctAccusations += 1;
+        }
+        // Event From Node: d65e2a8d-c36e-499e-917a-2a17afc898e7 //
+        public void Sailor_Int_d65e2a8dc36e499e917a2a17afc898e7() {
+dt.showBackgroundImage += 1;
+        }
+        // Event From Node: 0a68badc-55b8-49c0-b3da-e6cfb475065e //
+        public void Sailor_Int_0a68badc55b849c0b3dae6cfb475065e() {
+dt.showBackgroundImage = 0;
         }
 
     }

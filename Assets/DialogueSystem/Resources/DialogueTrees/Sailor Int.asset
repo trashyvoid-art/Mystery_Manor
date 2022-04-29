@@ -17,47 +17,47 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: a9a76df3-5213-4388-b395-589f6197184e
     PortName: Next
-    PortGUID: 3a4d7282-b7f8-4622-baf9-d740ca110d8c
+    PortGUID: 9929a063-4648-4944-af7f-87852a382555
     Condition: 
     TargetNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
   - BaseNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
     PortName: Pass
-    PortGUID: b31cd0d6-1a72-4ee8-a9e8-a1d6e111c8d7
+    PortGUID: 66be5017-5e8f-4bd1-a831-7af915f21076
     Condition: 
     TargetNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
   - BaseNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
     PortName: Fail
-    PortGUID: 322f1ed5-546e-4481-a060-55deceb40aeb
+    PortGUID: 3feb37ef-6bcd-46ce-9a09-22f65f8909ea
     Condition: 
     TargetNodeGuid: 4dd230d6-0a3f-4ab6-bc91-369d48031f43
   - BaseNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
     PortName: Next
-    PortGUID: ca13afdc-7c87-463b-81fb-2958a14ed8ae
+    PortGUID: 18daddc7-ab6f-4f73-9725-b4af96eecd3d
     Condition: 
     TargetNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
   - BaseNodeGuid: 12d82d65-7b5c-4ddd-9f8f-188d9838173e
     PortName: Fail
-    PortGUID: 47bac984-c275-475f-a657-1702b6a500e5
+    PortGUID: 7cf63908-ca76-4760-9d9e-4c95110db192
     Condition: 
     TargetNodeGuid: 80b8a965-6ebf-4359-94de-754b7e064f63
   - BaseNodeGuid: 12d82d65-7b5c-4ddd-9f8f-188d9838173e
     PortName: Pass
-    PortGUID: 9522aaeb-11d1-4ec1-91c4-833c7a7f830c
+    PortGUID: 92dd7481-dee1-47d5-8888-6f0dc079d7d5
     Condition: 
     TargetNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
   - BaseNodeGuid: 12d82d65-7b5c-4ddd-9f8f-188d9838173e
     PortName: Fail
-    PortGUID: 24137dbb-2501-4474-a8b9-324ee0899c93
+    PortGUID: 4e675793-cc65-4a99-955e-c2ed3daa9f06
     Condition: 
     TargetNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
   - BaseNodeGuid: f9ffe10d-420c-45ee-b2e8-3c66cfceb901
     PortName: Next
-    PortGUID: 0a6d6716-d44e-4029-b74b-3da8b5f2b7b5
+    PortGUID: f569558f-bf72-41a7-a17b-6e5c25586a92
     Condition: 
     TargetNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
   - BaseNodeGuid: 12e380dc-180a-4113-aa9f-e1cc8560a2cf
     PortName: Next
-    PortGUID: b129d96b-260f-4d9e-8aa5-f4c82611bc8b
+    PortGUID: 62d0ed6c-af6a-4414-b436-26864d4af8b1
     Condition: 
     TargetNodeGuid: c155a34a-36ad-4d0d-a95c-10895de5194e
   - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
@@ -95,6 +95,86 @@ MonoBehaviour:
     PortGUID: 7ff9f792-d85b-402f-9dc6-9b3a088f5951
     Condition: dt.clues >= 7
     TargetNodeGuid: 12e380dc-180a-4113-aa9f-e1cc8560a2cf
+  - BaseNodeGuid: 3e4c9093-a6f3-49d5-87bb-267d47360c66
+    PortName: Next
+    PortGUID: db2cdd89-7b2c-4be3-a2b2-bfae6a389742
+    Condition: 
+    TargetNodeGuid: a23a2b91-6736-43e5-972f-c081b0c9971b
+  - BaseNodeGuid: 12e380dc-180a-4113-aa9f-e1cc8560a2cf
+    PortName: Next
+    PortGUID: caa268d1-397d-4c90-8e58-eff078325276
+    Condition: 
+    TargetNodeGuid: 3e4c9093-a6f3-49d5-87bb-267d47360c66
+  - BaseNodeGuid: a23a2b91-6736-43e5-972f-c081b0c9971b
+    PortName: Next
+    PortGUID: 29ca52f9-efed-4c4e-8ce6-ffb7697c014a
+    Condition: 
+    TargetNodeGuid: d65e2a8d-c36e-499e-917a-2a17afc898e7
+  - BaseNodeGuid: a23a2b91-6736-43e5-972f-c081b0c9971b
+    PortName: Next
+    PortGUID: 8152ec06-39de-441d-8086-c763a0da0f87
+    Condition: 
+    TargetNodeGuid: c2a96992-f04a-4341-bf6a-1732009c9740
+  - BaseNodeGuid: c2a96992-f04a-4341-bf6a-1732009c9740
+    PortName: Next
+    PortGUID: 7bdabf50-d981-44e6-97d1-2eb32a17f550
+    Condition: 
+    TargetNodeGuid: 05279733-9be3-4caf-b47a-38e59e204b9a
+  - BaseNodeGuid: 05279733-9be3-4caf-b47a-38e59e204b9a
+    PortName: Next
+    PortGUID: 019a86ee-e66d-4535-aca7-aa9ebed0ab6c
+    Condition: 
+    TargetNodeGuid: 2692100c-fe19-4cdf-89db-472238da342c
+  - BaseNodeGuid: 2692100c-fe19-4cdf-89db-472238da342c
+    PortName: Next
+    PortGUID: 0842dc72-91a6-412f-a5a7-4bf685541298
+    Condition: 
+    TargetNodeGuid: d3b1ab7e-879e-4299-bd33-a01aca403c4e
+  - BaseNodeGuid: d3b1ab7e-879e-4299-bd33-a01aca403c4e
+    PortName: Next
+    PortGUID: c31642ce-e80c-4bd3-8a7e-fe49dfae1637
+    Condition: 
+    TargetNodeGuid: 400ef356-f49e-4c88-94cb-87a3e460909a
+  - BaseNodeGuid: 400ef356-f49e-4c88-94cb-87a3e460909a
+    PortName: Next
+    PortGUID: a19255ee-5c84-487d-8a4d-02a8350a1273
+    Condition: 
+    TargetNodeGuid: c0171c0c-51d1-4b4b-a28c-bbe6977cfa31
+  - BaseNodeGuid: c0171c0c-51d1-4b4b-a28c-bbe6977cfa31
+    PortName: Next
+    PortGUID: 40d694bb-a50b-466e-a15c-9851fd6200d7
+    Condition: 
+    TargetNodeGuid: 05db5e17-ee95-4ae7-a366-cbb3828944b0
+  - BaseNodeGuid: 05db5e17-ee95-4ae7-a366-cbb3828944b0
+    PortName: Next
+    PortGUID: 51d79113-3c8d-42d7-a169-fef2416e84d2
+    Condition: 
+    TargetNodeGuid: 5492fd20-70c1-4c4a-a4a7-ebef18adb4ee
+  - BaseNodeGuid: 5492fd20-70c1-4c4a-a4a7-ebef18adb4ee
+    PortName: Next
+    PortGUID: 7eda4e31-6cc5-4d53-9a86-008db779ad6e
+    Condition: 
+    TargetNodeGuid: 4cb3018d-5869-4827-90f9-a42897eafee6
+  - BaseNodeGuid: 4cb3018d-5869-4827-90f9-a42897eafee6
+    PortName: Next
+    PortGUID: a8fa1f11-7d1b-46af-afff-74a1e7f2d7f8
+    Condition: 
+    TargetNodeGuid: 73d2db8d-0dcd-49af-9517-d1a0ed7ed99f
+  - BaseNodeGuid: 73d2db8d-0dcd-49af-9517-d1a0ed7ed99f
+    PortName: Next
+    PortGUID: ef4e6d50-5506-4469-93ea-59d39eef5538
+    Condition: 
+    TargetNodeGuid: ff8f316d-54cd-4d3d-8db6-1900543d1d0f
+  - BaseNodeGuid: ff8f316d-54cd-4d3d-8db6-1900543d1d0f
+    PortName: Next
+    PortGUID: e35126b5-192c-4b0f-9c04-34f0038f07a2
+    Condition: 
+    TargetNodeGuid: 5dc26285-557d-4a85-8a1b-5d3910a3e537
+  - BaseNodeGuid: 5dc26285-557d-4a85-8a1b-5d3910a3e537
+    PortName: Next
+    PortGUID: 5d924652-3a3c-49d9-8abe-c28e160b3b83
+    Condition: 
+    TargetNodeGuid: 0a68badc-55b8-49c0-b3da-e6cfb475065e
   Nodes:
   - Guid: 0f54fb55-3b6d-464f-804b-3ccde1a544b9
     Position: {x: 14.4, y: -138.4}
@@ -193,13 +273,6 @@ MonoBehaviour:
     - "I\u2019m sorry, I thought she... I was just so angry and I lost control. I...
       I'm so sorry."
     - ${name}
-  - Guid: c155a34a-36ad-4d0d-a95c-10895de5194e
-    Position: {x: 729.60004, y: 677.6}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - dt.correctAccusations += 1;
   - Guid: 2496025e-e0b3-42f0-b92a-94cac6149a20
     Position: {x: 202.4, y: 0}
     Type: 4
@@ -209,3 +282,161 @@ MonoBehaviour:
     _textValues:
     - Hello again.
     - ${name}
+  - Guid: c155a34a-36ad-4d0d-a95c-10895de5194e
+    Position: {x: 964, y: 677.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - dt.correctAccusations += 1;
+  - Guid: 3e4c9093-a6f3-49d5-87bb-267d47360c66
+    Position: {x: 178.4, y: 830.39996}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - For a moment, she was someone I knew. When I saw her, I felt the currents dragging
+      me under.. And when I came to, I had blood on my hands.
+    - ${name}
+  - Guid: a23a2b91-6736-43e5-972f-c081b0c9971b
+    Position: {x: 69.6, y: 1104.8}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - " I don\u2019t recall how it happened, or how I knew, but after that I escaped
+      through the passage under the desk. But believe me, I wanted to help her- I
+      wanted to take her to the infirmary, but she was so\u2026 I\u2019m sorry"
+    - ${name}
+  - Guid: d65e2a8d-c36e-499e-917a-2a17afc898e7
+    Position: {x: 1369.6, y: 1196.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - dt.showBackgroundImage += 1;
+  - Guid: c2a96992-f04a-4341-bf6a-1732009c9740
+    Position: {x: 207.2, y: 1444.8}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I suspect you were as shocked to see me here this evening as I you. If I'm
+      honest I was hoping I would never have the displeasure of meeting you again.
+    - ${name}
+  - Guid: 05279733-9be3-4caf-b47a-38e59e204b9a
+    Position: {x: 207.2, y: 1671.2001}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - "N\xED thuigim. You speak as if we have met before tonight."
+    - Scarlette
+  - Guid: 2692100c-fe19-4cdf-89db-472238da342c
+    Position: {x: 207.2, y: 1894.4}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Sean starts to move around behind the couch towards the desk. Scarlett observes
+      him carefully.
+    - ' '
+  - Guid: d3b1ab7e-879e-4299-bd33-a01aca403c4e
+    Position: {x: 207.2, y: 2138.4001}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Don't act coy with me you might have every one else fooled, but we both know
+      who you are, what you've done.
+    - ${name}
+  - Guid: 400ef356-f49e-4c88-94cb-87a3e460909a
+    Position: {x: 207.2, y: 2348}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Sean stops on the right side of the desk opposite Scarlett
+    - ' '
+  - Guid: c0171c0c-51d1-4b4b-a28c-bbe6977cfa31
+    Position: {x: 207.2, y: 2564.8}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I trusted you! You were my most trusted confidant and you left me for dead!
+    - ${name}
+  - Guid: 05db5e17-ee95-4ae7-a366-cbb3828944b0
+    Position: {x: 199.2, y: 2794.4001}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I think you are mistaken. I am not who you think I am. You seen to be experiencing
+      some sort of psychosis-
+    - Scarlette
+  - Guid: 4cb3018d-5869-4827-90f9-a42897eafee6
+    Position: {x: 203.2, y: 3213.6}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Sean grabs the letter opener on the desk and begins to walk towards Scarlett.
+      She backs away slowly towards the door.
+    - ' '
+  - Guid: 73d2db8d-0dcd-49af-9517-d1a0ed7ed99f
+    Position: {x: 197.59999, y: 3432.8}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I...I'm sorry I didn't mean to yell. I just... can you not do me the decency
+      of acknowledging what you did?
+    - ${name}
+  - Guid: ff8f316d-54cd-4d3d-8db6-1900543d1d0f
+    Position: {x: 203.2, y: 3647.2}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Sean has stopped, Scarlett a few feet in front of him. She stops observing.
+      One beat. The letter opening. Two beats. The way his hands shake. Three beats.
+      His eyes wide but unseeing.
+    - ' '
+  - Guid: 5492fd20-70c1-4c4a-a4a7-ebef18adb4ee
+    Position: {x: 199.2, y: 3001.6}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - STOP LYING!
+    - ${name}
+  - Guid: 5dc26285-557d-4a85-8a1b-5d3910a3e537
+    Position: {x: 203.2, y: 3889.6}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Scarlett turns to run.
+    - ' '
+  - Guid: 0a68badc-55b8-49c0-b3da-e6cfb475065e
+    Position: {x: 539.2, y: 3964.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - dt.showBackgroundImage = 0;
