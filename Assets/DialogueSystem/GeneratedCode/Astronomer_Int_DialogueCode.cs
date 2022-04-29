@@ -45,6 +45,8 @@ DataTracker dt = DataTracker.Instance;
             eventFunctions.Add("Astronomer_Int_c4b0fab1806a46c9af4f306b846e0b32",Astronomer_Int_c4b0fab1806a46c9af4f306b846e0b32);
             eventFunctions.Add("Astronomer_Int_2b046335ca9b428e8696b9b9937bb532",Astronomer_Int_2b046335ca9b428e8696b9b9937bb532);
             eventFunctions.Add("Astronomer_Int_c1b5c56204294dc6a8dd6234469dee05",Astronomer_Int_c1b5c56204294dc6a8dd6234469dee05);
+            eventFunctions.Add("Astronomer_Int_c95d443e0122422aaedc045d9b49e28b",Astronomer_Int_c95d443e0122422aaedc045d9b49e28b);
+            eventFunctions.Add("Astronomer_Int_377fdbabc6d441ce9533e4b3ab8b6b3c",Astronomer_Int_377fdbabc6d441ce9533e4b3ab8b6b3c);
 
         }
 
@@ -133,6 +135,14 @@ GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
 journal.AddEntry("The Astronomer was in the infirmary.");
 locationLearned += 1;
 dt.clues+=1;
+        }
+        // Event From Node: c95d443e-0122-422a-aedc-045d9b49e28b //
+        public void Astronomer_Int_c95d443e0122422aaedc045d9b49e28b() {
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+        }
+        // Event From Node: 377fdbab-c6d4-41ce-9533-e4b3ab8b6b3c //
+        public void Astronomer_Int_377fdbabc6d441ce9533e4b3ab8b6b3c() {
+GameObject.FindObjectOfType<AudioManager>().Play("End Convo");
         }
 
     }
