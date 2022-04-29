@@ -40,11 +40,9 @@ DataTracker dt = DataTracker.Instance;
             dialogueChecks.Add("Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_579112dc3c7b4cdfbc319a81eb89eb85",Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_579112dc3c7b4cdfbc319a81eb89eb85);
             eventFunctions.Add("Adventurer_Int_7c0ae52eb1f84dcab6bec82c4561acaf",Adventurer_Int_7c0ae52eb1f84dcab6bec82c4561acaf);
             conditionChecks.Add("Adventurer_Int_9fc2c948d06f46e782edd5cf12329e18",Adventurer_Int_9fc2c948d06f46e782edd5cf12329e18);
-            conditionChecks.Add("Adventurer_Int_32827ca3b84b474cb5d39d75c91aa001",Adventurer_Int_32827ca3b84b474cb5d39d75c91aa001);
             eventFunctions.Add("Adventurer_Int_354f6bf600044894a2af0dc909fc0396",Adventurer_Int_354f6bf600044894a2af0dc909fc0396);
             eventFunctions.Add("Adventurer_Int_4f7d54b5320f4bc398b9dc59f9ca68eb",Adventurer_Int_4f7d54b5320f4bc398b9dc59f9ca68eb);
-            eventFunctions.Add("Adventurer_Int_95072b40312f41768f0fcafa6120bec4",Adventurer_Int_95072b40312f41768f0fcafa6120bec4);
-            eventFunctions.Add("Adventurer_Int_10bade8b34174e5b94c5a130598fa188",Adventurer_Int_10bade8b34174e5b94c5a130598fa188);
+            conditionChecks.Add("Adventurer_Int_32827ca3b84b474cb5d39d75c91aa001",Adventurer_Int_32827ca3b84b474cb5d39d75c91aa001);
 
         }
 
@@ -113,19 +111,13 @@ dt.wrongAccusations += 1;
         public void Adventurer_Int_354f6bf600044894a2af0dc909fc0396() {
 journal.AddEntry("Incident during dinner involving The Psychologist.");
 dt.clues += 1;
+infoLearned += 1;
         }
         // Event From Node: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb //
         public void Adventurer_Int_4f7d54b5320f4bc398b9dc59f9ca68eb() {
 journal.AddEntry("The Adventurer and The Doctor were in the bar together.");
 dt.clues += 1;
-        }
-        // Event From Node: 95072b40-312f-4176-8f0f-cafa6120bec4 //
-        public void Adventurer_Int_95072b40312f41768f0fcafa6120bec4() {
 locationLearned += 1;
-        }
-        // Event From Node: 10bade8b-3417-4e5b-94c5-a130598fa188 //
-        public void Adventurer_Int_10bade8b34174e5b94c5a130598fa188() {
-infoLearned += 1;
         }
 
     }

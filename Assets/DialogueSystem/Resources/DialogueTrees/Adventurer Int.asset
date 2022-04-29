@@ -17,42 +17,42 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 70b19a79-4d8d-4a9b-9c2a-2c0cc53c42a0
     PortName: Next
-    PortGUID: 37a65cad-c799-4aaa-8f2f-fe8152b444ee
+    PortGUID: 4336eed7-a98a-4a47-aed9-b0c6cff0b795
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: 70b19a79-4d8d-4a9b-9c2a-2c0cc53c42a0
     PortName: Next
-    PortGUID: 5621fd83-5b1c-4f72-8a84-0d74b0e8eccc
+    PortGUID: c9d0356c-1cb2-4fb3-b1c6-ae17b4415c16
     Condition: 
     TargetNodeGuid: 16ca64c0-16bd-45a7-b92c-0efd6395fa37
   - BaseNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
     PortName: Next
-    PortGUID: a4e28cd5-bcd0-4551-a113-ca595c1e4244
+    PortGUID: 35423309-7863-426b-88ed-6b6114f34ebc
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: b126805d-ae45-46ea-b5e8-37819afa75cf
     PortName: Next
-    PortGUID: dfddf7c4-8eab-4580-a142-4c73383b6234
+    PortGUID: dd0d9a34-155c-4c67-a388-ff6eae28b9d5
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
     PortName: Next
-    PortGUID: 9523911b-7ea4-4351-88f4-ba6a85cb8a51
+    PortGUID: 57bc5c32-e34e-453a-a745-fc8a8e57ec9f
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
     PortName: Next
-    PortGUID: 448b9fce-8c43-4fc3-af87-3213393bec35
+    PortGUID: a1780d0d-9484-4006-916c-0fd50de9d566
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
     PortName: Pass
-    PortGUID: bf3e46b0-3939-42ee-b06e-9182de85d21c
+    PortGUID: dba5b94d-fce4-4177-94be-931e3a6a7d2f
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
     PortName: Fail
-    PortGUID: 06bad719-2ef1-4930-86fa-3151b35ca4e5
+    PortGUID: e87babf7-c8fa-4487-8032-0079a022478a
     Condition: 
     TargetNodeGuid: df64c86a-461c-427d-8872-d228d1c60e19
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
@@ -112,47 +112,47 @@ MonoBehaviour:
     TargetNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
   - BaseNodeGuid: 6d994dc1-6564-4e80-b549-41f586314fbb
     PortName: Next
-    PortGUID: 7e469cd6-9efd-4c43-b70c-362232dca4f3
+    PortGUID: 8daff740-e347-4d4f-8714-3aab26ab4688
     Condition: 
     TargetNodeGuid: d8765c57-977c-4e04-b3e7-465fe27df8d6
   - BaseNodeGuid: d8765c57-977c-4e04-b3e7-465fe27df8d6
     PortName: Next
-    PortGUID: 9c1d7ae0-dfa1-4f85-abc2-24da6304c29b
+    PortGUID: 8b5b83df-6780-4988-a635-bab146f4a848
     Condition: 
     TargetNodeGuid: 7c0ae52e-b1f8-4dca-b6be-c82c4561acaf
   - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
     PortName: Fail
-    PortGUID: 6c7d5649-1544-4ae3-9137-089867215a44
+    PortGUID: 960914bb-5428-4784-a923-d98ea368b6cf
     Condition: 
     TargetNodeGuid: 354f6bf6-0004-4894-a2af-0dc909fc0396
   - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
     PortName: Fail
-    PortGUID: 9ab089da-eb6d-46b7-9c18-2a648fa3aa04
+    PortGUID: 1f33871c-716a-40c5-a86b-ddfa989e4eed
     Condition: 
     TargetNodeGuid: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb
   - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
     PortName: Pass
-    PortGUID: 3f603814-1591-4612-9ecd-238e2fb67584
+    PortGUID: 237f0e94-c025-49c6-aa02-3f8f33069575
     Condition: 
-    TargetNodeGuid: 95072b40-312f-4176-8f0f-cafa6120bec4
+    TargetNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
   - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
     PortName: Fail
-    PortGUID: 09a6353e-f0f2-4e80-b5df-06b5bc8abc93
+    PortGUID: d294b061-c2c3-40c9-9f24-333493df7cab
     Condition: 
-    TargetNodeGuid: 95072b40-312f-4176-8f0f-cafa6120bec4
+    TargetNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
   - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
     PortName: Pass
-    PortGUID: b9c7516e-0778-4d3d-bd32-43ccd07e3098
+    PortGUID: b87fc252-8fd0-41af-ab56-d185845b8c56
     Condition: 
-    TargetNodeGuid: 10bade8b-3417-4e5b-94c5-a130598fa188
+    TargetNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
   - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
     PortName: Fail
-    PortGUID: b83b8c39-4c1b-4e61-b511-f6d9d009c5c4
+    PortGUID: 6f06acf4-bfbf-42ae-97d3-afed994e51de
     Condition: 
-    TargetNodeGuid: 10bade8b-3417-4e5b-94c5-a130598fa188
+    TargetNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
   Nodes:
   - Guid: 452f6766-7f66-4471-956e-018fdc5a012b
-    Position: {x: 1122.3999, y: -510.40002}
+    Position: {x: 1122, y: -510}
     Type: 8
     _textKeys:
     - DialogueText
@@ -162,7 +162,7 @@ MonoBehaviour:
       drink with him. Who could blame him though, I am incredible.
     - ${name}
   - Guid: b126805d-ae45-46ea-b5e8-37819afa75cf
-    Position: {x: 1122.3999, y: -102.399994}
+    Position: {x: 1122, y: -102}
     Type: 8
     _textKeys:
     - DialogueText
@@ -172,23 +172,14 @@ MonoBehaviour:
       I solved an ancient King's cipher in only two hours?
     - ${name}
   - Guid: f17b7453-aec0-4de8-8915-14e6b84e396b
-    Position: {x: 1122.3999, y: 137.6}
+    Position: {x: 1122, y: 138}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - choices +=1;
-  - Guid: adead8f6-1f17-4475-8b27-c12b070f1487
-    Position: {x: 1122.3999, y: 308.8}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - There was this moment during dinner...but I'm sure it was nothing.
-    - ${name}
   - Guid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
-    Position: {x: 1122.3999, y: 767.2}
+    Position: {x: 1122, y: 767}
     Type: 8
     _textKeys:
     - DialogueText
@@ -199,14 +190,14 @@ MonoBehaviour:
       his head hitting my nose and so I took a quick trip to the infirmary.
     - ${name}
   - Guid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
-    Position: {x: 2732, y: 13.599998}
+    Position: {x: 2732, y: 14}
     Type: 32
     _textKeys:
     - Condition
     _textValues:
     - choices < 4
   - Guid: df64c86a-461c-427d-8872-d228d1c60e19
-    Position: {x: 3024, y: 32.8}
+    Position: {x: 3024, y: 33}
     Type: 8
     _textKeys:
     - DialogueText
@@ -216,7 +207,7 @@ MonoBehaviour:
       know!
     - ${name}
   - Guid: bff4efe7-0ca3-468c-ae35-cefbbd81a662
-    Position: {x: -137.6, y: -230.4}
+    Position: {x: -138, y: -230}
     Type: 16
     _textKeys:
     - Code
@@ -237,14 +228,14 @@ MonoBehaviour:
 
       DataTracker dt = DataTracker.Instance;'
   - Guid: 16ca64c0-16bd-45a7-b92c-0efd6395fa37
-    Position: {x: 313.6, y: -108.8}
+    Position: {x: 314, y: -109}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - shamsa = new Astronomer_Int_DialogueCode();
   - Guid: e2a31422-f166-4498-b906-c8cfd8eb5a35
-    Position: {x: 313.6, y: 12.799999}
+    Position: {x: 314, y: 13}
     Type: 4
     _textKeys:
     - DialogueText
@@ -253,7 +244,7 @@ MonoBehaviour:
     - Yes?
     - ${name}
   - Guid: 6d994dc1-6564-4e80-b549-41f586314fbb
-    Position: {x: 353.6, y: 512}
+    Position: {x: 354, y: 512}
     Type: 8
     _textKeys:
     - DialogueText
@@ -263,7 +254,7 @@ MonoBehaviour:
       the least likely to do so! '
     - ${name}
   - Guid: d8765c57-977c-4e04-b3e7-465fe27df8d6
-    Position: {x: 224.8, y: 742.39996}
+    Position: {x: 225, y: 742}
     Type: 8
     _textKeys:
     - DialogueText
@@ -273,28 +264,21 @@ MonoBehaviour:
       I always say only the poorest of adventurers resort to violence."
     - ${name}
   - Guid: 7c0ae52e-b1f8-4dca-b6be-c82c4561acaf
-    Position: {x: 513.60004, y: 988.8}
+    Position: {x: 514, y: 989}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - dt.wrongAccusations += 1;
   - Guid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
-    Position: {x: 1220.7999, y: 573.6}
+    Position: {x: 1221, y: 574}
     Type: 32
     _textKeys:
     - Condition
     _textValues:
     - infoLearned > 0
-  - Guid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
-    Position: {x: 1183.2, y: -305.6}
-    Type: 32
-    _textKeys:
-    - Condition
-    _textValues:
-    - locationLearned > 0
   - Guid: 354f6bf6-0004-4894-a2af-0dc909fc0396
-    Position: {x: 1489.6, y: 592}
+    Position: {x: 1490, y: 592}
     Type: 64
     _textKeys:
     - Code
@@ -302,9 +286,11 @@ MonoBehaviour:
     - 'journal.AddEntry("Incident during dinner involving The Psychologist.");
 
       dt.clues
-      += 1;'
+      += 1;
+
+      infoLearned += 1;'
   - Guid: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb
-    Position: {x: 1361.6, y: -305.6}
+    Position: {x: 1362, y: -306}
     Type: 64
     _textKeys:
     - Code
@@ -312,18 +298,22 @@ MonoBehaviour:
     - 'journal.AddEntry("The Adventurer and The Doctor were in the bar together.");
 
       dt.clues
-      += 1;'
-  - Guid: 95072b40-312f-4176-8f0f-cafa6120bec4
-    Position: {x: 1916.7999, y: -305.6}
-    Type: 64
+      += 1;
+
+      locationLearned += 1;'
+  - Guid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
+    Position: {x: 871, y: -325}
+    Type: 32
     _textKeys:
-    - Code
+    - Condition
     _textValues:
-    - locationLearned += 1;
-  - Guid: 10bade8b-3417-4e5b-94c5-a130598fa188
-    Position: {x: 1990.3999, y: 606.39996}
-    Type: 64
+    - locationLearned > 0
+  - Guid: adead8f6-1f17-4475-8b27-c12b070f1487
+    Position: {x: 1334, y: 306}
+    Type: 8
     _textKeys:
-    - Code
+    - DialogueText
+    - CharacterName
     _textValues:
-    - infoLearned += 1;
+    - There was this moment during dinner...but I'm sure it was nothing.
+    - ${name}
