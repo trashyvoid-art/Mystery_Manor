@@ -156,22 +156,27 @@ GameObject.FindObjectOfType<AudioManager>().Play("End Convo");
         // Event From Node: 084c3850-0342-4ce6-b5fd-0a6bc5ef4e9e //
         public void Sailor_Int_084c385003424ce6b5fd0a6bc5ef4e9e() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+GameObject.FindObjectOfType<AudioManager>().Play("Sean 1");
         }
         // Event From Node: d3d1b237-ce00-4b1f-88cd-40dc2580e57b //
         public void Sailor_Int_d3d1b237ce004b1f88cd40dc2580e57b() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+GameObject.FindObjectOfType<AudioManager>().Play("Sean 2");
         }
         // Event From Node: 54c362f7-5b86-4475-864c-c155a4bf8450 //
         public void Sailor_Int_54c362f75b864475864cc155a4bf8450() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+GameObject.FindObjectOfType<AudioManager>().Play("Sean 1");
         }
         // Event From Node: 7163d3ee-5c3d-49e3-8998-85541a7bc25b //
         public void Sailor_Int_7163d3ee5c3d49e3899885541a7bc25b() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+GameObject.FindObjectOfType<AudioManager>().Play("Sean 1");
         }
         // Event From Node: c2669306-247e-4326-9b6a-7784ba3c1c48 //
         public void Sailor_Int_c2669306247e43269b6a7784ba3c1c48() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+GameObject.FindObjectOfType<AudioManager>().Play("Scarlette 1");
         }
         // Event From Node: a7ed3505-e8e6-4b74-aa45-a24a6cd4e0db //
         public void Sailor_Int_a7ed3505e8e64b74aa45a24a6cd4e0db() {
@@ -180,6 +185,7 @@ GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
         // Event From Node: eb3d313a-c987-4725-81d8-64773c5e48ec //
         public void Sailor_Int_eb3d313ac987472581d864773c5e48ec() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+GameObject.FindObjectOfType<AudioManager>().Play("Sean 2");
         }
         // Event From Node: cd342ba5-4c75-4393-830a-291aaefd1844 //
         public void Sailor_Int_cd342ba54c754393830a291aaefd1844() {
@@ -188,14 +194,17 @@ GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
         // Event From Node: 4d78f31e-6a93-46e7-a298-0e2a710a486f //
         public void Sailor_Int_4d78f31e6a9346e7a2980e2a710a486f() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+GameObject.FindObjectOfType<AudioManager>().Play("Sean 1");
         }
         // Event From Node: 85aba723-976f-4d20-9f6a-ed527930883c //
         public void Sailor_Int_85aba723976f4d209f6aed527930883c() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+GameObject.FindObjectOfType<AudioManager>().Play("Scarlette 2");
         }
         // Event From Node: d025a511-cd1f-4921-ab83-f774b130ea3b //
         public void Sailor_Int_d025a511cd1f4921ab83f774b130ea3b() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+GameObject.FindObjectOfType<AudioManager>().Play("Sean 3");
         }
         // Event From Node: a7a509ef-052b-43b8-abd6-8e15d34df51c //
         public void Sailor_Int_a7a509ef052b43b8abd68e15d34df51c() {
@@ -204,6 +213,7 @@ GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
         // Event From Node: 017c3a67-445b-4d61-a9d0-18c76d197101 //
         public void Sailor_Int_017c3a67445b4d61a9d018c76d197101() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+GameObject.FindObjectOfType<AudioManager>().Play("Sean 2");
         }
         // Event From Node: 435131c5-b552-42e1-b655-4584859e0941 //
         public void Sailor_Int_435131c5b55242e1b6554584859e0941() {

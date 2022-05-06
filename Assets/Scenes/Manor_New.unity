@@ -13085,6 +13085,12 @@ MonoBehaviour:
   - name: Tab Beep
     audio: {fileID: 8300000, guid: 17eb5131e18539a45bdc49ab4ff4b9f6, type: 3}
     source: {fileID: 0}
+  - name: Scarlette 1
+    audio: {fileID: 8300000, guid: 7b41723d89eb777468f37804275ad799, type: 3}
+    source: {fileID: 0}
+  - name: Scarlette 2
+    audio: {fileID: 8300000, guid: 18d4d786d2b9c014a8b4b56c9bb29c6c, type: 3}
+    source: {fileID: 0}
 --- !u!4 &2051172619
 Transform:
   m_ObjectHideFlags: 0
