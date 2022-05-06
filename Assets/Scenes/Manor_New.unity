@@ -13303,6 +13303,12 @@ MonoBehaviour:
   - name: Thud
     audio: {fileID: 8300000, guid: 482dd4032af6d0a4d8dc3e54d0149392, type: 3}
     source: {fileID: 0}
+  - name: Door Open
+    audio: {fileID: 8300000, guid: b4a14b0037418cc4f8acfbc69f7f1cc9, type: 3}
+    source: {fileID: 0}
+  - name: Door Close
+    audio: {fileID: 8300000, guid: 43d55d794ef4abc4cbd071951b822773, type: 3}
+    source: {fileID: 0}
 --- !u!4 &2051172619
 Transform:
   m_ObjectHideFlags: 0

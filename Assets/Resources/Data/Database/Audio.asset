@@ -23,6 +23,7 @@ MonoBehaviour:
   - Character Speech\Intro\Ms Scheele
   - Character Speech\Intro\Scarlett
   - Character Speech\Intro\Shamsa
+  - Door
   - Environment\Creaks
   - Environment\Electricity
   - Environment\Room Tone
@@ -139,6 +140,12 @@ MonoBehaviour:
       FileLocation: Character Speech\Intro\Shamsa\Shamsa_IntroVoiceline2.wav
     - ParentFolder: Character Speech\Intro\Shamsa
       FileLocation: Character Speech\Intro\Shamsa\Shamsa_IntroVoiceline3.wav
+  - FolderName: Door
+    Files:
+    - ParentFolder: Door
+      FileLocation: Door\DoorClose_-_Bit.wav
+    - ParentFolder: Door
+      FileLocation: Door\DoorOpen_-_Bit.wav
   - FolderName: Environment\Creaks
     Files:
     - ParentFolder: Environment\Creaks
