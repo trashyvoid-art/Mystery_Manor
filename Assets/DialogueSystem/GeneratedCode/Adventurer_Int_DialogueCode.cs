@@ -44,14 +44,14 @@ DataTracker dt = DataTracker.Instance;
             dialogueChecks.Add("Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_579112dc3c7b4cdfbc319a81eb89eb85",Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_579112dc3c7b4cdfbc319a81eb89eb85);
             eventFunctions.Add("Adventurer_Int_87a4edc0091742bfa70a4eb1619982b4",Adventurer_Int_87a4edc0091742bfa70a4eb1619982b4);
             eventFunctions.Add("Adventurer_Int_4553f082bbb8457d81fe450c4d2f0150",Adventurer_Int_4553f082bbb8457d81fe450c4d2f0150);
-            eventFunctions.Add("Adventurer_Int_576918b1887f491493facda88dc32496",Adventurer_Int_576918b1887f491493facda88dc32496);
             eventFunctions.Add("Adventurer_Int_f97b460f0e8a455e9b9a136dc809a9b0",Adventurer_Int_f97b460f0e8a455e9b9a136dc809a9b0);
-            eventFunctions.Add("Adventurer_Int_4f7d54b5320f4bc398b9dc59f9ca68eb",Adventurer_Int_4f7d54b5320f4bc398b9dc59f9ca68eb);
             eventFunctions.Add("Adventurer_Int_3def0688b35945108da7c447d28c67dd",Adventurer_Int_3def0688b35945108da7c447d28c67dd);
             eventFunctions.Add("Adventurer_Int_f42b6ba011bf4eafae178b47abf8bf5e",Adventurer_Int_f42b6ba011bf4eafae178b47abf8bf5e);
-            eventFunctions.Add("Adventurer_Int_23434503faa5426e90335f61b984ef8f",Adventurer_Int_23434503faa5426e90335f61b984ef8f);
             eventFunctions.Add("Adventurer_Int_a3e5432c5c4d420dafab4f7e2064cbde",Adventurer_Int_a3e5432c5c4d420dafab4f7e2064cbde);
             eventFunctions.Add("Adventurer_Int_89ba60ae207c4f97aa8c3451b2e04d4d",Adventurer_Int_89ba60ae207c4f97aa8c3451b2e04d4d);
+            eventFunctions.Add("Adventurer_Int_23434503faa5426e90335f61b984ef8f",Adventurer_Int_23434503faa5426e90335f61b984ef8f);
+            eventFunctions.Add("Adventurer_Int_4f7d54b5320f4bc398b9dc59f9ca68eb",Adventurer_Int_4f7d54b5320f4bc398b9dc59f9ca68eb);
+            eventFunctions.Add("Adventurer_Int_576918b1887f491493facda88dc32496",Adventurer_Int_576918b1887f491493facda88dc32496);
 
         }
 
@@ -130,20 +130,10 @@ GameObject.FindObjectOfType<AudioManager>().Play("Sam End");
         public void Adventurer_Int_4553f082bbb8457d81fe450c4d2f0150() {
 GameObject.FindObjectOfType<AudioManager>().Play("End Convo");
         }
-        // Event From Node: 576918b1-887f-4914-93fa-cda88dc32496 //
-        public void Adventurer_Int_576918b1887f491493facda88dc32496() {
-GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-        }
         // Event From Node: f97b460f-0e8a-455e-9b9a-136dc809a9b0 //
         public void Adventurer_Int_f97b460f0e8a455e9b9a136dc809a9b0() {
 GameObject.FindObjectOfType<AudioManager>().Play("Sam 1");
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-        }
-        // Event From Node: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb //
-        public void Adventurer_Int_4f7d54b5320f4bc398b9dc59f9ca68eb() {
-journal.AddEntry("The Adventurer and The Doctor were in the bar together.");
-dt.clues += 1;
-locationLearned += 1;
         }
         // Event From Node: 3def0688-b359-4510-8da7-c447d28c67dd //
         public void Adventurer_Int_3def0688b35945108da7c447d28c67dd() {
@@ -155,11 +145,6 @@ GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
 GameObject.FindObjectOfType<AudioManager>().Play("Sam 3");
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
         }
-        // Event From Node: 23434503-faa5-426e-9033-5f61b984ef8f //
-        public void Adventurer_Int_23434503faa5426e90335f61b984ef8f() {
-GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-GameObject.FindObjectOfType<AudioManager>().Play("Sam 4");
-        }
         // Event From Node: a3e5432c-5c4d-420d-afab-4f7e2064cbde //
         public void Adventurer_Int_a3e5432c5c4d420dafab4f7e2064cbde() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
@@ -169,6 +154,21 @@ GameObject.FindObjectOfType<AudioManager>().Play("Sam Accuse 1");
         public void Adventurer_Int_89ba60ae207c4f97aa8c3451b2e04d4d() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
 GameObject.FindObjectOfType<AudioManager>().Play("Sam Accuse 2");
+        }
+        // Event From Node: 23434503-faa5-426e-9033-5f61b984ef8f //
+        public void Adventurer_Int_23434503faa5426e90335f61b984ef8f() {
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+GameObject.FindObjectOfType<AudioManager>().Play("Sam 4");
+        }
+        // Event From Node: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb //
+        public void Adventurer_Int_4f7d54b5320f4bc398b9dc59f9ca68eb() {
+journal.AddEntry("The Adventurer and The Doctor were in the bar together.");
+dt.clues += 1;
+locationLearned += 1;
+        }
+        // Event From Node: 576918b1-887f-4914-93fa-cda88dc32496 //
+        public void Adventurer_Int_576918b1887f491493facda88dc32496() {
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
         }
 
     }

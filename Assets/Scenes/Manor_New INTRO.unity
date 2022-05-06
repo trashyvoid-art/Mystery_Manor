@@ -11237,6 +11237,7 @@ MonoBehaviour:
   - name: Door Close
     audio: {fileID: 8300000, guid: 43d55d794ef4abc4cbd071951b822773, type: 3}
     source: {fileID: 0}
+  playerObject: {fileID: 1193366220}
 --- !u!1 &1812126392
 GameObject:
   m_ObjectHideFlags: 0

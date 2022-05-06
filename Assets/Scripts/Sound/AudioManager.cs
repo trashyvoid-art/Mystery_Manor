@@ -7,12 +7,12 @@ using System;
 public class AudioManager : MonoBehaviour
 {
     public Audio[] audioArray;
-    GameObject playerObject;
+    public GameObject playerObject;
     Vector3 playerPos;
 
     void Awake()
     {
-        playerObject = GameObject.Find("Player");
+        //playerObject = GameObject.Find("Player");
         //foreach (Audio a in audioArray)
         //{
         //    //find way to create on talk w/ character

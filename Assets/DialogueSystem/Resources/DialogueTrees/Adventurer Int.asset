@@ -17,107 +17,97 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 70b19a79-4d8d-4a9b-9c2a-2c0cc53c42a0
     PortName: Next
-    PortGUID: 4047ad10-1406-4dfc-9455-5d3215ef9b78
+    PortGUID: 48b19af3-e65a-4b22-b4aa-7801aa37b2ce
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: 70b19a79-4d8d-4a9b-9c2a-2c0cc53c42a0
     PortName: Next
-    PortGUID: b9d56abe-eb71-48f1-8721-24f799176af1
+    PortGUID: 922daf4d-1ff6-4868-991f-880ca4e1d67b
     Condition: 
     TargetNodeGuid: 16ca64c0-16bd-45a7-b92c-0efd6395fa37
   - BaseNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
     PortName: Next
-    PortGUID: ee25b71d-a1cb-4f61-a738-33752b7a517f
+    PortGUID: caace7df-2621-4643-968b-baa907955b93
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
     PortName: Next
-    PortGUID: 5372c899-f038-4562-b5e4-abeb87089271
+    PortGUID: 7c8c32a8-fc8f-4476-ae0e-158c9e0656ca
     Condition: 
     TargetNodeGuid: 576918b1-887f-4914-93fa-cda88dc32496
   - BaseNodeGuid: b126805d-ae45-46ea-b5e8-37819afa75cf
     PortName: Next
-    PortGUID: d828f243-f9da-4ab5-a052-0b5b47536b28
+    PortGUID: 18821a02-d161-458c-8e83-03f030006dc4
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: b126805d-ae45-46ea-b5e8-37819afa75cf
     PortName: Next
-    PortGUID: 46abde05-7382-4c69-b81a-808afb4ad30b
-    Condition: 
-    TargetNodeGuid: 576918b1-887f-4914-93fa-cda88dc32496
-  - BaseNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
-    PortName: Next
-    PortGUID: 51c84513-7c3d-477c-b7cc-9c996045b57b
-    Condition: 
-    TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
-  - BaseNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
-    PortName: Next
-    PortGUID: 464151d7-1cee-48a2-8ba8-618e6fbbb155
+    PortGUID: dabd2790-7cfb-4818-a3f6-3208d7c921bb
     Condition: 
     TargetNodeGuid: 576918b1-887f-4914-93fa-cda88dc32496
   - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
     PortName: Pass
-    PortGUID: 5ddc3705-8eaf-4f66-8320-925279afcc22
+    PortGUID: 6b74b807-0916-4b3f-b5b9-13132ddc10e3
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
     PortName: Fail
-    PortGUID: d733ec9c-641e-47dc-a76b-86cc51cf6207
+    PortGUID: e53bdd45-2a94-4b6f-a940-aa1dcd3faea8
     Condition: 
     TargetNodeGuid: df64c86a-461c-427d-8872-d228d1c60e19
   - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
     PortName: Fail
-    PortGUID: dbaf4906-496b-4713-ad45-7ed1ffad83d4
+    PortGUID: 13ef7da9-496c-44b9-a30f-e197432ce07d
     Condition: 
     TargetNodeGuid: 87a4edc0-0917-42bf-a70a-4eb1619982b4
   - BaseNodeGuid: df64c86a-461c-427d-8872-d228d1c60e19
     PortName: Next
-    PortGUID: ca0b59a7-41ba-4302-9ddb-7b4184f7af02
+    PortGUID: 62f511b0-a1c2-414a-a760-cf6f5a8aa495
     Condition: 
     TargetNodeGuid: 4553f082-bbb8-457d-81fe-450c4d2f0150
   - BaseNodeGuid: 6d994dc1-6564-4e80-b549-41f586314fbb
     PortName: Next
-    PortGUID: b8430802-9f88-4475-bf89-133c32271d03
+    PortGUID: 9ac7d709-5c72-41df-800c-aa3bf8af3478
     Condition: 
     TargetNodeGuid: d8765c57-977c-4e04-b3e7-465fe27df8d6
   - BaseNodeGuid: 6d994dc1-6564-4e80-b549-41f586314fbb
     PortName: Next
-    PortGUID: fc3a7245-eea6-4e1d-bacb-444af569af26
+    PortGUID: 9c4b28ff-45b7-493c-bfdc-93142dd19a3a
     Condition: 
     TargetNodeGuid: 89ba60ae-207c-4f97-aa8c-3451b2e04d4d
   - BaseNodeGuid: d8765c57-977c-4e04-b3e7-465fe27df8d6
     PortName: Next
-    PortGUID: b016762a-b7ac-47af-83de-f9841bfc4408
+    PortGUID: 5d01ef1a-31ae-4fb9-9f9e-9c7dc4a3a21b
     Condition: 
     TargetNodeGuid: 7c0ae52e-b1f8-4dca-b6be-c82c4561acaf
   - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
     PortName: Fail
-    PortGUID: 50b2b0bb-7a77-4523-840c-204edf1ef584
+    PortGUID: f5d3fdfd-c3c0-4f4a-96bb-3c4f1b997d15
     Condition: 
     TargetNodeGuid: 354f6bf6-0004-4894-a2af-0dc909fc0396
   - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
     PortName: Pass
-    PortGUID: 293db5e2-3468-4d22-957a-e009cd46d21e
+    PortGUID: 262c584d-3859-41c1-bbdf-0450c84b61f2
     Condition: 
     TargetNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
   - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
     PortName: Fail
-    PortGUID: cfa6b8cc-ac6d-4bb8-ae3d-f7a22f7bdcc9
+    PortGUID: 9ecdcd39-6be4-4836-a989-b57338139267
     Condition: 
     TargetNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
   - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
     PortName: Fail
-    PortGUID: 0f831946-59ec-4d57-9c61-570c781ae489
+    PortGUID: fa0206b2-59ac-48be-b197-bffb9092df1b
     Condition: 
     TargetNodeGuid: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb
   - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
     PortName: Pass
-    PortGUID: 9ba87b67-7962-4bf9-9c65-3c3a8b8dc7e9
+    PortGUID: 6f5ffc0e-499f-4e7e-b582-63b940c1a248
     Condition: 
     TargetNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
   - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
     PortName: Fail
-    PortGUID: 581ddb35-9ba0-4c58-9e9e-6128ec893a9a
+    PortGUID: dcc2ee15-2b22-4ffa-8bab-ac1822f79a7a
     Condition: 
     TargetNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
@@ -192,25 +182,30 @@ MonoBehaviour:
     TargetNodeGuid: a3e5432c-5c4d-420d-afab-4f7e2064cbde
   - BaseNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
     PortName: Next
-    PortGUID: f88a9874-dc60-47b5-bc99-80777c90955a
+    PortGUID: 14bbfc0d-a76d-4aa8-8569-fbf555a4b67b
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
     PortName: Next
-    PortGUID: 9d1ae5ce-38f7-4864-910e-d2be4bb2da25
+    PortGUID: 4286ab89-54a9-41ff-ad92-861af367cd6d
     Condition: 
     TargetNodeGuid: 576918b1-887f-4914-93fa-cda88dc32496
+  - BaseNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
+    PortName: Next
+    PortGUID: 172de54d-c4e4-467c-82b8-8bc22852a52d
+    Condition: 
+    TargetNodeGuid: abfb5220-5121-41df-9e3d-340ecbb3773d
+  - BaseNodeGuid: abfb5220-5121-41df-9e3d-340ecbb3773d
+    PortName: Next
+    PortGUID: 76868ee5-28b7-44ed-8a73-157b1506f4b4
+    Condition: 
+    TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
+  - BaseNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
+    PortName: Next
+    PortGUID: e200d6be-46e3-4b3e-981f-6593bdffda46
+    Condition: 
+    TargetNodeGuid: f97b460f-0e8a-455e-9b9a-136dc809a9b0
   Nodes:
-  - Guid: 452f6766-7f66-4471-956e-018fdc5a012b
-    Position: {x: 1122.3999, y: -510.40002}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - I was in the bar of course! The fine Doctor practically begged me to have a
-      drink with him. Who could blame him though, I am incredible.
-    - ${name}
   - Guid: b126805d-ae45-46ea-b5e8-37819afa75cf
     Position: {x: 1122.3999, y: -102.399994}
     Type: 8
@@ -228,17 +223,6 @@ MonoBehaviour:
     - Code
     _textValues:
     - choices +=1;
-  - Guid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
-    Position: {x: 1122.3999, y: 767.2}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - Blood? Oh yes well funny story The Doctor and I were um talking yes while standing
-      close together, close talking you see and there was an incident that lead to
-      his head hitting my nose and so I took a quick trip to the infirmary.
-    - ${name}
   - Guid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
     Position: {x: 2732, y: 13.599998}
     Type: 32
@@ -369,13 +353,6 @@ MonoBehaviour:
     - Code
     _textValues:
     - GameObject.FindObjectOfType<AudioManager>().Play("End Convo");
-  - Guid: 576918b1-887f-4914-93fa-cda88dc32496
-    Position: {x: 2587.2, y: 159.2}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
   - Guid: f97b460f-0e8a-455e-9b9a-136dc809a9b0
     Position: {x: 1122.3999, y: -646.4}
     Type: 64
@@ -386,18 +363,6 @@ MonoBehaviour:
 
       GameObject.FindObjectOfType<AudioManager>().Play("Next
       Line");'
-  - Guid: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb
-    Position: {x: 1122.3999, y: -320.80002}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'journal.AddEntry("The Adventurer and The Doctor were in the bar together.");
-
-      dt.clues
-      += 1;
-
-      locationLearned += 1;'
   - Guid: 3def0688-b359-4510-8da7-c447d28c67dd
     Position: {x: 1278.3999, y: 87.2}
     Type: 64
@@ -418,16 +383,6 @@ MonoBehaviour:
 
       GameObject.FindObjectOfType<AudioManager>().Play("Next
       Line");'
-  - Guid: 23434503-faa5-426e-9033-5f61b984ef8f
-    Position: {x: 1122.3999, y: 956}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-
-      GameObject.FindObjectOfType<AudioManager>().Play("Sam
-      4");'
   - Guid: a3e5432c-5c4d-420d-afab-4f7e2064cbde
     Position: {x: -72, y: 564.8}
     Type: 64
@@ -448,3 +403,62 @@ MonoBehaviour:
 
       GameObject.FindObjectOfType<AudioManager>().Play("Sam
       Accuse 2");'
+  - Guid: 23434503-faa5-426e-9033-5f61b984ef8f
+    Position: {x: 1122.3999, y: 1336.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sam
+      4");'
+  - Guid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
+    Position: {x: 1102.3999, y: 756}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Blood? Oh yes well funny story The Doctor and I were um talking yes while standing
+      close together,
+    - ${name}
+  - Guid: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb
+    Position: {x: 1122.3999, y: -272.80002}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'journal.AddEntry("The Adventurer and The Doctor were in the bar together.");
+
+      dt.clues
+      += 1;
+
+      locationLearned += 1;'
+  - Guid: 452f6766-7f66-4471-956e-018fdc5a012b
+    Position: {x: 1122.3999, y: -489.6}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I was in the bar of course! The fine Doctor practically begged me to have a
+      drink with him. Who could blame him though, I am incredible.
+    - ${name}
+  - Guid: 576918b1-887f-4914-93fa-cda88dc32496
+    Position: {x: 2545.5999, y: 172}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+  - Guid: abfb5220-5121-41df-9e3d-340ecbb3773d
+    Position: {x: 1187.2, y: 988.8}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - close talking you see and there was an incident that lead to his head hitting
+      my nose and so I took a quick trip to the infirmary.
+    - ${name}

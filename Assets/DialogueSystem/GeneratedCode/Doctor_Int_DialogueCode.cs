@@ -40,7 +40,6 @@ DataTracker dt = DataTracker.Instance;
             conditionChecks.Add("Doctor_Int_5d006fd1b303432b860fdc5d51b0a59c",Doctor_Int_5d006fd1b303432b860fdc5d51b0a59c);
             eventFunctions.Add("Doctor_Int_f79854ee5eda4daa80ab07b3dc1031c7",Doctor_Int_f79854ee5eda4daa80ab07b3dc1031c7);
             conditionChecks.Add("Doctor_Int_01cdf448af4540ab9570776ac7058fb5",Doctor_Int_01cdf448af4540ab9570776ac7058fb5);
-            eventFunctions.Add("Doctor_Int_882801d323e34c6488fa0b08e73b0cd7",Doctor_Int_882801d323e34c6488fa0b08e73b0cd7);
             eventFunctions.Add("Doctor_Int_0eb957eb90a14f988ce3a45a7b19a437",Doctor_Int_0eb957eb90a14f988ce3a45a7b19a437);
             eventFunctions.Add("Doctor_Int_22e16e9d80d941ccaef02d91b19e6e31",Doctor_Int_22e16e9d80d941ccaef02d91b19e6e31);
             eventFunctions.Add("Doctor_Int_79752f2d49eb420ab4734d48dbfe5af7",Doctor_Int_79752f2d49eb420ab4734d48dbfe5af7);
@@ -51,6 +50,7 @@ DataTracker dt = DataTracker.Instance;
             eventFunctions.Add("Doctor_Int_b2652e289d314a3991c624b9d2e8d0d9",Doctor_Int_b2652e289d314a3991c624b9d2e8d0d9);
             eventFunctions.Add("Doctor_Int_cb87a81200c14b93ad781c4d6f216e8f",Doctor_Int_cb87a81200c14b93ad781c4d6f216e8f);
             eventFunctions.Add("Doctor_Int_88510179a3994c84b7f085fa02565841",Doctor_Int_88510179a3994c84b7f085fa02565841);
+            eventFunctions.Add("Doctor_Int_882801d323e34c6488fa0b08e73b0cd7",Doctor_Int_882801d323e34c6488fa0b08e73b0cd7);
 
         }
 
@@ -115,12 +115,6 @@ GameObject.FindObjectOfType<AudioManager>().Play("Sanchez End");
         public void Doctor_Int_f79854ee5eda4daa80ab07b3dc1031c7() {
 dt.wrongAccusations += 1;
         }
-        // Event From Node: 882801d3-23e3-4c64-88fa-0b08e73b0cd7 //
-        public void Doctor_Int_882801d323e34c6488fa0b08e73b0cd7() {
-journal.AddEntry("Denies incident with The Adventurer, lying?");
-dt.clues += 1;
-bloodyNose += 1;
-        }
         // Event From Node: 0eb957eb-90a1-4f98-8ce3-a45a7b19a437 //
         public void Doctor_Int_0eb957eb90a14f988ce3a45a7b19a437() {
 GameObject.FindObjectOfType<AudioManager>().Play("Sanchez 5");
@@ -168,6 +162,12 @@ GameObject.FindObjectOfType<AudioManager>().Play("Sanchez Accuse");
         // Event From Node: 88510179-a399-4c84-b7f0-85fa02565841 //
         public void Doctor_Int_88510179a3994c84b7f085fa02565841() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+        }
+        // Event From Node: 882801d3-23e3-4c64-88fa-0b08e73b0cd7 //
+        public void Doctor_Int_882801d323e34c6488fa0b08e73b0cd7() {
+journal.AddEntry("Denies incident with The Adventurer, lying?");
+dt.clues += 1;
+bloodyNose += 1;
         }
 
     }

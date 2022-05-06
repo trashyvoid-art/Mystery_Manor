@@ -15,6 +15,7 @@ MonoBehaviour:
   keys:
   - 
   - Character Speech
+  - Character Speech\Chapter 4\Confession
   - Character Speech\Chapter 4\Ms Scheele
   - Character Speech\Chapter 4\Sam
   - Character Speech\Chapter 4\Sanchez
@@ -48,6 +49,22 @@ MonoBehaviour:
       FileLocation: Character Speech\StartofConvoBeep.wav
     - ParentFolder: Character Speech
       FileLocation: Character Speech\TabBeep.wav
+  - FolderName: Character Speech\Chapter 4\Confession
+    Files:
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Scarlett_FlashbackLine1.wav
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Scarlett_FlashbackLine2.wav
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Sean_FlashbackLine1.wav
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Sean_FlashbackLine2.wav
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Sean_FlashbackLine3.wav
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Sean_FlashbackLine4.wav
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Sean_FlashbackLine5.wav
   - FolderName: Character Speech\Chapter 4\Ms Scheele
     Files:
     - ParentFolder: Character Speech\Chapter 4\Ms Scheele
@@ -96,6 +113,12 @@ MonoBehaviour:
     Files:
     - ParentFolder: Character Speech\Chapter 4\Sean
       FileLocation: Character Speech\Chapter 4\Sean\SeanAccusation.wav
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanAccusation2.wav
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanAccusation3.wav
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanAccusation4.wav
     - ParentFolder: Character Speech\Chapter 4\Sean
       FileLocation: Character Speech\Chapter 4\Sean\SeanEndofConvo.wav
     - ParentFolder: Character Speech\Chapter 4\Sean

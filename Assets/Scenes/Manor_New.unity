@@ -13309,6 +13309,37 @@ MonoBehaviour:
   - name: Door Close
     audio: {fileID: 8300000, guid: 43d55d794ef4abc4cbd071951b822773, type: 3}
     source: {fileID: 0}
+  - name: Sean FB 1
+    audio: {fileID: 8300000, guid: d55ff2f8725700d4cac8ae9acde22b31, type: 3}
+    source: {fileID: 0}
+  - name: Sean FB 2
+    audio: {fileID: 8300000, guid: f8304d3aae061fd42ad9983d19231e72, type: 3}
+    source: {fileID: 0}
+  - name: Sean FB 3
+    audio: {fileID: 8300000, guid: b506a410cd84ab94e9926d0c9837433b, type: 3}
+    source: {fileID: 0}
+  - name: Sean FB 4
+    audio: {fileID: 8300000, guid: 3734bf2d2f9378a4baee826793196fdc, type: 3}
+    source: {fileID: 0}
+  - name: Sean FB 5
+    audio: {fileID: 8300000, guid: 3bba8f4eac6977e49a912427304f07cc, type: 3}
+    source: {fileID: 0}
+  - name: Scarlett FB 1
+    audio: {fileID: 8300000, guid: 2da1f4ebaaef6c5478ba3fdc3b8eda76, type: 3}
+    source: {fileID: 0}
+  - name: Scarlett FB 2
+    audio: {fileID: 8300000, guid: f4e52655ac91b754982848c093d71fc9, type: 3}
+    source: {fileID: 0}
+  - name: Sean Accuse 2
+    audio: {fileID: 8300000, guid: 81499303f50bbdd479bcb89fb7d40186, type: 3}
+    source: {fileID: 0}
+  - name: Sean Accuse 3
+    audio: {fileID: 8300000, guid: 85854d4e327c6c647997056a947ed4c8, type: 3}
+    source: {fileID: 0}
+  - name: Sean Accuse 4
+    audio: {fileID: 8300000, guid: 80307046bae1f8c4badd9fd7f408498f, type: 3}
+    source: {fileID: 0}
+  playerObject: {fileID: 1193366220}
 --- !u!4 &2051172619
 Transform:
   m_ObjectHideFlags: 0
