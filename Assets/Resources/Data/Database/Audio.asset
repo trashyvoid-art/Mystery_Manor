@@ -214,7 +214,15 @@ MonoBehaviour:
   - FolderName: Scream
     Files:
     - ParentFolder: Scream
+      FileLocation: Scream\FemaleScream_Bit.wav
+    - ParentFolder: Scream
+      FileLocation: Scream\KnifeSounds_Bit.wav
+    - ParentFolder: Scream
       FileLocation: Scream\MSMM_FX_Scream.wav
+    - ParentFolder: Scream
+      FileLocation: Scream\RunAway_Bit.wav
+    - ParentFolder: Scream
+      FileLocation: Scream\Thud.wav
   - FolderName: Weapons\Knife
     Files:
     - ParentFolder: Weapons\Knife

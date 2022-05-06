@@ -13091,6 +13091,18 @@ MonoBehaviour:
   - name: Scarlette 2
     audio: {fileID: 8300000, guid: 18d4d786d2b9c014a8b4b56c9bb29c6c, type: 3}
     source: {fileID: 0}
+  - name: Scream
+    audio: {fileID: 8300000, guid: b5bf2553f7e7f8040b5c5ad6a36163c5, type: 3}
+    source: {fileID: 0}
+  - name: Knife
+    audio: {fileID: 8300000, guid: 2922915bdada0bb4997fa46fe4f91378, type: 3}
+    source: {fileID: 0}
+  - name: Running
+    audio: {fileID: 8300000, guid: c0dcdcd49aafa194ea2c6a96df9a8277, type: 3}
+    source: {fileID: 0}
+  - name: Thud
+    audio: {fileID: 8300000, guid: 482dd4032af6d0a4d8dc3e54d0149392, type: 3}
+    source: {fileID: 0}
 --- !u!4 &2051172619
 Transform:
   m_ObjectHideFlags: 0

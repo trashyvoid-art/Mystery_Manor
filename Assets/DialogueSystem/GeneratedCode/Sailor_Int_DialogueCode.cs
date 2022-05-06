@@ -38,7 +38,6 @@ GameObject scene = GameObject.Find("SceneManager");
             dialogueChecks.Add("Sailor_Int_2496025ee0b342f0b92a94cac6149a20_7ff9f792d85b402f9dc69b3a088f5951",Sailor_Int_2496025ee0b342f0b92a94cac6149a20_7ff9f792d85b402f9dc69b3a088f5951);
             eventFunctions.Add("Sailor_Int_c155a34a36ad4d0da95c10895de5194e",Sailor_Int_c155a34a36ad4d0da95c10895de5194e);
             eventFunctions.Add("Sailor_Int_d65e2a8dc36e499e917a2a17afc898e7",Sailor_Int_d65e2a8dc36e499e917a2a17afc898e7);
-            eventFunctions.Add("Sailor_Int_0a68badc55b849c0b3dae6cfb475065e",Sailor_Int_0a68badc55b849c0b3dae6cfb475065e);
             eventFunctions.Add("Sailor_Int_80b8a9656ebf435994de754b7e064f63",Sailor_Int_80b8a9656ebf435994de754b7e064f63);
             eventFunctions.Add("Sailor_Int_867c7f165d1e40caac84c9ffd9dc0798",Sailor_Int_867c7f165d1e40caac84c9ffd9dc0798);
             eventFunctions.Add("Sailor_Int_4524fe528ba44c0bb340d64646a58a75",Sailor_Int_4524fe528ba44c0bb340d64646a58a75);
@@ -61,6 +60,8 @@ GameObject scene = GameObject.Find("SceneManager");
             eventFunctions.Add("Sailor_Int_017c3a67445b4d61a9d018c76d197101",Sailor_Int_017c3a67445b4d61a9d018c76d197101);
             eventFunctions.Add("Sailor_Int_435131c5b55242e1b6554584859e0941",Sailor_Int_435131c5b55242e1b6554584859e0941);
             eventFunctions.Add("Sailor_Int_ab91813a180545238ba4022937e6a8f7",Sailor_Int_ab91813a180545238ba4022937e6a8f7);
+            eventFunctions.Add("Sailor_Int_0a68badc55b849c0b3dae6cfb475065e",Sailor_Int_0a68badc55b849c0b3dae6cfb475065e);
+            eventFunctions.Add("Sailor_Int_e5ee591e8971465393a4404a02abd28e",Sailor_Int_e5ee591e8971465393a4404a02abd28e);
 
         }
 
@@ -115,11 +116,6 @@ dt.correctAccusations += 1;
         public void Sailor_Int_d65e2a8dc36e499e917a2a17afc898e7() {
 dt.showBackgroundImage += 1;
         }
-        // Event From Node: 0a68badc-55b8-49c0-b3da-e6cfb475065e //
-        public void Sailor_Int_0a68badc55b849c0b3dae6cfb475065e() {
-dt.showBackgroundImage = 0;
-dt.currentScene = 1;
-        }
         // Event From Node: 80b8a965-6ebf-4359-94de-754b7e064f63 //
         public void Sailor_Int_80b8a9656ebf435994de754b7e064f63() {
 journal.AddEntry("The Sailor was in the Observatory.");
@@ -156,7 +152,7 @@ GameObject.FindObjectOfType<AudioManager>().Play("End Convo");
         // Event From Node: 084c3850-0342-4ce6-b5fd-0a6bc5ef4e9e //
         public void Sailor_Int_084c385003424ce6b5fd0a6bc5ef4e9e() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-GameObject.FindObjectOfType<AudioManager>().Play("Sean 1");
+GameObject.FindObjectOfType<AudioManager>().Play("Sean Accuse");
         }
         // Event From Node: d3d1b237-ce00-4b1f-88cd-40dc2580e57b //
         public void Sailor_Int_d3d1b237ce004b1f88cd40dc2580e57b() {
@@ -222,6 +218,19 @@ GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
         // Event From Node: ab91813a-1805-4523-8ba4-022937e6a8f7 //
         public void Sailor_Int_ab91813a180545238ba4022937e6a8f7() {
 GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+GameObject.FindObjectOfType<AudioManager>().Play("Running");
+        }
+        // Event From Node: 0a68badc-55b8-49c0-b3da-e6cfb475065e //
+        public void Sailor_Int_0a68badc55b849c0b3dae6cfb475065e() {
+dt.showBackgroundImage = 0;
+dt.currentScene = 1;
+        }
+        // Event From Node: e5ee591e-8971-4653-93a4-404a02abd28e //
+        public void Sailor_Int_e5ee591e8971465393a4404a02abd28e() {
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+GameObject.FindObjectOfType<AudioManager>().Play("Scream");
+GameObject.FindObjectOfType<AudioManager>().Play("Knife");
+GameObject.FindObjectOfType<AudioManager>().Play("Thud");
         }
 
     }
