@@ -17,87 +17,87 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: a9a76df3-5213-4388-b395-589f6197184e
     PortName: Next
-    PortGUID: fc5de16a-c882-427c-b402-f41a31d4b48a
+    PortGUID: 41002bcd-0b7e-43f0-8bc3-a82c6ab0cda8
     Condition: 
     TargetNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
   - BaseNodeGuid: 126bbdfc-83c5-46ae-bc2d-7a35c3247901
     PortName: Next
-    PortGUID: 3d20d3b7-62b1-468c-8823-809b192009ce
+    PortGUID: cafb480c-fb99-4b21-ade7-fb79a6c3346c
     Condition: 
     TargetNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
   - BaseNodeGuid: 126bbdfc-83c5-46ae-bc2d-7a35c3247901
     PortName: Next
-    PortGUID: 0018ea90-4050-4b39-b250-73182a3e31d9
+    PortGUID: b60aa6aa-b86e-4ebc-b4de-7a4da6333df4
     Condition: 
     TargetNodeGuid: 99f9c255-912d-4be0-8cf5-d2582658553f
   - BaseNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
     PortName: Pass
-    PortGUID: a228730e-7f11-44c3-bff3-f5e87befea1f
+    PortGUID: 5f2c0cec-d34d-4d1a-8323-1850b2c909b4
     Condition: 
     TargetNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
   - BaseNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
     PortName: Fail
-    PortGUID: 3732f720-0088-480d-96af-92e7e43bcae2
+    PortGUID: 03d7d432-6d06-4160-9c07-bf61dae4c935
     Condition: 
     TargetNodeGuid: 4dd230d6-0a3f-4ab6-bc91-369d48031f43
   - BaseNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
     PortName: Fail
-    PortGUID: eca6e97f-2b43-430e-9301-10fc452b75f6
+    PortGUID: d84aa303-d208-4798-a84b-e4246b150306
     Condition: 
     TargetNodeGuid: 4524fe52-8ba4-4c0b-b340-d64646a58a75
   - BaseNodeGuid: 4dd230d6-0a3f-4ab6-bc91-369d48031f43
     PortName: Next
-    PortGUID: d92e241b-5d2c-4728-a9b1-69f75bf8420b
+    PortGUID: d6a7bd27-eeba-4c6b-9325-942e709b5007
     Condition: 
     TargetNodeGuid: 20419980-a8a7-4d00-941e-c01c56a62d8e
   - BaseNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
     PortName: Next
-    PortGUID: d6765f35-930b-4317-a5b1-4085178dc70a
+    PortGUID: 7695b22a-9272-4ff5-a724-0cbf2dea3288
     Condition: 
     TargetNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
   - BaseNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
     PortName: Next
-    PortGUID: c1f47ff5-5ae5-4c22-9ba4-b0d33739cd4e
+    PortGUID: 950251f1-093f-415a-b7ba-c7f81919fa5a
     Condition: 
     TargetNodeGuid: 99f9c255-912d-4be0-8cf5-d2582658553f
   - BaseNodeGuid: 12d82d65-7b5c-4ddd-9f8f-188d9838173e
     PortName: Fail
-    PortGUID: 88539bd0-fbf3-4c4a-8da9-906ab5f28aec
+    PortGUID: 9b46f11b-da30-48ec-ab47-0f42f23b9df9
     Condition: 
     TargetNodeGuid: 80b8a965-6ebf-4359-94de-754b7e064f63
   - BaseNodeGuid: 12d82d65-7b5c-4ddd-9f8f-188d9838173e
     PortName: Pass
-    PortGUID: 5165fba1-3d87-4005-80c7-0a9743b54c24
+    PortGUID: caffe254-ba84-4db6-8c89-0ceff4309f60
     Condition: 
     TargetNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
   - BaseNodeGuid: 12d82d65-7b5c-4ddd-9f8f-188d9838173e
     PortName: Fail
-    PortGUID: 94f41078-31e2-4764-a5e0-9ccaef52cf92
+    PortGUID: 91cef015-2e28-406c-9329-abf832530019
     Condition: 
     TargetNodeGuid: eb6b8762-2b11-4a36-b5d0-3c3d2c5da728
   - BaseNodeGuid: 12d82d65-7b5c-4ddd-9f8f-188d9838173e
     PortName: Pass
-    PortGUID: 84ab00e5-fcef-4c1a-af0f-1d72a79c6738
+    PortGUID: 964c53c4-2122-4547-88d2-9e165d8b55ba
     Condition: 
     TargetNodeGuid: f4016105-eff4-403e-a57f-3ff27c9b46a3
   - BaseNodeGuid: 12d82d65-7b5c-4ddd-9f8f-188d9838173e
     PortName: Fail
-    PortGUID: d941b971-f1da-489c-b876-a8617233793d
+    PortGUID: e09b6eb5-8137-4fd6-a5cc-1ae36926a6ac
     Condition: 
     TargetNodeGuid: f4016105-eff4-403e-a57f-3ff27c9b46a3
   - BaseNodeGuid: 12e380dc-180a-4113-aa9f-e1cc8560a2cf
     PortName: Next
-    PortGUID: 771cbce8-fcbc-44a0-be08-3ee13418c3cb
+    PortGUID: 5879f574-a1ff-4f60-b048-9868cbc86f8a
     Condition: 
     TargetNodeGuid: c155a34a-36ad-4d0d-a95c-10895de5194e
   - BaseNodeGuid: 12e380dc-180a-4113-aa9f-e1cc8560a2cf
     PortName: Next
-    PortGUID: 57162713-6138-42b2-88cc-912d8508378d
+    PortGUID: b8bea6e8-4f46-430a-a821-cee1d42968fe
     Condition: 
     TargetNodeGuid: 3e4c9093-a6f3-49d5-87bb-267d47360c66
   - BaseNodeGuid: 12e380dc-180a-4113-aa9f-e1cc8560a2cf
     PortName: Next
-    PortGUID: 835fe952-e20f-4748-9682-1de103646f7e
+    PortGUID: 7b61dd7d-9e07-4ab1-9765-2b81f0f3b80e
     Condition: 
     TargetNodeGuid: d3d1b237-ce00-4b1f-88cd-40dc2580e57b
   - BaseNodeGuid: 2496025e-e0b3-42f0-b92a-94cac6149a20
@@ -152,159 +152,179 @@ MonoBehaviour:
     TargetNodeGuid: 084c3850-0342-4ce6-b5fd-0a6bc5ef4e9e
   - BaseNodeGuid: 3e4c9093-a6f3-49d5-87bb-267d47360c66
     PortName: Next
-    PortGUID: 5b9f69f6-d6f3-4dad-8e6c-b450205cb546
+    PortGUID: 8de60a3a-2ce1-4175-86bb-55d3d1b200c5
     Condition: 
     TargetNodeGuid: a23a2b91-6736-43e5-972f-c081b0c9971b
   - BaseNodeGuid: 3e4c9093-a6f3-49d5-87bb-267d47360c66
     PortName: Next
-    PortGUID: 25356de1-bbb8-4182-9bb6-94d7c252c85e
+    PortGUID: c89290b2-b3c3-4f28-8b46-b48b5ddd5fb4
     Condition: 
     TargetNodeGuid: 54c362f7-5b86-4475-864c-c155a4bf8450
   - BaseNodeGuid: a23a2b91-6736-43e5-972f-c081b0c9971b
     PortName: Next
-    PortGUID: b06628cf-c970-473f-ad54-761bc37078c4
+    PortGUID: 558fc0b6-2c62-4d37-a8ed-1a0a30f414ec
     Condition: 
-    TargetNodeGuid: d65e2a8d-c36e-499e-917a-2a17afc898e7
+    TargetNodeGuid: e3e2d2c5-0262-4266-a0ab-94ce9a6e07d7
   - BaseNodeGuid: a23a2b91-6736-43e5-972f-c081b0c9971b
     PortName: Next
-    PortGUID: d6779413-df20-4ae8-895a-91deeb3f6dbb
+    PortGUID: 0d1654bb-161e-49dd-b672-01c77bd78f95
     Condition: 
-    TargetNodeGuid: c2a96992-f04a-4341-bf6a-1732009c9740
-  - BaseNodeGuid: a23a2b91-6736-43e5-972f-c081b0c9971b
-    PortName: Next
-    PortGUID: fdd38f49-39d6-4531-8a9d-91201f4510d7
-    Condition: 
-    TargetNodeGuid: 7163d3ee-5c3d-49e3-8998-85541a7bc25b
-  - BaseNodeGuid: c2a96992-f04a-4341-bf6a-1732009c9740
-    PortName: Next
-    PortGUID: 92f60087-3930-4051-957e-64735335e20c
-    Condition: 
-    TargetNodeGuid: 05279733-9be3-4caf-b47a-38e59e204b9a
-  - BaseNodeGuid: c2a96992-f04a-4341-bf6a-1732009c9740
-    PortName: Next
-    PortGUID: 684ddd32-e5af-42b3-8276-edbe38a07a92
-    Condition: 
-    TargetNodeGuid: c2669306-247e-4326-9b6a-7784ba3c1c48
-  - BaseNodeGuid: 2692100c-fe19-4cdf-89db-472238da342c
-    PortName: Next
-    PortGUID: 8c2fa9ff-c108-40d6-b5d0-8525b6700ae7
-    Condition: 
-    TargetNodeGuid: d3b1ab7e-879e-4299-bd33-a01aca403c4e
-  - BaseNodeGuid: 2692100c-fe19-4cdf-89db-472238da342c
-    PortName: Next
-    PortGUID: 2fdba32d-d370-4421-9163-4d5910bf9d5a
-    Condition: 
-    TargetNodeGuid: eb3d313a-c987-4725-81d8-64773c5e48ec
-  - BaseNodeGuid: d3b1ab7e-879e-4299-bd33-a01aca403c4e
-    PortName: Next
-    PortGUID: 46b384dd-3eef-41ba-81f8-c42ba84c0a98
-    Condition: 
-    TargetNodeGuid: 400ef356-f49e-4c88-94cb-87a3e460909a
-  - BaseNodeGuid: d3b1ab7e-879e-4299-bd33-a01aca403c4e
-    PortName: Next
-    PortGUID: 70999490-9540-4d43-bfaa-e090df4d95e7
-    Condition: 
-    TargetNodeGuid: cd342ba5-4c75-4393-830a-291aaefd1844
-  - BaseNodeGuid: 400ef356-f49e-4c88-94cb-87a3e460909a
-    PortName: Next
-    PortGUID: 505581ed-505a-4ec8-bb5c-6ad29d2b7dc2
-    Condition: 
-    TargetNodeGuid: c0171c0c-51d1-4b4b-a28c-bbe6977cfa31
-  - BaseNodeGuid: 400ef356-f49e-4c88-94cb-87a3e460909a
-    PortName: Next
-    PortGUID: 67af4e3a-0c66-4ff8-b982-2363680974af
-    Condition: 
-    TargetNodeGuid: 4d78f31e-6a93-46e7-a298-0e2a710a486f
-  - BaseNodeGuid: c0171c0c-51d1-4b4b-a28c-bbe6977cfa31
-    PortName: Next
-    PortGUID: 81038cff-474a-4774-8b96-fff89d1870ff
-    Condition: 
-    TargetNodeGuid: 05db5e17-ee95-4ae7-a366-cbb3828944b0
-  - BaseNodeGuid: c0171c0c-51d1-4b4b-a28c-bbe6977cfa31
-    PortName: Next
-    PortGUID: f3f06ab7-44aa-4bb4-b5c5-f17c211f7b0b
-    Condition: 
-    TargetNodeGuid: 85aba723-976f-4d20-9f6a-ed527930883c
-  - BaseNodeGuid: 05db5e17-ee95-4ae7-a366-cbb3828944b0
-    PortName: Next
-    PortGUID: 75561285-d26b-420c-b6d6-a613273532c7
-    Condition: 
-    TargetNodeGuid: 5492fd20-70c1-4c4a-a4a7-ebef18adb4ee
-  - BaseNodeGuid: 05db5e17-ee95-4ae7-a366-cbb3828944b0
-    PortName: Next
-    PortGUID: 5b6f36c9-82b1-409d-8bd0-be16de08fa08
-    Condition: 
-    TargetNodeGuid: d025a511-cd1f-4921-ab83-f774b130ea3b
-  - BaseNodeGuid: 73d2db8d-0dcd-49af-9517-d1a0ed7ed99f
-    PortName: Next
-    PortGUID: a0afaf19-d632-4294-899e-df65c7c8778e
-    Condition: 
-    TargetNodeGuid: ff8f316d-54cd-4d3d-8db6-1900543d1d0f
-  - BaseNodeGuid: 73d2db8d-0dcd-49af-9517-d1a0ed7ed99f
-    PortName: Next
-    PortGUID: f3421549-41be-4a07-b22e-035ef3d16d2d
-    Condition: 
-    TargetNodeGuid: 435131c5-b552-42e1-b655-4584859e0941
-  - BaseNodeGuid: ff8f316d-54cd-4d3d-8db6-1900543d1d0f
-    PortName: Next
-    PortGUID: d55ca803-b8a0-485b-94e5-46ae694b2d6f
-    Condition: 
-    TargetNodeGuid: 5dc26285-557d-4a85-8a1b-5d3910a3e537
-  - BaseNodeGuid: ff8f316d-54cd-4d3d-8db6-1900543d1d0f
-    PortName: Next
-    PortGUID: c715e85a-5e26-44af-be0b-62009694c86a
-    Condition: 
-    TargetNodeGuid: ab91813a-1805-4523-8ba4-022937e6a8f7
-  - BaseNodeGuid: 5492fd20-70c1-4c4a-a4a7-ebef18adb4ee
-    PortName: Next
-    PortGUID: e6f46343-d377-4611-951a-9407a8f94435
-    Condition: 
-    TargetNodeGuid: 4cb3018d-5869-4827-90f9-a42897eafee6
-  - BaseNodeGuid: 5dc26285-557d-4a85-8a1b-5d3910a3e537
-    PortName: Next
-    PortGUID: 75e8fcf5-8707-4b7c-b17a-f9f56bf681d1
-    Condition: 
-    TargetNodeGuid: 9fb35382-ba3c-44c0-98ca-f5c1b56bbc6c
-  - BaseNodeGuid: 5dc26285-557d-4a85-8a1b-5d3910a3e537
-    PortName: Next
-    PortGUID: c1b4c11b-fb2f-4f6f-91c9-6bc2524305cd
-    Condition: 
-    TargetNodeGuid: e5ee591e-8971-4653-93a4-404a02abd28e
-  - BaseNodeGuid: 05279733-9be3-4caf-b47a-38e59e204b9a
-    PortName: Next
-    PortGUID: 5e08b6c6-f325-4397-872e-a10169d9f3c1
-    Condition: 
-    TargetNodeGuid: 2692100c-fe19-4cdf-89db-472238da342c
-  - BaseNodeGuid: 05279733-9be3-4caf-b47a-38e59e204b9a
-    PortName: Next
-    PortGUID: c6580c72-def7-422d-b4c3-18cd74b6962d
-    Condition: 
-    TargetNodeGuid: a7ed3505-e8e6-4b74-aa45-a24a6cd4e0db
-  - BaseNodeGuid: 4cb3018d-5869-4827-90f9-a42897eafee6
-    PortName: Next
-    PortGUID: 8442debd-d60a-4b3e-b80d-9c5e859acb83
-    Condition: 
-    TargetNodeGuid: 73d2db8d-0dcd-49af-9517-d1a0ed7ed99f
-  - BaseNodeGuid: 4cb3018d-5869-4827-90f9-a42897eafee6
-    PortName: Next
-    PortGUID: 84b54420-d5bd-4b8c-bc7c-63318025b783
-    Condition: 
-    TargetNodeGuid: 017c3a67-445b-4d61-a9d0-18c76d197101
+    TargetNodeGuid: 2d033398-c21e-46e6-9a92-845e0fc99651
   - BaseNodeGuid: f9ffe10d-420c-45ee-b2e8-3c66cfceb901
     PortName: Next
-    PortGUID: 9b0003f9-981f-416d-80f2-f284bfe6c4a7
+    PortGUID: a80593e1-b474-4154-ab7c-ab874e0eb27b
     Condition: 
     TargetNodeGuid: ad42c76a-391f-4aee-b56e-ffb2e7ed83a6
   - BaseNodeGuid: f9ffe10d-420c-45ee-b2e8-3c66cfceb901
     PortName: Next
-    PortGUID: a1166c65-a5da-4365-a3ee-f0add17c1617
+    PortGUID: 2dfbded4-8346-42c8-9621-9bff3ba9c9dc
     Condition: 
     TargetNodeGuid: 99f9c255-912d-4be0-8cf5-d2582658553f
   - BaseNodeGuid: 9fb35382-ba3c-44c0-98ca-f5c1b56bbc6c
     PortName: Next
-    PortGUID: d710f8f3-b1e2-4eab-8953-50bcf12bd193
+    PortGUID: e4974c39-580e-431f-a54c-6d6418a06484
     Condition: 
     TargetNodeGuid: 0a68badc-55b8-49c0-b3da-e6cfb475065e
+  - BaseNodeGuid: 400ef356-f49e-4c88-94cb-87a3e460909a
+    PortName: Next
+    PortGUID: d0caeab7-6df0-45e2-8ef4-d503149cf013
+    Condition: 
+    TargetNodeGuid: c0171c0c-51d1-4b4b-a28c-bbe6977cfa31
+  - BaseNodeGuid: 400ef356-f49e-4c88-94cb-87a3e460909a
+    PortName: Next
+    PortGUID: 1716e6e1-3bbf-4c4f-88b3-e1b11c5c6813
+    Condition: 
+    TargetNodeGuid: 4d78f31e-6a93-46e7-a298-0e2a710a486f
+  - BaseNodeGuid: c0171c0c-51d1-4b4b-a28c-bbe6977cfa31
+    PortName: Next
+    PortGUID: defe4b7c-412a-46f9-b3d4-82e95976cba3
+    Condition: 
+    TargetNodeGuid: 05db5e17-ee95-4ae7-a366-cbb3828944b0
+  - BaseNodeGuid: c0171c0c-51d1-4b4b-a28c-bbe6977cfa31
+    PortName: Next
+    PortGUID: 3e22d025-a7dd-4718-b9b8-2165316bf3b4
+    Condition: 
+    TargetNodeGuid: 85aba723-976f-4d20-9f6a-ed527930883c
+  - BaseNodeGuid: 05db5e17-ee95-4ae7-a366-cbb3828944b0
+    PortName: Next
+    PortGUID: bd801920-cafe-48cb-84fa-f548ee575f4f
+    Condition: 
+    TargetNodeGuid: 5492fd20-70c1-4c4a-a4a7-ebef18adb4ee
+  - BaseNodeGuid: 05db5e17-ee95-4ae7-a366-cbb3828944b0
+    PortName: Next
+    PortGUID: f9192e0a-ab3b-43e6-9c0a-84a73f4d78cb
+    Condition: 
+    TargetNodeGuid: d025a511-cd1f-4921-ab83-f774b130ea3b
+  - BaseNodeGuid: 73d2db8d-0dcd-49af-9517-d1a0ed7ed99f
+    PortName: Next
+    PortGUID: 4fb1e5e8-cc48-40eb-92c0-6a7b8b8b7e63
+    Condition: 
+    TargetNodeGuid: ff8f316d-54cd-4d3d-8db6-1900543d1d0f
+  - BaseNodeGuid: 73d2db8d-0dcd-49af-9517-d1a0ed7ed99f
+    PortName: Next
+    PortGUID: 14677533-6bf4-4d21-b619-3fca9bb8396d
+    Condition: 
+    TargetNodeGuid: 435131c5-b552-42e1-b655-4584859e0941
+  - BaseNodeGuid: ff8f316d-54cd-4d3d-8db6-1900543d1d0f
+    PortName: Next
+    PortGUID: ddd57508-95d8-48fb-8ea8-9401db97a93d
+    Condition: 
+    TargetNodeGuid: d82a02f2-ddba-4207-9dd8-0df4cc07b457
+  - BaseNodeGuid: ff8f316d-54cd-4d3d-8db6-1900543d1d0f
+    PortName: Next
+    PortGUID: ac6ea493-74d8-44a4-9f57-940e6024288b
+    Condition: 
+    TargetNodeGuid: 92ca8591-9686-4bb3-95e4-6f6acd1ff188
+  - BaseNodeGuid: 5492fd20-70c1-4c4a-a4a7-ebef18adb4ee
+    PortName: Next
+    PortGUID: 5611e54a-1cb8-4e5c-a30c-8dde6500f8e6
+    Condition: 
+    TargetNodeGuid: 4cb3018d-5869-4827-90f9-a42897eafee6
+  - BaseNodeGuid: 4cb3018d-5869-4827-90f9-a42897eafee6
+    PortName: Next
+    PortGUID: a9faf8e0-902d-4b42-8714-24dd918f0b2f
+    Condition: 
+    TargetNodeGuid: 73d2db8d-0dcd-49af-9517-d1a0ed7ed99f
+  - BaseNodeGuid: 4cb3018d-5869-4827-90f9-a42897eafee6
+    PortName: Next
+    PortGUID: 5482983d-d1f6-4faf-8b63-9d439325248e
+    Condition: 
+    TargetNodeGuid: 017c3a67-445b-4d61-a9d0-18c76d197101
+  - BaseNodeGuid: 2692100c-fe19-4cdf-89db-472238da342c
+    PortName: Next
+    PortGUID: 062a1a25-bbfb-4547-b7be-a58eecbf9053
+    Condition: 
+    TargetNodeGuid: d3b1ab7e-879e-4299-bd33-a01aca403c4e
+  - BaseNodeGuid: 2692100c-fe19-4cdf-89db-472238da342c
+    PortName: Next
+    PortGUID: 280e55a5-61a8-4a6e-ba27-be5815875c14
+    Condition: 
+    TargetNodeGuid: eb3d313a-c987-4725-81d8-64773c5e48ec
+  - BaseNodeGuid: d3b1ab7e-879e-4299-bd33-a01aca403c4e
+    PortName: Next
+    PortGUID: 86560fb9-ee22-481d-979e-200d99d4a77b
+    Condition: 
+    TargetNodeGuid: 400ef356-f49e-4c88-94cb-87a3e460909a
+  - BaseNodeGuid: d3b1ab7e-879e-4299-bd33-a01aca403c4e
+    PortName: Next
+    PortGUID: eec4c2b0-bd60-4458-b89a-15436bba88e4
+    Condition: 
+    TargetNodeGuid: cd342ba5-4c75-4393-830a-291aaefd1844
+  - BaseNodeGuid: 05279733-9be3-4caf-b47a-38e59e204b9a
+    PortName: Next
+    PortGUID: 5021ac8d-cbcf-466d-b9c0-cdc6115662c2
+    Condition: 
+    TargetNodeGuid: 2692100c-fe19-4cdf-89db-472238da342c
+  - BaseNodeGuid: 05279733-9be3-4caf-b47a-38e59e204b9a
+    PortName: Next
+    PortGUID: fc7211fb-9057-418a-98d7-70fcbe9ee668
+    Condition: 
+    TargetNodeGuid: a7ed3505-e8e6-4b74-aa45-a24a6cd4e0db
+  - BaseNodeGuid: e3e2d2c5-0262-4266-a0ab-94ce9a6e07d7
+    PortName: Next
+    PortGUID: ad5363f6-2f4f-4a78-8adf-e0176ab2b080
+    Condition: 
+    TargetNodeGuid: 7163d3ee-5c3d-49e3-8998-85541a7bc25b
+  - BaseNodeGuid: e3e2d2c5-0262-4266-a0ab-94ce9a6e07d7
+    PortName: Next
+    PortGUID: 581ab05c-c570-41aa-b280-4959a498af16
+    Condition: 
+    TargetNodeGuid: c2a96992-f04a-4341-bf6a-1732009c9740
+  - BaseNodeGuid: e3e2d2c5-0262-4266-a0ab-94ce9a6e07d7
+    PortName: Next
+    PortGUID: 94144bfb-47d3-43cc-b53a-b02d9efc9a03
+    Condition: 
+    TargetNodeGuid: d65e2a8d-c36e-499e-917a-2a17afc898e7
+  - BaseNodeGuid: c2a96992-f04a-4341-bf6a-1732009c9740
+    PortName: Next
+    PortGUID: 7baaeb00-9f9b-4ef5-acf9-cd2d0e2724d9
+    Condition: 
+    TargetNodeGuid: c2669306-247e-4326-9b6a-7784ba3c1c48
+  - BaseNodeGuid: c2a96992-f04a-4341-bf6a-1732009c9740
+    PortName: Next
+    PortGUID: 19ff3e4a-0a20-46c5-a49e-a96a50fbea00
+    Condition: 
+    TargetNodeGuid: 05279733-9be3-4caf-b47a-38e59e204b9a
+  - BaseNodeGuid: 92ca8591-9686-4bb3-95e4-6f6acd1ff188
+    PortName: Next
+    PortGUID: a240d900-e334-4853-8823-7e13f259f657
+    Condition: 
+    TargetNodeGuid: ab91813a-1805-4523-8ba4-022937e6a8f7
+  - BaseNodeGuid: 92ca8591-9686-4bb3-95e4-6f6acd1ff188
+    PortName: Next
+    PortGUID: e53e01c6-eaa3-4318-b734-e6190620fd65
+    Condition: 
+    TargetNodeGuid: 5dc26285-557d-4a85-8a1b-5d3910a3e537
+  - BaseNodeGuid: 5dc26285-557d-4a85-8a1b-5d3910a3e537
+    PortName: Next
+    PortGUID: df3e23db-71b1-4317-b92a-ef70820a61d9
+    Condition: 
+    TargetNodeGuid: e5ee591e-8971-4653-93a4-404a02abd28e
+  - BaseNodeGuid: 5dc26285-557d-4a85-8a1b-5d3910a3e537
+    PortName: Next
+    PortGUID: 86b1b379-e4f7-401a-9150-c2be8d7d7bc6
+    Condition: 
+    TargetNodeGuid: 9fb35382-ba3c-44c0-98ca-f5c1b56bbc6c
   Nodes:
   - Guid: 465df431-b06a-4a9d-8580-0e0299823d28
     Position: {x: 989.60004, y: 260.8}
@@ -401,113 +421,8 @@ MonoBehaviour:
     - CharacterName
     _textValues:
     - " I don\u2019t recall how it happened, or how I knew, but after that I escaped
-      through the passage under the desk. But believe me, I wanted to help her- I
-      wanted to take her to the infirmary, but she was so\u2026 I\u2019m sorry"
+      through the passage under the desk. "
     - ${name}
-  - Guid: d65e2a8d-c36e-499e-917a-2a17afc898e7
-    Position: {x: 1370.3999, y: 1196.8}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - dt.showBackgroundImage += 1;
-  - Guid: c2a96992-f04a-4341-bf6a-1732009c9740
-    Position: {x: 207.2, y: 1444.8}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - I suspect you were as shocked to see me here this evening as I you. If I'm
-      honest I was hoping I would never have the displeasure of meeting you again.
-    - ${name}
-  - Guid: 2692100c-fe19-4cdf-89db-472238da342c
-    Position: {x: 207.2, y: 1893.6001}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - Sean starts to move around behind the couch towards the desk. Scarlett observes
-      him carefully.
-    - ' '
-  - Guid: d3b1ab7e-879e-4299-bd33-a01aca403c4e
-    Position: {x: 207.2, y: 2137.6}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - Don't act coy with me you might have every one else fooled, but we both know
-      who you are, what you've done.
-    - ${name}
-  - Guid: 400ef356-f49e-4c88-94cb-87a3e460909a
-    Position: {x: 207.2, y: 2348}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - Sean stops on the right side of the desk opposite Scarlett
-    - ' '
-  - Guid: c0171c0c-51d1-4b4b-a28c-bbe6977cfa31
-    Position: {x: 207.2, y: 2564.8}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - I trusted you! You were my most trusted confidant and you left me for dead!
-    - ${name}
-  - Guid: 05db5e17-ee95-4ae7-a366-cbb3828944b0
-    Position: {x: 199.2, y: 2793.6}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - I think you are mistaken. I am not who you think I am. You seen to be experiencing
-      some sort of psychosis-
-    - Scarlett
-  - Guid: 73d2db8d-0dcd-49af-9517-d1a0ed7ed99f
-    Position: {x: 198.4, y: 3432.8}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - I...I'm sorry I didn't mean to yell. I just... can you not do me the decency
-      of acknowledging what you did?
-    - ${name}
-  - Guid: ff8f316d-54cd-4d3d-8db6-1900543d1d0f
-    Position: {x: 203.2, y: 3647.2}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - Sean has stopped, Scarlett a few feet in front of him. She stops observing.
-      One beat. The letter opening. Two beats. The way his hands shake. Three beats.
-      His eyes wide but unseeing.
-    - ' '
-  - Guid: 5492fd20-70c1-4c4a-a4a7-ebef18adb4ee
-    Position: {x: 199.2, y: 3001.6}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - STOP LYING!
-    - ${name}
-  - Guid: 5dc26285-557d-4a85-8a1b-5d3910a3e537
-    Position: {x: 203.2, y: 3889.6}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - Scarlett turns to run.
-    - ' '
   - Guid: 0f54fb55-3b6d-464f-804b-3ccde1a544b9
     Position: {x: -180.8, y: -151.2}
     Type: 16
@@ -527,25 +442,6 @@ MonoBehaviour:
 
       GameObject
       scene = GameObject.Find("SceneManager");'
-  - Guid: 05279733-9be3-4caf-b47a-38e59e204b9a
-    Position: {x: 207.2, y: 1671.2001}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - "N\xED thuigim. You speak as if we have met before tonight."
-    - Scarlett
-  - Guid: 4cb3018d-5869-4827-90f9-a42897eafee6
-    Position: {x: 203.2, y: 3213.6}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - Sean grabs the letter opener on the desk and begins to walk towards Scarlett.
-      She backs away slowly towards the door.
-    - ' '
   - Guid: 80b8a965-6ebf-4359-94de-754b7e064f63
     Position: {x: 1060, y: -162.4}
     Type: 64
@@ -647,115 +543,8 @@ MonoBehaviour:
 
       GameObject.FindObjectOfType<AudioManager>().Play("Sean
       1");'
-  - Guid: 7163d3ee-5c3d-49e3-8998-85541a7bc25b
-    Position: {x: -236.8, y: 1468.8}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-
-      GameObject.FindObjectOfType<AudioManager>().Play("Sean
-      1");'
-  - Guid: c2669306-247e-4326-9b6a-7784ba3c1c48
-    Position: {x: -274.4, y: 1693.6001}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-
-      GameObject.FindObjectOfType<AudioManager>().Play("Scarlette
-      1");'
-  - Guid: a7ed3505-e8e6-4b74-aa45-a24a6cd4e0db
-    Position: {x: -267.19998, y: 1928}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-  - Guid: eb3d313a-c987-4725-81d8-64773c5e48ec
-    Position: {x: -238.40001, y: 2137.6}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-
-      GameObject.FindObjectOfType<AudioManager>().Play("Sean
-      2");'
-  - Guid: cd342ba5-4c75-4393-830a-291aaefd1844
-    Position: {x: -253.6, y: 2388.8}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-  - Guid: 4d78f31e-6a93-46e7-a298-0e2a710a486f
-    Position: {x: -238.40001, y: 2600.8}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-
-      GameObject.FindObjectOfType<AudioManager>().Play("Sean
-      1");'
-  - Guid: 85aba723-976f-4d20-9f6a-ed527930883c
-    Position: {x: -270.4, y: 2836}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-
-      GameObject.FindObjectOfType<AudioManager>().Play("Scarlette
-      2");'
-  - Guid: d025a511-cd1f-4921-ab83-f774b130ea3b
-    Position: {x: -238.40001, y: 3034.4001}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-
-      GameObject.FindObjectOfType<AudioManager>().Play("Sean
-      3");'
-  - Guid: a7a509ef-052b-43b8-abd6-8e15d34df51c
-    Position: {x: -238.40001, y: 3241.6}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-  - Guid: 017c3a67-445b-4d61-a9d0-18c76d197101
-    Position: {x: -238.40001, y: 3488.8}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-
-      GameObject.FindObjectOfType<AudioManager>().Play("Sean
-      2");'
-  - Guid: 435131c5-b552-42e1-b655-4584859e0941
-    Position: {x: -238.40001, y: 3700}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-  - Guid: ab91813a-1805-4523-8ba4-022937e6a8f7
-    Position: {x: -257.59998, y: 3936}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
-
-      GameObject.FindObjectOfType<AudioManager>().Play("Running");'
   - Guid: 9fb35382-ba3c-44c0-98ca-f5c1b56bbc6c
-    Position: {x: 229.59999, y: 4126.4}
+    Position: {x: 244.8, y: 4949.5996}
     Type: 8
     _textKeys:
     - DialogueText
@@ -764,7 +553,7 @@ MonoBehaviour:
     - ...
     - ' '
   - Guid: 0a68badc-55b8-49c0-b3da-e6cfb475065e
-    Position: {x: 543.2, y: 4164.8}
+    Position: {x: 558.4, y: 4988}
     Type: 64
     _textKeys:
     - Code
@@ -773,7 +562,7 @@ MonoBehaviour:
 
       dt.currentScene = 1;'
   - Guid: e5ee591e-8971-4653-93a4-404a02abd28e
-    Position: {x: -257.59998, y: 4144.8}
+    Position: {x: -242.40001, y: 4968}
     Type: 64
     _textKeys:
     - Code
@@ -785,3 +574,268 @@ MonoBehaviour:
       GameObject.FindObjectOfType<AudioManager>().Play("Knife");
 
       GameObject.FindObjectOfType<AudioManager>().Play("Thud");'
+  - Guid: 400ef356-f49e-4c88-94cb-87a3e460909a
+    Position: {x: 207.2, y: 2912.8}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Sean stops on the right side of the desk opposite Scarlett
+    - ' '
+  - Guid: c0171c0c-51d1-4b4b-a28c-bbe6977cfa31
+    Position: {x: 207.2, y: 3129.6}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I trusted you! You were my most trusted confidant and you left me for dead!
+    - ${name}
+  - Guid: 05db5e17-ee95-4ae7-a366-cbb3828944b0
+    Position: {x: 199.2, y: 3358.4001}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I think you are mistaken. I am not who you think I am. You seen to be experiencing
+      some sort of psychosis-
+    - Scarlett
+  - Guid: 73d2db8d-0dcd-49af-9517-d1a0ed7ed99f
+    Position: {x: 198.4, y: 3997.6}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I...I'm sorry I didn't mean to yell. I just... can you not do me the decency
+      of acknowledging what you did?
+    - ${name}
+  - Guid: ff8f316d-54cd-4d3d-8db6-1900543d1d0f
+    Position: {x: 203.2, y: 4212}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - 'Sean has stopped, Scarlett a few feet in front of him. She stops observing. '
+    - ' '
+  - Guid: 5492fd20-70c1-4c4a-a4a7-ebef18adb4ee
+    Position: {x: 199.2, y: 3566.4001}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - STOP LYING!
+    - ${name}
+  - Guid: 4cb3018d-5869-4827-90f9-a42897eafee6
+    Position: {x: 203.2, y: 3778.4001}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Sean grabs the letter opener on the desk and begins to walk towards Scarlett.
+      She backs away slowly towards the door.
+    - ' '
+  - Guid: cd342ba5-4c75-4393-830a-291aaefd1844
+    Position: {x: -253.6, y: 2953.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+  - Guid: 4d78f31e-6a93-46e7-a298-0e2a710a486f
+    Position: {x: -238.40001, y: 3165.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sean
+      1");'
+  - Guid: 85aba723-976f-4d20-9f6a-ed527930883c
+    Position: {x: -270.4, y: 3400.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Scarlette
+      2");'
+  - Guid: d025a511-cd1f-4921-ab83-f774b130ea3b
+    Position: {x: -238.40001, y: 3599.2}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sean
+      3");'
+  - Guid: a7a509ef-052b-43b8-abd6-8e15d34df51c
+    Position: {x: -238.40001, y: 3806.4001}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+  - Guid: 017c3a67-445b-4d61-a9d0-18c76d197101
+    Position: {x: -238.40001, y: 4053.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sean
+      2");'
+  - Guid: 435131c5-b552-42e1-b655-4584859e0941
+    Position: {x: -238.40001, y: 4264.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+  - Guid: 2692100c-fe19-4cdf-89db-472238da342c
+    Position: {x: 205.59999, y: 2420}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Sean starts to move around behind the couch towards the desk. Scarlett observes
+      him carefully.
+    - ' '
+  - Guid: d3b1ab7e-879e-4299-bd33-a01aca403c4e
+    Position: {x: 205.59999, y: 2664}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Don't act coy with me you might have every one else fooled, but we both know
+      who you are, what you've done.
+    - ${name}
+  - Guid: 05279733-9be3-4caf-b47a-38e59e204b9a
+    Position: {x: 205.59999, y: 2197.6}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - "N\xED thuigim. You speak as if we have met before tonight."
+    - Scarlett
+  - Guid: c2669306-247e-4326-9b6a-7784ba3c1c48
+    Position: {x: -276, y: 2220}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Scarlette
+      1");'
+  - Guid: a7ed3505-e8e6-4b74-aa45-a24a6cd4e0db
+    Position: {x: -268.8, y: 2454.4001}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+  - Guid: eb3d313a-c987-4725-81d8-64773c5e48ec
+    Position: {x: -240, y: 2664}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sean
+      2");'
+  - Guid: e3e2d2c5-0262-4266-a0ab-94ce9a6e07d7
+    Position: {x: 91.2, y: 1523.2001}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - "But believe me, I wanted to help her- I wanted to take her to the infirmary,
+      but she was so\u2026 I\u2019m sorry."
+    - ${name}
+  - Guid: 2d033398-c21e-46e6-9a92-845e0fc99651
+    Position: {x: -448.8, y: 1537.6001}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sean
+      2");'
+  - Guid: c2a96992-f04a-4341-bf6a-1732009c9740
+    Position: {x: 205.59999, y: 1971.2001}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - I suspect you were as shocked to see me here this evening as I you. If I'm
+      honest I was hoping I would never have the displeasure of meeting you again.
+    - ${name}
+  - Guid: 7163d3ee-5c3d-49e3-8998-85541a7bc25b
+    Position: {x: -238.40001, y: 1995.2001}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sean
+      1");'
+  - Guid: d65e2a8d-c36e-499e-917a-2a17afc898e7
+    Position: {x: 907.2, y: 1537.6001}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - dt.showBackgroundImage += 1;
+  - Guid: d82a02f2-ddba-4207-9dd8-0df4cc07b457
+    Position: {x: -308, y: 4450.4}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+  - Guid: 92ca8591-9686-4bb3-95e4-6f6acd1ff188
+    Position: {x: 198.4, y: 4450.4}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - One beat. The letter opening. Two beats. The way his hands shake. Three beats.
+      His eyes wide but unseeing.
+    - ' '
+  - Guid: 5dc26285-557d-4a85-8a1b-5d3910a3e537
+    Position: {x: 218.4, y: 4712.8}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Scarlett turns to run.
+    - ' '
+  - Guid: ab91813a-1805-4523-8ba4-022937e6a8f7
+    Position: {x: -242.40001, y: 4759.1997}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Running");'

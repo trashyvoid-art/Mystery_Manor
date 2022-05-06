@@ -13,16 +13,16 @@ public class AudioManager : MonoBehaviour
     void Awake()
     {
         playerObject = GameObject.Find("Player");
-        foreach (Audio a in audioArray)
-        {
-            //find way to create on talk w/ character
+        //foreach (Audio a in audioArray)
+        //{
+        //    //find way to create on talk w/ character
 
-            //currently makes audiosource for each audio in array on start
-            //a.source = gameObject.AddComponent<AudioSource>();
-            //a.source.clip = a.audio;
+        //    //currently makes audiosource for each audio in array on start
+        //    //a.source = gameObject.AddComponent<AudioSource>();
+        //    //a.source.clip = a.audio;
             
-            //find way to destroy audio source
-        }
+        //    //find way to destroy audio source
+        //}
     }
 
     // Plays ClipAtPoint so that Unity handles creating and deleting audio sorces upon talking to an NPC
