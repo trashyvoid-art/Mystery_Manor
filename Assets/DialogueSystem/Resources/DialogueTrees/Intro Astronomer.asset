@@ -17,29 +17,49 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 506eb779-a666-4a81-9ad9-9924b070b9dd
     PortName: Next
-    PortGUID: 1e978b88-31ce-49d6-991d-4afaf77880e3
+    PortGUID: f8426035-200f-4709-8672-9d38e8187483
     Condition: 
     TargetNodeGuid: 83ecb3b6-9e10-4139-a522-22106e6f251e
   - BaseNodeGuid: 83ecb3b6-9e10-4139-a522-22106e6f251e
     PortName: Next
-    PortGUID: aae5b764-6eef-4738-8aed-f0b152b43cb5
+    PortGUID: d46dc703-94de-4f7c-a889-81cde4846fda
     Condition: 
     TargetNodeGuid: fccc76af-f6d4-4c4c-83c2-6b51f7f2f3ab
   - BaseNodeGuid: fccc76af-f6d4-4c4c-83c2-6b51f7f2f3ab
     PortName: Next
-    PortGUID: 3a366062-d11f-4b3f-8aae-3bc46a35bb17
+    PortGUID: 8960bdf1-8d9b-4453-b7b1-04b2ccc4ea74
     Condition: 
     TargetNodeGuid: 389ed54f-1a99-478a-9132-50df4717f349
+  - BaseNodeGuid: 506eb779-a666-4a81-9ad9-9924b070b9dd
+    PortName: Next
+    PortGUID: a25e2b82-031c-45fa-b35e-b54f3b877aa3
+    Condition: 
+    TargetNodeGuid: cb71d749-e7e1-4080-b885-8ff7dac18641
+  - BaseNodeGuid: 83ecb3b6-9e10-4139-a522-22106e6f251e
+    PortName: Next
+    PortGUID: 4f69f35a-d0bf-4813-9d70-9b9d66290343
+    Condition: 
+    TargetNodeGuid: af12d1b6-2da3-4818-9a52-a1d269244072
+  - BaseNodeGuid: fccc76af-f6d4-4c4c-83c2-6b51f7f2f3ab
+    PortName: Next
+    PortGUID: 2fb406c8-a18a-435e-925c-ba7463a627fd
+    Condition: 
+    TargetNodeGuid: 0f5ee9b7-d67b-458c-9ccb-915450bbb4b6
+  - BaseNodeGuid: 389ed54f-1a99-478a-9132-50df4717f349
+    PortName: Next
+    PortGUID: 20ac02ad-fc53-4f3b-b2c9-113076ece0fe
+    Condition: 
+    TargetNodeGuid: 51c3b123-755d-40b6-8ce0-5901697d9861
   Nodes:
   - Guid: ff09bfbf-f32a-4fa3-b2a3-22bd25406348
-    Position: {x: -48.8, y: -198.40001}
+    Position: {x: -49, y: -198}
     Type: 16
     _textKeys:
     - Code
     _textValues:
     - string name = "The Astronomer";
   - Guid: 83ecb3b6-9e10-4139-a522-22106e6f251e
-    Position: {x: 356.8, y: 1.6000004}
+    Position: {x: 357, y: 2}
     Type: 8
     _textKeys:
     - DialogueText
@@ -48,7 +68,7 @@ MonoBehaviour:
     - It is a pleasure to make your acquaintance.
     - ${name}
   - Guid: fccc76af-f6d4-4c4c-83c2-6b51f7f2f3ab
-    Position: {x: 817.6, y: 5.6000004}
+    Position: {x: 818, y: 6}
     Type: 8
     _textKeys:
     - DialogueText
@@ -57,7 +77,7 @@ MonoBehaviour:
     - This manor is bang up the elephant is it not?
     - ${name}
   - Guid: 389ed54f-1a99-478a-9132-50df4717f349
-    Position: {x: 1232, y: 5.6000004}
+    Position: {x: 1232, y: 6}
     Type: 8
     _textKeys:
     - DialogueText
@@ -65,3 +85,40 @@ MonoBehaviour:
     _textValues:
     - I could spend an entire day browsing through the numerous artifacts and painting!
     - ${name}
+  - Guid: cb71d749-e7e1-4080-b885-8ff7dac18641
+    Position: {x: 357, y: 195}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Shamsa 1");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Start
+      Convo");'
+  - Guid: af12d1b6-2da3-4818-9a52-a1d269244072
+    Position: {x: 818, y: 195}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Shamsa 2");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Next
+      Line");'
+  - Guid: 0f5ee9b7-d67b-458c-9ccb-915450bbb4b6
+    Position: {x: 1232, y: 195}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Shamsa 3");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Next
+      Line");'
+  - Guid: 51c3b123-755d-40b6-8ce0-5901697d9861
+    Position: {x: 1808, y: 6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("End Convo");
