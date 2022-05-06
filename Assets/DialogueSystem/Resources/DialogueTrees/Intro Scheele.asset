@@ -17,29 +17,49 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 63c3c042-bdcd-48e6-9368-17fc5e8d4575
     PortName: Next
-    PortGUID: 95407fdc-bfff-476a-8e72-0bb104f2e52c
+    PortGUID: 6f40ff5c-227d-422e-b41b-9e9d0ca582ea
     Condition: 
     TargetNodeGuid: dda16e7c-fd93-4765-8348-f07e6dc2cecb
   - BaseNodeGuid: 397131e9-445e-4ec9-b060-9d846d715faa
     PortName: Next
-    PortGUID: 4eeca612-8ce4-4866-8d10-49b12899116c
+    PortGUID: f65ceff0-880d-4161-821a-5500201de178
     Condition: 
     TargetNodeGuid: c130e0e5-7b6a-4ba8-b14d-a7073c70b392
   - BaseNodeGuid: dda16e7c-fd93-4765-8348-f07e6dc2cecb
     PortName: Next
-    PortGUID: 0b8470d7-7604-4985-9444-d3b446f8ec4c
+    PortGUID: de0f255f-1603-4c76-b096-33a19317a2cc
     Condition: 
     TargetNodeGuid: 397131e9-445e-4ec9-b060-9d846d715faa
+  - BaseNodeGuid: 63c3c042-bdcd-48e6-9368-17fc5e8d4575
+    PortName: Next
+    PortGUID: 0030f1a4-c339-4496-a737-21e29b280fce
+    Condition: 
+    TargetNodeGuid: d35827a4-925c-43bf-9335-2b99212b90e6
+  - BaseNodeGuid: dda16e7c-fd93-4765-8348-f07e6dc2cecb
+    PortName: Next
+    PortGUID: 317c8882-d477-4ba2-a6d8-fe448596ebfa
+    Condition: 
+    TargetNodeGuid: 54d046ac-3603-4db2-9461-703b995a78f3
+  - BaseNodeGuid: 397131e9-445e-4ec9-b060-9d846d715faa
+    PortName: Next
+    PortGUID: 02ce6ea8-5fbf-4005-9ccb-ef2552e3b374
+    Condition: 
+    TargetNodeGuid: 81952565-b844-4399-893c-335d575fa2f6
+  - BaseNodeGuid: c130e0e5-7b6a-4ba8-b14d-a7073c70b392
+    PortName: Next
+    PortGUID: fc9a7c48-3adf-4d6c-ba57-f070ac49c84f
+    Condition: 
+    TargetNodeGuid: 54b74850-6463-45cf-aa3e-4978f4107d47
   Nodes:
   - Guid: aa94aa22-f562-41b2-a749-b6554f617cab
-    Position: {x: 39.2, y: -137.6}
+    Position: {x: 39, y: -138}
     Type: 16
     _textKeys:
     - Code
     _textValues:
     - string name = "Ms. Scheele";
   - Guid: 397131e9-445e-4ec9-b060-9d846d715faa
-    Position: {x: 750.4, y: 0}
+    Position: {x: 750, y: 0}
     Type: 8
     _textKeys:
     - DialogueText
@@ -48,7 +68,7 @@ MonoBehaviour:
     - Hosting parties is one of my favorite pass times.
     - ${name}
   - Guid: dda16e7c-fd93-4765-8348-f07e6dc2cecb
-    Position: {x: 306.4, y: 0}
+    Position: {x: 306, y: 0}
     Type: 8
     _textKeys:
     - DialogueText
@@ -57,7 +77,7 @@ MonoBehaviour:
     - How wonderful to have such lovely company this evening.
     - ${name}
   - Guid: c130e0e5-7b6a-4ba8-b14d-a7073c70b392
-    Position: {x: 1188, y: -7.999999}
+    Position: {x: 1188, y: -8}
     Type: 8
     _textKeys:
     - DialogueText
@@ -66,3 +86,40 @@ MonoBehaviour:
     - Please, I implore you to enjoy yourself to the fullest in hopes that we might
       create an evening never to be forgotten.
     - ${name}
+  - Guid: 54d046ac-3603-4db2-9461-703b995a78f3
+    Position: {x: 750, y: 189}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Scheele 2");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Next
+      Line");'
+  - Guid: 81952565-b844-4399-893c-335d575fa2f6
+    Position: {x: 1188, y: 181}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Scheele 1");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Next
+      Line");'
+  - Guid: d35827a4-925c-43bf-9335-2b99212b90e6
+    Position: {x: 306, y: 189}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Scheele 1");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Start
+      Convo");'
+  - Guid: 54b74850-6463-45cf-aa3e-4978f4107d47
+    Position: {x: 1897, y: -8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("End Convo");

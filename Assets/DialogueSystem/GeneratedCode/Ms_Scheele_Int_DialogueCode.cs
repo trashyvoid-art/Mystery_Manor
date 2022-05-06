@@ -33,7 +33,6 @@ DataTracker dt = DataTracker.Instance;
             eventFunctions.Add("Ms_Scheele_Int_cb2e3459d7df4849a2881da80427682c",Ms_Scheele_Int_cb2e3459d7df4849a2881da80427682c);
             eventFunctions.Add("Ms_Scheele_Int_a28021a5226d46ae9a16f2931e9702ca",Ms_Scheele_Int_a28021a5226d46ae9a16f2931e9702ca);
             eventFunctions.Add("Ms_Scheele_Int_516232e98cfc48f28f1ce48b0faad408",Ms_Scheele_Int_516232e98cfc48f28f1ce48b0faad408);
-            eventFunctions.Add("Ms_Scheele_Int_86cb36176c294d0cbb09d833c6db40f2",Ms_Scheele_Int_86cb36176c294d0cbb09d833c6db40f2);
             eventFunctions.Add("Ms_Scheele_Int_58b94c1ce19e4594b96ce00ab7769dd9",Ms_Scheele_Int_58b94c1ce19e4594b96ce00ab7769dd9);
             conditionChecks.Add("Ms_Scheele_Int_65516af0a0fb430b9224b527ce2c662c",Ms_Scheele_Int_65516af0a0fb430b9224b527ce2c662c);
             conditionChecks.Add("Ms_Scheele_Int_074278c8af6846b786db563f306b6704",Ms_Scheele_Int_074278c8af6846b786db563f306b6704);
@@ -44,6 +43,11 @@ DataTracker dt = DataTracker.Instance;
             dialogueChecks.Add("Ms_Scheele_Int_de22f680f6f24185b948014f88d222ee_66ffc2b8f5bb494d87106b6c23b02974",Ms_Scheele_Int_de22f680f6f24185b948014f88d222ee_66ffc2b8f5bb494d87106b6c23b02974);
             dialogueChecks.Add("Ms_Scheele_Int_de22f680f6f24185b948014f88d222ee_6b2d0f09dff542e3bc62524871d43361",Ms_Scheele_Int_de22f680f6f24185b948014f88d222ee_6b2d0f09dff542e3bc62524871d43361);
             eventFunctions.Add("Ms_Scheele_Int_9f979fd012b24b3b9243e40eb880aee3",Ms_Scheele_Int_9f979fd012b24b3b9243e40eb880aee3);
+            eventFunctions.Add("Ms_Scheele_Int_b59f8cef8e514ce2ac5bca529b3b0579",Ms_Scheele_Int_b59f8cef8e514ce2ac5bca529b3b0579);
+            eventFunctions.Add("Ms_Scheele_Int_86cb36176c294d0cbb09d833c6db40f2",Ms_Scheele_Int_86cb36176c294d0cbb09d833c6db40f2);
+            eventFunctions.Add("Ms_Scheele_Int_2caaa111cba049c7b3469c03b516c650",Ms_Scheele_Int_2caaa111cba049c7b3469c03b516c650);
+            eventFunctions.Add("Ms_Scheele_Int_6296985b72aa427f995a8c6fe182756e",Ms_Scheele_Int_6296985b72aa427f995a8c6fe182756e);
+            eventFunctions.Add("Ms_Scheele_Int_f8953639957d431cbb62288943cbd64d",Ms_Scheele_Int_f8953639957d431cbb62288943cbd64d);
 
         }
 
@@ -67,7 +71,7 @@ DataTracker dt = DataTracker.Instance;
             return (true);
         }
         // From Node: de22f680-f6f2-4185-b948-014f88d222ee //
-        // Choice: Did you kill Scarlette? - 6b2d0f09-dff5-42e3-bc62-524871d43361 //
+        // Choice: Did you kill Scarlett? - 6b2d0f09-dff5-42e3-bc62-524871d43361 //
         public bool Ms_Scheele_Int_de22f680f6f24185b948014f88d222ee_6b2d0f09dff542e3bc62524871d43361()
         {
             return (dt.clues >= 7);
@@ -97,15 +101,11 @@ choices += 1;
         // Event From Node: a28021a5-226d-46ae-9a16-f2931e9702ca //
         public void Ms_Scheele_Int_a28021a5226d46ae9a16f2931e9702ca() {
 GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 2");
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
         }
         // Event From Node: 516232e9-8cfc-48f2-8f1c-e48b0faad408 //
         public void Ms_Scheele_Int_516232e98cfc48f28f1ce48b0faad408() {
 GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele End");
-        }
-        // Event From Node: 86cb3617-6c29-4d0c-bb09-d833c6db40f2 //
-        public void Ms_Scheele_Int_86cb36176c294d0cbb09d833c6db40f2() {
-GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 1");
-
         }
         // Event From Node: 58b94c1c-e19e-4594-b96c-e00ab7769dd9 //
         public void Ms_Scheele_Int_58b94c1ce19e4594b96ce00ab7769dd9() {
@@ -116,7 +116,7 @@ dt.clues+=1;
         // Event From Node: 52ed8819-14ba-4d7e-a499-688945fa8bff //
         public void Ms_Scheele_Int_52ed881914ba4d7ea499688945fa8bff() {
 GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 3");
-
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
         }
         // Event From Node: 2a4316b0-d5f9-40c0-8f2a-58cee703a297 //
         public void Ms_Scheele_Int_2a4316b0d5f940c08f2a58cee703a297() {
@@ -127,6 +127,28 @@ dt.clues+=1;
         // Event From Node: 9f979fd0-12b2-4b3b-9243-e40eb880aee3 //
         public void Ms_Scheele_Int_9f979fd012b24b3b9243e40eb880aee3() {
 dt.wrongAccusations+=1;
+        }
+        // Event From Node: b59f8cef-8e51-4ce2-ac5b-ca529b3b0579 //
+        public void Ms_Scheele_Int_b59f8cef8e514ce2ac5bca529b3b0579() {
+GameObject.FindObjectOfType<AudioManager>().Play("Start Convo");
+        }
+        // Event From Node: 86cb3617-6c29-4d0c-bb09-d833c6db40f2 //
+        public void Ms_Scheele_Int_86cb36176c294d0cbb09d833c6db40f2() {
+GameObject.FindObjectOfType<AudioManager>().Play("Ms Scheele 1");
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+        }
+        // Event From Node: 2caaa111-cba0-49c7-b346-9c03b516c650 //
+        public void Ms_Scheele_Int_2caaa111cba049c7b3469c03b516c650() {
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+        }
+        // Event From Node: 6296985b-72aa-427f-995a-8c6fe182756e //
+        public void Ms_Scheele_Int_6296985b72aa427f995a8c6fe182756e() {
+GameObject.FindObjectOfType<AudioManager>().Play("Scheele Accuse");
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+        }
+        // Event From Node: f8953639-957d-431c-bb62-288943cbd64d //
+        public void Ms_Scheele_Int_f8953639957d431cbb62288943cbd64d() {
+GameObject.FindObjectOfType<AudioManager>().Play("End Convo");
         }
 
     }

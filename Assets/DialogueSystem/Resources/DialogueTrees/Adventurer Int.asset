@@ -17,82 +17,107 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 70b19a79-4d8d-4a9b-9c2a-2c0cc53c42a0
     PortName: Next
-    PortGUID: be821d93-a70e-4dc4-96ff-4f7f4d16c64b
+    PortGUID: 4047ad10-1406-4dfc-9455-5d3215ef9b78
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: 70b19a79-4d8d-4a9b-9c2a-2c0cc53c42a0
     PortName: Next
-    PortGUID: 5dfbbd9b-4665-4490-82f7-09fa19b09b99
+    PortGUID: b9d56abe-eb71-48f1-8721-24f799176af1
     Condition: 
     TargetNodeGuid: 16ca64c0-16bd-45a7-b92c-0efd6395fa37
   - BaseNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
     PortName: Next
-    PortGUID: 392229b1-30f6-4ac0-a5db-c3f4fa11bfb1
+    PortGUID: ee25b71d-a1cb-4f61-a738-33752b7a517f
+    Condition: 
+    TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
+  - BaseNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
+    PortName: Next
+    PortGUID: 5372c899-f038-4562-b5e4-abeb87089271
+    Condition: 
+    TargetNodeGuid: 576918b1-887f-4914-93fa-cda88dc32496
+  - BaseNodeGuid: b126805d-ae45-46ea-b5e8-37819afa75cf
+    PortName: Next
+    PortGUID: d828f243-f9da-4ab5-a052-0b5b47536b28
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: b126805d-ae45-46ea-b5e8-37819afa75cf
     PortName: Next
-    PortGUID: 77551547-72af-4075-b67a-707054d4b941
+    PortGUID: 46abde05-7382-4c69-b81a-808afb4ad30b
+    Condition: 
+    TargetNodeGuid: 576918b1-887f-4914-93fa-cda88dc32496
+  - BaseNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
+    PortName: Next
+    PortGUID: 51c84513-7c3d-477c-b7cc-9c996045b57b
     Condition: 
     TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
     PortName: Next
-    PortGUID: ae3972b2-72f6-48fd-bc5e-4ac1fd73f1e8
+    PortGUID: 464151d7-1cee-48a2-8ba8-618e6fbbb155
     Condition: 
-    TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
+    TargetNodeGuid: 576918b1-887f-4914-93fa-cda88dc32496
   - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
     PortName: Pass
-    PortGUID: 9648368a-8f38-4689-a4ac-d2646ae3a709
+    PortGUID: 5ddc3705-8eaf-4f66-8320-925279afcc22
     Condition: 
     TargetNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
   - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
     PortName: Fail
-    PortGUID: 26cff10c-2aae-4bce-ba49-fccb676fef30
+    PortGUID: d733ec9c-641e-47dc-a76b-86cc51cf6207
     Condition: 
     TargetNodeGuid: df64c86a-461c-427d-8872-d228d1c60e19
   - BaseNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
     PortName: Fail
-    PortGUID: e14bf3c1-6369-41d8-90af-619fb922d04c
+    PortGUID: dbaf4906-496b-4713-ad45-7ed1ffad83d4
     Condition: 
     TargetNodeGuid: 87a4edc0-0917-42bf-a70a-4eb1619982b4
+  - BaseNodeGuid: df64c86a-461c-427d-8872-d228d1c60e19
+    PortName: Next
+    PortGUID: ca0b59a7-41ba-4302-9ddb-7b4184f7af02
+    Condition: 
+    TargetNodeGuid: 4553f082-bbb8-457d-81fe-450c4d2f0150
   - BaseNodeGuid: 6d994dc1-6564-4e80-b549-41f586314fbb
     PortName: Next
-    PortGUID: c91d26cb-1420-492e-92df-e54d4b465d64
+    PortGUID: b8430802-9f88-4475-bf89-133c32271d03
     Condition: 
     TargetNodeGuid: d8765c57-977c-4e04-b3e7-465fe27df8d6
+  - BaseNodeGuid: 6d994dc1-6564-4e80-b549-41f586314fbb
+    PortName: Next
+    PortGUID: fc3a7245-eea6-4e1d-bacb-444af569af26
+    Condition: 
+    TargetNodeGuid: 89ba60ae-207c-4f97-aa8c-3451b2e04d4d
   - BaseNodeGuid: d8765c57-977c-4e04-b3e7-465fe27df8d6
     PortName: Next
-    PortGUID: 871db135-b429-4651-ae5a-ad52671b6edc
+    PortGUID: b016762a-b7ac-47af-83de-f9841bfc4408
     Condition: 
     TargetNodeGuid: 7c0ae52e-b1f8-4dca-b6be-c82c4561acaf
   - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
     PortName: Fail
-    PortGUID: b8bd1cdd-4044-4de1-8ca3-1cd67e518ed3
+    PortGUID: 50b2b0bb-7a77-4523-840c-204edf1ef584
     Condition: 
     TargetNodeGuid: 354f6bf6-0004-4894-a2af-0dc909fc0396
   - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
     PortName: Pass
-    PortGUID: a173fddb-5a26-4023-894c-4c9f276e5d55
+    PortGUID: 293db5e2-3468-4d22-957a-e009cd46d21e
     Condition: 
     TargetNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
   - BaseNodeGuid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
     PortName: Fail
-    PortGUID: 0162f08e-d2bd-4d83-800b-60052f44a0e6
+    PortGUID: cfa6b8cc-ac6d-4bb8-ae3d-f7a22f7bdcc9
     Condition: 
     TargetNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
   - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
     PortName: Fail
-    PortGUID: 3fa9c43e-cf4d-4ce7-92b7-5050a6c115e8
+    PortGUID: 0f831946-59ec-4d57-9c61-570c781ae489
     Condition: 
     TargetNodeGuid: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb
   - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
     PortName: Pass
-    PortGUID: 1af660b0-4db9-4d3f-a4a2-766c4db2ecea
+    PortGUID: 9ba87b67-7962-4bf9-9c65-3c3a8b8dc7e9
     Condition: 
     TargetNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
   - BaseNodeGuid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
     PortName: Fail
-    PortGUID: 4fa78d18-46d6-4c6a-aae1-fbbb7152d435
+    PortGUID: 581ddb35-9ba0-4c58-9e9e-6128ec893a9a
     Condition: 
     TargetNodeGuid: 452f6766-7f66-4471-956e-018fdc5a012b
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
@@ -126,7 +151,7 @@ MonoBehaviour:
     Condition: dt.shamsaTalkedTo == 1
     TargetNodeGuid: f17b7453-aec0-4de8-8915-14e6b84e396b
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
-    PortName: Did you kill Scarlette?
+    PortName: Did you kill Scarlett?
     PortGUID: 579112dc-3c7b-4cdf-bc31-9a81eb89eb85
     Condition: dt.clues >= 7
     TargetNodeGuid: 6d994dc1-6564-4e80-b549-41f586314fbb
@@ -150,19 +175,34 @@ MonoBehaviour:
     PortGUID: 0291ff77-c9d0-449c-8ea1-8ac119450c35
     Condition: 
     TargetNodeGuid: 3def0688-b359-4510-8da7-c447d28c67dd
-  - BaseNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
-    PortName: Next
-    PortGUID: faf70893-e4e0-4dbd-85de-57e3697b34a0
-    Condition: 
-    TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
   - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
     PortName: Do you have any other information about the case?
     PortGUID: fdb9342c-4c8e-4584-a4ce-f351e8ebfdc3
     Condition: 
     TargetNodeGuid: f42b6ba0-11bf-4eaf-ae17-8b47abf8bf5e
+  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    PortName: Bloody Nose?
+    PortGUID: 017ba2a9-2591-447f-bddf-fbcebda10db4
+    Condition: dt.shamsaTalkedTo == 1
+    TargetNodeGuid: 23434503-faa5-426e-9033-5f61b984ef8f
+  - BaseNodeGuid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    PortName: Did you kill Scarlett?
+    PortGUID: 579112dc-3c7b-4cdf-bc31-9a81eb89eb85
+    Condition: dt.clues >= 7
+    TargetNodeGuid: a3e5432c-5c4d-420d-afab-4f7e2064cbde
+  - BaseNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
+    PortName: Next
+    PortGUID: f88a9874-dc60-47b5-bc99-80777c90955a
+    Condition: 
+    TargetNodeGuid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
+  - BaseNodeGuid: adead8f6-1f17-4475-8b27-c12b070f1487
+    PortName: Next
+    PortGUID: 9d1ae5ce-38f7-4864-910e-d2be4bb2da25
+    Condition: 
+    TargetNodeGuid: 576918b1-887f-4914-93fa-cda88dc32496
   Nodes:
   - Guid: 452f6766-7f66-4471-956e-018fdc5a012b
-    Position: {x: 1122, y: -510}
+    Position: {x: 1122.3999, y: -510.40002}
     Type: 8
     _textKeys:
     - DialogueText
@@ -172,7 +212,7 @@ MonoBehaviour:
       drink with him. Who could blame him though, I am incredible.
     - ${name}
   - Guid: b126805d-ae45-46ea-b5e8-37819afa75cf
-    Position: {x: 1122, y: -102}
+    Position: {x: 1122.3999, y: -102.399994}
     Type: 8
     _textKeys:
     - DialogueText
@@ -182,14 +222,14 @@ MonoBehaviour:
       I solved an ancient King's cipher in only two hours?
     - ${name}
   - Guid: f17b7453-aec0-4de8-8915-14e6b84e396b
-    Position: {x: 1122, y: 138}
+    Position: {x: 1122.3999, y: 137.6}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - choices +=1;
   - Guid: 45c2f58d-2ac9-48c7-9b82-0b6a5888e248
-    Position: {x: 1122, y: 767}
+    Position: {x: 1122.3999, y: 767.2}
     Type: 8
     _textKeys:
     - DialogueText
@@ -200,14 +240,14 @@ MonoBehaviour:
       his head hitting my nose and so I took a quick trip to the infirmary.
     - ${name}
   - Guid: 0efcc623-b62a-4e9e-a6e3-c6f5404dd1ba
-    Position: {x: 2732, y: 14}
+    Position: {x: 2732, y: 13.599998}
     Type: 32
     _textKeys:
     - Condition
     _textValues:
     - choices < 4
   - Guid: df64c86a-461c-427d-8872-d228d1c60e19
-    Position: {x: 3024, y: 33}
+    Position: {x: 3024, y: 32.8}
     Type: 8
     _textKeys:
     - DialogueText
@@ -217,7 +257,7 @@ MonoBehaviour:
       know!
     - ${name}
   - Guid: bff4efe7-0ca3-468c-ae35-cefbbd81a662
-    Position: {x: -138, y: -230}
+    Position: {x: -137.6, y: -230.4}
     Type: 16
     _textKeys:
     - Code
@@ -238,14 +278,14 @@ MonoBehaviour:
 
       DataTracker dt = DataTracker.Instance;'
   - Guid: 16ca64c0-16bd-45a7-b92c-0efd6395fa37
-    Position: {x: 314, y: -109}
+    Position: {x: 314.40002, y: -108.8}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - shamsa = new Astronomer_Int_DialogueCode();
   - Guid: 6d994dc1-6564-4e80-b549-41f586314fbb
-    Position: {x: 354, y: 512}
+    Position: {x: 354.40002, y: 512}
     Type: 8
     _textKeys:
     - DialogueText
@@ -255,7 +295,7 @@ MonoBehaviour:
       the least likely to do so! '
     - ${name}
   - Guid: d8765c57-977c-4e04-b3e7-465fe27df8d6
-    Position: {x: 225, y: 742}
+    Position: {x: 225.59999, y: 741.6}
     Type: 8
     _textKeys:
     - DialogueText
@@ -265,21 +305,21 @@ MonoBehaviour:
       I always say only the poorest of adventurers resort to violence."
     - ${name}
   - Guid: 7c0ae52e-b1f8-4dca-b6be-c82c4561acaf
-    Position: {x: 514, y: 989}
+    Position: {x: 514.4, y: 988.8}
     Type: 64
     _textKeys:
     - Code
     _textValues:
     - dt.wrongAccusations += 1;
   - Guid: 9fc2c948-d06f-46e7-82ed-d5cf12329e18
-    Position: {x: 1221, y: 574}
+    Position: {x: 1221.6, y: 573.6}
     Type: 32
     _textKeys:
     - Condition
     _textValues:
     - infoLearned > 0
   - Guid: 354f6bf6-0004-4894-a2af-0dc909fc0396
-    Position: {x: 1490, y: 592}
+    Position: {x: 1490.3999, y: 592}
     Type: 64
     _textKeys:
     - Code
@@ -290,8 +330,64 @@ MonoBehaviour:
       += 1;
 
       infoLearned += 1;'
+  - Guid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
+    Position: {x: 871.2, y: -324.80002}
+    Type: 32
+    _textKeys:
+    - Condition
+    _textValues:
+    - locationLearned > 0
+  - Guid: e2a31422-f166-4498-b906-c8cfd8eb5a35
+    Position: {x: 337.6, y: 32.8}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Yes?
+    - ${name}
+  - Guid: adead8f6-1f17-4475-8b27-c12b070f1487
+    Position: {x: 1490.3999, y: 396}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - There was this moment during dinner...but I'm sure it was nothing.
+    - ${name}
+  - Guid: 87a4edc0-0917-42bf-a70a-4eb1619982b4
+    Position: {x: 3024, y: 228.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Sam End");
+  - Guid: 4553f082-bbb8-457d-81fe-450c4d2f0150
+    Position: {x: 3579.2, y: 32.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("End Convo");
+  - Guid: 576918b1-887f-4914-93fa-cda88dc32496
+    Position: {x: 2587.2, y: 159.2}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+  - Guid: f97b460f-0e8a-455e-9b9a-136dc809a9b0
+    Position: {x: 1122.3999, y: -646.4}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Sam 1");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Next
+      Line");'
   - Guid: 4f7d54b5-320f-4bc3-98b9-dc59f9ca68eb
-    Position: {x: 1362, y: -306}
+    Position: {x: 1122.3999, y: -320.80002}
     Type: 64
     _textKeys:
     - Code
@@ -302,56 +398,53 @@ MonoBehaviour:
       += 1;
 
       locationLearned += 1;'
-  - Guid: 32827ca3-b84b-474c-b5d3-9d75c91aa001
-    Position: {x: 871, y: -325}
-    Type: 32
-    _textKeys:
-    - Condition
-    _textValues:
-    - locationLearned > 0
-  - Guid: f97b460f-0e8a-455e-9b9a-136dc809a9b0
-    Position: {x: 1170, y: -640}
-    Type: 64
-    _textKeys:
-    - Code
-    _textValues:
-    - GameObject.FindObjectOfType<AudioManager>().Play("Sam 1");
-  - Guid: e2a31422-f166-4498-b906-c8cfd8eb5a35
-    Position: {x: 337, y: 33}
-    Type: 4
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - Yes?
-    - ${name}
   - Guid: 3def0688-b359-4510-8da7-c447d28c67dd
-    Position: {x: 1296, y: 94}
+    Position: {x: 1278.3999, y: 87.2}
     Type: 64
     _textKeys:
     - Code
     _textValues:
-    - GameObject.FindObjectOfType<AudioManager>().Play("Sam 2");
-  - Guid: adead8f6-1f17-4475-8b27-c12b070f1487
-    Position: {x: 1490, y: 396}
-    Type: 8
-    _textKeys:
-    - DialogueText
-    - CharacterName
-    _textValues:
-    - There was this moment during dinner...but I'm sure it was nothing.
-    - ${name}
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Sam 2");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Next
+      Line");'
   - Guid: f42b6ba0-11bf-4eaf-ae17-8b47abf8bf5e
-    Position: {x: 1490, y: 272}
+    Position: {x: 1487.2, y: 259.19998}
     Type: 64
     _textKeys:
     - Code
     _textValues:
-    - GameObject.FindObjectOfType<AudioManager>().Play("Sam 3");
-  - Guid: 87a4edc0-0917-42bf-a70a-4eb1619982b4
-    Position: {x: 3024, y: 229}
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Sam 3");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Next
+      Line");'
+  - Guid: 23434503-faa5-426e-9033-5f61b984ef8f
+    Position: {x: 1122.3999, y: 956}
     Type: 64
     _textKeys:
     - Code
     _textValues:
-    - GameObject.FindObjectOfType<AudioManager>().Play("Sam End");
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sam
+      4");'
+  - Guid: a3e5432c-5c4d-420d-afab-4f7e2064cbde
+    Position: {x: -72, y: 564.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sam
+      Accuse 1");'
+  - Guid: 89ba60ae-207c-4f97-aa8c-3451b2e04d4d
+    Position: {x: -201.6, y: 795.2}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sam
+      Accuse 2");'

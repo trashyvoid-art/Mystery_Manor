@@ -17,14 +17,29 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 56dd7da7-c5fe-4221-9d6b-10ffddec7b6f
     PortName: Next
-    PortGUID: 98ebeeac-0938-4f2a-a583-7bbe54fe04ff
+    PortGUID: 12544c75-7c28-4ac7-8cf8-d42772cf53ce
     Condition: 
     TargetNodeGuid: d2b45009-90f1-49f2-ab69-2e5dd516700e
   - BaseNodeGuid: d2b45009-90f1-49f2-ab69-2e5dd516700e
     PortName: Next
-    PortGUID: fbd6b043-dd1c-43c9-9d37-60b2452cba73
+    PortGUID: 720fcd84-7002-4be1-8e69-097833533750
     Condition: 
     TargetNodeGuid: 1875c891-1b6c-46fd-9f99-c22b1bb1a463
+  - BaseNodeGuid: 56dd7da7-c5fe-4221-9d6b-10ffddec7b6f
+    PortName: Next
+    PortGUID: 8b73c17f-a1e2-4845-875d-2b994b0b0518
+    Condition: 
+    TargetNodeGuid: 382f27c4-43ab-4f04-a64c-97b6c9c8fd95
+  - BaseNodeGuid: d2b45009-90f1-49f2-ab69-2e5dd516700e
+    PortName: Next
+    PortGUID: 371bb8f5-fc50-42d4-aab1-97d1b5ede172
+    Condition: 
+    TargetNodeGuid: 452b7838-0b8d-4e55-907c-2cef9d7667d5
+  - BaseNodeGuid: 1875c891-1b6c-46fd-9f99-c22b1bb1a463
+    PortName: Next
+    PortGUID: 8fc9281b-517d-444a-80a7-0cdb5a6e480a
+    Condition: 
+    TargetNodeGuid: 32642937-798e-4194-b6cf-d37157550bcd
   Nodes:
   - Guid: eb17a32d-6d31-4bf4-986e-0d05b2b9198b
     Position: {x: -33, y: -121}
@@ -52,3 +67,30 @@ MonoBehaviour:
     - It seems like a waste to have chandeliers if they're made of glass, a bit like
       having silverware not made of actual silver.
     - ${name}
+  - Guid: 452b7838-0b8d-4e55-907c-2cef9d7667d5
+    Position: {x: 655, y: 189}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Scarlett 2");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Next
+      Line");'
+  - Guid: 32642937-798e-4194-b6cf-d37157550bcd
+    Position: {x: 1395, y: 0}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("End Convo");
+  - Guid: 382f27c4-43ab-4f04-a64c-97b6c9c8fd95
+    Position: {x: 195, y: 189}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Scarlett 1");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Start
+      Convo");'

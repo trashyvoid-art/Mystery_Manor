@@ -29,7 +29,7 @@ public class ShowBackgroundImage : MonoBehaviour
 
     
 
-    public IEnumerator FadeBlackBG(bool fadeToBlack = true, int fadeSpeed = 5)
+    public IEnumerator FadeBlackBG(bool fadeToBlack = true, int fadeSpeed = 10)
     {
         Color objectColor = blackBG.GetComponent<Image>().color;
         float fadeAmount;

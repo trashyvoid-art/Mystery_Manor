@@ -18,6 +18,7 @@ public class LevelManager : MonoBehaviour
     {
         if (dt.currentScene == 1)
         {
+            dt.clues = 0;
             GoToIntro();
             dt.currentScene = 0;
         }

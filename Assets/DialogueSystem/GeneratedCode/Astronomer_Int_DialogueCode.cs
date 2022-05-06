@@ -47,6 +47,7 @@ DataTracker dt = DataTracker.Instance;
             eventFunctions.Add("Astronomer_Int_c1b5c56204294dc6a8dd6234469dee05",Astronomer_Int_c1b5c56204294dc6a8dd6234469dee05);
             eventFunctions.Add("Astronomer_Int_c95d443e0122422aaedc045d9b49e28b",Astronomer_Int_c95d443e0122422aaedc045d9b49e28b);
             eventFunctions.Add("Astronomer_Int_377fdbabc6d441ce9533e4b3ab8b6b3c",Astronomer_Int_377fdbabc6d441ce9533e4b3ab8b6b3c);
+            eventFunctions.Add("Astronomer_Int_eb95329974504b3b958f3412112d2ebd",Astronomer_Int_eb95329974504b3b958f3412112d2ebd);
 
         }
 
@@ -70,7 +71,7 @@ DataTracker dt = DataTracker.Instance;
             return (true);
         }
         // From Node: 23e0ca1f-d5ed-485a-8a06-20257e18854e //
-        // Choice: Did you kill Scarlette? - 8bce3ee6-2170-433b-97d5-f3ccb6409263 //
+        // Choice: Did you kill Scarlett? - 8bce3ee6-2170-433b-97d5-f3ccb6409263 //
         public bool Astronomer_Int_23e0ca1fd5ed485a8a0620257e18854e_8bce3ee62170433b97d5f3ccb6409263()
         {
             return (dt.clues>=7);
@@ -143,6 +144,11 @@ GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
         // Event From Node: 377fdbab-c6d4-41ce-9533-e4b3ab8b6b3c //
         public void Astronomer_Int_377fdbabc6d441ce9533e4b3ab8b6b3c() {
 GameObject.FindObjectOfType<AudioManager>().Play("End Convo");
+        }
+        // Event From Node: eb953299-7450-4b3b-958f-3412112d2ebd //
+        public void Astronomer_Int_eb95329974504b3b958f3412112d2ebd() {
+GameObject.FindObjectOfType<AudioManager>().Play("Shamsa Accuse");
+GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
         }
 
     }
