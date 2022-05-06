@@ -80,7 +80,7 @@ DataTracker dt = DataTracker.Instance;
             return (true);
         }
         // From Node: fd9ab04b-67a8-4b9c-a18d-70bcca6dad31 //
-        // Choice: Did you kill Scarlette? - 9d0f0bd4-af28-482d-a072-04fc9a87320b //
+        // Choice: Did you kill Scarlett? - 9d0f0bd4-af28-482d-a072-04fc9a87320b //
         public bool Doctor_Int_fd9ab04b67a84b9ca18d70bcca6dad31_9d0f0bd4af28482da07204fc9a87320b()
         {
             return (dt.clues == 7);

@@ -81,7 +81,7 @@ DataTracker dt = DataTracker.Instance;
             return (true);
         }
         // From Node: e2a31422-f166-4498-b906-c8cfd8eb5a35 //
-        // Choice: Did you kill Scarlette? - 579112dc-3c7b-4cdf-bc31-9a81eb89eb85 //
+        // Choice: Did you kill Scarlett? - 579112dc-3c7b-4cdf-bc31-9a81eb89eb85 //
         public bool Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_579112dc3c7b4cdfbc319a81eb89eb85()
         {
             return (dt.clues >= 7);

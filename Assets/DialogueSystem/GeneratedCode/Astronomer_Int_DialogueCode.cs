@@ -71,7 +71,7 @@ DataTracker dt = DataTracker.Instance;
             return (true);
         }
         // From Node: 23e0ca1f-d5ed-485a-8a06-20257e18854e //
-        // Choice: Did you kill Scarlette? - 8bce3ee6-2170-433b-97d5-f3ccb6409263 //
+        // Choice: Did you kill Scarlett? - 8bce3ee6-2170-433b-97d5-f3ccb6409263 //
         public bool Astronomer_Int_23e0ca1fd5ed485a8a0620257e18854e_8bce3ee62170433b97d5f3ccb6409263()
         {
             return (dt.clues>=7);

@@ -85,7 +85,7 @@ GameObject scene = GameObject.Find("SceneManager");
             return (true);
         }
         // From Node: 2496025e-e0b3-42f0-b92a-94cac6149a20 //
-        // Choice: Did you kill Scarlette? - 7ff9f792-d85b-402f-9dc6-9b3a088f5951 //
+        // Choice: Did you kill Scarlett? - 7ff9f792-d85b-402f-9dc6-9b3a088f5951 //
         public bool Sailor_Int_2496025ee0b342f0b92a94cac6149a20_7ff9f792d85b402f9dc69b3a088f5951()
         {
             return (dt.clues >= 7);

@@ -71,7 +71,7 @@ DataTracker dt = DataTracker.Instance;
             return (true);
         }
         // From Node: de22f680-f6f2-4185-b948-014f88d222ee //
-        // Choice: Did you kill Scarlette? - 6b2d0f09-dff5-42e3-bc62-524871d43361 //
+        // Choice: Did you kill Scarlett? - 6b2d0f09-dff5-42e3-bc62-524871d43361 //
         public bool Ms_Scheele_Int_de22f680f6f24185b948014f88d222ee_6b2d0f09dff542e3bc62524871d43361()
         {
             return (dt.clues >= 7);
