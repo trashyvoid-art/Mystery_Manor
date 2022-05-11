@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: fancy green
-  m_Shader: {fileID: 4800000, guid: 209f4c3496c1b46a3a2f9f0f27be788f, type: 3}
+  m_Name: wallpaper_2 1
+  m_Shader: {fileID: 10708, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -41,9 +41,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 28a345cc0f6564873a650f97cd32a8b0, type: 3}
+        m_Texture: {fileID: 2800000, guid: f4d4bc50d7db8443bb4352ae1ad37fcd, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0.39}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
