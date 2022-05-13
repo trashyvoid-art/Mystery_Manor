@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: casey
+  m_EditorClassIdentifier: 
+  DialogueName: casey
+  EntryPointGUID: a1393f29-bb6e-453e-a04a-28bae55555b9
+  NodeLinks:
+  - BaseNodeGuid: a1393f29-bb6e-453e-a04a-28bae55555b9
+    PortName: Next
+    PortGUID: 624c09e2-1c29-4d3b-bef5-5d56fc06afca
+    Condition: 
+    TargetNodeGuid: de88b659-7860-4a03-90a8-6278887e0c4c
+  Nodes:
+  - Guid: de88b659-7860-4a03-90a8-6278887e0c4c
+    Position: {x: 217, y: 50.5}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Sound. https://cashuffer5.wixsite.com/my-site
+    - Casey

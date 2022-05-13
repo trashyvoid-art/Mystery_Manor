@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: KoiBoy
+  m_EditorClassIdentifier: 
+  DialogueName: KoiBoy
+  EntryPointGUID: 570baccc-d890-4c38-84a0-6528f8254821
+  NodeLinks:
+  - BaseNodeGuid: 570baccc-d890-4c38-84a0-6528f8254821
+    PortName: Next
+    PortGUID: 9e1bed4a-ae5c-4164-b188-93ba321e4181
+    Condition: 
+    TargetNodeGuid: 4b7ea463-7d97-4778-b891-95cbe9d32f90
+  Nodes:
+  - Guid: 4b7ea463-7d97-4778-b891-95cbe9d32f90
+    Position: {x: 206, y: 34.5}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - An adorable koi-like creature. Seems like pretty Strange Cargo.
+    - Koi Creature
