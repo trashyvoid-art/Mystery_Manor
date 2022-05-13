@@ -17,29 +17,49 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 87174ee0-bcc5-4934-93a6-c2141c3005ba
     PortName: Next
-    PortGUID: a6e3290b-c610-4fa2-b5bc-c9e3d0a4b833
+    PortGUID: 92562917-b3aa-47e7-a9d0-3640185cc24d
     Condition: 
     TargetNodeGuid: fecb760c-e075-4cdd-a0e1-3d3e775092a3
   - BaseNodeGuid: fecb760c-e075-4cdd-a0e1-3d3e775092a3
     PortName: Next
-    PortGUID: b84371bd-2cc0-446c-b8e1-75694c8e5943
+    PortGUID: eb72a372-f3e5-47aa-ac93-e4a6ff952f96
     Condition: 
     TargetNodeGuid: d89c30dd-720f-4f6e-b349-557850ddd5b3
   - BaseNodeGuid: d89c30dd-720f-4f6e-b349-557850ddd5b3
     PortName: Next
-    PortGUID: ab30ee24-a96a-4442-aace-80eef8d3f9c8
+    PortGUID: 288fe53d-ea92-474e-975b-5da0629ad651
     Condition: 
     TargetNodeGuid: 319c308c-5f84-4ba4-91e0-c02d546d257c
+  - BaseNodeGuid: 87174ee0-bcc5-4934-93a6-c2141c3005ba
+    PortName: Next
+    PortGUID: 98dd3c00-a1f1-4e2e-877c-3656a593cf5f
+    Condition: 
+    TargetNodeGuid: 0b65d10a-40ce-4d4e-b6bd-6a25898c0beb
+  - BaseNodeGuid: fecb760c-e075-4cdd-a0e1-3d3e775092a3
+    PortName: Next
+    PortGUID: bba35d61-f771-40b5-ae8e-910e479ab65d
+    Condition: 
+    TargetNodeGuid: 51d90005-be36-4bda-a68c-d7bfd1339973
+  - BaseNodeGuid: d89c30dd-720f-4f6e-b349-557850ddd5b3
+    PortName: Next
+    PortGUID: 3526e2e0-4505-4f3d-a26d-e06ade310dfa
+    Condition: 
+    TargetNodeGuid: 53c9f20c-a47a-4490-9065-8272e87ebd1d
+  - BaseNodeGuid: 319c308c-5f84-4ba4-91e0-c02d546d257c
+    PortName: Next
+    PortGUID: 5ae27ba0-f16b-4df2-94ae-0a3e59bb9b75
+    Condition: 
+    TargetNodeGuid: 6d564ae6-a179-4c99-8104-763b6fbe7926
   Nodes:
   - Guid: 2e0e9d65-1dc6-4d19-8eba-14d20e96b505
-    Position: {x: 6.4, y: -117.600006}
+    Position: {x: 6.3999996, y: -117.600006}
     Type: 16
     _textKeys:
     - Code
     _textValues:
     - string name = "The Doctor";
   - Guid: fecb760c-e075-4cdd-a0e1-3d3e775092a3
-    Position: {x: 308.8, y: 8.800001}
+    Position: {x: 308.80002, y: 8.799999}
     Type: 8
     _textKeys:
     - DialogueText
@@ -48,7 +68,7 @@ MonoBehaviour:
     - Good evening? Maybe after a drink or two.
     - ${name}
   - Guid: d89c30dd-720f-4f6e-b349-557850ddd5b3
-    Position: {x: 700.8, y: 34.4}
+    Position: {x: 700.8, y: 34.399998}
     Type: 8
     _textKeys:
     - DialogueText
@@ -58,7 +78,7 @@ MonoBehaviour:
       indulgences I partake in after a long day.
     - ${name}
   - Guid: 319c308c-5f84-4ba4-91e0-c02d546d257c
-    Position: {x: 1550.4, y: 35.2}
+    Position: {x: 1550.3999, y: 35.2}
     Type: 8
     _textKeys:
     - DialogueText
@@ -67,3 +87,40 @@ MonoBehaviour:
     - Quality liquor is comparable to a work of art in that they both are made up
       of subtle notes which can inspire a world of emotions in an individual.
     - ${name}
+  - Guid: 0b65d10a-40ce-4d4e-b6bd-6a25898c0beb
+    Position: {x: 182.4, y: 233.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Start Convo");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sanchez
+      1");'
+  - Guid: 51d90005-be36-4bda-a68c-d7bfd1339973
+    Position: {x: 700.8, y: 268}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sanchez
+      2");'
+  - Guid: 53c9f20c-a47a-4490-9065-8272e87ebd1d
+    Position: {x: 1608.7999, y: 282.4}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sanchez
+      3");'
+  - Guid: 6d564ae6-a179-4c99-8104-763b6fbe7926
+    Position: {x: 2568.8, y: 96}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("End Convo");

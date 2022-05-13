@@ -17,24 +17,49 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: e9fe1547-cf1f-49f6-bf73-8e2c522586e7
     PortName: Next
-    PortGUID: af385c9f-af57-4706-af41-b381d21a79eb
+    PortGUID: 32c36dca-a946-4637-a2d5-ccd07d775049
     Condition: 
     TargetNodeGuid: 8b93e182-6651-4138-beaa-08c2408fb3b3
   - BaseNodeGuid: 8b93e182-6651-4138-beaa-08c2408fb3b3
     PortName: Next
-    PortGUID: bc78b0c7-6e54-46cc-b0df-4fa36414699b
+    PortGUID: 7e9bc7d7-1bac-4a79-99bb-0985114a3566
     Condition: 
     TargetNodeGuid: 79e9b2e8-4050-426f-a8af-53d16a2f174c
   - BaseNodeGuid: 79e9b2e8-4050-426f-a8af-53d16a2f174c
     PortName: Next
-    PortGUID: 47d997c8-e6bc-4312-8688-6edd41effd71
+    PortGUID: 41a8ae70-81b4-4e2c-aed3-e600fd9dfea1
     Condition: 
     TargetNodeGuid: d580e0b4-67ef-4f31-9d41-8b26c820f83a
   - BaseNodeGuid: d580e0b4-67ef-4f31-9d41-8b26c820f83a
     PortName: Next
-    PortGUID: 6305d69f-ccc5-4c33-8dea-e60e8f12c677
+    PortGUID: 5ab6f299-cd31-473e-a2d9-4c9469c3738b
     Condition: 
     TargetNodeGuid: 58112b1e-7e68-4408-b0e9-c9d0487a5d21
+  - BaseNodeGuid: e9fe1547-cf1f-49f6-bf73-8e2c522586e7
+    PortName: Next
+    PortGUID: 5487a5ef-5a68-4360-983c-cc72695f4cf1
+    Condition: 
+    TargetNodeGuid: e3f4fd1c-8ffc-4a01-8ec1-65dfc9624377
+  - BaseNodeGuid: 8b93e182-6651-4138-beaa-08c2408fb3b3
+    PortName: Next
+    PortGUID: 40921b59-d180-401b-b4f4-5e7b444d2d77
+    Condition: 
+    TargetNodeGuid: 77535bc7-6510-422e-90ad-0e138eff9d2e
+  - BaseNodeGuid: 79e9b2e8-4050-426f-a8af-53d16a2f174c
+    PortName: Next
+    PortGUID: 6673dbda-3399-4117-ae55-77e18cd13a24
+    Condition: 
+    TargetNodeGuid: e263ef08-0679-45db-9df8-62fd7bd66844
+  - BaseNodeGuid: d580e0b4-67ef-4f31-9d41-8b26c820f83a
+    PortName: Next
+    PortGUID: f8064114-f8d4-4a3f-89c2-de95769c7849
+    Condition: 
+    TargetNodeGuid: f1a6b74c-8138-45b6-976f-b45147ea6501
+  - BaseNodeGuid: 58112b1e-7e68-4408-b0e9-c9d0487a5d21
+    PortName: Next
+    PortGUID: 637ded9a-a2fe-4841-9c7c-a9e7f688fd97
+    Condition: 
+    TargetNodeGuid: c53d7ebb-61e5-4be0-b7b5-97e8908598cb
   Nodes:
   - Guid: 1a252abf-f61f-4743-b78d-a4fcfd1eb621
     Position: {x: -12.8, y: -164.8}
@@ -44,7 +69,7 @@ MonoBehaviour:
     _textValues:
     - string name = "The Sailor";
   - Guid: 8b93e182-6651-4138-beaa-08c2408fb3b3
-    Position: {x: 346.4, y: 17.600002}
+    Position: {x: 346.40002, y: 17.599998}
     Type: 8
     _textKeys:
     - DialogueText
@@ -81,3 +106,50 @@ MonoBehaviour:
     _textValues:
     - "Dreadful weather that night, almost like a warming from Mother Nature\u2026"
     - ${name}
+  - Guid: e263ef08-0679-45db-9df8-62fd7bd66844
+    Position: {x: 1522.3999, y: 324.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sean
+      3");'
+  - Guid: f1a6b74c-8138-45b6-976f-b45147ea6501
+    Position: {x: 2322.4, y: 264.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sean
+      4");'
+  - Guid: c53d7ebb-61e5-4be0-b7b5-97e8908598cb
+    Position: {x: 2778.4, y: 71.2}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("End Convo");
+  - Guid: e3f4fd1c-8ffc-4a01-8ec1-65dfc9624377
+    Position: {x: 192.8, y: 256.8}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Start Convo");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sean
+      1");'
+  - Guid: 77535bc7-6510-422e-90ad-0e138eff9d2e
+    Position: {x: 779.2, y: 295.19998}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sean
+      2");'

@@ -72,7 +72,7 @@ DataTracker dt = DataTracker.Instance;
         // Choice: Bloody Nose? - 017ba2a9-2591-447f-bddf-fbcebda10db4 //
         public bool Adventurer_Int_e2a31422f1664498b906c8cfd8eb5a35_017ba2a92591447fbddffbcebda10db4()
         {
-            return (dt.shamsaTalkedTo == 1);
+            return (true);
         }
         // From Node: e2a31422-f166-4498-b906-c8cfd8eb5a35 //
         // Choice: Do you have any other information about the case? - fdb9342c-4c8e-4584-a4ce-f351e8ebfdc3 //

@@ -22,7 +22,10 @@ MonoBehaviour:
   - Character Speech\Chapter 4\Sean
   - Character Speech\Chapter 4\Shamsa
   - Character Speech\Intro\Ms Scheele
+  - Character Speech\Intro\Sam
+  - Character Speech\Intro\Sanchez
   - Character Speech\Intro\Scarlett
+  - Character Speech\Intro\Sean
   - Character Speech\Intro\Shamsa
   - Door
   - Environment\Creaks
@@ -149,12 +152,40 @@ MonoBehaviour:
       FileLocation: Character Speech\Intro\Ms Scheele\MsScheele_IntroVoiceline3.wav
     - ParentFolder: Character Speech\Intro\Ms Scheele
       FileLocation: Character Speech\Intro\Ms Scheele\MsScheele_IntroVoiceline4.wav
+  - FolderName: Character Speech\Intro\Sam
+    Files:
+    - ParentFolder: Character Speech\Intro\Sam
+      FileLocation: Character Speech\Intro\Sam\Sam_IntroVoiceline1.wav
+    - ParentFolder: Character Speech\Intro\Sam
+      FileLocation: Character Speech\Intro\Sam\Sam_IntroVoiceline2.wav
+    - ParentFolder: Character Speech\Intro\Sam
+      FileLocation: Character Speech\Intro\Sam\Sam_IntroVoiceline3.wav
+    - ParentFolder: Character Speech\Intro\Sam
+      FileLocation: Character Speech\Intro\Sam\Sam_IntroVoiceline4.wav
+  - FolderName: Character Speech\Intro\Sanchez
+    Files:
+    - ParentFolder: Character Speech\Intro\Sanchez
+      FileLocation: Character Speech\Intro\Sanchez\Sanchez_IntroVoiceline1.wav
+    - ParentFolder: Character Speech\Intro\Sanchez
+      FileLocation: Character Speech\Intro\Sanchez\Sanchez_IntroVoiceline2.wav
+    - ParentFolder: Character Speech\Intro\Sanchez
+      FileLocation: Character Speech\Intro\Sanchez\Sanchez_IntroVoiceline3.wav
   - FolderName: Character Speech\Intro\Scarlett
     Files:
     - ParentFolder: Character Speech\Intro\Scarlett
       FileLocation: Character Speech\Intro\Scarlett\Scarlett_IntroVoiceline1.wav
     - ParentFolder: Character Speech\Intro\Scarlett
       FileLocation: Character Speech\Intro\Scarlett\Scarlett_IntroVoiceline2.wav
+  - FolderName: Character Speech\Intro\Sean
+    Files:
+    - ParentFolder: Character Speech\Intro\Sean
+      FileLocation: Character Speech\Intro\Sean\Sean_IntroVoiceline1.wav
+    - ParentFolder: Character Speech\Intro\Sean
+      FileLocation: Character Speech\Intro\Sean\Sean_IntroVoiceline2.wav
+    - ParentFolder: Character Speech\Intro\Sean
+      FileLocation: Character Speech\Intro\Sean\Sean_IntroVoiceline3.wav
+    - ParentFolder: Character Speech\Intro\Sean
+      FileLocation: Character Speech\Intro\Sean\Sean_IntroVoiceline4.wav
   - FolderName: Character Speech\Intro\Shamsa
     Files:
     - ParentFolder: Character Speech\Intro\Shamsa

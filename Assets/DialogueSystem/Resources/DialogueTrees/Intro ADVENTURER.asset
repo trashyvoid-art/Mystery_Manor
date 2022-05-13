@@ -17,34 +17,73 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 8ebd45cc-174b-410a-aef7-f7ebd9fd0693
     PortName: Next
-    PortGUID: b12f95d9-6de3-402a-8d31-9e3d9731a50b
+    PortGUID: de3ad9d4-dea8-4a16-b2c7-e06385703d3e
     Condition: 
     TargetNodeGuid: 2b07a0e7-695d-47c0-af94-e1a9696878c6
-  - BaseNodeGuid: 2b07a0e7-695d-47c0-af94-e1a9696878c6
-    PortName: Next
-    PortGUID: b4155042-9810-4e69-a5a8-b08a15c88091
-    Condition: 
-    TargetNodeGuid: 5d141c4a-c0de-4b58-81ae-ddad778e09ac
   - BaseNodeGuid: 5d141c4a-c0de-4b58-81ae-ddad778e09ac
     PortName: Next
-    PortGUID: 07ed35af-654b-4d54-80c0-c5ba47de4da7
+    PortGUID: e76eb1d8-5721-4657-ba4f-ebdc66eb54f0
     Condition: 
     TargetNodeGuid: 154ff027-cc39-4ce9-a761-e06c0d7d77ac
   - BaseNodeGuid: 154ff027-cc39-4ce9-a761-e06c0d7d77ac
     PortName: Next
-    PortGUID: dfa4c369-bbd6-428b-8dde-de2f2d31406b
+    PortGUID: fb32d941-87ce-46b3-af12-a975b381e436
     Condition: 
     TargetNodeGuid: e7d7ca35-2100-47d2-a2e0-56024a4d0cf9
+  - BaseNodeGuid: 2b07a0e7-695d-47c0-af94-e1a9696878c6
+    PortName: Next
+    PortGUID: e36817e2-b4fe-47b1-b3c6-65b04490a8e5
+    Condition: 
+    TargetNodeGuid: 5d141c4a-c0de-4b58-81ae-ddad778e09ac
+  - BaseNodeGuid: 8ebd45cc-174b-410a-aef7-f7ebd9fd0693
+    PortName: Next
+    PortGUID: e8ca7b2c-b3d8-4a7b-afb0-375410d82bdb
+    Condition: 
+    TargetNodeGuid: 3d2df224-c226-4df1-812c-e8db3e62f738
+  - BaseNodeGuid: 2b07a0e7-695d-47c0-af94-e1a9696878c6
+    PortName: Next
+    PortGUID: abf3f111-e099-424d-9949-102fd3a0bf07
+    Condition: 
+    TargetNodeGuid: 99075caf-cdf9-43e1-b73e-877747e19171
+  - BaseNodeGuid: 5d141c4a-c0de-4b58-81ae-ddad778e09ac
+    PortName: Next
+    PortGUID: 9ff98062-9181-419f-a559-a75355416dfa
+    Condition: 
+    TargetNodeGuid: d371bd72-db12-4c43-a72f-aeb05d270123
+  - BaseNodeGuid: e7d7ca35-2100-47d2-a2e0-56024a4d0cf9
+    PortName: Next
+    PortGUID: 216c3fa0-2350-4b7a-8720-b5a1ae2a4233
+    Condition: 
+    TargetNodeGuid: d743c602-348d-4644-be8f-6fd5f2624522
   Nodes:
   - Guid: f8a94eb7-4b4f-40a5-a77d-30ca2f55c6ca
-    Position: {x: -46, y: -165}
+    Position: {x: -45.6, y: -164.8}
     Type: 16
     _textKeys:
     - Code
     _textValues:
     - string name = "THE ADVENTURER";
+  - Guid: 2b07a0e7-695d-47c0-af94-e1a9696878c6
+    Position: {x: 206.4, y: 0}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Don't speak! I am a mind reader you see.
+    - ${name}
+  - Guid: 3d2df224-c226-4df1-812c-e8db3e62f738
+    Position: {x: 206.4, y: -178.4}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Start Convo");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sam
+      1");'
   - Guid: 5d141c4a-c0de-4b58-81ae-ddad778e09ac
-    Position: {x: 492, y: 0}
+    Position: {x: 716, y: 0}
     Type: 8
     _textKeys:
     - DialogueText
@@ -54,7 +93,7 @@ MonoBehaviour:
       who is this handsome charming, and bricky man I see.
     - ${name}
   - Guid: 154ff027-cc39-4ce9-a761-e06c0d7d77ac
-    Position: {x: 1255, y: 0}
+    Position: {x: 1479.2, y: 0}
     Type: 8
     _textKeys:
     - DialogueText
@@ -64,7 +103,7 @@ MonoBehaviour:
       I have had the pleasure to happen upon.
     - ${name}
   - Guid: e7d7ca35-2100-47d2-a2e0-56024a4d0cf9
-    Position: {x: 1990, y: 0}
+    Position: {x: 2214.4, y: 0}
     Type: 8
     _textKeys:
     - DialogueText
@@ -73,12 +112,40 @@ MonoBehaviour:
     - Well you're right and if you're up for a bit of nanty narking in the bar later
       I will gladly regale the tales of my adventures.
     - ${name}
-  - Guid: 2b07a0e7-695d-47c0-af94-e1a9696878c6
-    Position: {x: 206, y: 0}
-    Type: 8
+  - Guid: 99075caf-cdf9-43e1-b73e-877747e19171
+    Position: {x: 716, y: -178.4}
+    Type: 64
     _textKeys:
-    - DialogueText
-    - CharacterName
+    - Code
     _textValues:
-    - Don't speak! I am a mind reader you see.
-    - ${name}
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sam
+      2");'
+  - Guid: d371bd72-db12-4c43-a72f-aeb05d270123
+    Position: {x: 1512, y: -178.4}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sam
+      3");'
+  - Guid: fff6e1b2-af38-404a-82bd-9395a88ca23b
+    Position: {x: 2214.4, y: -178.4}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - 'GameObject.FindObjectOfType<AudioManager>().Play("Next Line");
+
+      GameObject.FindObjectOfType<AudioManager>().Play("Sam
+      4");'
+  - Guid: d743c602-348d-4644-be8f-6fd5f2624522
+    Position: {x: 3049.5999, y: -9.6}
+    Type: 64
+    _textKeys:
+    - Code
+    _textValues:
+    - GameObject.FindObjectOfType<AudioManager>().Play("End Convo");
