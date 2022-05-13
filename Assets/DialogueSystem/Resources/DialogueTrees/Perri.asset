@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: perri
+  m_EditorClassIdentifier: 
+  DialogueName: perri
+  EntryPointGUID: f4443259-f88a-4685-b046-77b2746d2ca8
+  NodeLinks:
+  - BaseNodeGuid: f4443259-f88a-4685-b046-77b2746d2ca8
+    PortName: Next
+    PortGUID: ba912443-4e66-4298-be44-eb7587f035ba
+    Condition: 
+    TargetNodeGuid: 3301e293-5057-4beb-a109-d8a4d704c793
+  Nodes:
+  - Guid: 3301e293-5057-4beb-a109-d8a4d704c793
+    Position: {x: 216, y: 91.5}
+    Type: 8
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Screenwriter / game designer. https://perribentley.itch.io/
+    - Perri Bentley
