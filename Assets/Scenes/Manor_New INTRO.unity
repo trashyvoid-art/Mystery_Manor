@@ -11242,6 +11242,39 @@ MonoBehaviour:
   - name: Door Close
     audio: {fileID: 8300000, guid: 43d55d794ef4abc4cbd071951b822773, type: 3}
     source: {fileID: 0}
+  - name: Sam 1
+    audio: {fileID: 8300000, guid: 0727e059d0391a64fb43a12e592eccb8, type: 3}
+    source: {fileID: 0}
+  - name: Sam 2
+    audio: {fileID: 8300000, guid: c1a79e5ecc82ca945ad0f998707d1c9d, type: 3}
+    source: {fileID: 0}
+  - name: Sam 3
+    audio: {fileID: 8300000, guid: c3943dbc5cdac3c4d939f02f92cf6da1, type: 3}
+    source: {fileID: 0}
+  - name: Sam 4
+    audio: {fileID: 8300000, guid: 5af260b912215a541b34bb59df6cbe46, type: 3}
+    source: {fileID: 0}
+  - name: Sanchez 1
+    audio: {fileID: 8300000, guid: 98edd35b491fb2546bd278231522fe5a, type: 3}
+    source: {fileID: 0}
+  - name: Sanchez 2
+    audio: {fileID: 8300000, guid: 1037b85c3cd06ad47b46db320987b4cf, type: 3}
+    source: {fileID: 0}
+  - name: Sanchez 3
+    audio: {fileID: 8300000, guid: 3887e353b9ff977478b4a37d5ad13c12, type: 3}
+    source: {fileID: 0}
+  - name: Sean 1
+    audio: {fileID: 8300000, guid: f0402b09e204f764aae7db6b73a8e333, type: 3}
+    source: {fileID: 0}
+  - name: Sean 2
+    audio: {fileID: 8300000, guid: 3c09a6bd445e92b4aabaf90f221e2898, type: 3}
+    source: {fileID: 0}
+  - name: Sean 3
+    audio: {fileID: 8300000, guid: 17457874f962bc3499af7e40bf9788ac, type: 3}
+    source: {fileID: 0}
+  - name: Sean 4
+    audio: {fileID: 8300000, guid: 1c522e3b9e3aa2f4daf0e0a9ffe33afe, type: 3}
+    source: {fileID: 0}
   playerObject: {fileID: 1193366220}
 --- !u!1 &1812126392
 GameObject:
@@ -12647,8 +12680,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hover Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 39c4aa4fed59e4cfc85502fd1e80b8ae, type: 2}
-  m_sharedMaterial: {fileID: -2189356662667613549, guid: 39c4aa4fed59e4cfc85502fd1e80b8ae, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
