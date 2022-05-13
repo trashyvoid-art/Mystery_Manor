@@ -8,9 +8,9 @@ using System.Reflection;
 
 namespace DialogueSystem.Code
 {
-    public class OwenD_DialogueCode : DialogueCode, IDialogueCode
+    public class Owend_DialogueCode : DialogueCode, IDialogueCode
     {
-        public OwenD_DialogueCode() 
+        public Owend_DialogueCode() 
         {
             Start();
         }

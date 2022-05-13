@@ -8,9 +8,9 @@ using System.Reflection;
 
 namespace DialogueSystem.Code
 {
-    public class Perri_DialogueCode : DialogueCode, IDialogueCode
+    public class perri_DialogueCode : DialogueCode, IDialogueCode
     {
-        public Perri_DialogueCode() 
+        public perri_DialogueCode() 
         {
             Start();
         }

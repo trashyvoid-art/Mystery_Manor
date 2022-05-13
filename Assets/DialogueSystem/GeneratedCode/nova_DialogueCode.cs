@@ -8,9 +8,9 @@ using System.Reflection;
 
 namespace DialogueSystem.Code
 {
-    public class casey_DialogueCode : DialogueCode, IDialogueCode
+    public class nova_DialogueCode : DialogueCode, IDialogueCode
     {
-        public casey_DialogueCode() 
+        public nova_DialogueCode() 
         {
             Start();
         }
