@@ -8,9 +8,9 @@ using System.Reflection;
 
 namespace DialogueSystem.Code
 {
-    public class Triceratops_DialogueCode : DialogueCode, IDialogueCode
+    public class Alex_DialogueCode : DialogueCode, IDialogueCode
     {
-        public Triceratops_DialogueCode() 
+        public Alex_DialogueCode() 
         {
             Start();
         }

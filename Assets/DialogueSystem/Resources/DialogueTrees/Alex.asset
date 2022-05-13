@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
-  m_Name: Owend
+  m_Name: Alex
   m_EditorClassIdentifier: 
-  DialogueName: Owend
-  EntryPointGUID: 64994d1b-56be-4375-bea4-0e91d3905981
+  DialogueName: Alex
+  EntryPointGUID: ae8249b3-a3fc-4a81-a8f9-5aded0bd5a4b
   NodeLinks:
-  - BaseNodeGuid: 64994d1b-56be-4375-bea4-0e91d3905981
+  - BaseNodeGuid: ae8249b3-a3fc-4a81-a8f9-5aded0bd5a4b
     PortName: Next
-    PortGUID: 9296dd9f-96da-4cdc-ba4e-8d1126a10483
+    PortGUID: 867c11aa-2299-4109-897d-16e0bd232024
     Condition: 
-    TargetNodeGuid: 3f0b8543-c225-41b0-a711-80c5b61c218e
+    TargetNodeGuid: c132f65d-cbf0-4a8b-889b-8cea0594ee3f
   Nodes:
-  - Guid: 3f0b8543-c225-41b0-a711-80c5b61c218e
-    Position: {x: 266, y: 78.5}
+  - Guid: c132f65d-cbf0-4a8b-889b-8cea0594ee3f
+    Position: {x: 176, y: 19.5}
     Type: 8
     _textKeys:
     - DialogueText
     - CharacterName
     _textValues:
-    - Programmer. https://owenduffy.weebly.com/
-    - Owen Duffy
+    - Programmer. https://www.linkedin.com/in/the-alexander-enriquez/
+    - Alex Enriquez

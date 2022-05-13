@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
-  m_Name: Owend
+  m_Name: KoiBoy
   m_EditorClassIdentifier: 
-  DialogueName: Owend
-  EntryPointGUID: 64994d1b-56be-4375-bea4-0e91d3905981
+  DialogueName: KoiBoy
+  EntryPointGUID: 570baccc-d890-4c38-84a0-6528f8254821
   NodeLinks:
-  - BaseNodeGuid: 64994d1b-56be-4375-bea4-0e91d3905981
+  - BaseNodeGuid: 570baccc-d890-4c38-84a0-6528f8254821
     PortName: Next
-    PortGUID: 9296dd9f-96da-4cdc-ba4e-8d1126a10483
+    PortGUID: 9e1bed4a-ae5c-4164-b188-93ba321e4181
     Condition: 
-    TargetNodeGuid: 3f0b8543-c225-41b0-a711-80c5b61c218e
+    TargetNodeGuid: 4b7ea463-7d97-4778-b891-95cbe9d32f90
   Nodes:
-  - Guid: 3f0b8543-c225-41b0-a711-80c5b61c218e
-    Position: {x: 266, y: 78.5}
+  - Guid: 4b7ea463-7d97-4778-b891-95cbe9d32f90
+    Position: {x: 206, y: 34.5}
     Type: 8
     _textKeys:
     - DialogueText
     - CharacterName
     _textValues:
-    - Programmer. https://owenduffy.weebly.com/
-    - Owen Duffy
+    - An adorable koi-like creature. Seems like pretty Strange Cargo.
+    - Koi Creature

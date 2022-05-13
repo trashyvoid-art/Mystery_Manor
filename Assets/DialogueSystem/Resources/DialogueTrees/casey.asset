@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
-  m_Name: Owend
+  m_Name: casey
   m_EditorClassIdentifier: 
-  DialogueName: Owend
-  EntryPointGUID: 64994d1b-56be-4375-bea4-0e91d3905981
+  DialogueName: casey
+  EntryPointGUID: a1393f29-bb6e-453e-a04a-28bae55555b9
   NodeLinks:
-  - BaseNodeGuid: 64994d1b-56be-4375-bea4-0e91d3905981
+  - BaseNodeGuid: a1393f29-bb6e-453e-a04a-28bae55555b9
     PortName: Next
-    PortGUID: 9296dd9f-96da-4cdc-ba4e-8d1126a10483
+    PortGUID: 624c09e2-1c29-4d3b-bef5-5d56fc06afca
     Condition: 
-    TargetNodeGuid: 3f0b8543-c225-41b0-a711-80c5b61c218e
+    TargetNodeGuid: de88b659-7860-4a03-90a8-6278887e0c4c
   Nodes:
-  - Guid: 3f0b8543-c225-41b0-a711-80c5b61c218e
-    Position: {x: 266, y: 78.5}
+  - Guid: de88b659-7860-4a03-90a8-6278887e0c4c
+    Position: {x: 217, y: 50.5}
     Type: 8
     _textKeys:
     - DialogueText
     - CharacterName
     _textValues:
-    - Programmer. https://owenduffy.weebly.com/
-    - Owen Duffy
+    - Sound. https://cashuffer5.wixsite.com/my-site
+    - Casey

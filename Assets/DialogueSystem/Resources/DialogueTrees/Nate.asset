@@ -17,16 +17,16 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: 9b681d33-d3ab-4ed6-a3d4-bcd14d81efe9
     PortName: Next
-    PortGUID: 6a7c31f6-4248-44c1-a316-75bddaa0fcf2
+    PortGUID: 4a9592c7-056b-438d-95a0-8bab0ccc20c7
     Condition: 
-    TargetNodeGuid: 9f6140ed-7316-4887-88ca-80b4fe87779a
+    TargetNodeGuid: db398765-b9c6-4f56-8cdf-c2ea164ca6d5
   Nodes:
-  - Guid: 9f6140ed-7316-4887-88ca-80b4fe87779a
-    Position: {x: 191, y: -3.5}
-    Type: 4
+  - Guid: db398765-b9c6-4f56-8cdf-c2ea164ca6d5
+    Position: {x: 249, y: -58.5}
+    Type: 8
     _textKeys:
     - DialogueText
     - CharacterName
     _textValues:
-    - UI
+    - UI. https://nathaniellipkins.itch.io/
     - Nate Lipkins
