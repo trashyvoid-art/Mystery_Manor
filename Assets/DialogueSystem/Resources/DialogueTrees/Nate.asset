@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: Nate
+  m_EditorClassIdentifier: 
+  DialogueName: Nate
+  EntryPointGUID: 9b681d33-d3ab-4ed6-a3d4-bcd14d81efe9
+  NodeLinks:
+  - BaseNodeGuid: 9b681d33-d3ab-4ed6-a3d4-bcd14d81efe9
+    PortName: Next
+    PortGUID: 6a7c31f6-4248-44c1-a316-75bddaa0fcf2
+    Condition: 
+    TargetNodeGuid: 9f6140ed-7316-4887-88ca-80b4fe87779a
+  Nodes:
+  - Guid: 9f6140ed-7316-4887-88ca-80b4fe87779a
+    Position: {x: 191, y: -3.5}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - UI
+    - Nate Lipkins

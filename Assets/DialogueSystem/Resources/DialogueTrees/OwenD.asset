@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: OwenD
+  m_EditorClassIdentifier: 
+  DialogueName: OwenD
+  EntryPointGUID: 64994d1b-56be-4375-bea4-0e91d3905981
+  NodeLinks:
+  - BaseNodeGuid: 64994d1b-56be-4375-bea4-0e91d3905981
+    PortName: Next
+    PortGUID: 8791cfab-597c-4645-aadc-26b377b16221
+    Condition: 
+    TargetNodeGuid: 7b72ce07-e978-432b-b761-d4e9a5cae3ec
+  Nodes:
+  - Guid: 7b72ce07-e978-432b-b761-d4e9a5cae3ec
+    Position: {x: 207, y: 13.5}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Programmer
+    - Owen Duffy

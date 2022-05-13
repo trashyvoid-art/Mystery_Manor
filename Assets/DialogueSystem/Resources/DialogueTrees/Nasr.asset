@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22888574f9e9fa4fa361e996cfea431, type: 3}
+  m_Name: Nasr
+  m_EditorClassIdentifier: 
+  DialogueName: Nasr
+  EntryPointGUID: e7f4dfa1-93ad-4ea0-84b3-c1e173c3c11a
+  NodeLinks:
+  - BaseNodeGuid: e7f4dfa1-93ad-4ea0-84b3-c1e173c3c11a
+    PortName: Next
+    PortGUID: da42c72d-e461-48d8-9d49-61f9d373cbfe
+    Condition: 
+    TargetNodeGuid: d70f6c11-0e72-42ab-8146-fc43cc469494
+  Nodes:
+  - Guid: d70f6c11-0e72-42ab-8146-fc43cc469494
+    Position: {x: 190.5, y: 12.5}
+    Type: 4
+    _textKeys:
+    - DialogueText
+    - CharacterName
+    _textValues:
+    - Artist, product owner. @_tempvoid on twitter / temporaryvoid.weebly.com
+    - Nasr Bin Safwan
