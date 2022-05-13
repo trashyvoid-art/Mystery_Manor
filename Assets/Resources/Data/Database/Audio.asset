@@ -12,5 +12,260 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82d6925b7036e3d4f951d3c53b8c308f, type: 3}
   m_Name: Audio
   m_EditorClassIdentifier: 
-  keys: []
-  values: []
+  keys:
+  - 
+  - Character Speech
+  - Character Speech\Chapter 4\Confession
+  - Character Speech\Chapter 4\Ms Scheele
+  - Character Speech\Chapter 4\Sam
+  - Character Speech\Chapter 4\Sanchez
+  - Character Speech\Chapter 4\Sean
+  - Character Speech\Chapter 4\Shamsa
+  - Character Speech\Intro\Ms Scheele
+  - Character Speech\Intro\Scarlett
+  - Character Speech\Intro\Shamsa
+  - Door
+  - Environment\Creaks
+  - Environment\Electricity
+  - Environment\Room Tone
+  - Environment\Wind
+  - Player\Footsteps\Tile
+  - Player\Footsteps\Wood
+  - Scream
+  - Weapons\Knife
+  - Writing
+  values:
+  - FolderName: 
+    Files:
+    - ParentFolder: 
+      FileLocation: Good_Bitify_Sleep Away(Reprise).mp3
+  - FolderName: Character Speech
+    Files:
+    - ParentFolder: Character Speech
+      FileLocation: Character Speech\EndofConvoBeep.wav
+    - ParentFolder: Character Speech
+      FileLocation: Character Speech\NextLineBeep_v2.wav
+    - ParentFolder: Character Speech
+      FileLocation: Character Speech\StartofConvoBeep.wav
+    - ParentFolder: Character Speech
+      FileLocation: Character Speech\TabBeep.wav
+  - FolderName: Character Speech\Chapter 4\Confession
+    Files:
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Scarlett_FlashbackLine1.wav
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Scarlett_FlashbackLine2.wav
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Sean_FlashbackLine1.wav
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Sean_FlashbackLine2.wav
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Sean_FlashbackLine3.wav
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Sean_FlashbackLine4.wav
+    - ParentFolder: Character Speech\Chapter 4\Confession
+      FileLocation: Character Speech\Chapter 4\Confession\Sean_FlashbackLine5.wav
+  - FolderName: Character Speech\Chapter 4\Ms Scheele
+    Files:
+    - ParentFolder: Character Speech\Chapter 4\Ms Scheele
+      FileLocation: Character Speech\Chapter 4\Ms Scheele\MsScheeleAccusation.wav
+    - ParentFolder: Character Speech\Chapter 4\Ms Scheele
+      FileLocation: Character Speech\Chapter 4\Ms Scheele\MsScheeleEndofConvo.wav
+    - ParentFolder: Character Speech\Chapter 4\Ms Scheele
+      FileLocation: Character Speech\Chapter 4\Ms Scheele\MsScheeleVoiceline1.wav
+    - ParentFolder: Character Speech\Chapter 4\Ms Scheele
+      FileLocation: Character Speech\Chapter 4\Ms Scheele\MsScheeleVoiceline2.wav
+    - ParentFolder: Character Speech\Chapter 4\Ms Scheele
+      FileLocation: Character Speech\Chapter 4\Ms Scheele\MsScheeleVoiceline3.wav
+  - FolderName: Character Speech\Chapter 4\Sam
+    Files:
+    - ParentFolder: Character Speech\Chapter 4\Sam
+      FileLocation: Character Speech\Chapter 4\Sam\SamAccusation1.wav
+    - ParentFolder: Character Speech\Chapter 4\Sam
+      FileLocation: Character Speech\Chapter 4\Sam\SamAccusation2.wav
+    - ParentFolder: Character Speech\Chapter 4\Sam
+      FileLocation: Character Speech\Chapter 4\Sam\SamEndofConvo.wav
+    - ParentFolder: Character Speech\Chapter 4\Sam
+      FileLocation: Character Speech\Chapter 4\Sam\SamVoiceline1.wav
+    - ParentFolder: Character Speech\Chapter 4\Sam
+      FileLocation: Character Speech\Chapter 4\Sam\SamVoiceline2.wav
+    - ParentFolder: Character Speech\Chapter 4\Sam
+      FileLocation: Character Speech\Chapter 4\Sam\SamVoiceline3.wav
+    - ParentFolder: Character Speech\Chapter 4\Sam
+      FileLocation: Character Speech\Chapter 4\Sam\SamVoiceline4.wav
+  - FolderName: Character Speech\Chapter 4\Sanchez
+    Files:
+    - ParentFolder: Character Speech\Chapter 4\Sanchez
+      FileLocation: Character Speech\Chapter 4\Sanchez\SanchezAccusation.wav
+    - ParentFolder: Character Speech\Chapter 4\Sanchez
+      FileLocation: Character Speech\Chapter 4\Sanchez\SanchezEndofConvo.wav
+    - ParentFolder: Character Speech\Chapter 4\Sanchez
+      FileLocation: Character Speech\Chapter 4\Sanchez\SanchezVoiceline1.wav
+    - ParentFolder: Character Speech\Chapter 4\Sanchez
+      FileLocation: Character Speech\Chapter 4\Sanchez\SanchezVoiceline2.wav
+    - ParentFolder: Character Speech\Chapter 4\Sanchez
+      FileLocation: Character Speech\Chapter 4\Sanchez\SanchezVoiceline3.wav
+    - ParentFolder: Character Speech\Chapter 4\Sanchez
+      FileLocation: Character Speech\Chapter 4\Sanchez\SanchezVoiceline4.wav
+    - ParentFolder: Character Speech\Chapter 4\Sanchez
+      FileLocation: Character Speech\Chapter 4\Sanchez\SanchezVoiceline5.wav
+  - FolderName: Character Speech\Chapter 4\Sean
+    Files:
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanAccusation.wav
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanAccusation2.wav
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanAccusation3.wav
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanAccusation4.wav
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanEndofConvo.wav
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanVoiceline1.wav
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanVoiceline2.wav
+    - ParentFolder: Character Speech\Chapter 4\Sean
+      FileLocation: Character Speech\Chapter 4\Sean\SeanVoiceline3.wav
+  - FolderName: Character Speech\Chapter 4\Shamsa
+    Files:
+    - ParentFolder: Character Speech\Chapter 4\Shamsa
+      FileLocation: Character Speech\Chapter 4\Shamsa\ShamsaAccusation.wav
+    - ParentFolder: Character Speech\Chapter 4\Shamsa
+      FileLocation: Character Speech\Chapter 4\Shamsa\ShamsaEndofConvo.wav
+    - ParentFolder: Character Speech\Chapter 4\Shamsa
+      FileLocation: Character Speech\Chapter 4\Shamsa\ShamsaVoiceline1.wav
+    - ParentFolder: Character Speech\Chapter 4\Shamsa
+      FileLocation: Character Speech\Chapter 4\Shamsa\ShamsaVoiceline2.wav
+    - ParentFolder: Character Speech\Chapter 4\Shamsa
+      FileLocation: Character Speech\Chapter 4\Shamsa\ShamsaVoiceline3.wav
+  - FolderName: Character Speech\Intro\Ms Scheele
+    Files:
+    - ParentFolder: Character Speech\Intro\Ms Scheele
+      FileLocation: Character Speech\Intro\Ms Scheele\MsScheele_IntroVoiceline1.wav
+    - ParentFolder: Character Speech\Intro\Ms Scheele
+      FileLocation: Character Speech\Intro\Ms Scheele\MsScheele_IntroVoiceline2.wav
+    - ParentFolder: Character Speech\Intro\Ms Scheele
+      FileLocation: Character Speech\Intro\Ms Scheele\MsScheele_IntroVoiceline3.wav
+    - ParentFolder: Character Speech\Intro\Ms Scheele
+      FileLocation: Character Speech\Intro\Ms Scheele\MsScheele_IntroVoiceline4.wav
+  - FolderName: Character Speech\Intro\Scarlett
+    Files:
+    - ParentFolder: Character Speech\Intro\Scarlett
+      FileLocation: Character Speech\Intro\Scarlett\Scarlett_IntroVoiceline1.wav
+    - ParentFolder: Character Speech\Intro\Scarlett
+      FileLocation: Character Speech\Intro\Scarlett\Scarlett_IntroVoiceline2.wav
+  - FolderName: Character Speech\Intro\Shamsa
+    Files:
+    - ParentFolder: Character Speech\Intro\Shamsa
+      FileLocation: Character Speech\Intro\Shamsa\Shamsa_IntroVoiceline1.wav
+    - ParentFolder: Character Speech\Intro\Shamsa
+      FileLocation: Character Speech\Intro\Shamsa\Shamsa_IntroVoiceline2.wav
+    - ParentFolder: Character Speech\Intro\Shamsa
+      FileLocation: Character Speech\Intro\Shamsa\Shamsa_IntroVoiceline3.wav
+  - FolderName: Door
+    Files:
+    - ParentFolder: Door
+      FileLocation: Door\DoorClose_-_Bit.wav
+    - ParentFolder: Door
+      FileLocation: Door\DoorOpen_-_Bit.wav
+  - FolderName: Environment\Creaks
+    Files:
+    - ParentFolder: Environment\Creaks
+      FileLocation: Environment\Creaks\MSMM_Environment_WoodCreak1.wav
+    - ParentFolder: Environment\Creaks
+      FileLocation: Environment\Creaks\MSMM_Environment_WoodCreak2.wav
+    - ParentFolder: Environment\Creaks
+      FileLocation: Environment\Creaks\MSMM_Environment_WoodCreak3.wav
+    - ParentFolder: Environment\Creaks
+      FileLocation: Environment\Creaks\MSMM_Environment_WoodCreak4.wav
+    - ParentFolder: Environment\Creaks
+      FileLocation: Environment\Creaks\MSMM_Environment_WoodCreak5.wav
+  - FolderName: Environment\Electricity
+    Files:
+    - ParentFolder: Environment\Electricity
+      FileLocation: Environment\Electricity\MSMM_Environment_Electricity4.wav
+    - ParentFolder: Environment\Electricity
+      FileLocation: Environment\Electricity\MSMM_Environment_Electricity5.wav
+    - ParentFolder: Environment\Electricity
+      FileLocation: Environment\Electricity\MSMM_Environment_ElectricityHum1.wav
+    - ParentFolder: Environment\Electricity
+      FileLocation: Environment\Electricity\MSMM_Environment_ElectricityHum2.wav
+    - ParentFolder: Environment\Electricity
+      FileLocation: Environment\Electricity\MSMM_Environment_ElectricitySpark1.wav
+  - FolderName: Environment\Room Tone
+    Files:
+    - ParentFolder: Environment\Room Tone
+      FileLocation: Environment\Room Tone\MSMM_Environment_RoomTone.wav
+    - ParentFolder: Environment\Room Tone
+      FileLocation: Environment\Room Tone\MSMM_Environment_RoomTone2.wav
+    - ParentFolder: Environment\Room Tone
+      FileLocation: Environment\Room Tone\MSMM_Environment_RoomTone3.wav
+    - ParentFolder: Environment\Room Tone
+      FileLocation: Environment\Room Tone\MSMM_Environment_RoomTone4.wav
+    - ParentFolder: Environment\Room Tone
+      FileLocation: Environment\Room Tone\MSMM_Environment_RoomTone5.wav
+  - FolderName: Environment\Wind
+    Files:
+    - ParentFolder: Environment\Wind
+      FileLocation: Environment\Wind\MSMM_Environment_Whisper1.wav
+    - ParentFolder: Environment\Wind
+      FileLocation: Environment\Wind\MSMM_Environment_Whisper2.wav
+    - ParentFolder: Environment\Wind
+      FileLocation: Environment\Wind\MSMM_Environment_Whisper3.wav
+    - ParentFolder: Environment\Wind
+      FileLocation: Environment\Wind\MSMM_Environment_Wind1.wav
+  - FolderName: Player\Footsteps\Tile
+    Files:
+    - ParentFolder: Player\Footsteps\Tile
+      FileLocation: Player\Footsteps\Tile\MSMM_FS_Wood1.wav
+  - FolderName: Player\Footsteps\Wood
+    Files:
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\MSMM_FS_Wood1.wav
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\MSMM_FS_Wood10.wav
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\MSMM_FS_Wood2.wav
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\MSMM_FS_Wood3.wav
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\MSMM_FS_Wood4.wav
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\MSMM_FS_Wood5.wav
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\MSMM_FS_Wood6.wav
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\MSMM_FS_Wood7.wav
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\MSMM_FS_Wood8.wav
+    - ParentFolder: Player\Footsteps\Wood
+      FileLocation: Player\Footsteps\Wood\MSMM_FS_Wood9.wav
+  - FolderName: Scream
+    Files:
+    - ParentFolder: Scream
+      FileLocation: Scream\FemaleScream_Bit.wav
+    - ParentFolder: Scream
+      FileLocation: Scream\KnifeSounds_Bit.wav
+    - ParentFolder: Scream
+      FileLocation: Scream\MSMM_FX_Scream.wav
+    - ParentFolder: Scream
+      FileLocation: Scream\RunAway_Bit.wav
+    - ParentFolder: Scream
+      FileLocation: Scream\Thud.wav
+  - FolderName: Weapons\Knife
+    Files:
+    - ParentFolder: Weapons\Knife
+      FileLocation: Weapons\Knife\MSMM_Foley_KnifeStab.wav
+  - FolderName: Writing
+    Files:
+    - ParentFolder: Writing
+      FileLocation: Writing\MSMM_FX_Writing1.wav
+    - ParentFolder: Writing
+      FileLocation: Writing\MSMM_FX_Writing2.wav
+    - ParentFolder: Writing
+      FileLocation: Writing\MSMM_FX_Writing3.wav
+    - ParentFolder: Writing
+      FileLocation: Writing\MSMM_FX_Writing4.wav
+    - ParentFolder: Writing
+      FileLocation: Writing\MSMM_FX_Writing5.wav

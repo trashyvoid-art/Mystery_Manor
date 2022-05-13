@@ -20,6 +20,11 @@ public class LoadNextScene_DeleteLater : MonoBehaviour
         }
     }
 
+    public void OnDinnerComplete()
+    {
+        SceneManager.LoadScene(NextLevelLoad);
+    }
+
     //public void GoToIntro()
     //{
     //    SceneManager.LoadScene(1);

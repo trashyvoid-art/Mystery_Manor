@@ -17,13 +17,13 @@ MonoBehaviour:
   NodeLinks:
   - BaseNodeGuid: de0fce30-8bc2-4cfb-992a-5fa8c94654c6
     PortName: Next
-    PortGUID: 592c7192-5d10-4182-9cd1-498e14967320
+    PortGUID: 39a727d5-1aeb-44ac-a808-bc7d1d1627cd
     Condition: 
-    TargetNodeGuid: ffcee3b5-8419-4d1f-a05f-6e361c514321
+    TargetNodeGuid: 4208b732-f055-4340-abc9-2e8a24410651
   Nodes:
-  - Guid: ffcee3b5-8419-4d1f-a05f-6e361c514321
-    Position: {x: 186, y: 49.5}
-    Type: 4
+  - Guid: 4208b732-f055-4340-abc9-2e8a24410651
+    Position: {x: 285, y: 0}
+    Type: 8
     _textKeys:
     - DialogueText
     _textValues:
